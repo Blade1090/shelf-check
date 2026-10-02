@@ -663,3 +663,36 @@ body[data-active-set="FAMICOM"] .fc-dossier-wishlist.active{
   #huntTools.is-stuck .rh-bands{margin-top:7px}
   #huntTools.is-stuck .rh-bands button{padding:7px 9px}
 }
+
+
+/* Dossier Random toolbar: always reachable while reading long dossiers, including iPhone Safari. */
+.dossier-body .rh-another{
+  position:sticky;
+  z-index:3;
+  display:block;
+  width:100%;
+  margin:0 0 14px;
+  padding:13px 14px;
+  border-radius:12px;
+  box-shadow:0 8px 22px rgba(0,0,0,.55);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+body[data-active-set="NES"] .dossier-body .rh-another{
+  background:linear-gradient(100deg,#d7d7d4,#a9aaab 44%,#bd242a)!important;
+  color:#15171a!important;
+  border:1px solid #707276!important;
+}
+body[data-active-set="FAMICOM"] .dossier-body .rh-another{
+  background:linear-gradient(100deg,#f3ead7,#df7185 55%,#a21f37)!important;
+  color:#201018!important;
+  border:1px solid #7a3142!important;
+}
+@media(max-width:600px){
+  .dossier-body .rh-another{
+    width:100%;
+    margin:0 0 12px;
+    padding:12px 10px;
+    font-size:.86rem;
+  }
+}
