@@ -15,13 +15,21 @@ const dEsc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 // Shared NES/Famicom dossier scroll controller.
 // The page/list keeps its own scroll position; the dialog owns a separate scroll position.
 const D_SCROLL=window.ShelfCheckDossierScroll||(window.ShelfCheckDossierScroll=(()=>{
-  let locked=false,mainY=0,currentId=null,restoreSeq=0;
+  let locked=false,mainY=0,currentId=null,restoreSeq=0,resetSeq=0;
   const dialog=()=>document.getElementById('dossierDialog');
+  const scroller=()=>document.getElementById('dossierBody');
+  const forceTop=(seq)=>{
+    const dlg=dialog(),body=scroller();if(!dlg||!body||seq!==resetSeq)return;
+    dlg.scrollTop=0;body.scrollTop=0;
+  };
   const resetDetailTop=()=>{
-    const dlg=dialog();if(!dlg)return;
-    dlg.scrollTop=0;
-    const body=document.getElementById('dossierBody');if(body)body.scrollTop=0;
-    requestAnimationFrame(()=>{dlg.scrollTop=0;if(body)body.scrollTop=0;});
+    const seq=++resetSeq;
+    forceTop(seq);
+    requestAnimationFrame(()=>{forceTop(seq);requestAnimationFrame(()=>forceTop(seq));});
+    setTimeout(()=>forceTop(seq),0);
+    setTimeout(()=>forceTop(seq),50);
+    setTimeout(()=>forceTop(seq),150);
+    setTimeout(()=>forceTop(seq),300);
   };
   const open=(id)=>{
     const dlg=dialog();if(!dlg)return;
@@ -43,14 +51,13 @@ const D_SCROLL=window.ShelfCheckDossierScroll||(window.ShelfCheckDossierScroll=(
   const close=()=>{
     if(!locked)return;
     const y=mainY,seq=++restoreSeq;
-    locked=false;currentId=null;
+    locked=false;currentId=null;resetSeq++;
     document.body.classList.remove('dossier-open');
     document.body.style.position='';
     document.body.style.top='';
     document.body.style.left='';
     document.body.style.right='';
     document.body.style.width='';
-    // iOS can apply the fixed-body release a frame late; restore after layout settles.
     requestAnimationFrame(()=>requestAnimationFrame(()=>{
       if(seq===restoreSeq)window.scrollTo({top:y,left:0,behavior:'auto'});
     }));
@@ -70,6 +77,7 @@ function dNotes(d,x,c){const rows=[];if(c?.l)rows.push(`Physical acquisition: ${
 function dDifficulty(d){if(!d?.difficulty)return '';const level=typeof d.difficulty==='string'?d.difficulty:d.difficulty.level;const reason=typeof d.difficulty==='object'?d.difficulty.reason:null;if(!level)return '';return `<div class="dossier-difficulty"><small>DIFFICULTY</small><b>${dEsc(level)}</b>${reason?`<span>${dEsc(reason)}</span>`:''}</div>`}
 function dHltb(d){const status=d?.hltb_status||'NO_DATA';const has=[d?.hltb_main_hours,d?.hltb_extra_hours,d?.hltb_completionist_hours].some(v=>v!=null&&v!==''&&Number.isFinite(Number(v)));return `<div class="dossier-times"><div><small>MAIN</small><b>${dHours(d?.hltb_main_hours)}</b></div><div><small>MAIN + EXTRA</small><b>${dHours(d?.hltb_extra_hours)}</b></div><div><small>COMPLETIONIST</small><b>${dHours(d?.hltb_completionist_hours)}</b></div></div><div class="dossier-hltb-foot"><span class="dossier-research ${status.toLowerCase()}">${dEsc(status.replace('_',' '))}</span><span>${dEsc(d?.hltb_note||(has?'NES timing data':'No reliable NES timing match yet.'))}</span></div>`}
 function dRender(id){
+  if(D_SCROLL.current?.()!==id)D_SCROLL.resetDetailTop?.();
   const x=D_BYID.get(id);if(!x)return;
   const d=D_DOSSIERS.get(id)||null,owned=dOwned().has(id),wish=dWishlist().has(id),c=dCover(id),p=dPrice(id),dlg=document.getElementById('dossierDialog'),body=document.getElementById('dossierBody');
   document.getElementById('dossierTitle').textContent=dTitle(x);
