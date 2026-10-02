@@ -60,10 +60,23 @@ function rhDraw(mode){
 }
 function rhOpen(id,mode){
   if(!id)return;
-  const set=rhSet();if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
-  setTimeout(()=>rhInstallAgain(mode),0);
-  setTimeout(()=>rhInstallAgain(mode),120);
-  setTimeout(()=>rhInstallAgain(mode),350);
+  const dlg=document.getElementById('dossierDialog');
+  const openIt=()=>{
+    const set=rhSet();
+    if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
+    setTimeout(()=>rhInstallAgain(mode),0);
+    setTimeout(()=>rhInstallAgain(mode),120);
+    setTimeout(()=>rhInstallAgain(mode),350);
+  };
+  // iOS Safari can preserve the native <dialog> scroll position when its contents are
+  // replaced in-place. For "another random" transitions, fully recycle the modal so
+  // WebKit is forced to create a fresh top-of-dialog scroll state.
+  if(dlg?.open){
+    dlg.close();
+    requestAnimationFrame(()=>requestAnimationFrame(openIt));
+  }else{
+    openIt();
+  }
 }
 function rhRandom(mode){
   const id=rhDraw(mode);
