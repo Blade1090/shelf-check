@@ -220,3 +220,171 @@ body[data-active-set="FAMICOM"] .fc-price-block{
 }
 body[data-active-set="FAMICOM"] .fc-price-big{color:#f3ead7!important}
 body[data-active-set="FAMICOM"] footer{color:#7f8999!important}
+
+
+/* NES skin v2 — ORIGINAL NES CONSOLE
+   Cool shell grays + charcoal vents + Nintendo red. No brown cast. */
+body[data-active-set="NES"]{
+  --red:#c61f26!important;
+  --red2:#8f171c!important;
+  --nes-shell:#c8c8c5;
+  --nes-shell-mid:#a9aaa7;
+  --nes-shell-dark:#6e6f70;
+  --nes-charcoal:#24272c;
+  --nes-black:#0d1014;
+  background:
+    linear-gradient(180deg,#111318 0,#0c0f13 58%,#090b0e 100%)!important;
+  color:#f2f2ef;
+}
+body[data-active-set="NES"] header{
+  background:#101217f4!important;
+  border-bottom:1px solid #5f6063!important;
+  box-shadow:0 1px 0 #b5b5b222 inset;
+}
+body[data-active-set="NES"] .brand-mark{
+  background:linear-gradient(145deg,#d7d7d4,#a9aaa7)!important;
+  color:#b2181f!important;
+  border-color:#6e6f70!important;
+  box-shadow:inset 0 0 0 2px #eeeeeb!important;
+}
+body[data-active-set="NES"] .brand b span{color:#c61f26!important}
+body[data-active-set="NES"] .brand small{color:#a9aaa7!important}
+
+body[data-active-set="NES"] .set-switch{
+  background:#22252a!important;
+  border-color:#686a6d!important;
+  box-shadow:inset 0 0 0 1px #0b0d10,0 2px 8px #0005!important;
+}
+body[data-active-set="NES"] .set-switch button{
+  color:#b8babd!important;
+}
+body[data-active-set="NES"] .set-switch button.active{
+  background:linear-gradient(180deg,#dededb,#c3c3c0)!important;
+  color:#17191c!important;
+  box-shadow:inset 0 1px 0 #fff,0 2px 7px #0006!important;
+}
+
+body[data-active-set="NES"] .eyebrow,
+body[data-active-set="NES"] #heroEyebrow{
+  color:#d63238!important;
+}
+body[data-active-set="NES"] h1{
+  color:#f4f4f1!important;
+  text-shadow:0 1px 0 #000;
+}
+body[data-active-set="NES"] .gameeye-sync,
+body[data-active-set="NES"] #importStatus{
+  color:#aeb2b7!important;
+}
+
+body[data-active-set="NES"] #search{
+  background:#171a1f!important;
+  border-color:#5d6065!important;
+  color:#f4f4f2!important;
+  box-shadow:inset 0 2px 0 #0005!important;
+}
+body[data-active-set="NES"] #search:focus{
+  border-color:#c61f26!important;
+  outline-color:#c61f26!important;
+}
+
+body[data-active-set="NES"] nav button{
+  background:#292d33!important;
+  color:#f0f0ed!important;
+  border-color:#343941!important;
+}
+body[data-active-set="NES"] nav button.active{
+  background:#a9181e!important;
+  color:#fff!important;
+  outline-color:#e1484d!important;
+  border-color:#c61f26!important;
+}
+
+body[data-active-set="NES"] .collection-summary{
+  background:linear-gradient(180deg,#20242a 0,#181b20 100%)!important;
+  border-color:#5b5e63!important;
+  box-shadow:
+    inset 0 4px 0 #b6b6b2,
+    inset 0 5px 0 #737477,
+    0 8px 20px #0002!important;
+}
+body[data-active-set="NES"] .collection-summary small,
+body[data-active-set="NES"] .collection-summary .eyebrow{
+  color:#aeb1b5!important;
+}
+body[data-active-set="NES"] .summary-right strong{
+  color:#e42d34!important;
+}
+body[data-active-set="NES"] .meter{
+  background:#3a3e45!important;
+  box-shadow:inset 0 1px 2px #0009!important;
+}
+body[data-active-set="NES"] .meter div{
+  background:linear-gradient(90deg,#a9161c,#d82b31)!important;
+}
+
+body[data-active-set="NES"] #huntTools{
+  background:linear-gradient(180deg,#20242a,#171a1f)!important;
+  border-color:#5b5e63!important;
+  box-shadow:inset 0 3px 0 #96979455!important;
+}
+body[data-active-set="NES"] .rh-random-row small{color:#df444a!important}
+body[data-active-set="NES"] .rh-random-row b{color:#e8e9e6!important}
+body[data-active-set="NES"] .rh-bands button{
+  background:#292d33!important;
+  border-color:#4e5258!important;
+  color:#d8dadc!important;
+}
+body[data-active-set="NES"] .rh-bands button.active{
+  background:#9f171d!important;
+  border-color:#d33137!important;
+  color:#fff!important;
+}
+
+body[data-active-set="NES"] .game{
+  background:linear-gradient(180deg,#1b1f24,#15181d)!important;
+  border-color:#4d5055!important;
+  box-shadow:inset 0 2px 0 #7b7c7e22!important;
+}
+body[data-active-set="NES"] .game:hover{
+  border-color:#74767a!important;
+}
+body[data-active-set="NES"] .game.owned{
+  border-color:#2f7650!important;
+}
+body[data-active-set="NES"] .game strong{
+  color:#f3f3f0!important;
+}
+body[data-active-set="NES"] .game small,
+body[data-active-set="NES"] .game .muted{
+  color:#aeb3bb!important;
+}
+
+body[data-active-set="NES"] .dossier-dialog,
+body[data-active-set="NES"] .feature-dialog,
+body[data-active-set="NES"] .shelf-dialog,
+body[data-active-set="NES"] .roulette-dialog{
+  background:#101318!important;
+  border-color:#65676b!important;
+}
+body[data-active-set="NES"] .dossier-head,
+body[data-active-set="NES"] .feature-head,
+body[data-active-set="NES"] .ct-modal-head{
+  background:linear-gradient(180deg,#2a2d32,#1b1e23)!important;
+  border-bottom-color:#6a6c6f!important;
+  box-shadow:inset 0 3px 0 #b7b7b333!important;
+}
+body[data-active-set="NES"] .dossier-card,
+body[data-active-set="NES"] .dossier-block,
+body[data-active-set="NES"] .ct-shelf-stat,
+body[data-active-set="NES"] .ct-super,
+body[data-active-set="NES"] .ct-roulette-card{
+  background:#171b20!important;
+  border-color:#4f5359!important;
+}
+body[data-active-set="NES"] .dossier-research-head small,
+body[data-active-set="NES"] .dossier-block h4,
+body[data-active-set="NES"] .ct-section{
+  color:#cf343a!important;
+}
+body[data-active-set="NES"] footer{color:#85898f!important}
