@@ -132,3 +132,108 @@ export function importGameEye(csvText, data){
   out.summary={nes_famicom_game_rows:nes.length,matched_core_rows:out.matched_core.length,matched_non_core_rows:out.matched_non_core.length,unmatched_or_reconcile_rows:out.unmatched_or_reconcile.length,identities_with_duplicate_copies:out.duplicates.length,distinct_core_identities_owned:ownedCore.size,census_core_total:coreTotal,provisional_core_completion_pct:Math.round((10000*ownedCore.size/coreTotal))/100,non_core_buckets:buckets,match_methods:methods};
   return out;
 }
+
+
+function fcPubNorm(s=''){
+  return String(s).toLowerCase()
+    .replace(/\b(co|inc|ltd|corporation|entertainment|of america)\b/g,' ')
+    .replace(/[^a-z0-9]+/g,' ').trim();
+}
+function fcNorm(s=''){
+  let t=String(s).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/&/g,' and ').replace(/[’']/g,'').toLowerCase();
+  t=t.replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean).filter(w=>!['the','a','an'].includes(w)).join(' ');
+  // Common long-vowel romanization differences in Japanese GameEye titles.
+  t=t.replace(/ou/g,'o').replace(/uu/g,'u').replace(/\bgump\b/g,'gamp');
+  return t;
+}
+function fcAliasText(a){return typeof a==='string'?a:(a?.title||'');}
+
+export function importFamicomGameEye(csvText,famicomCensus){
+  const rows=parseCSV(csvText);
+  const identities=famicomCensus?.identities||[];
+  const candidates=identities.map(x=>({
+    x,
+    keys:[x.romanized_title,x.english_reference_title,x.japanese_title,...(x.aliases||[]).map(fcAliasText)]
+      .filter(Boolean).map(fcNorm).filter(Boolean)
+  }));
+  const japan=rows.map((r,i)=>[i+2,r]).filter(([,r])=>
+    r.Platform==='NES/Famicom'&&r.Category==='Games'&&r.Country==='Japan'&&
+    (!r.UserRecordType||r.UserRecordType==='Owned')
+  );
+  const out={matched:[],unmatched_or_reconcile:[],duplicates:[],owned_famicom_identities:[]};
+  const owned=new Map();
+
+  function matchRow(r){
+    const q=fcNorm(r.Title),qp=fcPubNorm(r.Publisher);
+    if(!q)return [null,'empty_title'];
+    let hits=candidates.filter(c=>c.keys.includes(q));
+    const uniq=arr=>[...new Map(arr.map(c=>[c.x.identity_id,c])).values()];
+    hits=uniq(hits);
+    if(hits.length===1)return[hits[0].x,'exact_title_or_alias'];
+
+    hits=uniq(candidates.filter(c=>c.keys.some(k=>
+      k.startsWith(q+' ') ||
+      (q.startsWith(k+' ') && k.split(' ').length>=2)
+    )));
+    if(hits.length>1&&qp){
+      const ph=hits.filter(c=>{
+        const p=fcPubNorm(c.x.publisher);
+        return p&&qp&&(p.includes(qp)||qp.includes(p));
+      });
+      if(ph.length===1)hits=ph;
+    }
+    if(hits.length===1)return[hits[0].x,'unique_prefix'];
+
+    // Final conservative token-overlap pass. Require strong overlap and publisher agreement.
+    const qt=q.split(' ').filter(Boolean);
+    if(qt.length>=3){
+      let scored=[];
+      for(const c of candidates){
+        let best=0;
+        for(const k of c.keys){
+          const kt=k.split(' ').filter(Boolean),isect=qt.filter(t=>kt.includes(t)).length;
+          const score=isect/Math.max(qt.length,kt.length);
+          if(score>best)best=score;
+        }
+        const p=fcPubNorm(c.x.publisher),pubOK=!qp||!p||p.includes(qp)||qp.includes(p);
+        if(best>=0.8&&pubOK)scored.push([best,c]);
+      }
+      scored.sort((a,b)=>b[0]-a[0]);
+      if(scored.length&&(!scored[1]||scored[0][0]>scored[1][0]))return[scored[0][1].x,'high_token_overlap'];
+    }
+    return[null,hits.length?'ambiguous':'unmatched'];
+  }
+
+  for(const [line,r] of japan){
+    const rec={csv_line:line,title:r.Title,publisher:r.Publisher,release_type:r.ReleaseType,ownership:r.Ownership};
+    if(['Homebrew','Afterlife','Digital','Hack'].includes(r.ReleaseType)){
+      rec.match_method='non_scope_release_type';out.unmatched_or_reconcile.push(rec);continue;
+    }
+    const [x,method]=matchRow(r);
+    if(!x){rec.match_method=method;out.unmatched_or_reconcile.push(rec);continue;}
+    Object.assign(rec,{identity_id:x.identity_id,romanized_title:x.romanized_title,english_reference_title:x.english_reference_title,match_method:method});
+    out.matched.push(rec);
+    if(!owned.has(x.identity_id))owned.set(x.identity_id,[]);
+    owned.get(x.identity_id).push(line);
+  }
+  for(const [id,lines] of owned)if(lines.length>1){
+    const x=identities.find(y=>y.identity_id===id);
+    out.duplicates.push({identity_id:id,romanized_title:x?.romanized_title,csv_lines:lines,copies:lines.length});
+  }
+  out.owned_famicom_identities=[...owned].map(([id,lines])=>{
+    const x=identities.find(y=>y.identity_id===id);
+    return {identity_id:id,romanized_title:x?.romanized_title,english_reference_title:x?.english_reference_title,csv_lines:lines};
+  }).sort((a,b)=>(a.romanized_title||'').localeCompare(b.romanized_title||''));
+  const methods={};for(const r of out.matched)methods[r.match_method]=(methods[r.match_method]||0)+1;
+  out.summary={
+    famicom_japan_game_rows:japan.length,
+    matched_famicom_rows:out.matched.length,
+    unmatched_or_reconcile_rows:out.unmatched_or_reconcile.length,
+    identities_with_duplicate_copies:out.duplicates.length,
+    distinct_famicom_identities_owned:owned.size,
+    famicom_census_total:identities.length,
+    famicom_completion_pct:identities.length?Math.round((10000*owned.size/identities.length))/100:0,
+    match_methods:methods
+  };
+  return out;
+}
