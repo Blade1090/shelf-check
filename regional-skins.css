@@ -388,3 +388,187 @@ body[data-active-set="NES"] .ct-section{
   color:#cf343a!important;
 }
 body[data-active-set="NES"] footer{color:#85898f!important}
+
+
+/* ============================================================
+   REGIONAL HARDWARE IDENTITY PASS
+   NES = toaster hardware / vents / squared industrial labels
+   FAMICOM = ivory shell / burgundy rails / Japanese nameplate
+   ============================================================ */
+.console-identity{
+  position:relative;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  gap:12px;
+  width:min(100%,520px);
+  margin:16px 0 14px;
+  overflow:hidden;
+  user-select:none;
+}
+.console-code,.console-copy strong,.console-copy small{display:block}
+.console-copy{min-width:0}
+.console-detail{display:block;align-self:stretch}
+
+/* NES nameplate: front panel of the original gray toaster */
+body[data-active-set="NES"] .console-identity{
+  min-height:74px;
+  padding:14px 18px 12px;
+  border:1px solid #66686b;
+  border-radius:7px;
+  background:
+    linear-gradient(180deg,#d1d1ce 0 10px,#b7b8b5 10px 13px,#8d8e8e 13px 15px,#c7c7c4 15px 100%);
+  box-shadow:
+    inset 0 1px 0 #f5f5f2,
+    inset 0 -4px 0 #67696b,
+    0 6px 18px #0004;
+  color:#191b1e;
+}
+body[data-active-set="NES"] .console-identity::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:5px;
+  background:#b81d23;
+}
+body[data-active-set="NES"] .console-code{
+  font-family:Arial Black,Arial,sans-serif;
+  font-size:1.55rem;
+  font-weight:900;
+  letter-spacing:-.08em;
+  color:#b51d23;
+  line-height:1;
+}
+body[data-active-set="NES"] .console-copy strong{
+  font-family:Arial Black,Arial,sans-serif;
+  font-size:.82rem;
+  letter-spacing:.17em;
+  color:#282b2e;
+}
+body[data-active-set="NES"] .console-copy small{
+  margin-top:4px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.58rem;
+  font-weight:800;
+  letter-spacing:.12em;
+  color:#5b5d60;
+}
+body[data-active-set="NES"] .console-detail{
+  width:72px;
+  border-left:1px solid #8b8c8d;
+  background:
+    repeating-linear-gradient(90deg,#2d3034 0 5px,#17191c 5px 8px);
+  opacity:.92;
+}
+body[data-active-set="NES"] .hero h1{
+  font-family:Arial Black,Arial,sans-serif;
+  letter-spacing:-.025em;
+}
+body[data-active-set="NES"] .browse-bar nav button,
+body[data-active-set="NES"] .collection-summary,
+body[data-active-set="NES"] #huntTools,
+body[data-active-set="NES"] .game{
+  border-radius:8px!important;
+}
+
+/* Famicom nameplate: cream shell + burgundy rails + Japanese faceplate */
+body[data-active-set="FAMICOM"] .console-identity{
+  min-height:76px;
+  padding:12px 16px;
+  border:2px solid #8d2135;
+  border-radius:15px;
+  background:
+    linear-gradient(90deg,#7c1b2e 0 11px,#f2ead8 11px calc(100% - 11px),#7c1b2e calc(100% - 11px));
+  box-shadow:
+    inset 0 0 0 2px #fff7e7,
+    0 6px 18px #0004;
+  color:#68182a;
+}
+body[data-active-set="FAMICOM"] .console-identity::before{
+  content:"";
+  position:absolute;
+  top:8px;right:26px;
+  width:58px;height:8px;
+  border-radius:999px;
+  background:#b4283e;
+  box-shadow:0 18px 0 #d6c8a9;
+  opacity:.95;
+}
+body[data-active-set="FAMICOM"] .console-code{
+  display:grid;
+  place-items:center;
+  width:46px;height:46px;
+  border-radius:10px;
+  background:#8c2034;
+  color:#fff1dc;
+  font-family:Arial Black,Arial,sans-serif;
+  font-size:1.25rem;
+  letter-spacing:-.06em;
+  box-shadow:inset 0 0 0 2px #651426;
+}
+body[data-active-set="FAMICOM"] .console-copy strong{
+  font-family:"Arial Rounded MT Bold","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  font-size:1.28rem;
+  font-weight:900;
+  letter-spacing:.035em;
+  color:#741a2d;
+}
+body[data-active-set="FAMICOM"] .console-copy small{
+  margin-top:3px;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.58rem;
+  font-weight:900;
+  letter-spacing:.13em;
+  color:#8b3445;
+}
+body[data-active-set="FAMICOM"] .console-detail{
+  width:68px;
+  background:
+    radial-gradient(circle at 16px 50%,#1d2025 0 6px,transparent 7px),
+    radial-gradient(circle at 34px 50%,#1d2025 0 6px,transparent 7px),
+    radial-gradient(circle at 52px 50%,#1d2025 0 6px,transparent 7px);
+  opacity:.95;
+}
+body[data-active-set="FAMICOM"] .hero h1{
+  font-family:"Arial Rounded MT Bold","Trebuchet MS","Yu Gothic",sans-serif;
+  letter-spacing:-.015em;
+}
+body[data-active-set="FAMICOM"] .browse-bar nav button,
+body[data-active-set="FAMICOM"] .collection-summary,
+body[data-active-set="FAMICOM"] #huntTools,
+body[data-active-set="FAMICOM"] .famicom-game{
+  border-radius:15px!important;
+}
+
+/* Make the collection cards themselves carry a subtle system label */
+body[data-active-set="NES"] .collection-summary::after,
+body[data-active-set="FAMICOM"] .collection-summary::after{
+  position:absolute;
+  right:18px;
+  top:10px;
+  font-size:.5rem;
+  font-weight:950;
+  letter-spacing:.16em;
+  opacity:.48;
+  pointer-events:none;
+}
+body[data-active-set="NES"] .collection-summary,
+body[data-active-set="FAMICOM"] .collection-summary{position:relative}
+body[data-active-set="NES"] .collection-summary::after{
+  content:"NES • ENTERTAINMENT SYSTEM";
+  color:#c9c9c6;
+}
+body[data-active-set="FAMICOM"] .collection-summary::after{
+  content:"FC • FAMILY COMPUTER";
+  color:#e8b8c2;
+}
+
+@media(max-width:600px){
+  .console-identity{width:100%;margin:13px 0 12px}
+  body[data-active-set="NES"] .console-detail{width:50px}
+  body[data-active-set="FAMICOM"] .console-detail{width:48px}
+  body[data-active-set="FAMICOM"] .console-identity::before{width:42px;right:18px}
+  body[data-active-set="NES"] .console-copy strong{font-size:.7rem;letter-spacing:.12em}
+  body[data-active-set="FAMICOM"] .console-copy strong{font-size:1.05rem}
+  .console-copy small{font-size:.51rem!important;letter-spacing:.09em!important}
+}
