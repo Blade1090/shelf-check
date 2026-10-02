@@ -13,7 +13,7 @@ const byId=new Map((fcCensus.identities||[]).map(x=>[x.identity_id,x]));
 const dossiers=new Map(chunks.flat().map(x=>[x.identity_id,x]));
 const fcPriceById=new Map((fcPriceData.rows||[]).map(([id,p])=>[id,Number(p)]));
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
-let fcScroll=0;
+
 function readOwned(key){try{return new Set(JSON.parse(localStorage.getItem(key)||'{}').owned||[])}catch{return new Set()}}
 function readWishlist(){try{return new Set(JSON.parse(localStorage.getItem(FC_WISHLIST)||'[]'))}catch{return new Set()}}
 function wishlistButton(id,owned){
@@ -74,13 +74,13 @@ function render(id){
       ${d.nes_counterpart_context?`<div class="dossier-block wide"><h4>NES CONNECTION</h4><p>${esc(d.nes_counterpart_context)}</p></div>`:''}
       ${d.japanese_version_notes?`<div class="dossier-block wide"><h4>JAPANESE VERSION NOTES</h4><p>${esc(d.japanese_version_notes)}</p></div>`:''}
     </section>`;
-  fcScroll=window.scrollY||0;document.body.style.position='fixed';document.body.style.top=`-${fcScroll}px`;document.body.style.width='100%';dlg.showModal();
+  window.ShelfCheckDossierScroll?.open(id);
 }
 window.openFamicomDossier=render;
 document.addEventListener('click',e=>{
   const wishBtn=e.target.closest('[data-fc-dossier-wish]');if(wishBtn){e.preventDefault();e.stopPropagation();const id=wishBtn.dataset.fcDossierWish,w=readWishlist();w.has(id)?w.delete(id):w.add(id);localStorage.setItem(FC_WISHLIST,JSON.stringify([...w]));window.dispatchEvent(new CustomEvent('shelfcheck:famicom-wishlist-changed',{detail:{id,on:w.has(id)}}));render(id);return;}
-  const own=e.target.closest('[data-fc-own]');if(own){e.preventDefault();e.stopPropagation();const id=own.dataset.fcOwn,owned=readOwned(FC_STORAGE);if(owned.has(id))owned.delete(id);else owned.add(id);let prev={};try{prev=JSON.parse(localStorage.getItem(FC_STORAGE)||'{}')}catch{}localStorage.setItem(FC_STORAGE,JSON.stringify({...prev,owned:[...owned]}));document.getElementById('dossierDialog')?.close();window.dispatchEvent(new Event('shelfcheck:famicom-ownership-changed'));setTimeout(()=>render(id),0);return;}
+  const own=e.target.closest('[data-fc-own]');if(own){e.preventDefault();e.stopPropagation();const id=own.dataset.fcOwn,owned=readOwned(FC_STORAGE);if(owned.has(id))owned.delete(id);else owned.add(id);let prev={};try{prev=JSON.parse(localStorage.getItem(FC_STORAGE)||'{}')}catch{}localStorage.setItem(FC_STORAGE,JSON.stringify({...prev,owned:[...owned]}));window.dispatchEvent(new Event('shelfcheck:famicom-ownership-changed'));render(id);return;}
   if(e.target.closest('button,input,select,a'))return;
   const card=e.target.closest('.famicom-game[data-identity-id]');if(card)render(card.dataset.identityId);
 });
-document.getElementById('dossierDialog')?.addEventListener('close',()=>{if(document.body.style.position==='fixed'){document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo(0,fcScroll)}});
+document.getElementById('dossierDialog')?.addEventListener('close',()=>window.ShelfCheckDossierScroll?.close());
