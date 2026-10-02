@@ -24,3 +24,13 @@ body[data-active-set="FAMICOM"] .ct-ring.fc-ring{background:conic-gradient(#e9b6
 body[data-active-set="FAMICOM"] .ct-quick-mark{background:linear-gradient(100deg,#e7a756,#e76f51,#b45ae3)!important}
 #fcRandomWish{display:block;width:calc(100% - 36px);margin:8px 18px 12px;cursor:pointer;background:linear-gradient(100deg,#e6b24f,#d67752);color:#17120d}
 .ct-mark-title small{display:block;margin-top:3px;color:#8f99a8;font-size:.62rem;text-align:left}
+
+.fc-reconcile{margin:5px 0 10px}
+.fc-reconcile details{border:1px solid #7e5c3d;border-radius:10px;background:#211719;overflow:hidden}
+.fc-reconcile summary{cursor:pointer;padding:9px 11px;color:#f0c578;font-size:.7rem;font-weight:950;letter-spacing:.04em}
+.fc-reconcile-list{display:grid;gap:1px;border-top:1px solid #553d34}
+.fc-reconcile-list>div{display:flex;justify-content:space-between;gap:12px;padding:8px 11px;background:#171317}
+.fc-reconcile-list b{font-size:.76rem;color:#fff0d6}
+.fc-reconcile-list span{font-size:.62rem;color:#b9a9a1;text-align:right}
+.fc-reconcile p{margin:0;padding:9px 11px;color:#aa9994;font-size:.65rem;border-top:1px solid #433036}
+@media(max-width:600px){.fc-reconcile-list>div{flex-direction:column;gap:3px}.fc-reconcile-list span{text-align:left}}
