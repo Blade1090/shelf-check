@@ -74,8 +74,10 @@ function rhInstallAgain(mode){
   const b=document.createElement('button');b.type='button';b.className='rh-another';b.textContent=mode==='NEEDED'?'🎲 ANOTHER RANDOM GAME':'🎲 PICK ANOTHER GAME';b.onclick=()=>rhRandom(mode);
   const card=body.querySelector('.dossier-card');if(card)card.after(b);else body.prepend(b)
 }
-function rhCount(){
-  rhApply();return rhVisiblePool().length
+function rhCount(){rhApply();return rhVisiblePool().length}
+function rhReapplyBase(){
+  const q=document.getElementById('search');
+  if(q)q.dispatchEvent(new Event('input',{bubbles:true}));else rhSchedule();
 }
 function rhRenderTools(){
   const box=document.getElementById('huntTools');if(!box)return;
@@ -86,13 +88,13 @@ function rhRenderTools(){
     const count=rhCount(),band=rhPriceBand[set];
     box.innerHTML=`<div class="rh-random-row"><div><small>THE HUNT</small><b>${count} needed ${count===1?'game':'games'} in this price range</b></div><button id="rhRandomNeeded" type="button">🎲 RANDOM GAME</button></div><div class="rh-bands">${RH_PRICE_BANDS.map(([k,l])=>`<button type="button" data-rh-price="${k}" class="${band===k?'active':''}">${l}</button>`).join('')}</div>`;
     box.querySelector('#rhRandomNeeded').onclick=()=>rhRandom('NEEDED');
-    box.querySelector('.rh-bands').onclick=e=>{const k=e.target.dataset.rhPrice;if(!k)return;rhPriceBand[set]=k;rhSchedule()}
+    box.querySelector('.rh-bands').onclick=e=>{const k=e.target.dataset.rhPrice;if(!k)return;rhPriceBand[set]=k;rhReapplyBase()}
   }else{
     const count=rhCount(),band=rhOwnedBand[set],bands=set===RH_NES?RH_TIME_BANDS:RH_LANG_BANDS;
     const sub=set===RH_NES?'in this playtime':'in this language range';
     box.innerHTML=`<div class="rh-random-row owned"><div><small>CAN'T PICK YOUR NEXT GAME?</small><b>${count} owned ${count===1?'game':'games'} ${sub}</b></div><button id="rhRandomOwned" type="button">🎲 WHAT SHOULD I PLAY?</button></div><div class="rh-bands">${bands.map(([k,l])=>`<button type="button" data-rh-owned="${k}" class="${band===k?'active':''}">${l}</button>`).join('')}</div>`;
     box.querySelector('#rhRandomOwned').onclick=()=>rhRandom('OWNED');
-    box.querySelector('.rh-bands').onclick=e=>{const k=e.target.dataset.rhOwned;if(!k)return;rhOwnedBand[set]=k;rhSchedule()}
+    box.querySelector('.rh-bands').onclick=e=>{const k=e.target.dataset.rhOwned;if(!k)return;rhOwnedBand[set]=k;rhReapplyBase()}
   }
 }
 function rhTheme(){
