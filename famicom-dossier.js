@@ -33,6 +33,10 @@ function cartBlock(id){
   const variantHtml=variants.length?`<div class="fc-cart-variants"><small>KNOWN VARIANT</small><b>${esc(variants.join(' / '))}</b></div>`:'';
   return `<div class="dossier-block fc-cart-block"><h4>CARTRIDGE SHELL</h4><div class="fc-cart-big"><span class="famicom-cart-swatch ${group}"></span><b>${esc(label)}</b></div>${variantHtml}${detail}</div>`;
 }
+function cartHero(id){
+  const c=cartInfo(id),group=String(c?.group||'UNKNOWN').toLowerCase(),label=cartLabel(c);
+  return `<span class="fc-hero-cart"><span class="famicom-cart-swatch ${group}"></span><b>CART · ${esc(label)}</b></span>`;
+}
 function markButton(id,owned){return `<button class="fc-own-toggle ${owned?'owned':''}" type="button" data-fc-own="${esc(id)}">${owned?'✓ OWNED · MARK NEEDED':'+ MARK FAMICOM OWNED'}</button>`}
 function render(id){
   const x=byId.get(id);if(!x)return;
@@ -47,7 +51,7 @@ function render(id){
         <div class="dossier-cover-wrap">${art?`<img src="${esc(art)}" alt="${esc(title(x))} Famicom box art">`:'<div class="dossier-cover-missing">FC</div>'}</div>
         <div class="dossier-identity">
           <div class="dossier-title-row"><div><h3 class="fc-jp-title">${esc(title(x))}</h3>${eng&&eng!==title(x)?`<div class="fc-eng-title">${esc(eng)}</div>`:''}<div class="dossier-meta">${esc(meta||'Japanese Famicom cartridge')}</div></div><span class="dossier-badge ${owned?'owned':''}">${owned?'OWNED':'NEEDED'}</span></div>
-          <div class="dossier-actions">${markButton(id,owned)}</div>
+          <div class="dossier-actions">${markButton(id,owned)}${cartHero(id)}</div>
         </div>
       </section>
       ${counterpart}
@@ -67,7 +71,7 @@ function render(id){
 }
 window.openFamicomDossier=render;
 document.addEventListener('click',e=>{
-  const own=e.target.closest('[data-fc-own]');if(own){e.preventDefault();e.stopPropagation();const id=own.dataset.fcOwn,owned=readOwned(FC_STORAGE);if(owned.has(id))owned.delete(id);else owned.add(id);localStorage.setItem(FC_STORAGE,JSON.stringify({owned:[...owned]}));document.getElementById('dossierDialog')?.close();window.dispatchEvent(new Event('shelfcheck:famicom-ownership-changed'));setTimeout(()=>render(id),0);return;}
+  const own=e.target.closest('[data-fc-own]');if(own){e.preventDefault();e.stopPropagation();const id=own.dataset.fcOwn,owned=readOwned(FC_STORAGE);if(owned.has(id))owned.delete(id);else owned.add(id);let prev={};try{prev=JSON.parse(localStorage.getItem(FC_STORAGE)||'{}')}catch{}localStorage.setItem(FC_STORAGE,JSON.stringify({...prev,owned:[...owned]}));document.getElementById('dossierDialog')?.close();window.dispatchEvent(new Event('shelfcheck:famicom-ownership-changed'));setTimeout(()=>render(id),0);return;}
   if(e.target.closest('button,input,select,a'))return;
   const card=e.target.closest('.famicom-game[data-identity-id]');if(card)render(card.dataset.identityId);
 });
