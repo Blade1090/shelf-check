@@ -213,10 +213,19 @@ function updateFamicomSummary(){
   const owned=famicomOwned.size,total=famicomIds.length||1040,pct=total?(owned/total*100).toFixed(1):'0.0';
   el('ownedCount').textContent=owned;el('totalCount').textContent=total;el('pct').textContent=pct+'%';el('barFill').style.width=pct+'%';
   if(el('headerProgress'))el('headerProgress').textContent=`${owned} / ${total}`;
-  if(el('importStatus'))el('importStatus').textContent=famicomImported
-    ?`${famicomSummary?.famicom_japan_game_rows||0} Famicom Japan rows imported • ${famicomSummary?.matched_famicom_rows||0} matched • ${famicomSummary?.unmatched_or_reconcile_rows||0} reconcile`
-    :'No Famicom GameEye rows imported yet';
-  if(famicomSummary&&el('details'))el('details').textContent=JSON.stringify({FAMICOM:famicomSummary,NES:state.summary},null,2);
+  if(el('importStatus')){
+    el('importStatus').textContent=famicomImported
+      ?`${famicomSummary?.famicom_japan_game_rows||0} Famicom Japan rows imported • ${famicomSummary?.matched_famicom_rows||0} matched • ${famicomSummary?.unmatched_or_reconcile_rows||0} reconcile`
+      :'No Famicom GameEye rows imported yet';
+    el('importStatus').title=(famicomSummary?.reconcile_items||[]).length
+      ?'Reconcile means Shelf Check would not guess. Open menu → Import Audit to see the titles.'
+      :'';
+  }
+  if(famicomSummary&&el('details')){
+    const rec=famicomSummary.reconcile_items||[];
+    const audit={FAMICOM:{...famicomSummary,reconcile_items:rec},NES:state.summary};
+    el('details').textContent=JSON.stringify(audit,null,2);
+  }
 }
 function mountFamicomCards(){
   if(famicomCardsMounted)return;
