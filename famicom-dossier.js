@@ -86,4 +86,4 @@ document.addEventListener('click',e=>{
   if(e.target.closest('button,input,select,a'))return;
   const card=e.target.closest('.famicom-game[data-identity-id]');if(card)render(card.dataset.identityId);
 });
-document.getElementById('dossierDialog')?.addEventListener('close',()=>window.ShelfCheckDossierScroll?.close());
+
