@@ -61,7 +61,9 @@ function rhDraw(mode){
 function rhOpen(id,mode){
   if(!id)return;
   const set=rhSet();if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
-  setTimeout(()=>rhInstallAgain(mode),0);setTimeout(()=>rhInstallAgain(mode),120);
+  setTimeout(()=>rhInstallAgain(mode),0);
+  setTimeout(()=>rhInstallAgain(mode),120);
+  setTimeout(()=>rhInstallAgain(mode),350);
 }
 function rhRandom(mode){
   const id=rhDraw(mode);
@@ -70,9 +72,19 @@ function rhRandom(mode){
 }
 function rhInstallAgain(mode){
   const dlg=document.getElementById('dossierDialog');if(!dlg?.open)return;
-  const body=document.getElementById('dossierBody');if(!body||body.querySelector('.rh-another'))return;
-  const b=document.createElement('button');b.type='button';b.className='rh-another';b.textContent=mode==='NEEDED'?'🎲 ANOTHER RANDOM GAME':'🎲 PICK ANOTHER GAME';b.onclick=()=>rhRandom(mode);
-  const card=body.querySelector('.dossier-card');if(card)card.after(b);else body.prepend(b)
+  const body=document.getElementById('dossierBody');if(!body)return;
+  let b=body.querySelector('.rh-another');
+  if(!b){
+    b=document.createElement('button');
+    b.type='button';
+    b.className='rh-another';
+    body.prepend(b);
+  }
+  b.textContent=mode==='NEEDED'?'🎲 ANOTHER RANDOM GAME':'🎲 PICK ANOTHER GAME';
+  b.onclick=()=>rhRandom(mode);
+  const head=dlg.querySelector('.dossier-head');
+  const offset=Math.ceil(head?.getBoundingClientRect().height||0)+8;
+  b.style.top=offset+'px';
 }
 function rhCount(){rhApply();return rhVisiblePool().length}
 function rhReapplyBase(){
