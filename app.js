@@ -312,9 +312,10 @@ function paintSet(){
   document.body.dataset.activeSet=activeSet;
   document.querySelectorAll('[data-set]').forEach(b=>b.classList.toggle('active',b.dataset.set===activeSet));
   el('setLabel').textContent=`MATTY'S SET · ${activeSet==='NES'?'NES':'FAMICOM'}`;
-  if(el('consoleCode'))el('consoleCode').textContent=activeSet==='NES'?'NES':'FC';
-  if(el('consoleName'))el('consoleName').textContent=activeSet==='NES'?'ENTERTAINMENT SYSTEM':'ファミコン';
-  if(el('consoleSub'))el('consoleSub').textContent=activeSet==='NES'?'NORTH AMERICAN 8-BIT HARDWARE':'FAMILY COMPUTER · JAPANESE 8-BIT HARDWARE';
+  if(el('consoleLogo'))el('consoleLogo').src=activeSet==='NES'
+    ?'https://commons.wikimedia.org/wiki/Special:Redirect/file/NES_logo.svg'
+    :'https://commons.wikimedia.org/wiki/Special:Redirect/file/Family_Computer_logo.svg';
+  if(el('consoleSub'))el('consoleSub').textContent=activeSet==='NES'?'NORTH AMERICAN 8-BIT HARDWARE':'JAPANESE FAMILY COMPUTER HARDWARE';
   el('heroEyebrow').textContent=activeSet==='NES'?'PHYSICAL NES COLLECTION COMPANION':'PHYSICAL FAMICOM COLLECTION COMPANION';
   el('summaryLabel').textContent=activeSet==='NES'?'NORTH AMERICAN CORE SET':'JAPANESE FAMICOM CARTRIDGE SET';
   el('search').placeholder=activeSet==='NES'?'Search ShelfCheck…':'Search Japanese, romanized or English title…';
