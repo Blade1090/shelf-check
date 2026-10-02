@@ -233,7 +233,14 @@ export function importFamicomGameEye(csvText,famicomCensus){
     distinct_famicom_identities_owned:owned.size,
     famicom_census_total:identities.length,
     famicom_completion_pct:identities.length?Math.round((10000*owned.size/identities.length))/100:0,
-    match_methods:methods
+    match_methods:methods,
+    reconcile_items:out.unmatched_or_reconcile.map(r=>({
+      csv_line:r.csv_line,
+      title:r.title,
+      publisher:r.publisher,
+      release_type:r.release_type,
+      reason:r.match_method
+    }))
   };
   return out;
 }
