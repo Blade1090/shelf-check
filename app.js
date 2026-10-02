@@ -1,4 +1,4 @@
-import { importGameEye, importFamicomGameEye } from './import-core.mjs?v=2';
+import { importGameEye, importFamicomGameEye } from './import-core.mjs?v=3';
 const LIBRETRO_BASE='https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/4d21463bf5d553afc34d99183c9ad5833f773b93/Named_Boxarts/';
 const LAUNCHBOX_BASE='https://images.launchbox-app.com/';
 const CORE_FETCHES=[
