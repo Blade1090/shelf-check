@@ -46,6 +46,7 @@ function cartHero(id){
 }
 function markButton(id,owned){return `<button class="fc-own-toggle ${owned?'owned':''}" type="button" data-fc-own="${esc(id)}">${owned?'✓ OWNED · MARK NEEDED':'+ MARK FAMICOM OWNED'}</button>`}
 function render(id){
+  if(window.ShelfCheckDossierScroll?.current?.()!==id)window.ShelfCheckDossierScroll?.resetDetailTop?.();
   const x=byId.get(id);if(!x)return;
   const d=dossiers.get(id)||{},owned=readOwned(FC_STORAGE).has(id),nesOwned=x.nes_identity_id?readOwned(NES_STORAGE).has(x.nes_identity_id):false;
   const dlg=document.getElementById('dossierDialog'),body=document.getElementById('dossierBody'),head=document.getElementById('dossierTitle');if(!dlg||!body||!head)return;
