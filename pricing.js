@@ -54,6 +54,6 @@ function updateWishlistValue(){
   for(const card of document.querySelectorAll('#wishlistList .wish-card')){const p=priceForNode(card);if(p&&!seenProducts.has(p.id)){seenProducts.add(p.id);total+=p.price;count++;}}
   let v=summary.querySelector('.wishlist-value');if(!v){v=document.createElement('span');v.className='wishlist-value';summary.appendChild(v);}v.textContent=count?`Loose est. ${money(total)}`:'Loose est. —';
 }
-const priceObserver=new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes)if(n.nodeType===1)enhanceCards(n.matches?.('.game,.wish-card,.roulette-pick,.buy-result-card')?n.parentElement||document:n);});
+const priceObserver=new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType!==1||n.matches?.('.famicom-game'))continue;enhanceCards(n.matches?.('.game,.wish-card,.roulette-pick,.buy-result-card')?n.parentElement||document:n);}});
 priceObserver.observe(document.body,{childList:true,subtree:true});
 setTimeout(()=>enhanceCards(document),0);
