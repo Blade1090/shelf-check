@@ -11,3 +11,16 @@
 .fc-cart-block{border-color:#4f5967;background:linear-gradient(180deg,#171d26,#11161e)}
 .fc-cart-big{display:flex;align-items:center;gap:9px;margin:4px 0 7px;font-size:1.15rem}.fc-cart-big .famicom-cart-swatch{width:22px;height:22px}.fc-cart-big b{font-size:1.12rem}
 .fc-cart-block p{margin:0;color:#9fa9b8;font-size:.72rem}.fc-cart-variants{display:flex;align-items:center;gap:7px;margin:4px 0 8px}.fc-cart-variants small{color:#8f99a8;font-size:.6rem}.fc-cart-variants b{color:#e1b36c;font-size:.78rem}
+
+body[data-active-set="FAMICOM"] .shelf-actions{display:grid!important}
+body[data-active-set="FAMICOM"] .gameeye-sync{display:block!important;color:#c89a62}
+.famicom-game .wishlist-heart{display:block!important}
+.fc-hero-cart{display:inline-flex;align-items:center;gap:7px;width:max-content;margin-top:9px;padding:6px 9px;border:1px solid #4a5260;border-radius:9px;background:#11161e;color:#dbe1e9;font-size:.72rem}
+.fc-hero-cart .famicom-cart-swatch{width:15px;height:15px}
+.fc-roulette-jp{display:block;color:#9da8b7;font-size:.7rem;line-height:1.25;margin-top:3px}
+.fc-buy-tags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.fc-buy-tags span{display:inline-flex;padding:5px 8px;border:1px solid #40516a;border-radius:999px;background:#111923;color:#bcd0e8;font-size:.66rem;font-weight:850}
+body[data-active-set="FAMICOM"] .ct-ring.fc-ring{background:conic-gradient(#e9b66e var(--pct),#242c38 0)}
+body[data-active-set="FAMICOM"] .ct-quick-mark{background:linear-gradient(100deg,#e7a756,#e76f51,#b45ae3)!important}
+#fcRandomWish{display:block;width:calc(100% - 36px);margin:8px 18px 12px;cursor:pointer;background:linear-gradient(100deg,#e6b24f,#d67752);color:#17120d}
+.ct-mark-title small{display:block;margin-top:3px;color:#8f99a8;font-size:.62rem;text-align:left}
