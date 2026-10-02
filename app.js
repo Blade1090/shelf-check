@@ -137,4 +137,4 @@ window.addEventListener('shelfcheck:famicom-ownership-changed',()=>{try{const f=
 el('search').addEventListener('input',()=>{if(activeSet==='FAMICOM')requestAnimationFrame(renderFamicom);});
 for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{if(activeSet==='FAMICOM')requestAnimationFrame(renderFamicom);});
 paintSet();
-if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
+// Test deployment: service worker intentionally disabled while NES/Famicom integration is being validated.
