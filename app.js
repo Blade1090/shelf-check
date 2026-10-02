@@ -59,6 +59,40 @@ async function ensureFamicomLoaded(){
   await famicomLoadPromise;
 }
 function saveFamicom(){localStorage.setItem(FAMICOM_STORAGE,JSON.stringify({owned:[...famicomOwned],imported:famicomImported,summary:famicomSummary,sort:famicomSort}));}
+function migrateSavedFamicomImport(){
+  if(!famicomImported||!famicomSummary)return false;
+  const rec=[...(famicomSummary.reconcile_items||[])];
+  if(!rec.length)return false;
+  const aliases=new Map([
+    ['hottaman no chisoko tanken','FC-0166'],
+    ['makai island','FC-0201']
+  ]);
+  const outside=[...(famicomSummary.non_scope_items||[])],left=[];
+  let resolved=0,movedOutside=0;
+  const key=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+  for(const item of rec){
+    if(['Homebrew','Afterlife','Digital','Hack'].includes(item.release_type)){
+      outside.push(item);movedOutside++;continue;
+    }
+    const id=aliases.get(key(item.title));
+    if(id){famicomOwned.add(id);resolved++;continue;}
+    left.push(item);
+  }
+  if(!resolved&&!movedOutside)return false;
+  famicomSummary={
+    ...famicomSummary,
+    matched_famicom_rows:(famicomSummary.matched_famicom_rows||0)+resolved,
+    non_scope_rows:outside.length,
+    unmatched_or_reconcile_rows:left.length,
+    distinct_famicom_identities_owned:famicomOwned.size,
+    famicom_completion_pct:Math.round((10000*famicomOwned.size/(famicomSummary.famicom_census_total||1040)))/100,
+    reconcile_items:left,
+    non_scope_items:outside
+  };
+  saveFamicom();
+  return true;
+}
+migrateSavedFamicomImport();
 function fTitle(x){return x.japanese_title||x.romanized_title||x.english_reference_title||x.identity_id;}
 function fSecondary(x){return x.english_reference_title||x.romanized_title||'';}
 function fAz(a,b){return (a.romanized_title||a.english_reference_title||a.japanese_title||'').localeCompare((b.romanized_title||b.english_reference_title||b.japanese_title||''),undefined,{numeric:true,sensitivity:'base'});}
