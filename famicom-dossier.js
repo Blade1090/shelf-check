@@ -17,6 +17,22 @@ function readOwned(key){try{return new Set(JSON.parse(localStorage.getItem(key)|
 function title(x){return x?.japanese_title||x?.romanized_title||x?.english_reference_title||x?.identity_id||'Famicom'}
 function langClass(v){return ['LOW','MEDIUM','HIGH'].includes(v)?v.toLowerCase():'unknown'}
 function relationLabel(type){return String(type||'').replaceAll('_',' ').toLowerCase().replace(/\b\w/g,m=>m.toUpperCase())}
+function cartInfo(id){return window.FAMICOM_CART_COLORS?.get?.(id)||null}
+function cartLabel(c){
+  if(!c||c.group==='UNKNOWN')return 'UNKNOWN';
+  return c.display||String(c.group).replaceAll('_',' ');
+}
+function cartVariants(c){
+  return (c?.variants||[]).map(v=>v?.[1]||v?.[0]).filter(Boolean);
+}
+function cartBlock(id){
+  const c=cartInfo(id),group=String(c?.group||'UNKNOWN').toLowerCase(),label=cartLabel(c),variants=cartVariants(c);
+  const detail=c?.group&&c.group!=='UNKNOWN'
+    ? `<p>${esc(c.source||'Verified source')}${c.confidence?` · ${esc(c.confidence)} confidence`:''}</p>`
+    : `<p>${esc(c?.note||'No reliable cartridge-color source yet.')}</p>`;
+  const variantHtml=variants.length?`<div class="fc-cart-variants"><small>KNOWN VARIANT</small><b>${esc(variants.join(' / '))}</b></div>`:'';
+  return `<div class="dossier-block fc-cart-block"><h4>CARTRIDGE SHELL</h4><div class="fc-cart-big"><span class="famicom-cart-swatch ${group}"></span><b>${esc(label)}</b></div>${variantHtml}${detail}</div>`;
+}
 function markButton(id,owned){return `<button class="fc-own-toggle ${owned?'owned':''}" type="button" data-fc-own="${esc(id)}">${owned?'✓ OWNED · MARK NEEDED':'+ MARK FAMICOM OWNED'}</button>`}
 function render(id){
   const x=byId.get(id);if(!x)return;
@@ -38,6 +54,7 @@ function render(id){
     </section>
     <section class="dossier-research-head"><div><small>MATTY'S SET · FAMICOM</small><h3>FAMICOM DOSSIER</h3></div><span class="dossier-confidence ${String(d.confidence||x.confidence||'').toLowerCase()}">${esc(d.confidence||x.confidence||'')} RESEARCH</span></section>
     <section class="dossier-grid">
+      ${cartBlock(id)}
       ${Number.isFinite(loose)?`<div class="dossier-block fc-price-block"><h4>HUNT PRICE · LOOSE</h4><div class="fc-price-big">${money(loose)}</div><p>PriceCharting loose snapshot · ${esc(fcPriceData.snapshot||'2026-09-25')}</p></div>`:''}
       <div class="dossier-block fc-language-block"><h4>LANGUAGE BARRIER</h4><div class="fc-language-big ${langClass(d.language_barrier||x.language_barrier)}">${esc(d.language_barrier||x.language_barrier||'UNKNOWN')}</div><p>${esc(d.language_barrier_reason||'No language-barrier note is available yet.')}</p></div>
       <div class="dossier-block"><h4>GAME INFO</h4><div class="dossier-kv"><div><small>RELEASE</small><b>${esc(x.release_date||'—')}</b></div><div><small>PUBLISHER</small><b>${esc(x.publisher||'—')}</b></div><div><small>DEVELOPER</small><b>${esc(x.developer||'—')}</b></div><div><small>PRODUCT CODE</small><b>${esc(x.product_code||'—')}</b></div><div><small>GENRE</small><b>${esc([x.primary_genre,...(x.secondary_genres||[])].filter(Boolean).join(' / ')||'—')}</b></div><div><small>ENGLISH TITLE</small><b>${esc(x.english_title_type?x.english_title_type.replaceAll('_',' '):'—')}</b></div></div></div>
