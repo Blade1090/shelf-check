@@ -16,38 +16,10 @@ const dEsc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 // The page/list keeps its own scroll position; the dialog owns a separate scroll position.
 const D_SCROLL=window.ShelfCheckDossierScroll||(window.ShelfCheckDossierScroll=(()=>{
   let locked=false,mainY=0,currentId=null,restoreSeq=0,resetSeq=0;
+
   const dialog=()=>document.getElementById('dossierDialog');
   const scroller=()=>document.getElementById('dossierBody');
-  const forceTop=(seq)=>{
-    const dlg=dialog(),body=scroller();if(!dlg||!body||seq!==resetSeq)return;
-    dlg.scrollTop=0;body.scrollTop=0;
-  };
-  const resetDetailTop=()=>{
-    const seq=++resetSeq;
-    forceTop(seq);
-    requestAnimationFrame(()=>{forceTop(seq);requestAnimationFrame(()=>forceTop(seq));});
-    setTimeout(()=>forceTop(seq),0);
-    setTimeout(()=>forceTop(seq),50);
-    setTimeout(()=>forceTop(seq),150);
-    setTimeout(()=>forceTop(seq),300);
-  };
-  const open=(id)=>{
-    const dlg=dialog();if(!dlg)return;
-    const changed=currentId!==id;
-    if(!dlg.open){
-      mainY=window.scrollY||document.documentElement.scrollTop||0;
-      locked=true;restoreSeq++;
-      document.body.classList.add('dossier-open');
-      document.body.style.position='fixed';
-      document.body.style.top=`-${mainY}px`;
-      document.body.style.left='0';
-      document.body.style.right='0';
-      document.body.style.width='100%';
-      dlg.showModal();
-    }
-    currentId=id;
-    if(changed)resetDetailTop();
-  };
+
   const close=()=>{
     if(!locked)return;
     const y=mainY,seq=++restoreSeq;
@@ -62,15 +34,73 @@ const D_SCROLL=window.ShelfCheckDossierScroll||(window.ShelfCheckDossierScroll=(
       if(seq===restoreSeq)window.scrollTo({top:y,left:0,behavior:'auto'});
     }));
   };
-  const freshBody=()=>{
-    const old=scroller();if(!old)return null;
-    const next=document.createElement('div');
-    next.id='dossierBody';
-    next.className='dossier-body';
-    old.replaceWith(next);
-    next.scrollTop=0;
-    return next;
+
+  const bind=(dlg)=>{
+    if(!dlg||dlg.dataset.scrollBound==='1')return dlg;
+    dlg.dataset.scrollBound='1';
+    dlg.addEventListener('close',close);
+    const x=dlg.querySelector('.dossier-close');
+    if(x){
+      x.removeAttribute('onclick');
+      x.addEventListener('click',()=>dlg.close());
+    }
+    return dlg;
   };
+
+  const forceTop=()=>{
+    const dlg=dialog(),body=scroller();if(!dlg||!body)return;
+    dlg.scrollTop=0;
+    if(typeof body.scrollTo==='function')body.scrollTo(0,0);
+    body.scrollTop=0;
+  };
+
+  const resetDetailTop=()=>{
+    const seq=++resetSeq;
+    const hit=()=>{if(seq===resetSeq)forceTop();};
+    hit();
+    requestAnimationFrame(()=>{hit();requestAnimationFrame(hit);});
+    setTimeout(hit,0);
+    setTimeout(hit,50);
+    setTimeout(hit,150);
+    setTimeout(hit,350);
+    setTimeout(hit,800);
+  };
+
+  const freshBody=()=>{
+    const old=dialog();
+    if(!old)return null;
+    // Blur the random button before removing its native dialog; iOS otherwise
+    // tries to restore the focused control's visual position in the next modal.
+    try{document.activeElement?.blur?.()}catch{}
+    const next=document.createElement('dialog');
+    next.id='dossierDialog';
+    next.className='dossier-dialog';
+    next.innerHTML='<div class="dossier-head"><div><div class="eyebrow">GAME DOSSIER</div><h2 id="dossierTitle">Game Details</h2></div><button class="dossier-close" type="button">×</button></div><div id="dossierBody" class="dossier-body"></div>';
+    old.replaceWith(next);
+    bind(next);
+    return next.querySelector('#dossierBody');
+  };
+
+  const open=(id)=>{
+    const dlg=bind(dialog());if(!dlg)return;
+    if(!dlg.open){
+      if(!locked){
+        mainY=window.scrollY||document.documentElement.scrollTop||0;
+        locked=true;restoreSeq++;
+        document.body.classList.add('dossier-open');
+        document.body.style.position='fixed';
+        document.body.style.top=`-${mainY}px`;
+        document.body.style.left='0';
+        document.body.style.right='0';
+        document.body.style.width='100%';
+      }
+      dlg.showModal();
+    }
+    currentId=id;
+    resetDetailTop();
+  };
+
+  bind(dialog());
   return {open,close,resetDetailTop,freshBody,current:()=>currentId};
 })());
 
@@ -127,4 +157,4 @@ function dRender(id){
   D_SCROLL.open(id);
 }
 window.openNESDossier=dRender;
-const dlg=document.getElementById('dossierDialog');dlg?.addEventListener('close',D_SCROLL.close);document.addEventListener('click',e=>{const w=e.target.closest('[data-dossier-wish]');if(w){e.preventDefault();e.stopPropagation();dWishlistToggle(w.dataset.dossierWish);return}if(e.target.closest('button,input,select,a'))return;const node=e.target.closest('.game,.wish-card,.roulette-pick,.buy-result-card');if(!node)return;const id=dIdFromNode(node);if(id)dRender(id)});
+document.addEventListener('click',e=>{const w=e.target.closest('[data-dossier-wish]');if(w){e.preventDefault();e.stopPropagation();dWishlistToggle(w.dataset.dossierWish);return}if(e.target.closest('button,input,select,a'))return;const node=e.target.closest('.game,.wish-card,.roulette-pick,.buy-result-card');if(!node)return;const id=dIdFromNode(node);if(id)dRender(id)});
