@@ -175,10 +175,10 @@ el('search').addEventListener('input',e=>{state.q=e.target.value;if(activeSet===
 if(el('sort'))el('sort').addEventListener('change',e=>{state.sort=e.target.value;save();if(activeSet==='NES'){reorderMainCards();applyMainView();}else{reorderFamicomCards();applyFamicomView();}});
 for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{state.filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));if(activeSet==='NES')scheduleMainView();else scheduleFamicomView();});
 el('myShelfBtn')?.addEventListener('click',()=>{el('shelfSearch').value='';renderMyShelf();lockPage();el('myShelfDialog').showModal();});
-el('myShelfDialog')?.addEventListener('close',unlockPage);
+el('myShelfDialog')?.addEventListener('close',()=>{if(activeSet==='NES')unlockPage();});
 el('shelfSearch')?.addEventListener('input',renderMyShelf);
 el('rouletteBtn')?.addEventListener('click',()=>{rouletteMode=state.imported?'OWNED':'ALL';document.querySelectorAll('[data-roulette-mode]').forEach(b=>b.classList.toggle('active',b.dataset.rouletteMode===rouletteMode));lockPage();el('rouletteDialog').showModal();spinRoulette();});
-el('rouletteDialog')?.addEventListener('close',unlockPage);
+el('rouletteDialog')?.addEventListener('close',()=>{if(activeSet==='NES')unlockPage();});
 el('rouletteSpin')?.addEventListener('click',spinRoulette);
 for(const b of document.querySelectorAll('[data-roulette-mode]'))b.addEventListener('click',()=>setRouletteMode(b.dataset.rouletteMode));
 el('reset').addEventListener('click',()=>{if(confirm('Clear the local NES + Famicom ownership import on this device?')){
