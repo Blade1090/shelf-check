@@ -147,6 +147,10 @@ function fcNorm(s=''){
   return t;
 }
 function fcAliasText(a){return typeof a==='string'?a:(a?.title||'');}
+const FC_GAMEEYE_EXPLICIT_ALIASES=new Map([
+  ['hottaman no chisoko tanken','FC-0166'], // Hottaaman no Chitei Tanken
+  ['makai island','FC-0201']                // Higemaru Makaijima: Nanatsu no Shima Daibouken
+]);
 
 export function importFamicomGameEye(csvText,famicomCensus){
   const rows=parseCSV(csvText);
@@ -160,12 +164,17 @@ export function importFamicomGameEye(csvText,famicomCensus){
     r.Platform==='NES/Famicom'&&r.Category==='Games'&&r.Country==='Japan'&&
     (!r.UserRecordType||r.UserRecordType==='Owned')
   );
-  const out={matched:[],unmatched_or_reconcile:[],duplicates:[],owned_famicom_identities:[]};
+  const out={matched:[],non_scope:[],unmatched_or_reconcile:[],duplicates:[],owned_famicom_identities:[]};
   const owned=new Map();
 
   function matchRow(r){
     const q=fcNorm(r.Title),qp=fcPubNorm(r.Publisher);
     if(!q)return [null,'empty_title'];
+    const explicitId=FC_GAMEEYE_EXPLICIT_ALIASES.get(q);
+    if(explicitId){
+      const exact=identities.find(x=>x.identity_id===explicitId);
+      if(exact)return [exact,'explicit_gameeye_alias'];
+    }
     let hits=candidates.filter(c=>c.keys.includes(q));
     const uniq=arr=>[...new Map(arr.map(c=>[c.x.identity_id,c])).values()];
     hits=uniq(hits);
@@ -207,7 +216,7 @@ export function importFamicomGameEye(csvText,famicomCensus){
   for(const [line,r] of japan){
     const rec={csv_line:line,title:r.Title,publisher:r.Publisher,release_type:r.ReleaseType,ownership:r.Ownership};
     if(['Homebrew','Afterlife','Digital','Hack'].includes(r.ReleaseType)){
-      rec.match_method='non_scope_release_type';out.unmatched_or_reconcile.push(rec);continue;
+      rec.match_method='non_scope_release_type';out.non_scope.push(rec);continue;
     }
     const [x,method]=matchRow(r);
     if(!x){rec.match_method=method;out.unmatched_or_reconcile.push(rec);continue;}
@@ -228,6 +237,7 @@ export function importFamicomGameEye(csvText,famicomCensus){
   out.summary={
     famicom_japan_game_rows:japan.length,
     matched_famicom_rows:out.matched.length,
+    non_scope_rows:out.non_scope.length,
     unmatched_or_reconcile_rows:out.unmatched_or_reconcile.length,
     identities_with_duplicate_copies:out.duplicates.length,
     distinct_famicom_identities_owned:owned.size,
@@ -235,6 +245,13 @@ export function importFamicomGameEye(csvText,famicomCensus){
     famicom_completion_pct:identities.length?Math.round((10000*owned.size/identities.length))/100:0,
     match_methods:methods,
     reconcile_items:out.unmatched_or_reconcile.map(r=>({
+      csv_line:r.csv_line,
+      title:r.title,
+      publisher:r.publisher,
+      release_type:r.release_type,
+      reason:r.match_method
+    })),
+    non_scope_items:out.non_scope.map(r=>({
       csv_line:r.csv_line,
       title:r.title,
       publisher:r.publisher,
