@@ -62,7 +62,16 @@ const D_SCROLL=window.ShelfCheckDossierScroll||(window.ShelfCheckDossierScroll=(
       if(seq===restoreSeq)window.scrollTo({top:y,left:0,behavior:'auto'});
     }));
   };
-  return {open,close,resetDetailTop,current:()=>currentId};
+  const freshBody=()=>{
+    const old=scroller();if(!old)return null;
+    const next=document.createElement('div');
+    next.id='dossierBody';
+    next.className='dossier-body';
+    old.replaceWith(next);
+    next.scrollTop=0;
+    return next;
+  };
+  return {open,close,resetDetailTop,freshBody,current:()=>currentId};
 })());
 
 function dCover(id){const r=D_COVERS[id];if(!r)return null;if(Array.isArray(r))return {u:r[0].startsWith('http')?r[0]:D_LIB+r[0],l:r[1]||null};return r}
@@ -77,9 +86,11 @@ function dNotes(d,x,c){const rows=[];if(c?.l)rows.push(`Physical acquisition: ${
 function dDifficulty(d){if(!d?.difficulty)return '';const level=typeof d.difficulty==='string'?d.difficulty:d.difficulty.level;const reason=typeof d.difficulty==='object'?d.difficulty.reason:null;if(!level)return '';return `<div class="dossier-difficulty"><small>DIFFICULTY</small><b>${dEsc(level)}</b>${reason?`<span>${dEsc(reason)}</span>`:''}</div>`}
 function dHltb(d){const status=d?.hltb_status||'NO_DATA';const has=[d?.hltb_main_hours,d?.hltb_extra_hours,d?.hltb_completionist_hours].some(v=>v!=null&&v!==''&&Number.isFinite(Number(v)));return `<div class="dossier-times"><div><small>MAIN</small><b>${dHours(d?.hltb_main_hours)}</b></div><div><small>MAIN + EXTRA</small><b>${dHours(d?.hltb_extra_hours)}</b></div><div><small>COMPLETIONIST</small><b>${dHours(d?.hltb_completionist_hours)}</b></div></div><div class="dossier-hltb-foot"><span class="dossier-research ${status.toLowerCase()}">${dEsc(status.replace('_',' '))}</span><span>${dEsc(d?.hltb_note||(has?'NES timing data':'No reliable NES timing match yet.'))}</span></div>`}
 function dRender(id){
-  if(D_SCROLL.current?.()!==id)D_SCROLL.resetDetailTop?.();
+  const changing=D_SCROLL.current?.()!==id;
   const x=D_BYID.get(id);if(!x)return;
-  const d=D_DOSSIERS.get(id)||null,owned=dOwned().has(id),wish=dWishlist().has(id),c=dCover(id),p=dPrice(id),dlg=document.getElementById('dossierDialog'),body=document.getElementById('dossierBody');
+  if(changing)D_SCROLL.resetDetailTop?.();
+  const body=changing?(D_SCROLL.freshBody?.()||document.getElementById('dossierBody')):document.getElementById('dossierBody');
+  const d=D_DOSSIERS.get(id)||null,owned=dOwned().has(id),wish=dWishlist().has(id),c=dCover(id),p=dPrice(id),dlg=document.getElementById('dossierDialog');
   document.getElementById('dossierTitle').textContent=dTitle(x);
   const summary=d?.summary||dFallbackQuick(x),year=d?.release_year||x.na_release_year,publisher=d?.publisher||x.publisher_na,developer=d?.developer||x.developer,license=d?.license_class||x.license_class,genres=d?.genres||[],players=d?.players||'—';
   const notes=dNotes(d,x,c),mainTime=d?.hltb_main_hours!=null?` · ~${dHours(d.hltb_main_hours)} main`:'';
