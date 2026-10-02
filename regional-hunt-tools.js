@@ -110,3 +110,16 @@ window.addEventListener('shelfcheck:famicom-imported',rhSchedule);
 window.addEventListener('shelfcheck:famicom-ownership-changed',rhSchedule);
 window.addEventListener('shelfcheck:dossiers-ready',rhSchedule);
 setTimeout(()=>{rhTheme();rhSchedule()},0);
+
+// Keep the Random / What Should I Play control within thumb reach while browsing long shelves.
+function rhStickyState(){
+  const box=document.getElementById('huntTools');if(!box||box.hidden){box?.classList.remove('is-stuck');return}
+  const header=document.querySelector('header');
+  const top=(header?.getBoundingClientRect().height||0)+6;
+  const stuck=box.getBoundingClientRect().top<=top+1 && window.scrollY>20;
+  box.classList.toggle('is-stuck',stuck);
+}
+window.addEventListener('scroll',rhStickyState,{passive:true});
+window.addEventListener('resize',rhStickyState,{passive:true});
+document.addEventListener('click',e=>{if(e.target.closest('[data-filter],[data-set]'))setTimeout(rhStickyState,20)});
+setTimeout(rhStickyState,100);
