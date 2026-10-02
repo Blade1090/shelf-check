@@ -2,7 +2,7 @@ const FC_OWN='shelfcheck-famicom-matty-v1';
 const FC_PLAY='shelfcheck-famicom-matty-play-v1';
 const FC_WISH='shelfcheck-famicom-matty-wishlist-v1';
 const NES_OWN='shelfcheck-nes-matty-v1';
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $=id=>document.getElementById(id);
 const active=()=>document.body.dataset.activeSet==='FAMICOM';
 const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
