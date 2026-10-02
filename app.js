@@ -213,16 +213,19 @@ function updateFamicomSummary(){
   const owned=famicomOwned.size,total=famicomIds.length||1040,pct=total?(owned/total*100).toFixed(1):'0.0';
   el('ownedCount').textContent=owned;el('totalCount').textContent=total;el('pct').textContent=pct+'%';el('barFill').style.width=pct+'%';
   if(el('headerProgress'))el('headerProgress').textContent=`${owned} / ${total}`;
+  const rec=famicomSummary?.reconcile_items||[];
   if(el('importStatus')){
+    const unique=famicomSummary?.distinct_famicom_identities_owned??owned;
     el('importStatus').textContent=famicomImported
-      ?`${famicomSummary?.famicom_japan_game_rows||0} Famicom Japan rows imported • ${famicomSummary?.matched_famicom_rows||0} matched • ${famicomSummary?.unmatched_or_reconcile_rows||0} reconcile`
+      ?`${famicomSummary?.famicom_japan_game_rows||0} Famicom Japan rows • ${famicomSummary?.matched_famicom_rows||0} matched • ${unique} unique owned • ${famicomSummary?.unmatched_or_reconcile_rows||0} reconcile`
       :'No Famicom GameEye rows imported yet';
-    el('importStatus').title=(famicomSummary?.reconcile_items||[]).length
-      ?'Reconcile means Shelf Check would not guess. Open menu → Import Audit to see the titles.'
-      :'';
+  }
+  if(el('famicomReconcile')){
+    const box=el('famicomReconcile');
+    box.hidden=activeSet!=='FAMICOM'||!rec.length;
+    box.innerHTML=rec.length?`<details><summary>⚠ ${rec.length} RECONCILE — SHOW TITLES</summary><div class="fc-reconcile-list">${rec.map(r=>`<div><b>${escapeHTML(r.title||'Unknown title')}</b><span>${escapeHTML([r.publisher,r.release_type,r.reason].filter(Boolean).join(' · '))}</span></div>`).join('')}</div><p>Shelf Check left these unmatched rather than guessing. They do not count toward the 1,040-cart set until resolved.</p></details>`:'';
   }
   if(famicomSummary&&el('details')){
-    const rec=famicomSummary.reconcile_items||[];
     const audit={FAMICOM:{...famicomSummary,reconcile_items:rec},NES:state.summary};
     el('details').textContent=JSON.stringify(audit,null,2);
   }
@@ -279,6 +282,7 @@ function paintSet(){
   if(el('sort'))el('sort').value=activeSet==='NES'?state.sort:famicomSort;
   el('gameList').hidden=activeSet!=='NES';
   el('famicomGameList').hidden=activeSet!=='FAMICOM';
+  if(el('famicomReconcile'))el('famicomReconcile').hidden=activeSet!=='FAMICOM'||!(famicomSummary?.reconcile_items||[]).length;
   if(activeSet==='NES'){render();}else{renderFamicom();}
 }
 document.querySelectorAll('[data-set]').forEach(b=>b.addEventListener('click',()=>{if(activeSet===b.dataset.set)return;activeSet=b.dataset.set;localStorage.setItem(SET_STORAGE,activeSet);state.q='';el('search').value='';paintSet();}));
