@@ -1,0 +1,1412 @@
+[
+  {
+    "identity_id": "FC-0901",
+    "gameplay_summary": "Side-scrolling shooter-platformer: as rabbit captain Bucky O'Hare, free your captured crew of the Righteous Indignation from four planets of the Toad Empire, then switch between them for their special abilities.",
+    "dossier": "Konami's game of the Bucky O'Hare comic, directed by Masato Maegawa with music by Tomoko Sumiyama, released in Japan a month before North America. In the parallel 'Aniverse', the robot K.O.M.P.L.E.X. orders the Toad Air Marshal to capture the crew of the Righteous Indignation. Bucky escapes, but the android Blinky, the cat Jenny, the duck Dead-Eye and the human Willy DeWitt are imprisoned across the Toad Empire. Rescuing each one adds them as a playable character. The census records no differences between the Famicom and NES versions.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Bucky O'Hare (North America 1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1366680758"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0902",
+    "gameplay_summary": "Physics platformer: as the little green Yumetaro, charge and throw a bouncing star that you can also ride, through tricky stages built to outguess the player, to rescue a girl taken by her living toys.",
+    "dossier": "Sunsoft's lavish late-Famicom platformer, built to rival early Super Famicom games and now a cult classic. Yumetaro, a small green creature, ends up given as a birthday present to a young girl, and when her other toys come alive and carry her into another dimension, he goes after her. Holding B charges up a star that arcs and bounces off the terrain, and Yumetaro can ride it to reach places. As the title suggests, stages are full of traps designed to read the player's mind, and the manual explains the design intent. The Famicom cartridge uses Sunsoft's 5B expansion sound chip. Europe got it only in Scandinavia, as Mr. Gimmick. A sequel followed 32 years later, in 2024.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with English text.",
+    "nes_counterpart_context": "No North American release. Released on NES in Scandinavia as Mr. Gimmick (1993); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": "Uses Sunsoft 5B expansion audio, which the NES can't output. The Scandinavian Mr. Gimmick rewrote the music for the standard NES sound channels and gives eight lives instead of four.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111015644",
+      "https://en.wikipedia.org/w/index.php?oldid=1374381029",
+      "https://famiwiki.net/wiki/Gimmick!"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0903",
+    "gameplay_summary": "Side-scrolling hammer platformer: as the bearded dwarf Bob, flatten enemies with a mallet and throw them, through five boss-ending stages to collect the antidote that turns the frog prince back.",
+    "dossier": "Natsume's Famicom sequel to Taito's 1989 single-screen arcade game Don Doko Don. A crow's potion turns the Prince into a frog just before his royal wedding, and the Princess faints from shock. A witch summons the bearded dwarves to gather the antidote's ingredients, the bags you collect at the end of each stage. Bob flattens enemies with his hammer and throws them as before, but unlike the arcade, it's a single-player side-scroller of five stages, each with a boss. A North American release as Wacky Man was planned but never happened. It later appeared on My Arcade's Pocket Player in 2020.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109217299",
+      "https://en.wikipedia.org/w/index.php?oldid=1359893349",
+      "https://famiwiki.net/wiki/Don_Doko_Don_2"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0904",
+    "gameplay_summary": "Three-a-side brawling ice hockey: as Nekketsu High's struggling hockey club with Kunio's help, check, punch, kick and backdrop opponents and fire special shots, but retaliate when enraged and you'll draw a penalty.",
+    "dossier": "Technos Japan's Kunio-kun ice-hockey game: three-a-side, three three-minute periods, with the series' trademark violence. Shoulder checks and stick battles are joined by punches, kicks, stick blows, shockwaves, backdrops and special shots, and every character has a charge attack. New here, players hit repeatedly become enraged, and retaliating then counts as a foul, sending them off until their team concedes. In scenario mode, captain Youichi's weak team faces disbandment if it loses the next inter-school match. Kunio, after knocking him out with a stray Nuts Shot, arranges training games against top clubs, joining the team himself. Ties count as losses. Two can play, with one handling the goalie. Famitsu scored it 24/40.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Hockey is visual, but scenario scenes and menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111090346",
+      "https://en.wikipedia.org/w/index.php?oldid=1373015739"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0905",
+    "gameplay_summary": "Top-down F1 racing: join one of three lower-tier teams, tune wing, tyres and gears for each track, run two days of qualifying and manage tyre wear and changing weather through pit stops.",
+    "dossier": "Nichibutsu's Famicom port of its 1990 PC Engine F1 game, which featured Team Lotus thanks to Nichibutsu's sponsorship of the team. Seen from directly above, with real steering rather than sideways shifting, it pairs speed with a tactical side. You start with one of three weaker teams, tune the wing, tyres and gear ratios to each circuit, and qualify over two days of three-lap time attacks to set your grid spot. In the race there's no fuel to manage, but tyres wear depending on how you drive. Weather can turn from cloud to rain or back mid-race, forcing well-timed pit stops. The captured detail describes the PC Engine original.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Racing is visual, but setup menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=107856285",
+      "https://en.wikipedia.org/w/index.php?oldid=1367945346"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0906",
+    "gameplay_summary": "Naval battle simulation; the sources give no further detail.",
+    "dossier": "I'MAX's naval battle game, developed by Use Corporation and released on 14 February 1992. The ja.wikipedia master list identifies it as a naval battle simulation, and FamiWiki provides only the release, with a mismatched Japanese name in its data. There's no game article in the research snapshot, so its rules and modes are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Presumably a grid-based battle game; menus are likely Japanese, but this isn't confirmed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0907",
+    "gameplay_summary": "Dragonlance action sequel: control one of ten heroes at a time in side-scrolling fights, following the second Dragonlance module and the second half of Dragons of Autumn Twilight.",
+    "dossier": "Pony Canyon's Famicom version of SSI's 1989 sequel to Heroes of the Lance, developed by Atelier Double, and Japan-only on Famicom. It adapts the second Dragonlance module, Dragons of Flame, and the second half of the novel Dragons of Autumn Twilight, faithfully following the books. Like its predecessor it's arcade-style, side-scrolling combat controlling one hero at a time, with few RPG elements. The roster grows to ten. It sold 55,711 copies for SSI on computers, and GameSpy called it moderately competent hack-and-slash. The captured sources describe the computer original rather than the Famicom port.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Action is visual, but spell and item menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1376044815",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0908",
+    "gameplay_summary": "Slot-machine falling-block puzzle: steer spinning pairs of slot icons, stop them to set the symbols, and match three to earn the coins each level requires, before the well tops out.",
+    "dossier": "Sammy's match-three puzzle game combining falling blocks with a slot machine. You control spinning pairs of slot icons, moving and rotating them as they fall, and pressing a button stops the spin to fix the symbols before dropping them. Matching three pays out. In one-player mode each level demands a set number of coins from a limited supply of icons, and topping out ends the game. Two can play head to head. FamiWiki lists the game as English-language.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A visual puzzle with English text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Puzslot",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0909",
+    "gameplay_summary": "Absurdist platformer based on Sensha Yoshida's manga Utsurun Desu., starring the Hawaii-obsessed otter Kawauso, with three different endings.",
+    "dossier": "Takara's game of Sensha Yoshida's Big Comic Spirits four-panel strip Utsurun Desu., which pioneered absurdist gag manga, starring the strip's otter, Kawauso. Its title nods to the strip's running joke of Kawauso's fixation on Hawaii. FamiWiki describes it as an action platformer with three endings. Yoshida himself later called it a kusoge (crap game). Kurt Kalata called it an inane platformer with no real effort in the design, though humorous and clever. The captured sources don't describe its stages.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Platforming is visual, but the gag humour is Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110579600",
+      "https://en.wikipedia.org/w/index.php?oldid=1340442207",
+      "https://famiwiki.net/wiki/Utsurun_Desu.:_Kawauso_Hawaii_e_Iku!!!"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0910",
+    "gameplay_summary": "Famicom version of the computer RPG The Magic Candle; the sources give no further detail.",
+    "dossier": "Sammy's Famicom release, developed by Japan Soft Technology and released on 6 March 1992, under the name of the Western computer RPG The Magic Candle. No source in the research snapshot describes this version: there's no ja.wikipedia article, and FamiWiki gives only the release. Its relationship to the computer original, its story and its system are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Presumably a Japanese-language RPG; not confirmed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/The_Magic_Candle"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0911",
+    "gameplay_summary": "Go study software: replay famous games automatically or by hand and take a strength test, with this edition adding collections from the historic masters Dosaku, Shusaku and Shusai.",
+    "dossier": "Hect's third Igo Shinan, a go study collection with automatic and manual replay of celebrated games and a strength test from beginner to dan level. This edition drops the classical and early-modern sets in favour of games by three great historic players, Dosaku, Shusaku and Shusai, with 20 each, alongside 37 modern games and 25 handicap games.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Menus are Japanese; go knowledge is assumed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=82337202",
+      "https://famiwiki.net/wiki/Igo_Shinan_'92"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0912",
+    "gameplay_summary": "Golf sequel to Namco Classic; the sources give no further detail.",
+    "dossier": "Namco's second Namco Classic golf game, developed by Tose and released on 13 March 1992. FamiWiki confirms it as a golf game and sequel. There's no ja.wikipedia article in the research snapshot, so its courses, modes and swing system are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Golf is visual, but menus are presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Namco_Classic_II",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0913",
+    "gameplay_summary": "Tactical RPG with an overworld: lead two armies, Alm's and Celica's, across the continent of Valentia, moving on a map and fighting when you meet enemies, with free-form class changes, magic that costs HP and no money.",
+    "dossier": "Intelligent Systems' second Fire Emblem and the last on Famicom. It's set on another continent after the first game, with a few returning characters but no direct story link. Valentia was split by the war between the gods Duma and Mila into the knightly Rigel Empire in the north and the cultured kingdom of Zofia in the south. When Zofia's King Lima IV ignored Rigel's pleas during a famine, Rigel invaded, aided by the traitorous chancellor Desaix. Alm, raised by Zofia's old knight Mycen, and Celica, Lima's daughter, set out to restore peace. Unusually, you move on an overworld and battle when you meet foes. Weapons never break, magic costs HP, there's no money or shops, and some classes can change class repeatedly. An easy mode doubles experience. It was remade for 3DS in 2017 as Echoes: Shadows of Valentia.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Tactical play is visual, but the story and recruitment are Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111202338",
+      "https://en.wikipedia.org/w/index.php?oldid=1375567594",
+      "https://famiwiki.net/wiki/Fire_Emblem_Gaiden"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0914",
+    "gameplay_summary": "High-school baseball game in Taito's Harikiri series, for one or two players; the sources give no further detail.",
+    "dossier": "Taito's high-school baseball spin-off of its Kyuukyoku Harikiri Stadium series, named after Koshien, the national high-school tournament, and released on 19 March 1992. FamiWiki confirms the genre and one- or two-player support. There's no ja.wikipedia article in the research snapshot, so its teams, modes and how far it shares the Stadium games' quirks are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Baseball is visual, but team names and menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Kyuukyoku_Harikiri_Koshien"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0915",
+    "gameplay_summary": "Railway board game: race across Japan by rail to a shared destination, buying station properties, playing cards to help yourself or hurt rivals, and passing the God of Poverty to whoever's furthest behind.",
+    "dossier": "Hudson's Famicom version of the 1989 PC Engine Super Momotarou Dentetsu, which set the rules the whole Momotetsu series has followed since. As before, you tour Japan by train buying properties to grow your assets, but this entry makes it far more competitive. Everyone now heads for the same destination. When someone arrives, the God of Poverty, Binbougami, latches onto whoever is furthest away and causes mischief every turn, and can be passed on by touching another player. Cards debut, letting you help yourself or attack others, though some backfire. New station types include property, plus, minus and card stations, card shops and ferry terminals. Supervised by Akira Sakuma, with art by Takayuki Doi. Famitsu scored the Famicom version 24/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Property names, cards and events are Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110013288",
+      "https://en.wikipedia.org/w/index.php?oldid=1368498322",
+      "https://famiwiki.net/wiki/Super_Momotarou_Dentetsu"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0916",
+    "gameplay_summary": "Roll-and-move party board game based on the anime Soreike! Anpanman; the sources give no further detail.",
+    "dossier": "Bandai's children's board game based on Soreike! Anpanman, the long-running anime about the hero with a bean-jam bun head who shares his face with the hungry and battles Baikinman, released on 20 March 1992. FamiWiki classes it as a roll-and-move party game, and the ja.wikipedia master list as a board game. The captured articles cover the anime, so its board, events and player count are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Board events are presumably Japanese text, though aimed at young children.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Soreike!_Anpanman_Minna_de_Hiking_Game",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0917",
+    "gameplay_summary": "One-on-one energy-ball duels: as one of six elemental war gods, catch the plasma ball on your shield, let it charge through three levels and fire it at your rival, in Death Battle, Block Breaker and a third rule set, or a Quest story mode.",
+    "dossier": "Jaleco's one-on-one action game. On the planet Element, six nature gods of wind, wood, fire, water, metal and earth keep the balance, and every thousand years they meet in the heavens to play the fierce ball game Plasma Ball as warrior gods. There's one ball on the field. Thrusting your shield catches it, it takes your colour and charges up through three levels, and holding it too long makes it explode on you. Fired, it ricochets at speed. Death Battle drains health, with side and back hits doing more and a skull door turning the ball 'dead' and dangerous to both. Block Breaker has you smash the other side's buildings. Quest mode frees the five other gods from a curse, with passwords carrying your trained god into versus play.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Duels are visual, but Quest-mode story text is Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110385344"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0918",
+    "gameplay_summary": "Isometric WWF wrestling with Hogan, André, Savage, the Ultimate Warrior and others: singles, tag team, three-on-three Survivor Series elimination, and a championship mode for your own 'Yourself' wrestler.",
+    "dossier": "Hot-B's Japanese release of Rare's WWF game, published in North America by LJN in 1990, and Hot-B's last Famicom title. Nine wrestlers are included: Hulk Hogan, André the Giant, 'Macho King' Randy Savage, the Ultimate Warrior, Big Boss Man, Brutus Beefcake, 'Ravishing' Rick Rude, Jim Duggan and a generic 'Yourself'. Matches are seen from a high isometric angle, with stamina bars along the ring apron, and an empty bar leaves you open to a pin. Modes are one-on-one, tag team, three-on-three Survivor Series elimination, and a championship run where 'Yourself' must beat everyone. It began development as WWF Survivor Series.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Wrestling is visual; nothing essential to read.",
+    "nes_counterpart_context": "Same game as the NES WWF WrestleMania Challenge, published in North America by LJN (1990) rather than Hot-B.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1374115455",
+      "https://famiwiki.net/wiki/WWF_WrestleMania_Challenge"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0919",
+    "gameplay_summary": "Side-scrolling platformer of the 1991 film: as Peter Pan, travel through Neverland to rescue your kidnapped children, ending in a sword fight with Captain Hook.",
+    "dossier": "Epic/Sony's game of Steven Spielberg's 1991 film, developed by Painting by Numbers, released in North America a month after Japan. The workaholic lawyer Peter Banning, who has forgotten that he was once Peter Pan, follows Tinker Bell to Neverland to rescue his children from Captain Hook. As in every version of the game, you play Peter through Neverland, finishing with a sword fight against Hook. The captured sources compare the many platform versions only broadly, and the census records no differences between the Famicom and NES releases.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Hook (North America 1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110817192",
+      "https://en.wikipedia.org/w/index.php?oldid=1354867449"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0920",
+    "gameplay_summary": "Balloon-floating platformer: as Hello Kitty, float on two balloons through auto-scrolling stages, collecting balloons and avoiding hazards, in a reworked port of the Game Boy game Balloon Kid.",
+    "dossier": "Character Soft's Famicom port of Nintendo's Game Boy Balloon Kid, the sequel to Balloon Fight, which hadn't been released in Japan. Developed by Mario Co., it swaps in Hello Kitty for the heroine. You float with two balloons, flapping with A, through auto-scrolling stages. Getting hit pops a balloon and weakens your lift, and on the ground you can blow up new ones. Twenty balloons in a row double them, and 100 earn a 1-up. There are eight stages, with bosses in the even ones. The port drops Balloon Trip and battle mode, adds alternating two-player play, eases continue requirements, and adds stage-clear scenes, a pre-ending conversation and new music. Famitsu scored it 22/40.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with Japanese and English text; nothing essential to read.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109233969",
+      "https://en.wikipedia.org/w/index.php?oldid=1371310695",
+      "https://famiwiki.net/wiki/Hello_Kitty_World"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0921",
+    "gameplay_summary": "Card-based dodgeball: play shot/catch, super, pass/cut and line-cross cards to run matches as Danpei's Tamagawa team, chasing the mystery team that beat Taiga Nikaido's St. Arrows.",
+    "dossier": "Sunsoft's game of Tetsuhiro Koshita's CoroCoro manga Honoo no Toukyuuji Dodge Danpei, about the dodgeball-mad Danpei Ichigeki, who finds a ball hidden in his legendary father's gravestone. Matches use a card-battle system with four kinds of cards: shot (catch), super, pass (pass-cut) and line-cross. The story follows the mysterious team that defeated Taiga Nikaido's St. Arrows Academy. Teams include Tamagawa Elementary's squad and 'super' squad, both St. Arrows sides, the Street Tigers, Black Armors, Tosa Attackers, Arasaki, a Tamagawa old-boys team and the Fire Emperors.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Card-based matches and story scenes depend on Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110827927",
+      "https://en.wikipedia.org/w/index.php?oldid=1376952632"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0922",
+    "gameplay_summary": "Preschool software based on Fuji TV's children's programme Hirake! Ponkikki; the sources give no further detail.",
+    "dossier": "Takara's preschool educational software based on Hirake! Ponkikki, Fuji TV's long-running programme for 3- to 6-year-olds, inspired by Sesame Street, with a curriculum covering nature, society, language, numbers, manners, rhythm and senses. It was developed by Minato Giken and released on 17 April 1992. The captured ja.wikipedia text covers the TV show, and there's no FamiWiki description, so the software's activities are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Preschool content in Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111126121"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0923",
+    "gameplay_summary": "Corporate-intrigue adventure supervised by Youichi Masuzoe: as a businessman, push a big company project through four chapters of factional infighting, then answer 20 business-quiz questions per chapter for Masuzoe's verdict.",
+    "dossier": "Coconuts Japan's business adventure, developed by C-Dream and supervised by Youichi Masuzoe, then a University of Tokyo political scientist. You play a businessman racing around to make a major company project succeed. Over four chapters ('Acting Department Head Appointed' through 'The End of Ambition'), you navigate factional rivalries, including entertaining a lecherous Kansai company president at restaurants and clubs. Each chapter ends with 20 business-quiz questions, and at the finish Masuzoe comments on your score out of 60, sometimes with a scolding. Text uses large characters with kanji. Famitsu found it fun to play at being a businessman, though the adventure system was ordinary. A B-game guide was baffled by the title.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A text adventure and quiz entirely in Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111090339"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0924",
+    "gameplay_summary": "Gravity-flipping mech action: as Lt. Greg Barton in the M-308 Gunner, press up and jump to reverse gravity and walk the ceiling, through seven two-area stages played twice, to destroy the runaway planet-fortress Gigadeath.",
+    "dossier": "Irem's gravity-flipping action game, developed by Tamtex and released in Japan more than a year after North America. Pluto, rebuilt as the anti-alien mobile planet Gigadeath, goes rogue, destroys nearby bases and turns toward Earth. When remote self-destruct fails, Lt. Greg Barton pilots the new Storm Gunner mech inside to unlock it. Pressing up and jump flips gravity, so you can walk on ceilings, vault obstacles and trigger traps, and some enemies flip too, but you can't flip again until you land. Seven stages of two areas each, plus a boss, are played through twice. Armour protects you from one hit, continues are unlimited and passwords follow each stage. An R-Type battleship appears in the background. Despite strong reviews, it sold poorly.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Metal Storm (1991).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110397080",
+      "https://en.wikipedia.org/w/index.php?oldid=1340350356"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0925",
+    "gameplay_summary": "Kitchen-utensil platformer: as the chef Kokkun, fight evil food monsters across six levels of your cursed restaurant with improvised kitchen weapons, then defeat the rival chef Hors d'Oeuvre.",
+    "dossier": "Taito's comic platformer, developed by EIM and designed by Kenji Eno. The rival chef Hors d'Oeuvre has cursed Kokkun's restaurant, filling it with evil food monsters. Across six levels, Kokkun fights them with kitchen utensils before a final showdown. In the West it became Panic Restaurant, with the hero renamed Cookie and the villain Ohdove, a garbled transliteration of 'hors d'oeuvre' via Japanese. The overseas version replaced the chef's head as the default weapon with the 'Clobber Pan', and added the top weapon, the 'Wacky Pan', which the Japanese version lacks.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Panic Restaurant (1992).",
+    "japanese_version_notes": "Hero named Kokkun, villain Hors d'Oeuvre; the head is the default weapon and there's no Wacky Pan.",
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1322477214",
+      "https://famiwiki.net/wiki/Wanpaku_Kokkun_no_Gourmet_World",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0926",
+    "gameplay_summary": "Rally racing with radio-control-style steering: race varied courses in changing weather and track conditions, customising many aspects of your car.",
+    "dossier": "Kaken's Japanese release of HAL Laboratory's rally game, which came out first in Europe in 1991 as Championship Rally. The ja.wikipedia master list notes that it uses radio-control-style handling. It offers a range of courses, weather and track conditions, and lets you customise many of your car's features. It's single-player only. It never came out in North America and is considered semi-rare.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Racing is visual, but car-setup menus are presumably Japanese.",
+    "nes_counterpart_context": "No North American release. HAL released it on NES in Europe as Championship Rally (1991); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1287614263",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0927",
+    "gameplay_summary": "Adventure game based on NHK's classic puppet show Hyokkori Hyoutanjima; the sources give no gameplay detail.",
+    "dossier": "Yutaka's game of Hyokkori Hyoutanjima, NHK's classic musical puppet show about the eccentric inhabitants of a drifting gourd-shaped island, developed by Sol and released on 25 April 1992. The ja.wikipedia franchise article lists it as an adventure game, and the master list calls it an action-adventure. Its story and play are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — An adventure presumably driven by Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111146662#%E3%82%B2%E3%83%BC%E3%83%A0",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0928",
+    "gameplay_summary": "Mahjong game blending in RPG elements; the sources give no further detail.",
+    "dossier": "Nichibutsu's mahjong game, developed by Make Software and released on 20 May 1992, which FamiWiki notes was the last mahjong game on the Famicom. The ja.wikipedia master list describes it as fusing an RPG with mahjong. FamiWiki says it's well regarded in Japan as approachable for beginners, but flags that claim as unsourced. Its structure is undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Mahjong terms and RPG text are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Mahjong_Taisen",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0929",
+    "gameplay_summary": "Quiz game compatible with the Party Tap peripheral; the sources give no further detail.",
+    "dossier": "Hect's quiz game, released on 29 May 1992. The ja.wikipedia master list notes that it supports the Party Tap multiplayer peripheral. It has two modes: Cutie Project, where you scout and train girls into quiz idols, and Battle 10000, a quick-answer quiz for two to six players named for its 10,000 questions (FamiWiki's 'Battle 1000' is an error).",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A Japanese-language quiz.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Supports the Party Tap peripheral.",
+    "source_urls": [
+      "https://famiwiki.net/wiki/Quiz_Project_Q:_Cutie_Project_&_Battle_1000",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969",
+      "https://gamecatalog.net/quiz-project-q/"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0930",
+    "gameplay_summary": "Barcelona-themed Olympics: pick from 12 countries and compete in button-mashing track, field and other events, with up to eight human competitors taking part two at a time.",
+    "dossier": "Capcom's Olympic sports game themed on the 1992 Barcelona Games, released in North America as Capcom's Gold Medal Challenge '92. You choose one of 12 countries and go for the best marks across a range of events, most driven by button mashing. Unusually, up to eight people can compete in the same Olympiad, though only two play at once. AllGame called it an overlooked gem that does an excellent job of recreating the whole Olympic experience.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Sports events; menus are easy to follow.",
+    "nes_counterpart_context": "Released in North America as Capcom's Gold Medal Challenge '92 (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1359033557",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0931",
+    "gameplay_summary": "Three Kingdoms strategy from 189 AD: choose a ruler such as Liu Bei, Cao Cao or Dong Zhuo, and conquer China with levelling generals, rice supplies, disaster prevention, equipment for duels, formations and mortal officers.",
+    "dossier": "Namco's own Three Kingdoms strategy series, sequel to 1988's Sangokushi: Chuugen no Hasha and unrelated to Koei's games, developed by Tose. The basic system follows the first game, set in 189 AD, but now you choose your ruler from Liu Bei, Liu Zhang, Sun Ce, Cao Cao, Ma Teng, Yuan Shao and Dong Zhuo. Generals level up in battle, improving their strength, unit make-up and special tactics. Rice is now a resource you can trade. Natural disasters damage cities unless you invest in prevention. Weapons and armour affect one-on-one duels, and you choose formations before battle. Officers can die of old age, so killing a rival lord no longer hands you his whole territory. Famitsu scored it 29/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A strategy game full of Japanese menus and names.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110855979",
+      "https://famiwiki.net/wiki/San_Goku_Shi_II:_Haou_no_Tairiku"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0932",
+    "gameplay_summary": "Action platformer sequel based on Tatsuya Egawa's manga Magical Taruruto-kun; the sources give no gameplay detail.",
+    "dossier": "Bandai's second and last Famicom Taruruto-kun game, developed by Tose and following Fantastic World!! (FC-0773). It's based on Tatsuya Egawa's Jump gag manga about the hapless schoolboy Honmaru and the little wizard Taruruto, whom he summons by accident and whose magic he misuses. FamiWiki classes it as an action platformer. The captured ja.wikipedia text only lists it among the franchise's games, so its stages and mechanics are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Platforming is visual, but any story text is Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110942846",
+      "https://en.wikipedia.org/w/index.php?oldid=1375939577",
+      "https://famiwiki.net/wiki/Magical_Taruruuto-Kun_2:_Mahou_Daibouken"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0933",
+    "gameplay_summary": "Five-level film action: as the T-800, brawl at a truck stop for a bike and gun, flee the T-1000's truck down a flood channel in an overhead chase, then search a mental hospital for Sarah Connor, and on to the finale.",
+    "dossier": "Pack-In-Video's Japanese release of LJN's NES game of the 1991 film, developed by Software Creations. Five levels follow the movie, with the T-800 as your character. The first is at a truck stop, where you beat up truckers to get a motorcycle and a gun. The second is a diagonal overhead chase through a flood channel, dodging debris while shooting back at the T-1000's semi-truck. Next you search a mental hospital for Sarah Connor. LJN picked up the licence after reading the script. The census records the Famicom version as published differently but with no stated content differences.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; FamiWiki lists both Japanese and English text.",
+    "nes_counterpart_context": "Same game as the NES Terminator 2: Judgment Day, published in North America by LJN (1992) rather than Pack-In-Video.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111207716#%E3%82%B2%E3%83%BC%E3%83%A0%E9%96%A2%E9%80%A3",
+      "https://en.wikipedia.org/w/index.php?oldid=1366079821",
+      "https://famiwiki.net/wiki/Terminator_2"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0934",
+    "gameplay_summary": "No-rules street Olympics for up to four: as one of four teams (or against a CPU team from Oklahoma), compete in 400 m hurdles, hammer throw, swimming, rooftop jumping and a fighting event, buying power-ups with medals.",
+    "dossier": "Technos Japan's Kunio-kun athletics game. Kunio's Nekketsu High and three other teams face a fifth, Oklahoma High School from America, across five events with no rules: the 400 m hurdles, hammer throw, swimming, rooftop jumping and a fighting event. Each team has five members with different strengths. Before each event you can shop at the mall for power-ups, paid for with the medals you've won, but medals also decide the overall winner, so spending is a gamble. Up to four can play, and controls change by event. For North America, the graphics and story were altered, with teams and scenery changed.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Sports action; shop menus are simple.",
+    "nes_counterpart_context": "Released in North America as Crash 'n' the Boys: Street Challenge (1992).",
+    "japanese_version_notes": "Original Kunio-kun teams and setting; the NES version altered graphics and story.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109822370",
+      "https://en.wikipedia.org/w/index.php?oldid=1376845763"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0935",
+    "gameplay_summary": "Four-hero platformer: after a tutorial stage for each, switch at any time between four heroes with different abilities, to stop the demon king Ta-Keed.",
+    "dossier": "Taito's action platformer, developed by Takeru, directed by Shinichi Yoshimoto (Ghouls 'n Ghosts, Strider) with art by Kiyoshi Utata. Ta-Keed, a demon king once sealed by the gods, whose power scattered as four bells, breaks free and overwhelms Emperor Hans XIV's armies. Hans summons the four heroes who hold the bells. The first four stages act as tutorials, one per hero, then the team unites, and you can swap characters freely from the pause screen. Fall from a ledge during a boss fight and you may drop your bell, adding a scene to retrieve it. Easy mode stops before the last stage. There's no text at all, so the story is told purely through animation.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — There's no text at all.",
+    "nes_counterpart_context": "Released in North America as Little Samson (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110396876",
+      "https://en.wikipedia.org/w/index.php?oldid=1376734459",
+      "https://famiwiki.net/wiki/Seirei_Densetsu_Lickle"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0936",
+    "gameplay_summary": "Political sci-fi strategy: as one of four candidates, vie to become the first president of the mining colony Shancara as it seeks independence from the Galactic Empire, amid native conflict, alien settlers and terrorism.",
+    "dossier": "IGS's political strategy game, developed by Cyclone System. In 2871, 108 years after the Galactic Empire unified space by force, long peace has bred corruption and revolt on frontier worlds. The Empire passes an Independence Act letting planets ruled for a century go free if they can govern themselves. On the barren mining colony Shancara, beset by native-human conflict, alien settlement and terrorism, four candidates race to become its first president, and you play one. The cartridge has a battery but can also save to IGS's Battle Box peripheral. The captured sources don't describe the mechanics.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A political strategy game in Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Saves to its battery or to the Battle Box peripheral.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=107611474",
+      "https://famiwiki.net/wiki/Inbou_no_Wakusei:_Shancara"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0937",
+    "gameplay_summary": "Fairy-tale action RPG: as the psychic schoolboy Mamoru, enter five books in the library to save their worlds, fighting paw-print enemy symbols in top-down shooting battles with weapons and ESP powers.",
+    "dossier": "Konami's sequel to the 1987 Disk System Esper Dream, carrying on its fairy-tale world and its RPG with shooting-action battles. The schoolboy Mamoru, reading in his usual library seat, is asked by a tiny fairy to save the endangered worlds inside the books. Five bookshelves each lead to a world of townsfolk, shops and companions. Enemies show as paw prints, and touching one starts a shooting fight using your weapon (A) and ESP powers (B), which drain EP. A game over halves your money and sends you back to the library. Beat each world's boss to restore colour to its shelf, and clearing all five reveals the final dungeon. The VRC6 cartridge saves by battery, text is large hiragana, and game speed is adjustable.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — An RPG with Japanese (hiragana) dialogue.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110587905",
+      "https://en.wikipedia.org/w/index.php?oldid=1328384374",
+      "https://famiwiki.net/wiki/Esper_Dream_2:_Ataranaru_Tatakai"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0938",
+    "gameplay_summary": "Golf featuring Japanese tour pros, with three difficulty levels setting the wind, and leaderboard, tournament and stroke-play modes.",
+    "dossier": "G.O.1's golf game, the company's only release, featuring popular Japanese golf professionals. There are three difficulty levels: wind is nearly still on the easiest and approaches hurricane strength on the hardest. Modes are leaderboard, a playoff-style tournament and stroke play, with a gallery watching your round. FamiWiki notes one drawback: shot angle and strength are set as separate steps.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Golf is visual, but menus and pro names are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1304542731",
+      "https://famiwiki.net/wiki/The_Golf_'92"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0939",
+    "gameplay_summary": "Action-adventure RPG: as the gargoyle Firebrand, explore the Ghoul Realm on an overhead map and fight through side-scrolling areas, wall-clinging and hovering, to stop the Black Light and its mysterious army.",
+    "dossier": "Capcom's sequel to the Game Boy Gargoyle's Quest (a Ghosts 'n Goblins spin-off). The Ghoul Realm is under attack from the 'Black Light' and a mysterious army, and the young gargoyle warrior Firebrand sets out to save it. You travel an overhead map between side-scrolling action areas such as dungeons and giant pits. Firebrand can cling to walls and hover, and a new Magic Tornado power lets him rise on temporary platforms. On the map, movement is twice as fast as in the first game and random battles are gone. Progress saves by password. A Game Boy port followed in 1993.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Action is visual, but town dialogue and story are Japanese.",
+    "nes_counterpart_context": "Released in North America as Gargoyle's Quest II: The Demon Darkness (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110385632",
+      "https://en.wikipedia.org/w/index.php?oldid=1376454034"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0940",
+    "gameplay_summary": "Ferociously hard vertical shooter: fly the Recca against an alien armada through four stages, shooting with B, using option sub-shots with A, and holding fire to build a shielding barrier that releases as a bomb.",
+    "dossier": "Naxat Soft's shooter, developed by KID for its 'Summer Carnival' shooting competition, famous for pushing the Famicom to its limits, and one of the rarest and most valuable Famicom games. In 2302 an alien armada threatens mankind. B fires your main shot, A fires option sub-shots, and Select sets your speed in five steps. Holding fire raises a circular barrier that blocks bullets, and firing at full charge unleashes a bomb. It throws huge numbers of enemies and bullets on screen, with raster distortion, rotation, homing lasers, an acid-house soundtrack using DPCM, and heavy flicker. Score Attack and Time Attack modes join a hidden 'Zanki Attack'. It sold poorly but was re-released on 3DS Virtual Console.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A shooter; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110855972",
+      "https://en.wikipedia.org/w/index.php?oldid=1358203043",
+      "https://famiwiki.net/wiki/Summer_Carnival_'92_RECCA"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0941",
+    "gameplay_summary": "Two-on-two volleyball with Sanrio characters such as Hello Kitty, Keroppi and Minna no Taabou, played without a net in a style closer to four-square, for two to four players.",
+    "dossier": "Character Soft's Sanrio volleyball game, two-on-two with characters including Hello Kitty, Keroppi and Minna no Taabou. en.wikipedia describes it as volleyball (or tennis) without a net, closely resembling four-square. Matches can be played by two, three or four people, there are three background music tracks or none, and a difficulty setting adjusts the computer opponents. Do-overs are possible.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A simple sports game; nothing essential to read.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1353299767",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0942",
+    "gameplay_summary": "Osamu Tezuka platformer: as the three-eyed boy Sharaku, shoot through five levels of city, jungle, cave, pyramid, ship and 'Sodom' to rescue Wato from Prince Godaru, summoning the Red Condor spear for attack or as a platform.",
+    "dossier": "Tomy's game of Osamu Tezuka's manga Mitsume ga Tooru, developed by Natsume, which had made an unrelated MSX game two years earlier. Sharaku Hosuke, a bullied schoolboy, is the last descendant of the Three-Eyed race. When the bandage on his forehead comes off, his third eye grants genius and psychic power. Another Three-Eyed, Prince Godaru, rides in on the ancient tank Gomorrah, wrecks part of the city and kidnaps Sharaku's friend Wato Chiyoko. Five levels, each ending in a boss, cross a city, jungle, cave, pyramid, abandoned ship and the 'Sodom'. Sharaku moves, jumps and fires shots, and can summon the Red Condor spear, which does double damage or serves as a platform.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; story text isn't needed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110349339",
+      "https://en.wikipedia.org/w/index.php?oldid=1358318998"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0943",
+    "gameplay_summary": "Sequel to Coconuts Japan's pachinko simulation Pachinko Daisakusen; the sources give no further detail.",
+    "dossier": "Coconuts Japan's second Pachinko Daisakusen, developed by C-Dream and released on 10 July 1992. No source in the research snapshot describes it: there's no ja.wikipedia article and no FamiWiki page captured. Whether it supports the Pachinko Controller like the first game (FC-0817) is unconfirmed.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Pachinko menus are presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0944",
+    "gameplay_summary": "Role-playing sequel to Minelvaton Saga: Ragon no Fukkatsu; the sources give no further detail.",
+    "dossier": "SETA's RPG, released on 24 July 1992, which the ja.wikipedia master list identifies as the sequel to Minelvaton Saga: Ragon no Fukkatsu. FamiWiki confirms the genre and release only, and there's no ja.wikipedia game article in the research snapshot, so its story and system are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A Japanese-language RPG.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Silva_Saga",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0945",
+    "gameplay_summary": "Pro wrestling: pick one of eight wrestlers and beat the other seven, spending points from each win on attack, stamina and speed, with a meter that unlocks finishers, starting matches outside the ring.",
+    "dossier": "Jaleco's pro wrestling game, developed by Natsume and, per FamiWiki, the last wrestling game on the Famicom. You pick one of eight wrestlers and work through the other seven to reach the ending. After each win you spread points across attack, stamina and speed, and in versus play you allocate them beforehand. Trading holds fills the gauge at the bottom of the screen, and a full gauge unlocks your finisher. Matches begin outside the ring, where you can brawl or climb straight in, and the view rotates 90 degrees when you go for a move. Famitsu scored it 23/40.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Wrestling is visual; nothing essential to read.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110384545",
+      "https://famiwiki.net/wiki/Toukon_Club"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0946",
+    "gameplay_summary": "Game based on Ashi Productions' magical-girl anime Minky Momo; the sources give no gameplay detail.",
+    "dossier": "Yutaka's game of Magical Princess Minky Momo, Ashi Productions' magical-girl anime about a dreamland princess sent to Earth with three animal companions to restore people's hopes, developed by Bits Laboratory and released on 29 July 1992. The ja.wikipedia master list notes only that it adapts the TV anime, and the captured articles cover the franchise, so its genre and mechanics are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Genre unconfirmed; text is presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111225929",
+      "https://en.wikipedia.org/w/index.php?oldid=1377683729"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0947",
+    "gameplay_summary": "Island platformer: as Takahashi Meijin, chase the UFO that abducted his girlfriend across eight islands, with dinosaur friends, a timer-based energy bar refilled by fruit, and hidden eggs holding weapons and keys.",
+    "dossier": "Hudson's third Famicom Takahashi Meijin no Bouken Jima, developed by Now Production. This time Tina has been taken by a UFO, and Takahashi Meijin sets off across eight islands to rescue her, with help from his dinosaur friends. You run, jump, swim and throw weapons, and a timer doubles as your energy bar, topped up with fruit, milk or meat. Hidden eggs, broken open with weapons or by jumping, contain weapon upgrades, energy and keys to secret areas. In North America it's Master Higgins rescuing 'Jeannie Jungle'. A Game Boy port followed in 1993.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Adventure Island 3 (1992).",
+    "japanese_version_notes": "Stars Takahashi Meijin rescuing Tina; the NES version names them Master Higgins and Jeannie Jungle.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111090875",
+      "https://en.wikipedia.org/w/index.php?oldid=1374034740"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0948",
+    "gameplay_summary": "Flintstones platformer: as Fred, travel through time to rescue Dino and Hoppy from Dr. Butler of the 30th century, recovering a piece of Gazoo's time machine with each stage.",
+    "dossier": "Taito's Japanese release of its NES Flintstones game, developed by Sol, which reached North America eight months earlier. Dr. Butler, a man from the 30th century, kidnaps Fred's pet Dino and Barney's pet Hoppy. Fred's alien friend Gazoo, whom only Fred can see in this game, has lost parts of his time machine to Butler. Each stage Fred clears recovers another piece, and Gazoo gradually welds them back together. FamiWiki lists the Famicom version as English-language. It later gained notoriety online through '7 Grand Dad', a bootleg hack of the NES version with Mario's head on Fred.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with English text.",
+    "nes_counterpart_context": "Same game as the NES The Flintstones: The Rescue of Dino & Hoppy (North America 1991).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1376377761",
+      "https://famiwiki.net/wiki/The_Flintstones:_The_Rescue_of_Dino_&_Hoppy"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0949",
+    "gameplay_summary": "Combat flight sim: choose four missions at a time, pick an F-14, F/A-18 or Harrier and its loadout, then fly a first-person 3D air-combat stage followed by an isometric 2D ground-attack stage, with passwords between groups.",
+    "dossier": "Pack-In-Video's Japanese release of Activision's NES flight game, branded in Japan as a tie-in to the film Aces: Iron Eagle III. In North America it was Ultimate Air Combat, unbranded. en.wikipedia notes the Japanese version barely relates to the film beyond the aircraft. The White House targets the oil-rich dictator Don Gwano with lightning strikes. You choose from four missions at a time and, after a briefing, one of three jets, the F-14, F/A-18 or Harrier, then its weapons. Each mission has a first-person 3D dogfight, rolling more freely than Konami's Top Gun, followed by an isometric ground attack. Clearing a set of four upgrades your surviving planes. Famitsu scored it 21/40.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Flight combat is visual, but briefings are Japanese.",
+    "nes_counterpart_context": "Released in North America as Ultimate Air Combat (1992).",
+    "japanese_version_notes": "Branded as a tie-in to the film Aces: Iron Eagle III; the NES version has no film licence.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110383651",
+      "https://en.wikipedia.org/w/index.php?oldid=1317876312"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0950",
+    "gameplay_summary": "Card-driven Dragon Ball Z RPG from late Namek to the Android saga: move the whole party with star cards, train one member at a time, and fight card battles in 3D or on the 2D field, dodging enemy specials.",
+    "dossier": "Bandai's third Famicom Dragon Ball Z RPG, developed by Tose, running from the end of the Namek saga into the Android saga. The manga was still mid-arc, so the story ends unfinished, as Piccolo lets Cell escape. Cooler and his Armored Squadron from the film The Strongest vs. The Strongest also appear. The Tenkaichi Budokai mode and staff roll are gone. Battles are faster, special moves get dedicated art, the BP readout is dropped, and helper cards are cut back. Fights now come in 3D and 2D field types, and pressing up when a '!' appears gives a 50% chance to dodge an enemy special. Saiyans level up when healed in one go from near death. Famitsu scored it 26/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A card RPG; story and card text are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111102967",
+      "https://famiwiki.net/wiki/Dragon_Ball_Z_III:_Ressen_Jinzou_Ningen"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0951",
+    "gameplay_summary": "Buzzer quiz sequel based on the TBS show Gimme a Break, supporting the Party Tap for multiplayer.",
+    "dossier": "Yonezawa's second Gimme a Break quiz game, based on the quiz-king contests of TBS's variety show and again compatible with the Party Tap. Famitsu gave it a low 18/40. Reviewers found it a straightforward quiz game best with several people, but punishing alone: questions are hard from the qualifiers on, and the computer buzzes in on trick questions mid-sentence. It doesn't reveal correct answers after a miss, and the question pool is small. Others found the difficulty reasonable and the subject spread sensible for serious quiz fans.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A Japanese-language quiz.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Supports the Party Tap peripheral.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111141055#%E3%82%B2%E3%83%BC%E3%83%A0",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0952",
+    "gameplay_summary": "Prince of Persia-style side-scroller: as the green-haired boy Ricky, grab ledges and use fluid acrobatics through a pirate ship, a clock tower and more, to rescue his family from the necromancer Count Crimson.",
+    "dossier": "Hect's lavish late-Famicom action game, praised for animation that 1UP and Retro Gamer rated above the console's many Zelda II imitators, and now among its rarest and priciest cartridges. Ricky sets out to rescue his father and the rest of his family from the evil necromancer Count Crimson. The blonde girl Rosina appears in the story scenes. It's a Western-feeling side-scroller borrowing from Zelda II and Prince of Persia, with ledge-grabbing, unusual on the Famicom, through stages like a pirate ship and a clock tower. Its dialogue unusually uses kanji. A double-jump item is only temporary. Famitsu (24/40) liked the balance but found the movement sluggish. A North American release was announced but cancelled.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Action is visual, but kanji-heavy story scenes are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111042606",
+      "https://en.wikipedia.org/w/index.php?oldid=1364009040",
+      "https://famiwiki.net/wiki/Moon_Crystal"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0953",
+    "gameplay_summary": "Racehorse breeding sim expanded nationwide: breed, train and race thoroughbreds across both Kanto and Kansai circuits, with finer schedule control and a rebalanced field.",
+    "dossier": "ASCII's second Derby Stallion, which adds a nationwide racing calendar to the 1991 original: you breed, train and race horses aiming at every major title, with weekdays at the farm and stables and weekends at the track. Famitsu scored it 32/40. Reviewers found it a minor but enticing upgrade, with finer schedule control and a fairer balance after front-runners dominated the first game. They also found it harder, and the graphics unchanged. Some felt the split Kanto/Kansai circuits made it inaccessible to non-fans, while others disagreed. It was part of the series that sold over nine million copies and defined the genre.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Breeding menus and racing data are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111154712",
+      "https://famiwiki.net/wiki/Derby_Stallion:_Zengokuban"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0954",
+    "gameplay_summary": "Vegetable-pulling platformer in the dream world Subcon: choose Mario, Luigi, Toad or Peach before each stage, each with different speed, strength and jumping, and pluck and throw objects to defeat Wart.",
+    "dossier": "Nintendo's 1992 Japanese release of the game the West knew as Super Mario Bros. 2, itself a Mario conversion of the Disk System's Yume Koujou: Doki Doki Panic. Nintendo of America had judged Japan's own Super Mario Bros. 2 too similar and too hard. Four years after America, Japan got it as Super Mario USA. You choose Mario, Luigi, Toad or Peach at the start of each stage. Toad is the fastest and strongest but jumps lowest, while Luigi jumps highest but moves a little slower. Inherited from Doki Doki Panic, there's no time limit and no score, and you have a life meter. The goal is to defeat Wart in Subcon. It sold about 7.46 million copies worldwide. FamiWiki lists the Famicom version as English-language.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with English text.",
+    "nes_counterpart_context": "Same game as the NES Super Mario Bros. 2 (North America 1988).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110585611",
+      "https://en.wikipedia.org/w/index.php?oldid=1376561018",
+      "https://famiwiki.net/wiki/Super_Mario_USA"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0955",
+    "gameplay_summary": "End-of-the-century board game for four: as university students warned of an alien invasion, roll around a city board collecting 'space power' while the Gnome aliens' cult, pollution and monsters change the board, racing to earn a seat on the escape rocket.",
+    "dossier": "Coconuts Japan's apocalypse-themed board game. Four university students at a campfire see a UFO crash-land, and its Pinky alien says the Gnome aliens will soon invade Earth. Unable to save everyone, the Pinkies ask the students to gather 'space power' by 1999 to earn passage to Planet Pinky. You draw cards with numbers or traps to move, each lap brings pay and bonus space power for the leader, and every half-year the Gnomes' invasion turns board squares harmful: a cult, an ozone-destroying power plant, desertification, a pet turned kaiju. Whoever has the most space power reaches Pinky, while second and third are jettisoned with the rocket stages. Famitsu panned it at 17/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Board events and comedy are Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111090334",
+      "https://famiwiki.net/wiki/1999:_Hore,_Mita_Kota_Ka!_Seikimatsu"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0956",
+    "gameplay_summary": "Adventure RPG: as an apprentice dream master under the sage Mugen Roushi, enter the nightmare 'Black Dream' through seven worlds of puzzles and gimmicks to rescue the princess of Ortalia from the Black Master.",
+    "dossier": "Namco's adventure RPG, developed by Birthday. In the lush kingdom of Ortalia, King Akinas's 16-year-old daughter has had her mind dragged into the Black Master's nightmare world, the 'Black Dream', and lies in endless sleep. The kingdom's dream masters fail to save her, and some are trapped themselves. The king sends Captain Crete to the legendary dream master Mugen Roushi, but Crete dies on arrival. The Black Master tests the old man's apprentice, you, by pulling them into a nightmare. You escape, and the pair set out for Ortalia. The adventure spans seven worlds packed with puzzles and gimmicks. Famitsu scored it 25/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A Japanese text-driven adventure RPG.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109655253"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0957",
+    "gameplay_summary": "International soccer: pick one of 25 unlicensed national teams for the Super Cup tournament or exhibition matches, alone, against a friend or cooperatively.",
+    "dossier": "Jaleco's soccer sequel to the NES Goal! (Moero!! Pro Soccer), developed by Tose and based on the Super Famicom's Super Goal!, released abroad as Goal! Two. You choose from 25 national teams, eight more than the first game, with unofficial kit colours since nothing is licensed. There's a Super Cup tournament and exhibition matches for one player or two, competitively or cooperatively. The previous game's shoot-out mode is gone. The French release bore the name of Eric Cantona, who had just joined Manchester United.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Soccer is visual.",
+    "nes_counterpart_context": "Released in North America as Goal! Two (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1352580124"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0958",
+    "gameplay_summary": "Mega Man-style action: as the agent Nova, choose stages freely, slide and use a range of weapons and the boomerang 'Power Blade', to destroy the arms company Delta Foundation and its new cyborg soldier.",
+    "dossier": "Taito's sequel to Power Blade, developed with Natsume, released in Japan as Captain Saver. On 24 December 2200, the weapons firm Delta Foundation has built a new cyborg soldier and threatens to sell it abroad if the US doesn't buy it within a week. The Department of Defense sends the agent Nova to destroy the Delta Foundation. Like the first game, it's Mega Man-like, with free stage select, and adds a slide and a wider range of weapons.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Power Blade 2 (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1319188339",
+      "https://famiwiki.net/wiki/Captain_Saver"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0959",
+    "gameplay_summary": "Balloon platformer: as Mickey Mouse, use balloons to attack, jump higher or float through seven themed levels, each followed by a bonus stage for lives and energy.",
+    "dossier": "Kemco's Mickey Mouse platformer, the Famicom follow-up to its Game Boy Crazy Castle Mickey games and unrelated to Hudson's earlier Famicom Mickey Mouse. Mickey carries balloons that he can use to attack, to jump higher or to float. There are seven themed levels including the introduction, each ending in a bonus stage for extra lives and energy. In the original, the stage select plays 'It's a Small World' and the first boss is one of The Jungle Book's vultures. For North America, Kemco reskinned it as Kid Klown in Night Mayor World, replacing the Disney characters and music. A hard mode is unlocked by a title-screen code.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Kid Klown in Night Mayor World (1993).",
+    "japanese_version_notes": "Stars Mickey Mouse with Disney characters and 'It's a Small World'; all replaced in the Kid Klown reskin.",
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1365056336",
+      "https://famiwiki.net/wiki/Mickey_Mouse_III:_Yume_Fuusen",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0960",
+    "gameplay_summary": "Card-based territory board game with SD robots from Gundam and 23 other shows: defend the Cardian World from the Zakubaran Empire, in campaign or versus modes.",
+    "dossier": "Banpresto's card-and-board strategy game with super-deformed robots from Mobile Suit Gundam and 23 other anime, developed by Pandora Box. It mixes card play with sugoroku-style board movement to capture territory, in campaign and versus modes. Emperor Darkas of the Zakubaran Empire invades the peaceful robot world of Cardian World, seizing its 'card metals' to revive the ultimate demon machine Garsias, until the small frontier country of Isaac rises against him. Its packaging marked it as part of the Compati Hero series, though Banpresto's 2011 series portal leaves it out. Famitsu scored it 18/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Card text and menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110884679",
+      "https://en.wikipedia.org/w/index.php?oldid=1352430847"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0961",
+    "gameplay_summary": "Board strategy for two to four with the 7 Up mascot Spot: on a 7×7 board, clone a piece one square away or jump two, converting every adjacent enemy piece to your colour.",
+    "dossier": "Bullet-Proof Software's last Famicom release, the Japanese version of Virgin Mastertronic's 1990 game starring 7 Up's mascot, Spot. It's based on a game originally called Infection, invented by Dave Crummack and Craig Galley in 1988 and similar to Othello. Two to four players take turns on a 7×7 board, some variants with blocked squares. You pick one of your pieces and an empty square one or two away. Moving one square creates a new piece, two squares moves the piece, and either way all adjacent pieces flip to your colour. It was followed by the platformers Cool Spot and Spot Goes to Hollywood.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — An abstract strategy game; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Spot: The Video Game (1990).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1350989647",
+      "https://famiwiki.net/wiki/Spot",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0962",
+    "gameplay_summary": "Baseball manager sim: both leagues now run simultaneously, the Japan Series no longer needs a Turbo File, domed home parks are added, and data screens get music.",
+    "dossier": "ASCII's fourth Famicom Best Play Pro Yakyuu, Hiroyuki Sonobe's manager simulation. Both leagues now run at once, you can play the Japan Series without a Turbo File, domed stadiums are added as home parks, and team and player data screens finally get music, though the outfield screen turns from bright blue to drab monochrome. A bug found after release, where swapping players on the team data screen didn't swap their stats, led to a free exchange. So two product codes exist (HSP-BS and the fixed HSP-BS1), with the fixed version pricier secondhand. A Super Famicom version was cancelled as Derby Stallion took priority.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A manager sim built on Japanese menus and data.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Exists in two production variants: HSP-BS (bugged first run) and HSP-BS1 (fixed).",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111120335",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0963",
+    "gameplay_summary": "Soccer game based on the anime Moero! Top Striker, about a Japanese boy studying football in Genoa; the sources give no gameplay detail.",
+    "dossier": "Namco's soccer game of Nippon Animation's 1991–92 anime Moero! Top Striker, about Hikaru Yoshikawa, a Japanese boy studying football in Genoa who stays in Italy after his parents' death under the coaching of the doctor Robson. The characters and box art come from the anime, but the title drops 'Moero!', which FamiWiki suggests was to avoid clashing with Jaleco's Moero!! sports line. The captured articles cover the anime, so the game's modes and controls are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Soccer is visual, but story scenes are presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111229967#%E3%82%B2%E3%83%BC%E3%83%A0",
+      "https://en.wikipedia.org/w/index.php?oldid=1375747968",
+      "https://famiwiki.net/wiki/Top_Striker"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0964",
+    "gameplay_summary": "Knight Gundam RPG of the Round Table arc: split the 12 Knights of the Round Table into two parties, fight frequent battles with confusion-prone allies, earn fame by rescuing travellers, and attack up to three times with high speed.",
+    "dossier": "Bandai's third Knight Gundam RPG, developed by Tose, adapting the Carddass 'Knights of the Round Table' arc, and carrying over the series' high encounter rate and difficulty. You lead 12 Round Table knights split into two parties, built around the idea of a knightly order, and switch between them with Select on the map. Sprites are large and movement brisk, but encounters come thick and fast. Enemy first strikes can confuse allies into hitting each other. Battles pay out experience, gold and 'fame'. Rescuing families under attack on the road raises fame greatly, but fleeing or losing lowers it. High speed allows up to three attacks per turn, four for Red Warrior. Famitsu scored it 23/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — An RPG with Japanese dialogue and menus.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111045764"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0965",
+    "gameplay_summary": "Fantasy RPG from a magazine reader-participation game: as Yuul, choose warrior, holy warrior or magic warrior, recruit characters from the original to rescue twin sister Sasha from the demon Samoirenko, targeting enemy weak points in battle.",
+    "dossier": "Masaya's RPG based on Double Moon Densetsu, ORG's pioneering reader-participation game serialised in Maru Katsu Famicom, illustrated by Takuhito Kusanagi. It's set in a world with two moons, with touches of tokusatsu heroics. Its success inspired rival magazines' own reader games, though it ended after its third part following turmoil at Kadokawa and the sudden death of its creator, ORG president Masayuki Oonuki. The game's original hero Yuul sets out after the demon Samoirenko kidnaps his twin sister Sasha. He chooses to be a warrior, a healing holy warrior or a magic warrior, and recruits characters from the source, so party balance matters. Each class has random special actions, and you can target weak points to stun or disarm. Famitsu scored it 21/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — An RPG with Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111074618",
+      "https://famiwiki.net/wiki/Double_Moon_Densetsu"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0966",
+    "gameplay_summary": "Five-stage Super Sentai action: play as Tiger, Ptera, Tricera, Mammoth and finally Tyranno Ranger in turn, each stage ending against a Bandora gang commander, with three mini-games.",
+    "dossier": "Angel's second Super Sentai game, developed by Arc System Works, based on the 1992 tokusatsu series Kyoryu Sentai Zyuranger. It's a five-stage action game in which you control Tiger Ranger, Ptera Ranger, Tricera Ranger, Mammoth Ranger and Tyranno Ranger in turn, each stage ending in a fight with a commander of the witch Bandora's gang. Dragon Ranger only appears in a supporting role and isn't playable. Three mini-games are included, and the show's theme songs play on the title screen and over the ending.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111217720#%E3%82%B2%E3%83%BC%E3%83%A0",
+      "https://en.wikipedia.org/w/index.php?oldid=1374310670"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0967",
+    "gameplay_summary": "Cartoon platformer: as Jerry, rescue his nephew Tuffy, whom Tom has locked in a trunk in the attic, using weapons like bubble gum, cups of water, mothballs, a hammer and invisible ink.",
+    "dossier": "Altron's Japanese release of Software Creations' NES Tom & Jerry, published in North America by Hi Tech Expressions as Tom & Jerry: The Ultimate Game of Cat and Mouse!, nearly a year earlier. Tom has mouse-napped Jerry's nephew Tuffy and locked him in a trunk in the attic, and Jerry sets off to free him. Weapons include bubble gum, a meat cleaver, cups of water, mothballs, a hammer, invisible ink and a drill. FamiWiki lists the Famicom release as English-language.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with English text.",
+    "nes_counterpart_context": "Released in North America as Tom & Jerry (1991).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1376850989",
+      "https://famiwiki.net/wiki/Tom_to_Jerry_(8-bit_Nintendo)"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0968",
+    "gameplay_summary": "Formula One racing from System 3; the captured sources give no detail on this version's modes.",
+    "dossier": "Coconuts Japan's release of System 3's F1 game, published in North America and Europe by Acclaim as Ferrari Grand Prix Challenge. It shares that Western title with the Mega Drive's Nakajima Satoru Kanshuu F1 Hero MD, a different game. The captured en.wikipedia article describes the Mega Drive version in detail, but only names the NES and Game Boy ports, so this version's tracks, modes and features are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Racing is visual, but menus are presumably Japanese.",
+    "nes_counterpart_context": "Released in North America as Ferrari Grand Prix Challenge (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1372862310",
+      "https://famiwiki.net/wiki/Ferrari"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0969",
+    "gameplay_summary": "Go study software: replay famous games automatically or by hand and take a strength test, with this edition featuring the historic masters Jowa, Shuwa, Shuho and Shuei.",
+    "dossier": "Hect's fourth Igo Shinan, released on 20 November 1992. As before, you replay celebrated games automatically or move by move and can have your strength assessed from beginner to dan level. This edition drops the previous Dosaku, Shusaku, Shusai and handicap sets in favour of four more historic players: Jowa (24 games), Shuwa (23), Shuho (27) and Shuei (25), alongside 36 modern games.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Menus are Japanese; go knowledge is assumed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=82337202"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0970",
+    "gameplay_summary": "Game themed on Christopher Columbus; the sources give no gameplay detail.",
+    "dossier": "Tomy's Columbus game, released on 20 November 1992. No source in the research snapshot describes it: there's no ja.wikipedia article and FamiWiki gives only the release. Its genre and mechanics are undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Genre unconfirmed; text is presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Columbus:_Ougon_no_Yoake"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0971",
+    "gameplay_summary": "Cookie-matching puzzle: as Mario, slide rows and columns of a cookie grid one step at a time, Rubik's-style with wraparound, to line up full rows or columns of one type, with Yoshi cookies as wildcards.",
+    "dossier": "Nintendo's puzzle game, developed by Tose and released the same day on Famicom and Game Boy. It began as Home Data's arcade game Hermetica, which tested poorly and was sold on. Mario and Yoshi bake cookies of six types, heart, flower, check, diamond, circle and Yoshi, on an 8×8 field in solo play or 5×5 in VS. You shift any row or column by one space, wrapping around the edges. Make a full line of one type and it clears, with Yoshi cookies counting as any type. New cookies keep feeding in from the top and right. VS mode races to clear first. A Super Famicom version with new modes followed from BPS in 1993.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A visual puzzle; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Yoshi's Cookie (North America 1993).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111072436",
+      "https://en.wikipedia.org/w/index.php?oldid=1371304633",
+      "https://famiwiki.net/wiki/Yoshi_no_Cookie_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0972",
+    "gameplay_summary": "Amusement-park attraction games: as Plucky in bumper cars, Hamton on a train, Babs on a rollercoaster, Furrball on a log ride or Buster in a funhouse, earn tickets to ride more attractions in Montana Max's new park.",
+    "dossier": "Konami's second Tiny Toon game. Montana Max invites everyone to his new Acme Acres amusement park under the guise of a 'secret admirer'. There are five attractions, each starring a different character: Plucky drives bumper cars, Hamton rides a train, Babs takes the rollercoaster, Furrball dodges Sweetie on a log flume, and Buster explores a funhouse. Roderick Rat and other villains interfere along the way. Each ride costs tickets, and you earn more by scoring well. FamiWiki notes the cartridge uses Konami's VRC7 chip, otherwise found only in Lagrange Point. Reviews were average.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Tiny Toon Adventures 2: Trouble in Wackyland (1993).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1371646364",
+      "https://famiwiki.net/wiki/Tiny_Toon_Adventures_2:_Montana_Land_e_Youkoso"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0973",
+    "gameplay_summary": "Run-and-gun platformer: as Rockman, with the robot bird Beat, fight eight Robot Masters, then Blues's and Wily's fortresses, after Blues apparently kidnaps Dr. Light, across 16 stages including gravity-flip and marine-bike stages.",
+    "dossier": "Capcom's fifth Rockman, set two months after the fourth. While Rockman is out collecting Beat, a robot bird built by Dr. Cossack, Blues (Proto Man) seemingly leads a robot army against the city and abducts Dr. Light before his eyes, leaving his scarf behind. Doubting his brother's guilt, Rockman gives chase. There are 16 stages: eight selectable, four in Blues's fortress and four in Wily's, including novelties like a gravity-reversing stage and a marine-bike stage. Keiji Inafune said a new planner had to be taught Rockman from scratch, which may have kept the difficulty moderate. The public boss-design contest drew over 130,000 entries.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Mega Man 5 (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111115330",
+      "https://en.wikipedia.org/w/index.php?oldid=1373108417",
+      "https://famiwiki.net/wiki/Rockman_5:_Blues_no_Wana!?"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0974",
+    "gameplay_summary": "Shogi study software supervised by the Japan Shogi Association: replay historic professional games in commentary or watch modes.",
+    "dossier": "Hect's third Shogi Meikan, released on 4 December 1992 and supervised by the Japan Shogi Association. Like the series as a whole, it's a collection of past professional games replayed in commentary or spectator modes, automatically or step by step, across five categories. The captured ja.wikipedia text covers the series only, so this edition's game list is undocumented in the sources consulted.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Commentary and notation are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=108111550"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0975",
+    "gameplay_summary": "Top-down action-maze puzzle game starring the three little ghosts of the anime Chiisana Obake Acchi Kocchi Socchi.",
+    "dossier": "VAP's game of the 1991–92 anime based on Eiko Kadono's picture-book series about three friendly little ghosts: Acchi, an apprentice cook, the fashionable apprentice barber Kocchi, and Socchi, who goes to a human primary school. Developed by Atlus, it's described by FamiWiki as a top-down action maze game and by ja.wikipedia as an action puzzle. Its stages and mechanics are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Maze action is visual, but any text is Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110248795",
+      "https://famiwiki.net/wiki/Chiisana_Obake:_Achhi_Sochhi_Kocchi"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0976",
+    "gameplay_summary": "Sound-blast platformer in space: as Wagyan, stun enemies with your shout in gravity-bending stages in the space city of the Hisopiso clan, then beat bosses at word-chain and memory mini-games, now also playable versus a friend.",
+    "dossier": "Namco's third Famicom Wagyan Land, the last on the system and FamiWiki says Namco's last original Famicom game. The setting moves from Wagyan Land to the space city of the Hisopiso clan, distant relatives of the Wagyan race, and space brings stages with absurdly high jumps and upside-down gravity. As ever, Wagyan's shout ('Wa!', 'Gyaa!') only stuns enemies, which you can then stand on, and collecting Wagyanizers powers it up. Bosses are beaten in mini-games such as picture word-chain (shiritori) and concentration. New here, a versus mode lets two players face off in the boss mini-games. Its epilogue leads directly into Super Wagyan Land 2.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Platforming is visual, but the word-chain boss game requires Japanese vocabulary.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110785963",
+      "https://famiwiki.net/wiki/Wagyan_Land_3"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0977",
+    "gameplay_summary": "Single-screen fairy platformer: as Tam or Rit, stun monsters with a magic rod, then grab and slam them side to side until they vanish, using conjured ladders instead of jumping, across 30 screens plus a hidden 30.",
+    "dossier": "Jaleco's Famicom version of its 1990 arcade game, converted by The Sales Curve of London and released in Europe on NES only in Italy, Spain and the Netherlands. Two fairies, Tam and Rit, armed with a magic rod and rainbow shoes, climb a monster-filled tower to rescue their mother. In the vein of Bubble Bobble, the rod doesn't kill monsters but immobilises them, and you then slam them from side to side until they disappear and leave a power-up. You can't jump at all. Instead you conjure a ladder above or below you. Clearing all enemies finishes each single-screen level. The arcade has 30 stages plus 30 more on a second loop. FamiWiki notes it was the last Famicom game based on an arcade title.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A single-screen platformer; nothing needs reading.",
+    "nes_counterpart_context": "No North American release. Released on NES in Europe as Rod Land (1993); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110587811",
+      "https://en.wikipedia.org/w/index.php?oldid=1377669354",
+      "https://famiwiki.net/wiki/Yousei_Monogatari_Rod_Land"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0978",
+    "gameplay_summary": "Rotating-tower platformer: as Morinaga's chocolate mascot Kyoro-chan, climb cylindrical towers that turn as you walk, using ledges, lifts and tricks while dodging enemies, to reach each peak.",
+    "dossier": "Hiro's Famicom version of John M. Phillips's computer game Nebulus, known on NES as Castelian. It was planned for Japan under that name but rebranded around Kyoro-chan, the bird mascot of Morinaga's Chocoball sweets, with a box styled like a Chocoball carton. You climb cylindrical towers studded with ledges and lifts, and as you walk left or right the tower rotates behind you with a convincing sense of depth. The Nebulus original earned a Gold Medal from Zzap!64. ja.wikipedia says the only changes from Castelian are the hero, a password system, and swapped opening and bonus-stage music. The census also records a pause feature, and FamiWiki lists English text.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming with English text.",
+    "nes_counterpart_context": "Released in North America as Castelian (1991), an altered version.",
+    "japanese_version_notes": "Kyoro-chan replaces the hero, with passwords and a pause feature added.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110649715",
+      "https://en.wikipedia.org/w/index.php?oldid=1376492887",
+      "https://famiwiki.net/wiki/Kyorochan_Land"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0979",
+    "gameplay_summary": "Children's platformer: as Hello Kitty, water every flower in each of 18 stages, bopping blocking animals and insects with a mallet and collecting money for score, with infinite continues.",
+    "dossier": "Character Soft's children's platformer starring Hello Kitty, developed by Shimada Kikaku, her second Famicom lead after Hello Kitty World. Kitty must water all the flowers in each stage, avoiding the animals and insects in her way or fending them off with a big mallet. Money she picks up goes into the cash register for points. Touching enemies or running out of time costs a life, but continues are unlimited, and a game over only resets the score. There are 18 stages, with the second nine tougher than the first. FamiWiki lists one- or two-player play and both Japanese and English text.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A simple children's platformer; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1349715916",
+      "https://famiwiki.net/wiki/Hello_Kitty_no_Ohanabatake"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0980",
+    "gameplay_summary": "Fantasy tactical RPG: as the young guard captain of Astholm, lead up to four six-member squads, each with its own leader, wizards, fighters and archers, to rescue the sapphire priestess Firis and recover the sacred stones.",
+    "dossier": "Enix's last Famicom game, a large tactical RPG developed by Random House, announced nearly three years before release. Long ago the kingdom of Rumblevil, protected by seven sacred stones and seven sages, fell when darkness touched one stone, and the sages led their people away. Years later in Astholm, during the annual Sapphire Festival, a monster abducts Firis, the town's new priestess. The young captain of the town guard sets out with his comrades and her sapphire to rescue her. You command up to four six-strong units, 24 characters, through turn-based battles. Field exploration is Dragon Quest-style. It uses unusually large, kanji-rich text, which needed a bigger ROM and raised the price. Famitsu scored it 25/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — A text-heavy Japanese tactical RPG.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110408131",
+      "https://en.wikipedia.org/w/index.php?oldid=1372719167",
+      "https://famiwiki.net/wiki/Just_Breed"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0981",
+    "gameplay_summary": "Barcode Battler RPG: scan characters on Epoch's Barcode Battler II, connected by the bundled cable, then fight graphical battles in versus mode or a 20-world scenario, 'Silent Empire', against Emperor God's Neo-God Empire.",
+    "dossier": "Sunsoft's Famicom companion to Epoch's hit Barcode Battler II, a handheld that reads barcodes into fighters. Developed with Epoch in a 'Famicom merger plan', it requires the separately sold Barcode Battler II. The oversized box contains the cartridge, a connection cable and 30 barcode cards, some featuring Sunsoft characters like Hebereke and Gimmick!. Versus mode recreates the Battler's battles with graphics and spell effects. The 'Silent Empire' scenario sends a rebel band of Barcode Battlers across 20 worlds to overthrow Emperor God, who conquered the Barcode Nebula in its year 708. Both modes start by scanning characters on the BBII, so a copy without the cable can't start new games.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Japanese menus and story; also requires the Barcode Battler II.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Requires Epoch's Barcode Battler II and the bundled connection cable; includes 30 barcode cards.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110385288",
+      "https://famiwiki.net/wiki/Barcode_World"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0982",
+    "gameplay_summary": "Fifth and final SD Gundam Gachapon Senshi wargame on Famicom; the sources give no detail on what it changes.",
+    "dossier": "Yutaka's fifth SD Gundam Gachapon Senshi, developed by Tose and the last of the line on Famicom. The series pioneered Famicom war simulation with super-deformed mobile suits and fed into later SD Gundam lines such as G Generation. The captured ja.wikipedia text describes the series' first and fourth games but not this one, so its new features, scenarios and units are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Wargame play is visual, but unit names and menus are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109006027"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0983",
+    "gameplay_summary": "Arcade-style baseball, now with real NPB team and player names: the designated hitter appears for Pacific League home teams, an All-American team of foreign players replaces the Major Leaguers, and All-Star teams use real voting.",
+    "dossier": "Namco's 1993 Famista, the first Famicom entry with an NPB licence, so clubs and players use their real names, based on end-of-1992 data. The Yokohama BayStars therefore still appear as the Taiyo Whales. With real teams came the designated hitter, applied automatically when a Pacific League side bats last. The Major Leaguers team is replaced by an 'All American' team of foreign players then in Japan, with infielder Marty Brown filling in at catcher because no foreign catchers were active. Kintetsu's Tsuyoshi Yoshida bats to the Sky Kid theme, as he did in real games. All-Star mode now uses that year's real All-Star selections.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Baseball is visual; player names are Japanese but not needed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109557862",
+      "https://en.wikipedia.org/w/index.php?oldid=1323277311"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0984",
+    "gameplay_summary": "Four-player Kunio-kun fighter: enter yourself into a tournament for the strongest high schooler, teaming up in pairs to win 15 of 19 matches before facing the Double Tigers, or brawl freely in battle mode with optional victory rules.",
+    "dossier": "Technos Japan's 'chaotic fighting game' answer to the fighting-game boom, a Kunio-kun spin-off where you can enter your own personal details and step into the Nekketsu world yourself. Kunio, skipping club practice, finds a challenge in his shoe locker to a tournament to decide the strongest high schooler, and Riki joins him. So does the player. In story mode, eight pairs fight through 19 matches, and the pair with 15 wins, or the most, faces the Double Tiger brothers. Battle mode is a free four-way battle royale. Alternate rules include winning by landing ten combo specials or losing by taking ten hits from the terrain. en.wikipedia calls it the first fighting game for four simultaneous players. Famitsu scored it 22/40.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Fighting is visual, but story and setup text are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110374996",
+      "https://en.wikipedia.org/w/index.php?oldid=1318187886",
+      "https://famiwiki.net/wiki/Nekketsu_Kakutou_Densetsu"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0985",
+    "gameplay_summary": "Baseball-life sugoroku for up to four: as a rising young player, roll through childhood, adolescence and young adulthood, resisting temptations, to become a professional and earn the most money.",
+    "dossier": "Sammy's last Famicom release, a baseball-themed sugoroku developed by Pixel. You play a young baseball hopeful and try to turn him into a pro, while the temptations of childhood, adolescence and young adulthood threaten his ability to earn money as a ball player. Up to four can play. There's no ja.wikipedia article in the research snapshot, so its board events and scoring are documented only in outline.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Life events and board text are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Aa!_Yakyuu_Jinsei_Icchokusen",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0986",
+    "gameplay_summary": "Fairly tough SD Ultraman action game: as Ultraman, sent to Earth against a mysterious kaiju army, rescue the captured Ultra Brothers, until they help you fire the Space Q to reach the final boss.",
+    "dossier": "Angel's fourth Ultraman Club game, an action game after the series' earlier RPGs. ja.wikipedia calls it somewhat hard. Ultraman is sent to Earth to face a mysterious invading kaiju army and frees the Ultra Brothers who've fallen into its hands. Unusually, the mastermind turns out to be Emperor Alien Empera, who had appeared only in silhouette in Ultraman Taro, and the final fight begins once Ultraman and his allies fire the 'Space Q'. Its stages and controls aren't detailed in the sources consulted.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; story text isn't needed to play.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109781340"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0987",
+    "gameplay_summary": "Compati Hero side-view action: as Kamen Rider Black RX, Nu Gundam or Ultraman Taro, punch and kick through athletic stages, fighting enemies one at a time with no throwaway mobs, to beat each stage's commander.",
+    "dossier": "Banpresto's Compati Hero side-scroller, developed by Arc System Works, with SD Kamen Rider Black RX, the Nu Gundam and Ultraman Taro as playable heroes. You have a life bar and only close-range punches and kicks, though power-ups briefly allow ranged attacks. Stages are platforming obstacle courses where enemies are met one at a time. There are no one-hit mooks. Defeating the enemy commander clears each stage. Famitsu was harsh, at 16/40.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110407188",
+      "https://en.wikipedia.org/w/index.php?oldid=1352430847"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0988",
+    "gameplay_summary": "Sequel to the Sanrio falling-block puzzle Sanrio Carnival; the sources give no detail on its rules.",
+    "dossier": "Character Soft's sequel to Sanrio Carnival, developed by Mario Co. and, per FamiWiki, the first Famicom release of 1993, followed by a Game Boy version two months later. FamiWiki classes it as a puzzle game with Japanese and English text, but there's no ja.wikipedia article in the research snapshot, so its rules and what changed from the first game are undocumented in the sources consulted.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A falling-block puzzle; presumably visual.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Sanrio_Carnival_2",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0989",
+    "gameplay_summary": "Mega Man Monopoly-style board game for up to four: as Roll, Dr. Light, Dr. Wily, Dr. Cossack or Kalinka, buy properties with Zenny and charge rent across four maps to reach each map's asset target.",
+    "dossier": "Capcom's Mega Man board game, built like Monopoly. You choose one of five characters, Roll, Dr. Light, Dr. Wily, Dr. Cossack or Kalinka, and move round a board buying properties with Zenny, then charge rivals rent when they land on them, aiming for the target set on each map. Rockman himself is only the commentator, so he isn't playable. The four maps are Green Continent, Cold Island, the Sand Continent and Megalopolis. An English translation and a Game Boy version were in development but never released. Famitsu scored it 21/40, and Western retrospectives have been mostly negative.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — Property and event text are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110402071",
+      "https://en.wikipedia.org/w/index.php?oldid=1335818822",
+      "https://famiwiki.net/wiki/Wily_&_Right_no_RockBoard:_That’s_Paradise"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0990",
+    "gameplay_summary": "Board-game RPG where battles are bike races: move nine SD Kamen Riders across Japan by roulette to liberate regions from revived villains, upgrading engine, durability and fuel tank via Riderman's tune-ups.",
+    "dossier": "Angel's Kamen Rider SD game, made with MegaHouse. Instead of fist fights, the Riders face enemies in bike races in an RPG framework, and map movement is board-game style, by roulette. Gran Shocker has revived the Riders' old enemies and seized every region of Japan, and the Rider army liberates them on the way to Gran Shocker's base. The nine playable Riders come in three teams: on-road Battle Riders, off-road Wild Riders and all-round Mechanic Riders. Levelling up doesn't improve bikes directly. Riderman tunes the engine, durability and fuel tank at the Rider Carrier. Fuel drains as you act and durability falls in fights, and either running out benches a Rider. Famitsu scored it 19/40.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — RPG menus and story are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110386046",
+      "https://en.wikipedia.org/w/index.php?oldid=1372209125"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0991",
+    "gameplay_summary": "Licensed 1992-season F1: race as yourself against up to 12 real drivers you choose, setting the difficulty, in a McLaren, Ferrari, Williams or Benetton, in free runs or a 16-round Grand Prix season.",
+    "dossier": "Konami's last original Famicom game, built on its 1988 MSX2+ title F-1 Spirit 3D Special and licensed through FOCA and Fuji TV, with the real drivers, teams and circuits of 1992. Unlike most F1 games, you don't play as a real driver. You're yourself, racing up to 12 real rivals you pick, and who you choose sets the difficulty. You drive a McLaren, Ferrari, Williams or Benetton with customisable colours. Free Run lets you practise any track, and Grand Prix runs a rookie season of all 16 rounds, saved by password or kept in memory while the console stays on. Released late, it shipped in small numbers. Europe got it as Formula 1 Sensation, with only the title and HUD positions changed.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing; nothing essential to read.",
+    "nes_counterpart_context": "No North American release. Konami released the same game on NES in Europe as Formula 1 Sensation (1993); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109798545",
+      "https://en.wikipedia.org/w/index.php?oldid=1250188287"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0992",
+    "gameplay_summary": "Gothic platformer: as Simon Belmont, whip your way through Dracula's castle across six blocks of three stages, using sub-weapons powered by hearts, against a timer and a health meter.",
+    "dossier": "Konami's 1993 cartridge re-release of Akumajou Dracula, first released on the Disk System in 1986 as Konami's debut on that format and known abroad as Castlevania. This census identity covers the cartridge only. A century after his ancestor defeated Dracula, Simon Belmont enters the reappeared count's castle to destroy him. There are 18 stages in six blocks of three. Simon walks, jumps, crouches, climbs stairs and lashes the Vampire Killer whip, which has a slight delay. He starts with four lives and five hearts, must finish each block before the timer runs out, and loses a life if his health meter empties.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Castlevania (1987).",
+    "japanese_version_notes": "A 1993 cartridge re-release of the 1986 Disk System original.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111191311",
+      "https://en.wikipedia.org/w/index.php?oldid=1376670985",
+      "https://famiwiki.net/wiki/Akumajou_Dracula_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0993",
+    "gameplay_summary": "Sequel to the Keroppi puzzle game; the sources give no gameplay detail.",
+    "dossier": "Character Soft's second Kero Kero Keroppi no Daibouken, developed by Shimada Kikaku and released on 19 February 1993, starring Sanrio's frog boy Keroppi. The captured articles cover the character and list the game without describing it, and FamiWiki provides only the release, so its genre and mechanics are undocumented in the sources consulted. The genre is assumed to follow the first game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — A children's character game, presumably visual; not confirmed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110084593",
+      "https://en.wikipedia.org/w/index.php?oldid=1369123047"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0994",
+    "gameplay_summary": "Compati Hero baseball: teams of SD Ultraman, Kamen Rider, Gundam and Godzilla characters face off in league, exhibition or all-star draft modes, spending HP on special swings and magic pitches.",
+    "dossier": "Banpresto's last Famicom release, a Compati Hero sports game developed by Minato Giken, putting SD Ultraman, Kamen Rider, Gundam and Godzilla characters on baseball teams. There are three modes: a league where player one takes on every team, exhibition games against player two or the computer, and an All-Star mode where both sides take turns drafting characters. The two sides can't pick the same team or character. You choose games of 3, 5, 7 or 9 innings and seasons of 21, 35 or 70 games, and characters spend HP on special batting techniques and magic pitches. Famitsu scored it 18/40.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Baseball is visual, but menus and special-move names are Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110497189",
+      "https://en.wikipedia.org/w/index.php?oldid=1352430847",
+      "https://famiwiki.net/wiki/Battle_Baseball"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0995",
+    "gameplay_summary": "Baby-hero platformer: as the crawling prince Upa, bop enemies with a rattle so they inflate and float, then ride them upward or knock them into others before they burst, across seven worlds, to rescue the kingdom's babies from Zai.",
+    "dossier": "Konami's 1993 cartridge version of its 1988 Disk System platformer. This census identity covers the cartridge only. Upa, the infant prince of Ruakuuyo, breaks an urn and releases Zai, a demon who steals the dreams of the kingdom's adults and kidnaps every baby except Upa. A fairy freed from the urn gives him the rattle weapon Gala-Sword. Hit enemies balloon up and float, and Upa can ride them higher or bat them into other enemies, but they pop after a few seconds, hurting him if he's aboard. There are seven worlds of three areas, with innovations like an upside-down-gravity stage. The cartridge rearranges the music to work without the Disk System's sound chip and adds an easy mode.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platforming; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Cartridge re-release of a 1988 Disk System game, with music rearranged for the standard sound chip and an added easy mode.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111202172",
+      "https://en.wikipedia.org/w/index.php?oldid=1368434822",
+      "https://famiwiki.net/wiki/Bio_Miracle_Bokutte_Upa"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0996",
+    "gameplay_summary": "Single-screen bubble-dragon action: as Cubby (with Rubby for a second player), trap enemies in bubbles and pop them to rescue Judy from the Skull brothers.",
+    "dossier": "Taito's Famicom sequel to Bubble Bobble, developed by O.L.M. (the census lists ITL), one of several titles claiming to be Bubble Bobble's second instalment. The heroes Cubby and Rubby look almost exactly like Bub and Bob and are said to be their descendants. Their girlfriend Judy is captured by the Skull brothers, and they set out as bubble dragons to rescue her. You trap enemies in bubbles and pop them, as in the original, and a second player can join. The Game Boy game of the same Western name, Bubble Bobble Junior in Japan, is a separate design with different stages and story.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Single-screen action; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Bubble Bobble Part 2 (North America 1993).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110373985",
+      "https://en.wikipedia.org/w/index.php?oldid=1366105267",
+      "https://famiwiki.net/wiki/Bubble_Bobble_2"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0997",
+    "gameplay_summary": "Golf game from Jaleco; the sources give no further detail.",
+    "dossier": "Jaleco's golf game, released on 5 March 1993. Its title, 'Aim for top pro! A dream staked on the green', suggests a career framing, but FamiWiki confirms only that it's a golf game, and there's no ja.wikipedia article in the research snapshot. Its courses, modes and system are undocumented in the sources consulted.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Golf is visual, but menus are presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Mezase!_Top_Pro:_Green_ni_Kakeru_Yume"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0998",
+    "gameplay_summary": "Ice hockey from Jaleco, for one or two players; the sources give no further detail.",
+    "dossier": "Jaleco's ice hockey game, developed by Tose, released in North America eight months later as Pro Sport Hockey, alongside a Super NES game of the same name. FamiWiki lists it as one- or two-player with English text. The captured en.wikipedia article is a one-line stub, so its teams, modes and controls are undocumented in the sources consulted.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Hockey with English text.",
+    "nes_counterpart_context": "Released in North America as Pro Sport Hockey (1993).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1341018744",
+      "https://famiwiki.net/wiki/USA_Ice_Hockey_in_FC"
+    ],
+    "confidence": "LOW"
+  },
+  {
+    "identity_id": "FC-0999",
+    "gameplay_summary": "Star Wars action-platformer following the 1980 film: destroy an Imperial probe droid on Hoth, escape a wampa-infested ice cave, and fight through the film's set pieces.",
+    "dossier": "Victor's Japanese release of the NES sequel to its Star Wars game, developed by Sculptured Software with Lucasfilm Games and released in North America a year earlier. It follows The Empire Strikes Back through multiple objectives, starting with destroying an Imperial probe droid on Hoth and escaping a wampa-infested ice cavern. A Return of the Jedi follow-up was never made, as the developers moved on to Super Star Wars. Limited Run Games reissued the NES and Game Boy versions in 2019. The captured sources don't detail later stages.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action; nothing essential to read.",
+    "nes_counterpart_context": "Released in North America as Star Wars: The Empire Strikes Back (1992).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1345071119"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-1000",
+    "gameplay_summary": "Maze action game starring Pyokotan, the rabbit boy of a children's book series; the sources give no further detail.",
+    "dossier": "Sunsoft's action game, developed by Japan System Supply and released on 19 March 1993, based on a series of children's books starring the rabbit boy Pyokotan. FamiWiki notes that it's one of the rarest and most expensive Famicom titles, sought after by collectors. Its gameplay isn't described in any source in the research snapshot.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — A children's maze game; any text is presumably Japanese.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://famiwiki.net/wiki/Pyokotan_no_Dai_Meiro"
+    ],
+    "confidence": "LOW"
+  }
+]

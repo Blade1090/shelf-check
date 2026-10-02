@@ -1,0 +1,36 @@
+name: NES Shelf Check QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: JavaScript syntax checks
+        run: |
+          node --check app.js
+          node --check dossier.js
+          node --check collection-tools-v2.js
+          node --check collection-legacy-shim.js
+          node --check quickmark-hotfix.js
+          node --check wishlist-buy.js
+          node --check wishlist-parity.js
+          node --check backup-restore.js
+          node --check pricing.js
+          node --check import-core.mjs
+          node --check import-test.mjs
+          node --check qa-static.mjs
+
+      - name: Static regression suite
+        run: node qa-static.mjs

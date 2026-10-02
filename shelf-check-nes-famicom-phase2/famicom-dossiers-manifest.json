@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "chunks": [
+    {
+      "start": 1,
+      "end": 100,
+      "file": "famicom-dossiers-0001-0100.json"
+    },
+    {
+      "start": 101,
+      "end": 200,
+      "file": "famicom-dossiers-0101-0200.json"
+    },
+    {
+      "start": 201,
+      "end": 300,
+      "file": "famicom-dossiers-0201-0300.json"
+    },
+    {
+      "start": 301,
+      "end": 400,
+      "file": "famicom-dossiers-0301-0400.json"
+    },
+    {
+      "start": 401,
+      "end": 500,
+      "file": "famicom-dossiers-0401-0500.json"
+    },
+    {
+      "start": 501,
+      "end": 600,
+      "file": "famicom-dossiers-0501-0600.json"
+    },
+    {
+      "start": 601,
+      "end": 700,
+      "file": "famicom-dossiers-0601-0700.json"
+    },
+    {
+      "start": 701,
+      "end": 800,
+      "file": "famicom-dossiers-0701-0800.json"
+    },
+    {
+      "start": 801,
+      "end": 900,
+      "file": "famicom-dossiers-0801-0900.json"
+    },
+    {
+      "start": 901,
+      "end": 1000,
+      "file": "famicom-dossiers-0901-1000.json"
+    },
+    {
+      "start": 1001,
+      "end": 1040,
+      "file": "famicom-dossiers-1001-1040.json"
+    }
+  ]
+}

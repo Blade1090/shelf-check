@@ -1,0 +1,665 @@
+{
+ "schema_version": 1,
+ "range": [
+  801,
+  816
+ ],
+ "generated_by": "dossiers/scripts/assemble.py",
+ "entries": [
+  {
+   "identity_id": "nes-na-wwf-king-of-ring",
+   "title": "WWF King of the Ring",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-11",
+   "developer": "Gray Matter / Eastridge Technology",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "1-2",
+   "summary": "LJN's 1993 WWF game, the last WWF release for the NES: win an eight-man King of the Ring elimination tournament, or beat the whole roster in singles matches for the WWF title.",
+   "why_it_matters": "The final WWF game released on the NES, and the last NES/Game Boy game made by Gray Matter.",
+   "gameplay_notes": "Eleven wrestlers, including The Undertaker and Bam Bam Bigelow (both missing from the Game Boy version) and a custom wrestler you name and give attributes. Everyone shares the same basic moveset with no signature moves; wrestlers differ only in speed, strength and stamina. Exhibition singles and tag matches support one or two players.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "ESTIMATED",
+   "hltb_note": "HLTB NES platform row (2 completions logged; Wikidata-linked) - low sample",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=WWF_King_of_the_Ring_(video_game)&oldid=1371115005",
+    "https://www.wikidata.org/wiki/Q3281100",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1253/wwf-king-of-the-ring",
+    "https://www.pricecharting.com/game/nes/wwf-king-of-the-ring",
+    "https://howlongtobeat.com/game/13171"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wwf-wrestlemania",
+   "title": "WWF WrestleMania",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-02",
+   "developer": "Rare",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "1-6 (tournament); 2 head-to-head",
+   "summary": "Rare's 1989 WrestleMania for Acclaim, the first WWF-licensed NES game, released months before WrestleMania V.",
+   "why_it_matters": "Started Acclaim's roughly decade-long relationship with the WWF; the first of Rare's two NES WWF games.",
+   "gameplay_notes": "Six wrestlers (Hogan, André the Giant, Savage, DiBiase, Bigelow, Honky Tonk Man) with small, slightly tailored movesets; no leaving the ring. A wrestler who turns red is angry and hits harder, and each has a personal health icon only they can collect. Tournament mode takes up to six players in a round robin (15 matches), ties broken by fastest win.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "WrestleMania"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=WWF_WrestleMania_(1989_video_game)&oldid=1371115667",
+    "https://www.wikidata.org/wiki/Q2470724",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/30/wwf-wrestlemania",
+    "https://www.pricecharting.com/game/nes/wwf-wrestlemania"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wwf-wrestlemania-challenge",
+   "title": "WWF WrestleMania Challenge",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-11",
+   "developer": "Rare",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "1-2",
+   "summary": "Rare's 1990 WWF game for LJN (developed as WWF Survivor Series), viewed from a high isometric angle with nine wrestlers.",
+   "why_it_matters": "Rare's second and last NES WWF game; later WrestleMania titles moved to Sculptured Software.",
+   "gameplay_notes": "Modes: one-on-one, tag team, three-on-three Survivor Series elimination, a championship played as the generic 'Yourself' wrestler, and a two-player tag championship. Stamina bars sit on the ring apron; an empty bar leaves you open to pinfalls.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "WWF Wrestlemania Challenge"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=WWF_WrestleMania_Challenge&oldid=1374115455",
+    "https://www.wikidata.org/wiki/Q2015406",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/411/wwf-wrestlemania-challenge",
+    "https://www.pricecharting.com/game/nes/wwf-wrestlemania-challenge"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wwf-wrestlemania-steel-cage-challenge",
+   "title": "WWF WrestleMania: Steel Cage Challenge",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-09",
+   "developer": "Sculptured Software",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "Not documented",
+   "summary": "Sculptured Software's 1992 NES WWF game, adding steel cage matches to singles and tag play.",
+   "why_it_matters": null,
+   "gameplay_notes": "Modes: one-on-one (regular or steel cage), tag team, WWF Championship (beat every other wrestler) and Tag Team Championship.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "WWF Wrestlemania: Steel Cage Challenge"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=WWF_WrestleMania:_Steel_Cage_Challenge&oldid=1371115710",
+    "https://www.wikidata.org/wiki/Q2015463",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/803/wwf-wrestlemania-steel-cage-challenge",
+    "https://www.pricecharting.com/game/nes/wwf-wrestlemania-steel-cage-challenge"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Source says Acclaim published; census lists LJN (Acclaim licensee). NES player count not stated."
+   ]
+  },
+  {
+   "identity_id": "nes-na-xenophobe",
+   "title": "Xenophobe",
+   "display_disambiguator": null,
+   "release_year": 1988,
+   "release_date_na": "1988-12",
+   "developer": "Sunsoft",
+   "publisher": "Sunsoft",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "Not documented",
+   "summary": "Sunsoft's NES port of Bally Midway's 1987 arcade game: clear alien-infested space stations before the countdown runs out.",
+   "why_it_matters": null,
+   "gameplay_notes": "Aliens mature through stages (Pod, Critter, Rollerbaby, Snotterpillar) if left alone. Stations span several floors linked by elevators. A mission ends by clearing all aliens, by self-destructing the station after enough kills, or by running out of time. NES-specific differences are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": 1.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (4 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Xenophobe_(video_game)&oldid=1377466908",
+    "https://www.wikidata.org/wiki/Q2530073",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/163/xenophobe",
+    "https://www.pricecharting.com/game/nes/xenophobe",
+    "https://howlongtobeat.com/game/11404"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Article describes the arcade original; NES player count and differences not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-xevious",
+   "title": "Xevious",
+   "display_disambiguator": null,
+   "release_year": 1988,
+   "release_date_na": "1988-09",
+   "developer": "Namco",
+   "publisher": "Bandai",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "Not documented",
+   "summary": "Bandai's NES release of Namco's Famicom Xevious: the 1983 vertical shooter in which the Solvalou uses an air zapper and a ground blaster.",
+   "why_it_matters": "The Famicom version (1984) was one of the system's first third-party games; the arcade original set the template for vertically scrolling shooters.",
+   "gameplay_notes": "Shoot air targets and bomb ground targets through a reticle ahead of the ship; hidden towers can be uncovered by bombing specific spots. The source describes the arcade game's structure; NES-specific changes are not detailed.",
+   "difficulty": null,
+   "hltb_main_hours": 2.5,
+   "hltb_extra_hours": 1.5,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (16 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Xevious: The Avenger"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Xevious&oldid=1377467254",
+    "https://www.wikidata.org/wiki/Q1327963",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/389/xevious-the-avenger",
+    "https://www.pricecharting.com/game/nes/xevious",
+    "https://howlongtobeat.com/game/11408"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-xexyz",
+   "title": "Xexyz",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-04",
+   "developer": "Atlus",
+   "publisher": "Hudson Soft",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer",
+    "Shoot 'em up"
+   ],
+   "players": "1",
+   "summary": "Atlus/Hudson Soft's 1988 game (NA April 1990) alternating side-scrolling platform stages with Gradius-style shooter stages, set on a post-apocalyptic island in 2777.",
+   "why_it_matters": null,
+   "gameplay_notes": "As Apollo, collect currency from enemies in platform stages to spend at hidden shops and minigames; in shooter stages, 'S' and 'P' items upgrade speed and weapons.",
+   "difficulty": null,
+   "hltb_main_hours": 3.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Kame no Ongaeshi - Urashima Densetsu (JP)",
+    "Kame no Ongaeshi: Urashima Densetsu (JP)"
+   ],
+   "collecting_notes": "Released in Japan and North America only; no PAL release. The Famicom original has an Urashima Tarō theme, cutscenes and three endings.",
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Xexyz&oldid=1375107348",
+    "https://www.wikidata.org/wiki/Q372774",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/143/xexyz",
+    "https://www.pricecharting.com/game/nes/xexyz",
+    "https://howlongtobeat.com/game/11409"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-yo-noid",
+   "title": "Yo! Noid",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-11",
+   "developer": "Now Production",
+   "publisher": "Capcom",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Capcom's 1990 Domino's Pizza tie-in, localised from Now Production's Kamen no Ninja Hanamaru: the Noid crosses New York to stop his green double, Mr. Green.",
+   "why_it_matters": null,
+   "gameplay_notes": "One-hit deaths and a per-level time limit. The yo-yo is your weapon; collected scrolls fuel screen-clearing magic. Some levels use a skateboard or autogyro. Bosses are pizza-eating contests instead of Hanamaru's card battles.",
+   "difficulty": null,
+   "hltb_main_hours": 1.5,
+   "hltb_extra_hours": 2.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (15 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Kamen no Ninja Hanamaru (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Yo!_Noid&oldid=1354688939",
+    "https://www.wikidata.org/wiki/Q2354748",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/43/yo-noid",
+    "https://www.pricecharting.com/game/nes/yo-noid",
+    "https://howlongtobeat.com/game/11432"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-yoshi",
+   "title": "Yoshi",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-06",
+   "developer": "Game Freak",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1-2",
+   "summary": "Game Freak's falling-block puzzler for Nintendo (NA 1992): Mario swaps four columns so falling Mario enemies land on matching pieces, and joined eggshell halves hatch Yoshis.",
+   "why_it_matters": "Game Freak's first game with Nintendo, helping fund the company on the road to Pokémon.",
+   "gameplay_notes": "NES stacks hold up to eight pieces (seven on Game Boy). Enclosing monsters between a bottom and top eggshell clears them all and hatches a bigger Yoshi. Single-player score play plus a competitive two-player mode.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Mario & Yoshi (PAL)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Yoshi_(video_game)&oldid=1370049443",
+    "https://www.wikidata.org/wiki/Q1194285",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/84/yoshi",
+    "https://www.pricecharting.com/game/nes/yoshi"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-yoshis-cookie",
+   "title": "Yoshi's Cookie",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-04",
+   "developer": "Tose",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1-2",
+   "summary": "Tose/Nintendo's tile-matching puzzler (NA April 1993), developed from the Home Data arcade game Hermetica: rotate rows and columns of cookies like a Rubik's Cube to complete single-type lines.",
+   "why_it_matters": null,
+   "gameplay_notes": "Cookies keep arriving from the top and right; the game ends if the grid overflows. A Yoshi-head cookie acts as a wild card.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Yoshi's_Cookie&oldid=1371304633",
+    "https://www.wikidata.org/wiki/Q1328124",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/251/yoshis-cookie",
+    "https://nescartdb.com/profile/view/2916/yoshis-cookie",
+    "https://www.pricecharting.com/game/nes/yoshi%27s-cookie"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-young-indiana-jones-chronicles",
+   "title": "The Young Indiana Jones Chronicles",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-12",
+   "developer": "Chris Gray Enterprises / Jaleco",
+   "publisher": "Jaleco",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Jaleco's December 1992 side-scrolling action game based on the TV series: eight levels across Mexico, France and Germany, from the Mexican Civil War to World War I.",
+   "why_it_matters": null,
+   "gameplay_notes": "Weapons and items double as health: each hit costs a possession, and when empty you fight bare-fisted and die on the next hit. Picked-up weapons (dynamite, daggers, grenades, guns) replace the whip. Early levels follow TV episodes; later ones tell an original story, including a Red Baron dogfight.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Young Indiana Jones Chronicles, The"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=The_Young_Indiana_Jones_Chronicles_(video_game)&oldid=1373764731",
+    "https://www.wikidata.org/wiki/Q27017214",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/699/the-young-indiana-jones-chronicles",
+    "https://www.pricecharting.com/game/nes/young-indiana-jones-chronicles"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-zanac",
+   "title": "Zanac",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-10",
+   "developer": "Compile",
+   "publisher": "FCI",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1",
+   "summary": "Compile's vertical shooter (NES 1987, published by FCI): twelve areas of fast shooting to destroy the System, an alien machine bent on wiping out humanity.",
+   "why_it_matters": "Noted for adaptive difficulty that reacts to your skill, rate of fire and defences; by the Compile core team behind The Guardian Legend and Blazing Lazers.",
+   "gameplay_notes": "Blue boxes upgrade the main cannon; numbered power-ups select one of eight special weapons, or upgrade it if the number matches. Dying loses all power-ups. Boss fortresses are turret clusters to destroy against a timer. Continues restart the current area.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "Known for its difficulty and dense enemy fire (GameSpot, Allgame)."
+   },
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Zanac&oldid=1321014132",
+    "https://www.wikidata.org/wiki/Q2379922",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/258/zanac",
+    "https://www.pricecharting.com/game/nes/zanac"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-zelda-ii-adventure-of-link",
+   "title": "Zelda II: The Adventure of Link",
+   "display_disambiguator": null,
+   "release_year": 1988,
+   "release_date_na": "1988-12-01",
+   "developer": "Nintendo R&D4",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action RPG",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Nintendo's 1987 sequel (NES December 1988): Link seeks the Triforce of Courage to wake a long-sleeping Princess Zelda, mixing a top-down overworld with side-scrolling towns, caves and palaces.",
+   "why_it_matters": "The series' most unusual main entry, with experience points, lives and spells; it introduced the magic meter and Dark Link.",
+   "gameplay_notes": "Side-view sword combat, experience levels, spells learned from townsfolk, and a lives system. Set crystals in six palaces to open the Great Palace.",
+   "difficulty": null,
+   "hltb_main_hours": 10.0,
+   "hltb_extra_hours": 11.5,
+   "hltb_completionist_hours": 10.5,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (337 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Zelda_II:_The_Adventure_of_Link&oldid=1374811766",
+    "https://www.wikidata.org/wiki/Q187339",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/85/zelda-ii-the-adventure-of-link",
+    "https://www.pricecharting.com/game/nes/zelda-ii-the-adventure-of-link",
+    "https://howlongtobeat.com/game/11533"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-zen-intergalactic-ninja",
+   "title": "Zen: Intergalactic Ninja",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-03",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Konami's 1993 NES game based on the Zen comic: the alien ninja fights polluters and the sludge-born Lord Contaminous across twelve levels.",
+   "why_it_matters": null,
+   "gameplay_notes": "Three-quarter view with multidirectional scrolling; environmental missions (acid rain, an oil rig fire, a plutonium mine), recycling bonus rounds and adjustable difficulty.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Zen:_Intergalactic_Ninja_(video_game)&oldid=1365943886",
+    "https://www.wikidata.org/wiki/Q63865490",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/430/zen-intergalactic-ninja",
+    "https://www.pricecharting.com/game/nes/zen-intergalactic-ninja"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Gameplay section is thinly sourced; verify stage structure."
+   ]
+  },
+  {
+   "identity_id": "nes-na-zodas-revenge-startropics-ii",
+   "title": "Zoda's Revenge: StarTropics II",
+   "display_disambiguator": null,
+   "release_year": 1994,
+   "release_date_na": "1994-03",
+   "developer": "Nintendo R&D3 / Locomotive Corporation",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action-adventure"
+   ],
+   "players": "1",
+   "summary": "Nintendo's 1994 StarTropics sequel: Mike Jones travels through history, from the Stone Age to Victorian England, collecting Tetrads and defeating three clones of Zoda.",
+   "why_it_matters": "The last game Nintendo developed exclusively for the NES, and its second-to-last first-party NES release.",
+   "gameplay_notes": "Nine chapters with heart-container health. Mike moves in eight directions and can steer mid-jump. New weapons come from historical figures, and Merlin teaches an upgradable psychic shock wave whose power scales with hearts.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "StarTropics II"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Zoda's_Revenge:_StarTropics_II&oldid=1318257016",
+    "https://www.wikidata.org/wiki/Q2364135",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/814/zodas-revenge-startropics-ii",
+    "https://www.pricecharting.com/game/nes/star-tropics-ii-zoda%27s-revenge"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-zombie-nation",
+   "title": "Zombie Nation",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-01",
+   "developer": "KAZe",
+   "publisher": "Meldac",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1",
+   "summary": "KAZe/Meldac's shooter: the giant flying samurai head Namakubi fires eyeballs and vomit to wreck zombified American cities and reclaim the sword Shura from Darc Seed.",
+   "why_it_matters": null,
+   "gameplay_notes": "Pick any of four stages to start, then play the rest in sequence. An eight-unit life bar refills by destroying things; rescued zombie hostages boost firepower. Easy and hard settings. Getting crushed by the scrolling screen is instant death.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Abarenbou Tengu (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "Cartoon zombies and destruction; the head attacks with eyeballs and vomit.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Zombie_Nation_(video_game)&oldid=1371900114",
+    "https://www.wikidata.org/wiki/Q3282885",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1150/zombie-nation",
+    "https://www.pricecharting.com/game/nes/zombie-nation"
+   ],
+   "confidence": "HIGH",
+   "review_flags": [
+    "Census year 1991-01 vs NOA list 1991-09; NA release month unconfirmed."
+   ]
+  }
+ ]
+}

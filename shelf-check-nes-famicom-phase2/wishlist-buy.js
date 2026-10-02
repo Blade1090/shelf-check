@@ -1,0 +1,47 @@
+const FEATURE_STORAGE='shelfcheck-nes-matty-wishlist-v1';
+const OWNED_STORAGE='shelfcheck-nes-matty-v1';
+const LIBRETRO_BASE='https://raw.githubusercontent.com/libretro-thumbnails/Nintendo_-_Nintendo_Entertainment_System/4d21463bf5d553afc34d99183c9ad5833f773b93/Named_Boxarts/';
+const LAUNCHBOX_BASE='https://images.launchbox-app.com/';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $=id=>document.getElementById(id);
+const loaded=await Promise.all([
+  fetch('./nes-census.json').then(r=>r.json()),
+  fetch('./covers-001-100.json').then(r=>r.json()).catch(()=>({})),
+  ...['101-200','201-300','301-400','401-500','501-600','601-700','701-800','801-815'].map(n=>fetch(`./covers-${n}.json`).then(r=>r.json()).catch(()=>[]))
+]);
+const [census,first100,...chunks]=loaded;
+const allIds=Object.values(census.identities).flat();
+const byId=new Map(allIds.map(x=>[x.identity_id,x]));
+const titleFor=x=>x.canonical_title+(x.display_disambiguator?` ${x.display_disambiguator}`:'');
+const titleMap=new Map(allIds.map(x=>[titleFor(x).trim().toLowerCase(),x.identity_id]));
+const covers={...first100};
+for(const rows of chunks){for(const [id,src,val,label] of rows){covers[id]={u:src===0?LIBRETRO_BASE+val:src===1?LAUNCHBOX_BASE+val:val,l:label||null};}}
+function coverInfo(id){const row=covers[id];if(!row)return null;if(Array.isArray(row))return {u:row[0].startsWith('http')?row[0]:LIBRETRO_BASE+row[0],l:row[1]||null};return row;}
+function ownedSet(){try{return new Set(JSON.parse(localStorage.getItem(OWNED_STORAGE)||'{}').owned||[]);}catch{return new Set();}}
+let wishlist=new Set();
+try{wishlist=new Set(JSON.parse(localStorage.getItem(FEATURE_STORAGE)||'[]'));}catch{}
+function saveWishlist(){localStorage.setItem(FEATURE_STORAGE,JSON.stringify([...wishlist]));updateWishlistCount();syncHeartButtons();}
+function updateWishlistCount(){const n=wishlist.size;for(const el of document.querySelectorAll('[data-wishlist-count]'))el.textContent=n;}
+function toggleWishlist(id){if(!byId.has(id))return;if(ownedSet().has(id)){wishlist.delete(id);}else if(wishlist.has(id)){wishlist.delete(id);}else{wishlist.add(id);}saveWishlist();renderWishlist();if(currentBuyId===id)renderBuyResult(byId.get(id));}
+function cardId(card){if(card.dataset.identityId)return card.dataset.identityId;const strong=card.querySelector('.game-copy strong');if(!strong)return null;return titleMap.get(strong.textContent.trim().toLowerCase())||null;}
+function enhanceCards(root=document){for(const card of root.querySelectorAll?.('.game')||[]){if(card.closest('#wishlistList'))continue;const id=cardId(card);if(!id)continue;card.dataset.identityId=id;const owned=ownedSet().has(id);let heart=card.querySelector('.wishlist-heart');if(owned){heart?.remove();continue;}if(!heart){heart=document.createElement('button');heart.type='button';heart.className='wishlist-heart';heart.dataset.wishlistToggle=id;heart.setAttribute('aria-label','Add to wishlist');heart.title='Wishlist';card.appendChild(heart);}const on=wishlist.has(id);heart.classList.toggle('active',on);heart.textContent=on?'♥':'♡';heart.setAttribute('aria-label',on?'Remove from wishlist':'Add to wishlist');}}
+function syncHeartButtons(){for(const heart of document.querySelectorAll('.wishlist-heart')){const id=heart.dataset.wishlistToggle;const on=wishlist.has(id);heart.classList.toggle('active',on);heart.textContent=on?'♥':'♡';heart.setAttribute('aria-label',on?'Remove from wishlist':'Add to wishlist');}}
+const observer=new MutationObserver(ms=>{for(const m of ms){for(const n of m.addedNodes){if(n.nodeType===1){if(n.matches?.('.game'))enhanceCards(n.parentElement||document);else enhanceCards(n);}}}});
+observer.observe(document.body,{childList:true,subtree:true});
+enhanceCards(document);updateWishlistCount();
+let modalScrollY=0,openModals=0;
+function lockPage(){if(openModals++>0)return;modalScrollY=window.scrollY||0;document.body.classList.add('feature-open');document.body.style.position='fixed';document.body.style.top=`-${modalScrollY}px`;document.body.style.width='100%';}
+function unlockPage(){openModals=Math.max(0,openModals-1);if(openModals)return;document.body.classList.remove('feature-open');document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo(0,modalScrollY);}
+function artHTML(x,cls='feature-cover'){const c=coverInfo(x.identity_id);return c?.u?`<button type="button" class="feature-cover-button cover-button" data-cover="${esc(c.u)}" data-title="${esc(titleFor(x))}"><img class="${cls}" src="${esc(c.u)}" alt="${esc(titleFor(x))} NES box art" loading="lazy"></button>`:`<div class="${cls} feature-cover-missing">NES</div>`;}
+function renderWishlist(){const list=$('wishlistList');if(!list)return;const owned=ownedSet();const q=($('wishlistSearch')?.value||'').trim().toLowerCase();const rows=[...wishlist].map(id=>byId.get(id)).filter(Boolean).filter(x=>!q||titleFor(x).toLowerCase().includes(q)||(x.aliases||[]).some(a=>a.toLowerCase().includes(q))).sort((a,b)=>titleFor(a).localeCompare(titleFor(b),undefined,{numeric:true,sensitivity:'base'}));$('wishlistTotal').textContent=wishlist.size;list.innerHTML=rows.length?rows.map(x=>{const c=coverInfo(x.identity_id);const label=c?.l?`<em>${esc(c.l)}</em>`:'';return `<article class="wish-card" data-id="${esc(x.identity_id)}">${artHTML(x,'wish-cover')}<div class="wish-copy"><strong>${esc(titleFor(x))}</strong><small>${x.license_class==='UNLICENSED'?'UNLICENSED • ':''}${x.availability.replaceAll('_',' ')}</small>${label}</div><div class="wish-actions"><span class="wish-needed">${owned.has(x.identity_id)?'OWNED':'NEEDED'}</span><button type="button" data-wishlist-toggle="${esc(x.identity_id)}">REMOVE</button></div></article>`;}).join(''):`<div class="feature-empty">${wishlist.size?'No wishlist games match that search.':'Nothing here yet. Tap ♡ on any needed game to build the hunt list.'}</div>`;}
+let currentBuyId=null;
+function searchBuy(q){q=q.trim().toLowerCase();const box=$('buyMatches');if(q.length<2){box.innerHTML='<div class="buy-hint">Type at least 2 letters.</div>';return;}const exact=[];const starts=[];const contains=[];for(const x of allIds){const title=titleFor(x).toLowerCase();const aliases=(x.aliases||[]).map(a=>a.toLowerCase());if(title===q||aliases.includes(q))exact.push(x);else if(title.startsWith(q)||aliases.some(a=>a.startsWith(q)))starts.push(x);else if(title.includes(q)||aliases.some(a=>a.includes(q)))contains.push(x);}const rows=[...exact,...starts,...contains].slice(0,8);box.innerHTML=rows.length?rows.map(x=>`<button type="button" class="buy-match" data-buy-id="${esc(x.identity_id)}"><span>${esc(titleFor(x))}</span><small>${ownedSet().has(x.identity_id)?'OWNED':'NEEDED'}</small></button>`).join(''):'<div class="buy-hint">No CORE title found.</div>';}
+function renderBuyResult(x){currentBuyId=x.identity_id;const owned=ownedSet().has(x.identity_id);const c=coverInfo(x.identity_id);const wished=wishlist.has(x.identity_id);const physical=c?.l?`This identity is acquired via <strong>${esc(c.l.replace(/^On /,''))}</strong>.`:'This is tracked as a standalone NES identity.';const verdict=owned?'ALREADY OWNED':'NEEDED';const explainer=owned?'It is already on Matty\'s imported shelf, so another copy would be a duplicate unless he specifically wants a variant or condition upgrade.':'It fills a missing North American CORE identity in the set.';$('buyResult').innerHTML=`<div class="buy-result-card ${owned?'owned':''}">${artHTML(x,'buy-cover')}<div class="buy-result-copy"><span class="buy-verdict ${owned?'owned':''}">${verdict}</span><h3>${esc(titleFor(x))}</h3><p>${explainer}</p><p class="buy-physical">${physical}</p><div class="buy-result-actions">${owned?'':`<button type="button" data-wishlist-toggle="${esc(x.identity_id)}" class="buy-wishlist ${wished?'active':''}">${wished?'♥ ON WISHLIST':'♡ ADD TO WISHLIST'}</button>`}</div><small class="buy-pricing-note">Collector check only for now — price/value scoring will plug in when NES pricing is added.</small></div></div>`;}
+document.addEventListener('click',e=>{const wish=e.target.closest('[data-wishlist-toggle]');if(wish){e.preventDefault();e.stopPropagation();toggleWishlist(wish.dataset.wishlistToggle);return;}const match=e.target.closest('[data-buy-id]');if(match){const x=byId.get(match.dataset.buyId);if(x){$('buySearch').value=titleFor(x);$('buyMatches').innerHTML='';renderBuyResult(x);}return;}});
+$('wishlistBtn')?.addEventListener('click',()=>{$('wishlistSearch').value='';renderWishlist();lockPage();$('wishlistDialog').showModal();});
+$('wishlistDialog')?.addEventListener('close',unlockPage);
+$('wishlistSearch')?.addEventListener('input',renderWishlist);
+$('buyBtn')?.addEventListener('click',()=>{currentBuyId=null;$('buySearch').value='';$('buyMatches').innerHTML='<div class="buy-hint">Search a game to check it against Matty\'s shelf.</div>';$('buyResult').innerHTML='';lockPage();$('buyDialog').showModal();setTimeout(()=>$('buySearch').focus(),50);});
+$('buyDialog')?.addEventListener('close',unlockPage);
+$('buySearch')?.addEventListener('input',e=>{currentBuyId=null;$('buyResult').innerHTML='';searchBuy(e.target.value);});
+window.addEventListener('storage',e=>{if(e.key===OWNED_STORAGE){for(const id of ownedSet())wishlist.delete(id);saveWishlist();enhanceCards(document);renderWishlist();}});

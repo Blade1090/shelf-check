@@ -1,0 +1,4169 @@
+{
+ "schema_version": 1,
+ "range": [
+  701,
+  800
+ ],
+ "generated_by": "dossiers/scripts/assemble.py",
+ "entries": [
+  {
+   "identity_id": "nes-na-tecmo-world-wrestling",
+   "title": "Tecmo World Wrestling",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-04",
+   "developer": "Tecmo",
+   "publisher": "Tecmo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "1-2",
+   "summary": "Tecmo's wrestling game: pick one of ten fictional international wrestlers and beat the rest of the roster, then the final boss 'The Earl of Doom' Blue King.",
+   "why_it_matters": "The first wrestling game with a play-by-play announcer (Tom Talker, in text bubbles) and possibly the first with action-replay cutscenes for signature moves.",
+   "gameplay_notes": "Walk into an opponent to grapple, then use pad and button combos for more than 20 moves per wrestler. Aerial, ground and running attacks. Win by pin, submission or count-out. Between matches, button-mashing training raises damage; losing a match costs a training level.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Gekitou Pro Wrestling!! Toukon Densetsu (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "The near-literal translation gives some Engrish, such as 'Northern Right Suplex'.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tecmo_World_Wrestling&oldid=1350923539",
+    "https://www.wikidata.org/wiki/Q2466720",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/418/tecmo-world-wrestling",
+    "https://www.pricecharting.com/game/nes/tecmo-world-wrestling"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-teenage-mutant-ninja-turtles",
+   "title": "Teenage Mutant Ninja Turtles",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-06",
+   "developer": "Konami",
+   "publisher": "Ultra Games",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Konami's 1989 action-platformer from Ultra Games: the four Turtles rescue April and Splinter from Shredder across New York, from the sewers to the Technodrome.",
+   "why_it_matters": "A major commercial success: Nintendo Power readers' game of the year, and Computer Entertainer's NES Game of the Year for 1989.",
+   "gameplay_notes": "Overhead city maps lead to side-scrolling interiors. Swap between turtles, each with a different weapon reach and power. Captured turtles can be rescued from stage three on. Six missions, including the Hudson River Dam, where you disable bombs. Sub-weapons include shuriken, boomerangs and the Kiai scroll.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Geki Kame Ninja Den (JP)",
+    "Teenage Mutant Hero Turtles (PAL)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Teenage_Mutant_Ninja_Turtles_(NES_video_game)&oldid=1376729249",
+    "https://www.wikidata.org/wiki/Q2172154",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/8/teenage-mutant-ninja-turtles",
+    "https://www.pricecharting.com/game/nes/teenage-mutant-ninja-turtles"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-teenage-mutant-ninja-turtles-ii-arcade-game",
+   "title": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-12",
+   "developer": "Konami",
+   "publisher": "Ultra Games",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Beat 'em up"
+   ],
+   "players": "1-2 (co-op)",
+   "summary": "Konami's 1990 NES conversion of the 1989 TMNT arcade beat 'em up: pick a turtle and fight Foot Soldiers, Bebop, Rocksteady, Baxter, Krang and Shredder to rescue April and Splinter.",
+   "why_it_matters": "Brings the arcade hit home and adds NES-exclusive stages and bosses (Tora and Shogun).",
+   "gameplay_notes": "Two-player co-op on the NES. Throws, special jump attacks, and smashing enemies into walls and objects. Turtles differ in reach and speed.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Teenage Mutant Hero Turtles II: The Arcade Game (PAL)",
+    "Teenage Mutant Ninja Turtles (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Teenage_Mutant_Ninja_Turtles_(arcade_game)&oldid=1376729499",
+    "https://www.wikidata.org/wiki/Q1508297",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/145/teenage-mutant-ninja-turtles-ii-the-arcade-game",
+    "https://www.pricecharting.com/game/nes/teenage-mutant-ninja-turtles-ii"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-teenage-mutant-ninja-turtles-iii-manhattan-project",
+   "title": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-02",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Beat 'em up"
+   ],
+   "players": "1-2 (co-op)",
+   "summary": "Konami's NES-original 1992 beat 'em up: Shredder kidnaps April and lifts Manhattan into the sky, and the Turtles fight from Key West to Krang's spaceship.",
+   "why_it_matters": null,
+   "gameplay_notes": "Two-player co-op with or without friendly fire. New throws and a special move per turtle that costs health. Share lives between players and switch turtles when you lose one. Eight levels and a big cartoon cast of bosses, ending with Super Shredder.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Teenage Mutant Ninja Turtles II: The Manhattan Project (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "The NA version hides the options screen behind the Konami Code. The Triceraton on the cover isn't in the game.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Teenage_Mutant_Ninja_Turtles_III:_The_Manhattan_Project&oldid=1365041273",
+    "https://www.wikidata.org/wiki/Q646691",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/56/teenage-mutant-ninja-turtles-iii-the-manhattan-project",
+    "https://www.pricecharting.com/game/nes/teenage-mutant-ninja-turtles-iii-the-manhattan-project"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-teenage-mutant-ninja-turtles-tournament-fighters",
+   "title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+   "display_disambiguator": null,
+   "release_year": 1994,
+   "release_date_na": "1994-02",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Fighting"
+   ],
+   "players": "1-2",
+   "summary": "Konami's 1994 NES one-on-one fighting game with the Turtles, Konami's last NES release in NA.",
+   "why_it_matters": "One of the few fighting games on the NES, and a different game from the SNES and Genesis versions.",
+   "gameplay_notes": "Versus CPU and head-to-head matches; any character can fight a colour-swapped clone of itself (Hothead only through a trick).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Teenage Mutant Hero Turtles: Tournament Fighters (PAL)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Teenage_Mutant_Ninja_Turtles:_Tournament_Fighters&oldid=1375936580",
+    "https://www.wikidata.org/wiki/Q2365711",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1235/teenage-mutant-ninja-turtles-tournament-fighters",
+    "https://www.pricecharting.com/game/nes/teenage-mutant-ninja-turtles-tournament-fighters"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives little detail on the roster and modes."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tennis",
+   "title": "Tennis",
+   "display_disambiguator": null,
+   "release_year": 1985,
+   "release_date_na": "1985-10-18",
+   "developer": "Nintendo R&D1 / Intelligent Systems",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Tennis"
+   ],
+   "players": "1-2 (co-op doubles)",
+   "summary": "Nintendo's 1984 tennis game, an NES launch title, with Mario as umpire: singles against the CPU, or doubles with two humans on the same team.",
+   "why_it_matters": null,
+   "gameplay_notes": "Five CPU difficulty levels. Doubles puts two players together against the CPU; there is no human-vs-human mode.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tennis_(1984_video_game)&oldid=1360803050",
+    "https://www.wikidata.org/wiki/Q2700588",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/568/tennis",
+    "https://www.pricecharting.com/game/nes/tennis"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-terminator",
+   "title": "The Terminator",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-12",
+   "developer": "Radical Entertainment",
+   "publisher": "Mindscape",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Radical Entertainment's 1992 side-scrolling action game from Mindscape based on The Terminator: Kyle Reese in platforming and driving stages.",
+   "why_it_matters": null,
+   "gameplay_notes": "Platforming and driving stages. Nintendo Power called it uneven and jerky, with awkward controls.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Terminator, The"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=List_of_Terminator_video_games&oldid=1374591288",
+    "https://www.wikidata.org/wiki/Q3178445",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1109/the-terminator",
+    "https://www.pricecharting.com/game/nes/terminator"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Only a short entry in the Terminator games list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-terminator-2-judgment-day",
+   "title": "Terminator 2: Judgment Day",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-02",
+   "developer": "Software Creations",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Software Creations' 1992 side-scroller from LJN: the T-800 fights across five film-based levels, from the truck stop to the steel mill.",
+   "why_it_matters": null,
+   "gameplay_notes": "Fight bikers for a motorcycle and gun. An overhead flood-channel chase from the T-1000's truck. At the mental hospital, you must shoot staff in the legs rather than kill them. Destroy Cyberdyne, then face the T-1000 in the steel mill.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "T2: Terminator 2: Judgment Day"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Terminator_2_(8-bit_video_game)&oldid=1366079821",
+    "https://www.wikidata.org/wiki/Q76912032",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/152/t2-terminator-2-judgment-day",
+    "https://www.pricecharting.com/game/nes/terminator-2-judgment-day"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-terra-cresta",
+   "title": "Terra Cresta",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-03",
+   "developer": "Nichibutsu",
+   "publisher": "Vic Tokai",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1-2",
+   "summary": "Vic Tokai's NES release of Nichibutsu's Terra Cresta (the Moon Cresta sequel): the Wing Galibur collects ship parts to build up firepower against the Mandler army.",
+   "why_it_matters": null,
+   "gameplay_notes": "Shoot all the capsules on the ground to earn ship parts, which add weapons and act as shields. With every part, transform into an invulnerable phoenix. Split the parts into a formation, whose positions the NES version lets you customise. The NES soundtrack is remade.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": 1.5,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (4 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Terra_Cresta&oldid=1376872962",
+    "https://www.wikidata.org/wiki/Q3112891",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/522/terra-cresta",
+    "https://www.pricecharting.com/game/nes/terra-cresta",
+    "https://howlongtobeat.com/game/9702"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tetris",
+   "title": "Tetris",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-11",
+   "developer": "Nintendo R&D1",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1",
+   "summary": "Nintendo's 1989 NES Tetris, released after Nintendo won the console rights from Atari Games/Tengen: A-Type score attack and B-Type 25-line challenges.",
+   "why_it_matters": "The basis of the Classic Tetris World Championship, and famous for its level-29 'kill screen', now beaten with modern rolling techniques.",
+   "gameplay_notes": "A random piece sequence with a next-piece preview. Clearing four lines at once (a 'tetris') scores most. Speed rises through level 10, then at 13, 16, 19 and 29. Hold A to start from levels 10–19. A-Type ends with a rocket-launch animation for big scores.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "A different program from Tengen's unlicensed NES Tetris.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tetris_(NES_video_game)&oldid=1376755778",
+    "https://www.wikidata.org/wiki/Q67387683",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/2390/tetris",
+    "https://nescartdb.com/profile/view/172/tetris",
+    "https://www.pricecharting.com/game/nes/tetris"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tetris-tengen",
+   "title": "Tetris",
+   "display_disambiguator": "(Tengen)",
+   "release_year": 1989,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Tengen",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1-2 (simultaneous)",
+   "summary": "Tengen's unlicensed NES conversion of Atari Games' arcade Tetris, recalled about four weeks after release when Nintendo won exclusive console rights.",
+   "why_it_matters": "Often praised over Nintendo's version, especially for its simultaneous two-player mode.",
+   "gameplay_notes": "Arcade-style Tetris with several difficulty levels and two-player simultaneous play.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Tetris: The Soviet Mind Game"
+   ],
+   "collecting_notes": "Sold for only about four weeks, with fewer than 100,000 copies sold, before Atari had to recall and destroy remaining stock.",
+   "content_notes": "A separate identity from Nintendo's licensed NES Tetris (R-U10).",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tetris_(Atari_Games)&oldid=1370963557",
+    "https://www.wikidata.org/wiki/Q4050885",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://en.wikipedia.org/w/index.php?title=Tengen_(company)&oldid=1372008180",
+    "https://nescartdb.com/profile/view/671/tetris",
+    "https://www.pricecharting.com/game/nes/tetris-tengen"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tetris-2",
+   "title": "Tetris 2",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-10",
+   "developer": "Tose",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1",
+   "summary": "Tose's 1993 colour-matching variant for Nintendo: line up three blocks of the same colour to clear them, Dr. Mario style.",
+   "why_it_matters": null,
+   "gameplay_notes": "Pieces are tetromino-like but some squares connect only at the corners.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Tetris Flash (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tetris_2_(1993_video_game)&oldid=1354185473",
+    "https://www.wikidata.org/wiki/Q11319329",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/169/tetris-2",
+    "https://www.pricecharting.com/game/nes/tetris-2"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-they-came-from-outer-space-action-52",
+   "title": "They Came From Outer Space",
+   "display_disambiguator": "(Action 52)",
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Active Enterprises",
+   "license_class": "UNLICENSED",
+   "availability": "MULTICART_ONLY",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "One of the 52 original mini-games on Active Enterprises' unlicensed Action 52 multicart (game 38 in the menu order).",
+   "why_it_matters": null,
+   "gameplay_notes": null,
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "Multicart-only game: no individual HLTB entry.",
+   "multicart_notes": "Only playable on the Action 52 cartridge (1991).",
+   "on_products": [
+    {
+     "product_id": "prod-action-52",
+     "title": "Action 52",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [
+    "They Came..."
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Action_52&oldid=1093273429",
+    "https://archive.org/details/action52",
+    "https://web.archive.org/web/2010/http://www.superfundungeonrun.com/action52/index.php"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-three-stooges",
+   "title": "The Three Stooges",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-10",
+   "developer": "Beam Software",
+   "publisher": "Activision",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Mini-games",
+    "Board game"
+   ],
+   "players": "1",
+   "summary": "Beam Software's NES port, from Activision, of Cinemaware's 1987 Three Stooges game: Moe, Larry and Curly earn money in slapstick minigames to save an orphanage.",
+   "why_it_matters": null,
+   "gameplay_notes": "Stop a moving hand on board-game-style spaces to trigger events or minigames: a cracker-eating contest, boxing and hospital go-cart races. 30 days to raise money. Four mousetraps end the game. Multiple endings depend on your earnings.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Three Stooges, The"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=The_Three_Stooges_(video_game)&oldid=1368219571",
+    "https://www.wikidata.org/wiki/Q7769089",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/283/the-three-stooges",
+    "https://www.pricecharting.com/game/nes/the-three-stooges"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-thrusters-action-52",
+   "title": "Thrusters",
+   "display_disambiguator": "(Action 52)",
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Active Enterprises",
+   "license_class": "UNLICENSED",
+   "availability": "MULTICART_ONLY",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "One of the 52 original mini-games on Active Enterprises' unlicensed Action 52 multicart (game 12 in the menu order).",
+   "why_it_matters": null,
+   "gameplay_notes": null,
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "Multicart-only game: no individual HLTB entry.",
+   "multicart_notes": "Only playable on the Action 52 cartridge (1991).",
+   "on_products": [
+    {
+     "product_id": "prod-action-52",
+     "title": "Action 52",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Action_52&oldid=1093273429",
+    "https://archive.org/details/action52",
+    "https://web.archive.org/web/2010/http://www.superfundungeonrun.com/action52/index.php"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thunder-and-lightning",
+   "title": "Thunder & Lightning",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-12",
+   "developer": "Visco",
+   "publisher": "Romstar",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "Not documented",
+   "summary": "Visco's NES game published by Romstar, released in NA in December 1990; Family Block in Japan (census record).",
+   "why_it_matters": null,
+   "gameplay_notes": "Not documented in the sources used.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Family Block (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/942/thunder-lightning",
+    "https://www.pricecharting.com/game/nes/thunder-and-lightning"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No linked Wikipedia article; the genre is a guess from the Japanese title and gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thunderbirds",
+   "title": "Thunderbirds",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-09",
+   "developer": "Pack-In-Video",
+   "publisher": "Activision",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "Not documented",
+   "summary": "Pack-In-Video's NES game based on the Thunderbirds TV series, published by Activision.",
+   "why_it_matters": null,
+   "gameplay_notes": "Not documented in the sources used.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Thunderbirds_merchandise&oldid=1376067909",
+    "https://www.wikidata.org/wiki/Q16258415",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/943/thunderbirds",
+    "https://www.pricecharting.com/game/nes/thunderbirds"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Only a one-line mention in the Thunderbirds merchandise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thundercade",
+   "title": "Thundercade",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-07",
+   "developer": "Micronics",
+   "publisher": "American Sammy",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1-2",
+   "summary": "Micronics' NES version, published by American Sammy, of SETA's 1987 vertical shooter: an armed motorcycle with sidecar cannons and a support bomber fight a nuclear terror group.",
+   "why_it_matters": null,
+   "gameplay_notes": "Four levels (city, military base, woodland, nuclear fortress) with screen-filling bosses, including a submarine.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Thundercade&oldid=1375666920",
+    "https://www.wikidata.org/wiki/Q4051460",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/398/thundercade",
+    "https://www.pricecharting.com/game/nes/thundercade"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tiger-heli",
+   "title": "Tiger-Heli",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-09",
+   "developer": "Micronics",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1",
+   "summary": "Micronics' NES port, published by Acclaim, of Toaplan's 1985 arcade shooter: pilot the Tiger attack helicopter against tanks, gunboats and artillery.",
+   "why_it_matters": "Toaplan's first shooter; it introduced the screen-clearing bomb that became a genre staple. The NES version sold over a million copies in North America.",
+   "gameplay_notes": "Missiles plus up to two bombs that wipe out nearby enemies and bullets. Shoot cross bunkers for bombs or side helicopters. Four stages, then a harder loop. The NES version has a hidden continue.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tiger-Heli&oldid=1375140666",
+    "https://www.wikidata.org/wiki/Q3285256",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/33/tiger-heli",
+    "https://www.pricecharting.com/game/nes/tiger-heli"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tiles-of-fate",
+   "title": "Tiles of Fate",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "American Video Entertainment",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE_AND_MULTICART",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1",
+   "summary": "C&E's unlicensed Mahjong-style tile-matching puzzle game from American Video Entertainment: clear tiles in pairs to restore order in Ancient China.",
+   "why_it_matters": null,
+   "gameplay_notes": "Match similar tiles side by side in pairs to clear the board.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": "Released as a standalone cart and also included on AVE's Maxi 15 multicart.",
+   "on_products": [
+    {
+     "product_id": "prod-maxi-15",
+     "title": "Maxi 15",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=American_Video_Entertainment&oldid=1356303612",
+    "https://www.wikidata.org/wiki/Q628652",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1269/tiles-of-fate",
+    "https://www.pricecharting.com/game/nes/tiles-of-fate"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-time-lord",
+   "title": "Time Lord",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-09",
+   "developer": "Rare",
+   "publisher": "Milton Bradley",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Rare's 1990 time-travel action platformer from Milton Bradley: the Time Lord battles Drakkon invaders in 1250 England, 1650 Caribbean, 1860 America and 1943 France.",
+   "why_it_matters": null,
+   "gameplay_notes": "Collect five orbs per era (four scattered, one from the boss) to power the time machine. Punch, and grab period weapons (swords, knives, guns, grenades, lasers) from gift boxes. A real-time countdown to 1 January 3000 gives you about 36½ minutes in total. No continues.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "A strict overall time limit and no continues."
+   },
+   "hltb_main_hours": 4.5,
+   "hltb_extra_hours": 8.5,
+   "hltb_completionist_hours": 6.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (5 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Time_Lord_(video_game)&oldid=1364426483",
+    "https://www.wikidata.org/wiki/Q7805036",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/205/time-lord",
+    "https://www.pricecharting.com/game/nes/time-lord",
+    "https://howlongtobeat.com/game/10353"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-time-warp-tickers-action-52",
+   "title": "Time Warp Tickers",
+   "display_disambiguator": "(Action 52)",
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Active Enterprises",
+   "license_class": "UNLICENSED",
+   "availability": "MULTICART_ONLY",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "One of the 52 original mini-games on Active Enterprises' unlicensed Action 52 multicart (game 48 in the menu order).",
+   "why_it_matters": null,
+   "gameplay_notes": null,
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "Multicart-only game: no individual HLTB entry.",
+   "multicart_notes": "Only playable on the Action 52 cartridge (1991).",
+   "on_products": [
+    {
+     "product_id": "prod-action-52",
+     "title": "Action 52",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Action_52&oldid=1093273429",
+    "https://archive.org/details/action52",
+    "https://web.archive.org/web/2010/http://www.superfundungeonrun.com/action52/index.php"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-times-of-lore",
+   "title": "Times of Lore",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-05",
+   "developer": "Toho",
+   "publisher": "Toho",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action RPG"
+   ],
+   "players": "1",
+   "summary": "Toho's NES port of Origin Systems' 1988 action RPG: as a barbarian, knight or valkyrie, find three magic items and uncover the plot behind High King Valwyn's disappearance in Albareth.",
+   "why_it_matters": null,
+   "gameplay_notes": "Open-world action RPG with quests from townsfolk. You can make the game unwinnable by killing key characters. Items include a teleport scroll, potions and a returning axe. Catacombs whose ghouls, once released, make the world harder.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Times_of_Lore&oldid=1377039825",
+    "https://www.wikidata.org/wiki/Q7806576",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1229/times-of-lore",
+    "https://www.pricecharting.com/game/nes/times-of-lore"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Details describe the computer versions; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tiny-toon-adventures",
+   "title": "Tiny Toon Adventures",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-12",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Konami's 1991 Tiny Toons platformer: Buster Bunny rescues Babs from Montana Max, calling in Plucky, Dizzy or Furrball via star balls.",
+   "why_it_matters": null,
+   "gameplay_notes": "Buster jumps highest, Plucky flies and swims, Dizzy spins through walls, and Furrball climbs. Hamton trades 30 carrots for a life. Elmyra traps at the end of second levels, and bosses at the end of thirds. Six worlds, up to Monty's Mansion.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tiny_Toon_Adventures_(video_game)&oldid=1376399698",
+    "https://www.wikidata.org/wiki/Q2629434",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/264/tiny-toon-adventures",
+    "https://www.pricecharting.com/game/nes/tiny-toon-adventures"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tiny-toon-adventures-2-trouble-in-wackyland",
+   "title": "Tiny Toon Adventures 2: Trouble in Wackyland",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-04",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Mini-games"
+   ],
+   "players": "1",
+   "summary": "Konami's 1993 sequel: Montana Max lures the Toons to an amusement park, where each ride stars a different character.",
+   "why_it_matters": null,
+   "gameplay_notes": "Bumper cars (Plucky), a train (Hamton), a roller coaster (Babs), a log ride (Furrball dodging Sweetie). Earn tickets to afford the Funhouse, where Buster faces the 'Secret Admirer'.",
+   "difficulty": null,
+   "hltb_main_hours": 1.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": 1.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (20 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tiny_Toon_Adventures_2:_Trouble_in_Wackyland&oldid=1371646364",
+    "https://www.wikidata.org/wiki/Q2081556",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/530/tiny-toon-adventures-2-trouble-in-wackyland",
+    "https://www.pricecharting.com/game/nes/tiny-toon-adventures-2-trouble-in-wackyland",
+    "https://howlongtobeat.com/game/10370"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tiny-toon-adventures-cartoon-workshop",
+   "title": "Tiny Toon Adventures: Cartoon Workshop",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-12",
+   "developer": "Novotrade International",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Educational",
+    "Creativity"
+   ],
+   "players": "1",
+   "summary": "Novotrade's 1992 Tiny Toons cartoon-making program from Konami: write, score, set-dress and direct your own short cartoons.",
+   "why_it_matters": null,
+   "gameplay_notes": "Up to two characters on screen (Buster, Babs, Plucky, Furrball, Calamity, Little Beeper) with poses, backgrounds, music, sound effects and captions, through a simple windowed interface. Cartoons run up to five minutes and can't be saved (the source suggests recording to a VCR).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Tiny Toon Adventures Cartoon Workshop"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tiny_Toon_Adventures:_Cartoon_Workshop&oldid=1371638391",
+    "https://www.wikidata.org/wiki/Q7808645",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/529/tiny-toon-adventures-cartoon-workshop",
+    "https://www.pricecharting.com/game/nes/tiny-toon-adventures-cartoon-workshop"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-to-earth",
+   "title": "To the Earth",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-11",
+   "developer": "Cirque Verte",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Light gun",
+    "Shooter"
+   ],
+   "players": "1",
+   "summary": "Cirque Verte's 1989 Zapper space shooter for Nintendo: fight from Uranus back to Earth, delivering medicine against the Ragossian bioweapon and defeating the alien Nemesis.",
+   "why_it_matters": "Considered one of the most challenging NES Zapper games.",
+   "gameplay_notes": "Shoot fast ships, missiles and asteroids while sparing friendlies. Missed shots drain your shield. Use screen-clearing bombs, comet shields and repair drops. Bosses end each planet: Uranus, Saturn, Jupiter, Earth. Nester congratulates you at the end.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "Very fast targets, and every miss drains your shield."
+   },
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "To The Earth"
+   ],
+   "collecting_notes": null,
+   "content_notes": "Requires the NES Zapper.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=To_the_Earth&oldid=1365984000",
+    "https://www.wikidata.org/wiki/Q2361559",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/190/to-the-earth",
+    "https://www.pricecharting.com/game/nes/to-the-earth"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-toki",
+   "title": "Toki",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-12",
+   "developer": "Daiei Seisakusho",
+   "publisher": "Taito",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Run and gun",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Taito's NES version of TAD's 1989 arcade run-and-gun: the jungle warrior Toki, turned into an ape by the witch doctor Vookimedlo, spits projectiles to rescue Princess Miho.",
+   "why_it_matters": null,
+   "gameplay_notes": "Spit power-ups, rabbit feet for agility, clocks for time, keys for bonus areas, and a football-helmet-like protective helmet. Each stage has a timer. The NES version adds a health bar, so Toki doesn't die in one hit as in the arcade.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "HLTB entry exists but has no NES-specific times (other platforms only); not used.",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "JuJu Densetsu (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Toki_(video_game)&oldid=1377152965",
+    "https://www.wikidata.org/wiki/Q2300687",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/539/toki",
+    "https://www.pricecharting.com/game/nes/toki",
+    "https://howlongtobeat.com/game/62769"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-tom-and-jerry",
+   "title": "Tom & Jerry",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-12",
+   "developer": "Software Creations",
+   "publisher": "Hi Tech Expressions",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Hi Tech Expressions' 1991 NES Tom & Jerry (also known as The Ultimate Game of Cat and Mouse!): Jerry rescues his nephew Tuffy, whom Tom has locked in a trunk in the attic.",
+   "why_it_matters": null,
+   "gameplay_notes": "Weapons include bubble gum, a meat cleaver, cups of water, mothballs, a hammer, invisible ink and a drill.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=List_of_Tom_and_Jerry_video_games&oldid=1376850989",
+    "https://www.wikidata.org/wiki/Q6600336",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/181/tom-jerry",
+    "https://www.pricecharting.com/game/nes/tom-and-jerry"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Only a short entry in the Tom and Jerry games list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tombs-and-treasure",
+   "title": "Tombs & Treasure",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-06",
+   "developer": "Compile",
+   "publisher": "Infocom",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Adventure",
+    "RPG"
+   ],
+   "players": "1",
+   "summary": "Infocom's 1991 NES release of Compile's Famicom version of Falcom's adventure: search Chichen Itza for the missing Professor Imes and the Sun Key.",
+   "why_it_matters": null,
+   "gameplay_notes": "Walk between Mayan ruins on an overhead map, then explore inside with first-person picture commands (Go, Push, Wash...). Three characters: the hero, the professor's musical daughter and the strong guide José. Light turn-based fights with ruin demons, and experience comes from both fights and solved puzzles.",
+   "difficulty": null,
+   "hltb_main_hours": 6.0,
+   "hltb_extra_hours": 5.0,
+   "hltb_completionist_hours": 2.5,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Taiyō no Shinden: Asteka II (JP)",
+    "Tombs and Treasure"
+   ],
+   "collecting_notes": "Came with a small guidebook presented as the professor's notes.",
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Tombs_&_Treasure&oldid=1360922714",
+    "https://www.wikidata.org/wiki/Q7818702",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/664/tombs-and-treasure",
+    "https://www.pricecharting.com/game/nes/tombs-and-treasure",
+    "https://howlongtobeat.com/game/10485"
+   ],
+   "confidence": "HIGH",
+   "review_flags": [
+    "The pack-in guide description is truncated in the source; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-toobin",
+   "title": "Toobin'",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Tengen",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1-2",
+   "summary": "Tengen's unlicensed NES port of Atari's 1988 arcade inner-tube river game: paddle Bif or Jet down rivers from the Colorado to the Canals of Mars.",
+   "why_it_matters": null,
+   "gameplay_notes": "Steer around whirlpools and other hazards, pass through gates, collect treasure, and throw cans at alligators, hunters and cavemen. Five rivers, then the game loops.",
+   "difficulty": null,
+   "hltb_main_hours": 7.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": 13.5,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Toobin'&oldid=1377042235",
+    "https://www.wikidata.org/wiki/Q1990991",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://en.wikipedia.org/w/index.php?title=Tengen_(company)&oldid=1372008180",
+    "https://nescartdb.com/profile/view/955/toobin",
+    "https://www.pricecharting.com/game/nes/toobin%27",
+    "https://howlongtobeat.com/game/10508"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Gameplay text is arcade-based; NES co-op support not confirmed."
+   ]
+  },
+  {
+   "identity_id": "nes-na-top-gun",
+   "title": "Top Gun",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-11",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Flight",
+    "Shooter"
+   ],
+   "players": "1",
+   "summary": "Konami's 1987 F-14 combat flight game based on the film: four missions against MiGs, a carrier, a fortress and a space shuttle, each followed by a carrier landing.",
+   "why_it_matters": "Known for its extremely high difficulty.",
+   "gameplay_notes": "Unlimited cannon plus three missile types. Refuel mid-air from a tanker (required after the first mission). Land on the carrier after every mission. Three planes and no continues.",
+   "difficulty": {
+    "level": "Very Hard",
+    "reason": "Extremely high difficulty and no continues."
+   },
+   "hltb_main_hours": 2.0,
+   "hltb_extra_hours": 3.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (9 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Top_Gun_(1987_video_game)&oldid=1359758070",
+    "https://www.wikidata.org/wiki/Q20995205",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/86/top-gun",
+    "https://www.pricecharting.com/game/nes/top-gun",
+    "https://howlongtobeat.com/game/10515"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-top-gun-second-mission",
+   "title": "Top Gun: The Second Mission",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-01",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Flight",
+    "Shooter"
+   ],
+   "players": "1-2 (versus)",
+   "summary": "Konami's 1990 sequel: Maverick flies three missions against advanced Soviet-style prototypes, including a Tu-160, a Hind and a 'star wars' shuttle.",
+   "why_it_matters": null,
+   "gameplay_notes": "Real missile types (Sidewinder, Sparrow, Phoenix), obstacle-course flying, an easier carrier landing than the first game, and in-game music. A one-on-one dogfight mode against seven aces or a second player.",
+   "difficulty": null,
+   "hltb_main_hours": 2.0,
+   "hltb_extra_hours": 1.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (4 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Top Gun: Dual Fighters (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Top_Gun:_The_Second_Mission&oldid=1317872406",
+    "https://www.wikidata.org/wiki/Q2219421",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/639/top-gun-the-second-mission",
+    "https://www.pricecharting.com/game/nes/top-gun-the-second-mission",
+    "https://howlongtobeat.com/game/10516"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-top-players-tennis",
+   "title": "Top Players' Tennis",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-01",
+   "developer": "Home Data",
+   "publisher": "Asmik",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Tennis"
+   ],
+   "players": "1-4 (Four Score or Satellite)",
+   "summary": "Home Data's tennis game from Asmik, fronted by Chris Evert and Ivan Lendl: win the Asmik Open, then play the four Grand Slams.",
+   "why_it_matters": null,
+   "gameplay_notes": "Singles, doubles and mixed doubles for up to four simultaneous players with the NES Four Score or Satellite.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "HLTB entry exists but has no NES-specific times (other platforms only); not used.",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Evert & Lendl Top Player's Tennis",
+    "Four Players' Tennis (PAL)",
+    "Top Players' Tennis, Chris Evert & Ivan Lendl in",
+    "World Super Tennis (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Top_Players'_Tennis&oldid=1302499537",
+    "https://www.wikidata.org/wiki/Q2609577",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/178/chris-evert-ivan-lendl-in-top-players-tennis",
+    "https://www.pricecharting.com/game/nes/top-players-tennis",
+    "https://howlongtobeat.com/game/10518"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-total-recall",
+   "title": "Total Recall",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-08",
+   "developer": "Interplay Productions",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Interplay's NES version for Acclaim, a different game from Ocean's computer versions, based on the 1990 film: Douglas Quaid in platform stages and top-down driving scenes.",
+   "why_it_matters": null,
+   "gameplay_notes": "Platform segments plus top-down racing.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "Nintendo Power later called its Total Recall prize contest its worst promotion.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Total_Recall_(video_game)&oldid=1377042942",
+    "https://www.wikidata.org/wiki/Q60738895",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/573/total-recall",
+    "https://www.pricecharting.com/game/nes/total-recall"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-totally-rad",
+   "title": "Totally Rad",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-03",
+   "developer": "Aicom",
+   "publisher": "Jaleco",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Aicom's action game from Jaleco, a surfer-slang localisation of Magic John: apprentice magician Jake rescues his girlfriend Allison and stops a subterranean king's invasion.",
+   "why_it_matters": null,
+   "gameplay_notes": "Side-scrolling platforming with summoning abilities and varied bosses.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Magic John (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "The NA version limits you to three continues; the Japanese version has unlimited continues.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Totally_Rad&oldid=1306751009",
+    "https://www.wikidata.org/wiki/Q9089201",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/72/totally-rad",
+    "https://www.pricecharting.com/game/nes/totally-rad"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-touchdown-fever",
+   "title": "Touchdown Fever",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-02",
+   "developer": "SNK",
+   "publisher": "SNK",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "American football"
+   ],
+   "players": "1-2",
+   "summary": "SNK's NES port of its 1987 arcade football game, in the style of 10-Yard Fight.",
+   "why_it_matters": null,
+   "gameplay_notes": "Most official rules, running and passing plays, field goals and punts. The arcade version used SNK's rotary joysticks.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Touchdown Fever: American Football (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Touchdown_Fever&oldid=1370865248",
+    "https://www.wikidata.org/wiki/Q2016893",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/944/touchdown-fever",
+    "https://www.pricecharting.com/game/nes/touchdown-fever"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Gameplay text is arcade-based."
+   ]
+  },
+  {
+   "identity_id": "nes-na-town-and-country-surf-designs-ii-thrillas-surfari",
+   "title": "Town & Country Surf Designs II: Thrilla's Surfari",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-03",
+   "developer": "Sculptured Software",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Sports"
+   ],
+   "players": "1",
+   "summary": "Sculptured Software's LJN sequel: surf-brand mascot Thrilla Gorilla skateboards, surfs and rides a shark to rescue Barbi Bikini from the witch doctor Wazula.",
+   "why_it_matters": null,
+   "gameplay_notes": "Skateboard through jungle and desert, surf rivers and waterfalls, and ride a shark through underwater caverns. Dodge elephants, giraffes and eels. A handstand grants temporary invulnerability to everything except pits.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": 1.0,
+   "hltb_status": "ESTIMATED",
+   "hltb_note": "HLTB NES platform row (1 completions logged; Wikidata-linked) - low sample",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "T&C Surf Designs 2: Thrilla's Surfari",
+    "Town & Country II: Thrilla's Surfari"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Town_&_Country_II:_Thrilla's_Surfari&oldid=1358677496",
+    "https://www.wikidata.org/wiki/Q7829879",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/335/tc-surf-designs-2-thrillas-surfari",
+    "https://www.pricecharting.com/game/nes/town-&amp;-country-ii-thrilla%27s-surfari",
+    "https://howlongtobeat.com/game/10578"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-town-and-country-surf-designs-wood-and-water-rage",
+   "title": "Town & Country Surf Designs: Wood & Water Rage",
+   "display_disambiguator": null,
+   "release_year": 1988,
+   "release_date_na": "1988-02",
+   "developer": "Atlus",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Skateboarding"
+   ],
+   "players": "1-2",
+   "summary": "Atlus-developed LJN skate-and-surf game starring the Town & Country Surf Designs mascots, 'Da Boys'.",
+   "why_it_matters": null,
+   "gameplay_notes": "Street Skate Session: timed skateboard courses with ollies and grinds. Big Wave Encounter: survive a wave until you reach the pier. Wood and Water Rage alternates the two.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "T&C Surf Designs: Wood and Water Rage",
+    "Town & Country Surf Designs"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Town_&_Country_Surf_Designs:_Wood_&_Water_Rage&oldid=1361433646",
+    "https://www.wikidata.org/wiki/Q7829883",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/115/tc-surf-designs-wood-and-water-rage",
+    "https://www.pricecharting.com/game/nes/town-&amp;-country-surf-designs-wood-and-water-rage"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-toxic-crusaders",
+   "title": "Toxic Crusaders",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-04",
+   "developer": "Tose",
+   "publisher": "Bandai",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Tose's 1992 NES side-scroller from Bandai based on the Toxic Crusaders cartoon (itself from Troma's The Toxic Avenger).",
+   "why_it_matters": null,
+   "gameplay_notes": "Side-scrolling action; details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": 1.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; title-matched NES Wikidata item)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Toxic_Crusaders_(1992_video_game)&oldid=1377357922",
+    "https://www.wikidata.org/wiki/Q73910738",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/676/toxic-crusaders",
+    "https://www.pricecharting.com/game/nes/toxic-crusaders",
+    "https://howlongtobeat.com/game/10583"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source gives no NES gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-track-and-field",
+   "title": "Track & Field",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-04",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Athletics"
+   ],
+   "players": "1-2",
+   "summary": "Konami's NES Track & Field, combining Hyper Olympic and Hyper Sports events: eight button-mashing events on one cart.",
+   "why_it_matters": "The arcade original was a 1984 phenomenon. The NES opens with the Chariots of Fire theme.",
+   "gameplay_notes": "Events: 100 m dash, long jump, javelin, 110 m hurdles, high jump, skeet shooting, archery and triple jump (no hammer throw). Mash buttons for speed and time your angle inputs. Qualify to advance.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": 0.5,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (15 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Hyper Olympic (JP)",
+    "Track & Field in Barcelona (PAL)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Track_&_Field_(video_game)&oldid=1377044185",
+    "https://www.wikidata.org/wiki/Q1630875",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/88/track-field",
+    "https://www.pricecharting.com/game/nes/track-and-field",
+    "https://howlongtobeat.com/game/10592"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-track-and-field-ii",
+   "title": "Track & Field II",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-02",
+   "developer": "Konami",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Athletics"
+   ],
+   "players": "1-2",
+   "summary": "Konami's 1988 NES sequel: represent a country across 15 Olympic-style events, two of them bonus stages.",
+   "why_it_matters": null,
+   "gameplay_notes": "Multi-event competition, with more realism than the original; details are not itemised in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Konami Sports in Seoul (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Track_&_Field_II&oldid=1370408076",
+    "https://www.wikidata.org/wiki/Q581614",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/242/track-field-ii",
+    "https://www.pricecharting.com/game/nes/track-and-field-ii"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives no event list. NA date disagreement: Wikipedia says February 1989, the NOA list says June 1989."
+   ]
+  },
+  {
+   "identity_id": "nes-na-treasure-island-dizzy-quattro-adventure",
+   "title": "Treasure Island Dizzy",
+   "display_disambiguator": "(Quattro Adventure)",
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Camerica (Codemasters)",
+   "license_class": "UNLICENSED",
+   "availability": "MULTICART_ONLY",
+   "genres": [
+    "Adventure",
+    "Puzzle"
+   ],
+   "players": "1",
+   "summary": "The second Dizzy adventure, on Camerica's Quattro Adventure: shipwrecked Dizzy must collect the island's coins and find a way home.",
+   "why_it_matters": null,
+   "gameplay_notes": "Dizzy-style item puzzles while exploring the island.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "Multicart-only game: no individual HLTB entry.",
+   "multicart_notes": "Only available on Camerica's unlicensed Quattro Adventure cartridge (standard and Aladdin versions), with Linus Spacehead, Boomerang Kid and Super Robin Hood.",
+   "on_products": [
+    {
+     "product_id": "prod-quattro-adventure",
+     "title": "Quattro Adventure",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Quattro_compilations&oldid=1342202776",
+    "https://en.wikipedia.org/w/index.php?title=Aladdin_Deck_Enhancer&oldid=1363131517",
+    "https://en.wikipedia.org/w/index.php?title=Super_Robin_Hood&oldid=1376685135",
+    "https://en.wikipedia.org/w/index.php?title=Treasure_Island_Dizzy&oldid=1377046528"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-treasure-master",
+   "title": "Treasure Master",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-12",
+   "developer": "Software Creations",
+   "publisher": "American Softworks",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Software Creations' 1991 platformer from American Softworks, tied to an MTV contest: on 11 April 1992, MTV revealed a password that unlocked a secret sixth 'Prize World'.",
+   "why_it_matters": "A US-only contest cartridge with music by Tim Follin. Contest finishers could win one of 36,252 prizes.",
+   "gameplay_notes": "Platforming across five worlds, plus the contest-only Prize World (password plus the cart's serial number).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Treasure_Master&oldid=1363887626",
+    "https://www.wikidata.org/wiki/Q7836711",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/55/treasure-master",
+    "https://www.pricecharting.com/game/nes/treasure-master"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-trog",
+   "title": "Trog",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-10",
+   "developer": "Visual Concepts",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Maze",
+    "Action"
+   ],
+   "players": "1-2",
+   "summary": "Visual Concepts' NES version, from Acclaim, of Midway's 1990 claymation arcade maze game: dinosaurs collect their eggs while evading one-eyed cavemen.",
+   "why_it_matters": null,
+   "gameplay_notes": "Pac-Man-like, but you can punch at any time. Power-ups: speed flowers, freezing ice, a T-Rex pineapple and fire breath. Some islands have no walls, so you can fall into the sea. The NES version supports two players (Bloop and Spike).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Trog!"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Trog_(video_game)&oldid=1365570273",
+    "https://www.wikidata.org/wiki/Q4051798",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/29/trog",
+    "https://www.pricecharting.com/game/nes/trog"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-trojan",
+   "title": "Trojan",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-02",
+   "developer": "Capcom",
+   "publisher": "Capcom",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Beat 'em up"
+   ],
+   "players": "1-2 (versus mode)",
+   "summary": "Capcom's NES version of Takashi Nishiyama's 1986 arcade game: sword-and-shield hero Trojan battles the tyrant Achilles in a post-apocalyptic wasteland.",
+   "why_it_matters": "The NES version adds a one-on-one versus mode, Capcom's first attempt at a fighting game and a precursor to Street Fighter.",
+   "gameplay_notes": "Up jumps. Sword attacks, and a shield that blocks in several directions. Lose your gear to magic balls and fight bare-handed until you get it back. New power-ups, hidden rooms and an extra final boss (King Shriek).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Tatakai no Banka (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Trojan_(video_game)&oldid=1365952661",
+    "https://www.wikidata.org/wiki/Q950084",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/400/trojan",
+    "https://www.pricecharting.com/game/nes/trojan"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-trolls-on-treasure-island",
+   "title": "Trolls on Treasure Island",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "American Video Entertainment",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1",
+   "summary": "AVE's 1992 unlicensed puzzle game by Michael and Camberley Crick: Dudes with Attitude's engine and rules, with a troll doll and a new set of puzzles.",
+   "why_it_matters": null,
+   "gameplay_notes": "Collect treasures that match your current colour, changing colour at 'attitude converters', as in Dudes with Attitude.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "Counted as a separate identity from Dudes with Attitude (R-U05c): the same engine but a new level set. It began as Dudes With Attitude II.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=American_Video_Entertainment&oldid=1356303612",
+    "https://www.wikidata.org/wiki/Q628652",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1043/trolls-on-treasure-island",
+    "https://www.pricecharting.com/game/nes/trolls-on-treasure-island"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-twin-cobra",
+   "title": "Twin Cobra",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-01",
+   "developer": "Micronics",
+   "publisher": "American Sammy",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1-2",
+   "summary": "Micronics' NES port, published by American Sammy, of Toaplan's 1987 Tiger-Heli sequel: an attack helicopter fights through ten boss-capped stages.",
+   "why_it_matters": null,
+   "gameplay_notes": "Colour-cycling icons switch between four weapons, 'S' icons power them up, and bombs clear the screen. Gold medals are worth bonus points. The game loops harder after the last stage.",
+   "difficulty": null,
+   "hltb_main_hours": 1.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Kyukyoku Tiger (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Twin_Cobra&oldid=1364324046",
+    "https://www.wikidata.org/wiki/Q3020041",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/945/twin-cobra",
+    "https://www.pricecharting.com/game/nes/twin-cobra",
+    "https://howlongtobeat.com/game/10711"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Gameplay text is arcade-based; NES co-op support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-twin-eagle",
+   "title": "Twin Eagle",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-10",
+   "developer": "Visco",
+   "publisher": "Romstar",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shoot 'em up"
+   ],
+   "players": "1-2",
+   "summary": "Visco's NES port, published by Romstar, of SETA's 1988 arcade helicopter shooter Twin Eagle: Revenge Joe's Brother.",
+   "why_it_matters": null,
+   "gameplay_notes": "Vertical shooting; destroying certain buildings frees hostages for bonus points.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "Not the same game as Sachen's 'Twin Eagle', which was released in the US by AVE as Double Strike.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Twin_Eagle&oldid=1246835218",
+    "https://www.wikidata.org/wiki/Q7858149",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1094/twin-eagle",
+    "https://www.pricecharting.com/game/nes/twin-eagle"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives little NES detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultima-exodus",
+   "title": "Ultima: Exodus",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-02",
+   "developer": "Newtopia Planning",
+   "publisher": "FCI",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "RPG"
+   ],
+   "players": "1",
+   "summary": "FCI's NES version of Newtopia Planning's Famicom remake of Ultima III (1983): a party of four stops Exodus, the offspring of Mondain and Minax, from ruining Sosaria.",
+   "why_it_matters": "Ultima III introduced party-based tactical combat to the series.",
+   "gameplay_notes": "Build a party from 11 classes and 5 races, and fight turn-based tactical battles. Visit Ambrosia, find dungeon marks and the Time Lord. You can't simply kill Exodus in battle; you must insert four punch cards in the right order.",
+   "difficulty": null,
+   "hltb_main_hours": 20.5,
+   "hltb_extra_hours": 30.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Ultima_III:_Exodus&oldid=1370406675",
+    "https://www.wikidata.org/wiki/Q2240236",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/472/ultima-exodus",
+    "https://www.pricecharting.com/game/nes/ultima-exodus",
+    "https://howlongtobeat.com/game/10758"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Class and race details describe the original Ultima III; the Famicom/NES remake's changes are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultima-iv-quest-of-avatar",
+   "title": "Ultima IV: Quest of the Avatar",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-12",
+   "developer": "Newtopia Planning / Infinity / Atelier Double",
+   "publisher": "FCI",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "RPG"
+   ],
+   "players": "1",
+   "summary": "FCI's heavily reworked NES version of Ultima IV (1985): instead of slaying a great evil, the hero strives to master the Eight Virtues and become the Avatar.",
+   "why_it_matters": "Possibly the first RPG built around the player's moral self-improvement rather than defeating a villain.",
+   "gameplay_notes": "A fortune-teller's ethical dilemmas decide your class. Raise virtues through your actions, and meditate at shrines using runes and mantras. Recruit companions (the NES allows four in the party at a time; extras wait at the castle hostel). Descend the Stygian Abyss for the Codex. The NES version has new graphics and music, fewer dialogue options, simplified spells and optional auto-combat.",
+   "difficulty": null,
+   "hltb_main_hours": 27.0,
+   "hltb_extra_hours": 28.5,
+   "hltb_completionist_hours": 51.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Ultima: Quest of the Avatar",
+    "Ultima: Seisha he no Michi (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Ultima_IV:_Quest_of_the_Avatar&oldid=1375265431",
+    "https://www.wikidata.org/wiki/Q541988",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/105/ultima-quest-of-the-avatar",
+    "https://www.pricecharting.com/game/nes/ultima-quest-of-the-avatar",
+    "https://howlongtobeat.com/game/10759"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-ultima-warriors-of-destiny",
+   "title": "Ultima: Warriors of Destiny",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-01",
+   "developer": "Origin Systems",
+   "publisher": "FCI",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "RPG"
+   ],
+   "players": "1",
+   "summary": "FCI's 1993 NES port of Ultima V (1988): with Lord British lost in the Underworld, the tyrant Blackthorn enforces the Virtues brutally, and the Avatar must defeat the Shadowlords.",
+   "why_it_matters": null,
+   "gameplay_notes": "Learn each Shadowlord's name, recover the shards of the Gem of Immortality, and destroy them in the three sacred flames. Characters follow day/night schedules.",
+   "difficulty": null,
+   "hltb_main_hours": 16.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": 15.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "Considered a less faithful and clunkier port than the NES Ultima III and IV, with cropped content, limited graphics and slow movement.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Ultima_V:_Warriors_of_Destiny&oldid=1354295898",
+    "https://www.wikidata.org/wiki/Q2521832",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1259/ultima-warriors-of-destiny",
+    "https://www.pricecharting.com/game/nes/ultima-warriors-of-destiny",
+    "https://howlongtobeat.com/game/10766"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Mechanics are described from the PC original; the NES port is noted as heavily cut."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultimate-air-combat",
+   "title": "Ultimate Air Combat",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-04",
+   "developer": "Activision",
+   "publisher": "Activision",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Flight",
+    "Shooter"
+   ],
+   "players": "1",
+   "summary": "Activision's 1992 flight combat game: 37 lightning-strike missions against the oil-rich dictator Don Gwano.",
+   "why_it_matters": "Mixes a cockpit view with isometric bombing runs in every mission.",
+   "gameplay_notes": "Fly to the target in cockpit view and down three enemy planes, then switch to an isometric view to hit the objective. Manage fuel, with an optional extra tank. Lost planes are gone for good, giving you effectively three lives.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Aces: Iron Eagle III (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Ultimate_Air_Combat&oldid=1317876312",
+    "https://www.wikidata.org/wiki/Q7880118",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1222/ultimate-air-combat",
+    "https://www.pricecharting.com/game/nes/ultimate-air-combat"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-ultimate-basketball",
+   "title": "Ultimate Basketball",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-09",
+   "developer": "Aicom",
+   "publisher": "American Sammy",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Basketball"
+   ],
+   "players": "1-2",
+   "summary": "Aicom's basketball game from American Sammy: seven fictional teams in championship or single-game modes.",
+   "why_it_matters": null,
+   "gameplay_notes": "Five-on-five, controlling one player at a time. Fouling out can leave just three or four players on the floor.",
+   "difficulty": null,
+   "hltb_main_hours": 1.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Taito Basketball (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Ultimate_Basketball&oldid=1337658247",
+    "https://www.wikidata.org/wiki/Q7880124",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/830/ultimate-basketball",
+    "https://www.pricecharting.com/game/nes/ultimate-basketball",
+    "https://howlongtobeat.com/game/120358"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-ultimate-league-soccer",
+   "title": "Ultimate League Soccer",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "American Video Entertainment",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Soccer"
+   ],
+   "players": "Not documented",
+   "summary": "C&E's unlicensed soccer game, published in NA by American Video Entertainment.",
+   "why_it_matters": null,
+   "gameplay_notes": "Not documented in the sources used.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=American_Video_Entertainment&oldid=1356303612",
+    "https://www.wikidata.org/wiki/Q628652",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1060/ultimate-league-soccer",
+    "https://www.pricecharting.com/game/nes/ultimate-league-soccer"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Only a short entry in the AVE publisher article; a Japanese version added adult content, but the NA AVE release is not described as such."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultimate-stuntman",
+   "title": "The Ultimate Stuntman",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Camerica (Codemasters)",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Codemasters' unlicensed 1990 action game from Camerica: the Ultimate Stuntman chases Dr. Evil, who has kidnapped Jenny Aykroyd, through varied stages.",
+   "why_it_matters": null,
+   "gameplay_notes": "Each cycle: a vehicle chase (car, hang glider, dune buggy), an on-foot gun stage, a climbing stage where you alternate between climbing and sniping threats, a boss, and a timed number-grid bomb-disposal puzzle.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": "Released in Camerica's gold cartridge shell in the US.",
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=The_Ultimate_Stuntman&oldid=1374672182",
+    "https://www.wikidata.org/wiki/Q9358285",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://en.wikipedia.org/w/index.php?title=Camerica&oldid=1359481300",
+    "https://nescartdb.com/profile/view/354/the-ultimate-stuntman",
+    "https://www.pricecharting.com/game/nes/ultimate-stuntman"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-uncanny-x-men",
+   "title": "The Uncanny X-Men",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-12",
+   "developer": null,
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1-2",
+   "summary": "LJN's 1989 X-Men game: two X-Men (one AI-controlled in single-player) fight to each boss, then race back before a bomb goes off.",
+   "why_it_matters": null,
+   "gameplay_notes": "Wolverine, Cyclops, Storm, Colossus, Nightcrawler and Iceman each have a basic attack and an energy-draining special. Bosses: Boomerang, Sabretooth, Juggernaut, the White Queen and Magneto. A hidden sixth mission uses a code partly printed on the cartridge label.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Marvel's X-Men",
+    "Uncanny X-Men, The"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=The_Uncanny_X-Men_(video_game)&oldid=1352096649",
+    "https://www.wikidata.org/wiki/Q3989775",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/437/the-uncanny-x-men",
+    "https://www.pricecharting.com/game/nes/the-uncanny-x-men"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-uncharted-waters",
+   "title": "Uncharted Waters",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-11",
+   "developer": "Koei",
+   "publisher": "Koei",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Simulation",
+    "RPG"
+   ],
+   "players": "1",
+   "summary": "Koei's 1502-set seafaring game: Leon, son of a fallen Portuguese noble family, trades and explores to restore his family's name.",
+   "why_it_matters": null,
+   "gameplay_notes": "Find trade-wind routes and currents, trade and explore by sea.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "HLTB entry exists but has no NES-specific times (other platforms only); not used.",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Daikōkai Jidai (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Uncharted_Waters_(video_game)&oldid=1368139833",
+    "https://www.wikidata.org/wiki/Q11233573",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1052/uncharted-waters",
+    "https://www.pricecharting.com/game/nes/uncharted-waters",
+    "https://howlongtobeat.com/game/10798"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-underground-action-52",
+   "title": "Underground",
+   "display_disambiguator": "(Action 52)",
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Active Enterprises",
+   "license_class": "UNLICENSED",
+   "availability": "MULTICART_ONLY",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "One of the 52 original mini-games on Active Enterprises' unlicensed Action 52 multicart (game 25 in the menu order).",
+   "why_it_matters": null,
+   "gameplay_notes": null,
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "Multicart-only game: no individual HLTB entry.",
+   "multicart_notes": "Only playable on the Action 52 cartridge (1991).",
+   "on_products": [
+    {
+     "product_id": "prod-action-52",
+     "title": "Action 52",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Action_52&oldid=1093273429",
+    "https://archive.org/details/action52",
+    "https://web.archive.org/web/2010/http://www.superfundungeonrun.com/action52/index.php"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-uninvited",
+   "title": "Uninvited",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-06",
+   "developer": "Kemco",
+   "publisher": "Seika",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Adventure",
+    "Point-and-click"
+   ],
+   "players": "1",
+   "summary": "Kemco's NES version, published by Seika, of ICOM's 1986 MacVenture horror adventure: after a car crash, explore a haunted mansion to find your missing sister (a brother in other versions).",
+   "why_it_matters": null,
+   "gameplay_notes": "Point-and-click puzzles across the house, observatory, greenhouse and chapel graveyard, facing ghosts, hellhounds and zombies. Diaries and scrolls give clues. The NES version has a time limit only if you carry a cursed ruby; it drops the hidden art gallery and simplifies the text.",
+   "difficulty": null,
+   "hltb_main_hours": 2.0,
+   "hltb_extra_hours": 5.0,
+   "hltb_completionist_hours": 6.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (19 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Akuma no Shōtaijō (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "Horror themes.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Uninvited_(video_game)&oldid=1372939172",
+    "https://www.wikidata.org/wiki/Q1523204",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1113/uninvited",
+    "https://www.pricecharting.com/game/nes/uninvited",
+    "https://howlongtobeat.com/game/13050"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-untouchables",
+   "title": "The Untouchables",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-01",
+   "developer": "Special FX Software",
+   "publisher": "Ocean Software",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Special FX's NES version, from Ocean, of its film-based action game: take down Al Capone's gang in Chicago.",
+   "why_it_matters": null,
+   "gameplay_notes": "Side-scrolling scenes loosely following the film's key moments.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Untouchables, The"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=The_Untouchables_(video_game)&oldid=1377259661",
+    "https://www.wikidata.org/wiki/Q2613588",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/596/the-untouchables",
+    "https://www.pricecharting.com/game/nes/the-untouchables"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "The source gives little NES-specific detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-urban-champion",
+   "title": "Urban Champion",
+   "display_disambiguator": null,
+   "release_year": 1986,
+   "release_date_na": "1986-08",
+   "developer": "Nintendo R&D1",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Fighting"
+   ],
+   "players": "1-2",
+   "summary": "Nintendo's 1984 street-fighting game: two brawlers trade high and low punches to knock each other off the sidewalk, block by block.",
+   "why_it_matters": "Nintendo's first 2D fighting game, though it is widely regarded as one of its weaker NES titles.",
+   "gameplay_notes": "Block and punch high or low. Weak punches are fast; strong ones hit harder. Stamina drains with every punch. Watch out for falling flower pots and passing police cars. Best of five rounds, with a manhole finale.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (15 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Urban_Champion&oldid=1360524126",
+    "https://www.wikidata.org/wiki/Q668757",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/440/urban-champion",
+    "https://nescartdb.com/profile/view/2386/urban-champion",
+    "https://www.pricecharting.com/game/nes/urban-champion",
+    "https://howlongtobeat.com/game/10846"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-vegas-dream",
+   "title": "Vegas Dream",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-04",
+   "developer": "HAL Laboratory",
+   "publisher": "HAL Laboratory",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Casino"
+   ],
+   "players": "1+ (multiplayer supported)",
+   "summary": "HAL's casino game: start with a bankroll at the HAL Palace and play keno, blackjack, roulette and slots, with story events in between.",
+   "why_it_matters": null,
+   "gameplay_notes": "Random encounters, such as pickpockets or people who reward your kindness later, are reported on the local news. You can date and marry, which can bring cash or theft. 26-character passwords. A pure 'One Spot' gambling mode.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Viva Las Vegas (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Vegas_Dream&oldid=1237528051",
+    "https://www.wikidata.org/wiki/Q7918305",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/121/vegas-dream",
+    "https://www.pricecharting.com/game/nes/vegas-dream"
+   ],
+   "confidence": "HIGH",
+   "review_flags": [
+    "Player count not stated in the source (Wikidata lists multiplayer). NA date disagreement: Wikipedia says April 1990, the NOA list says March 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-venice-beach-volleyball",
+   "title": "Venice Beach Volleyball",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "American Video Entertainment",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE_AND_MULTICART",
+   "genres": [
+    "Sports",
+    "Volleyball"
+   ],
+   "players": "Not documented",
+   "summary": "Idea-Tek's unlicensed volleyball game from American Video Entertainment: teams play the Venice Beach Open semifinals, with two men's and two women's teams.",
+   "why_it_matters": null,
+   "gameplay_notes": "Beach volleyball tournament play.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "ESTIMATED",
+   "hltb_note": "HLTB NES platform row (2 completions logged; title-matched NES Wikidata item) - low sample",
+   "multicart_notes": "Released as a standalone cart and also included on AVE's Maxi 15 multicart.",
+   "on_products": [
+    {
+     "product_id": "prod-maxi-15",
+     "title": "Maxi 15",
+     "product_type": "MULTICART"
+    }
+   ],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=American_Video_Entertainment&oldid=1356303612",
+    "https://www.wikidata.org/wiki/Q628652",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/964/venice-beach-volleyball",
+    "https://www.pricecharting.com/game/nes/venice-beach-volleyball",
+    "https://howlongtobeat.com/game/10913"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-vice-project-doom",
+   "title": "Vice: Project Doom",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-11",
+   "developer": "Aicom",
+   "publisher": "Sammy",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Aicom's 1991 Ninja Gaiden-style action game from Sammy: Detective Hart of the Vice unit uncovers an alien corporation selling the addictive drug 'Gel'.",
+   "why_it_matters": "Unusually cinematic for the NES, with many cutscenes telling a noir, biopunk story.",
+   "gameplay_notes": "Eleven stages: side-scrolling action with a laser whip, .44 Magnum and grenades; overhead Ferrari F40 driving stages; and first-person shooting galleries. Collect 100 coins for a life. Unlimited continues.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Gun-Dec (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Vice:_Project_Doom&oldid=1372949447",
+    "https://www.wikidata.org/wiki/Q3282425",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/195/vice-project-doom",
+    "https://www.pricecharting.com/game/nes/vice-project-doom"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-videomation",
+   "title": "Videomation",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-06",
+   "developer": "FarSight Studios",
+   "publisher": "THQ",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Art",
+    "Creativity"
+   ],
+   "players": "1",
+   "summary": "FarSight Studios' NA-exclusive drawing and animation program from THQ: draw with the controller, then animate stamp objects along paths.",
+   "why_it_matters": null,
+   "gameplay_notes": "Seven tools and thirteen palettes. Animate a man, child, car, plane and more along drawn paths. There's no saving; the source suggests recording to a VCR.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Videomation&oldid=1306697987",
+    "https://www.wikidata.org/wiki/Q7928030",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/50/videomation",
+    "https://www.pricecharting.com/game/nes/videomation"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-vindicators",
+   "title": "Vindicators",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "Tengen",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Shooter",
+    "Action"
+   ],
+   "players": "1-2",
+   "summary": "Tengen's unlicensed NES port of Atari's 1988 arcade tank game: drive through space-station levels collecting keys, fuel and stars, then shop for upgrades.",
+   "why_it_matters": null,
+   "gameplay_notes": "Fuel drains constantly. Stars buy speed, power, shields and sub-weapons (smart shots and bombs) between levels. Bosses need sub-weapons. Escape bonus hubs within the time limit or lose half your fuel.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Vindicators_(video_game)&oldid=1377264702",
+    "https://www.wikidata.org/wiki/Q2619973",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://en.wikipedia.org/w/index.php?title=Tengen_(company)&oldid=1372008180",
+    "https://nescartdb.com/profile/view/322/vindicators",
+    "https://www.pricecharting.com/game/nes/vindicators"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Gameplay text is arcade-based; NES two-player support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-volleyball",
+   "title": "Volleyball",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-03",
+   "developer": "Pax Softnica",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Volleyball"
+   ],
+   "players": "1-2",
+   "summary": "Pax Softnica and Nintendo's six-a-side volleyball game (a remake of the MSX Attack Four), released on NES in 1987.",
+   "why_it_matters": null,
+   "gameplay_notes": "Men's or women's teams from the US, Japan, China, Korea, Brazil, the USSR, Cuba and Tunisia. Press the button twice to serve.",
+   "difficulty": null,
+   "hltb_main_hours": 1.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (7 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Volleyball_(video_game)&oldid=1359514776",
+    "https://www.wikidata.org/wiki/Q2757019",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/20/volleyball",
+    "https://www.pricecharting.com/game/nes/volleyball",
+    "https://howlongtobeat.com/game/10982"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wacky-races",
+   "title": "Wacky Races",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-05",
+   "developer": "Atlus",
+   "publisher": "Atlus",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Atlus's Wacky Races platformer: Muttley tackles three areas and ten boss racers for Dick Dastardly.",
+   "why_it_matters": null,
+   "gameplay_notes": "Pick Hip Hop, Splish Splash or Go Go America from the map. Bite at short range, or spend collected bones Gradius-style on a bomb, bark shot, tail-glide or health. Each stage ends with a fight against one of the other racers.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wacky_Races_(1991_video_game)&oldid=1371637669",
+    "https://www.wikidata.org/wiki/Q630393",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1217/wacky-races",
+    "https://www.pricecharting.com/game/nes/wacky-races"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wall-street-kid",
+   "title": "Wall Street Kid",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-06",
+   "developer": "SOFEL",
+   "publisher": "SOFEL",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Simulation",
+    "Strategy"
+   ],
+   "players": "1",
+   "summary": "SOFEL's stock-market game: turn 500,000 in seed money into a million to inherit the Benedict family fortune.",
+   "why_it_matters": null,
+   "gameplay_notes": "Trade stocks in parody versions of real US companies. Spend winnings on weekend shopping, a boat and a house, and on your girlfriend. Failing to afford a key item gets you disowned.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "The Money Game II: Kabutochou no Kiseki (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wall_Street_Kid&oldid=1365217497",
+    "https://www.wikidata.org/wiki/Q7751994",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/673/wall-street-kid",
+    "https://www.pricecharting.com/game/nes/wall-street-kid"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wally-bear-and-no-gang",
+   "title": "Wally Bear and the NO! Gang",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": null,
+   "developer": null,
+   "publisher": "American Video Entertainment",
+   "license_class": "UNLICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Educational",
+    "Action"
+   ],
+   "players": "1+ (multiplayer supported)",
+   "summary": "AVE's unlicensed anti-drug educational game, endorsed by the American Medical Association: Wally Bear skateboards across town to gather his friends for a party at his uncle's house.",
+   "why_it_matters": null,
+   "gameplay_notes": "Side-scrolling skateboarding through suburbs, subway cars, industrial areas and city streets, meeting NO! Gang members. It ends with anti-drug advice.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": "The manual included a postcard to join the Wally Bear and the NO! Gang Club.",
+   "content_notes": "Anti-drug message about tobacco, alcohol and marijuana.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wally_Bear_and_the_NO!_Gang&oldid=1374773374",
+    "https://www.wikidata.org/wiki/Q3283927",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://en.wikipedia.org/w/index.php?title=American_Video_Entertainment&oldid=1356303612",
+    "https://nescartdb.com/profile/view/967/wally-bear-and-the-no-gang",
+    "https://www.pricecharting.com/game/nes/wally-bear-and-the-no-gang"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-warios-woods",
+   "title": "Wario's Woods",
+   "display_disambiguator": null,
+   "release_year": 1994,
+   "release_date_na": "1994-12-10",
+   "developer": "Nintendo R&D1",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle"
+   ],
+   "players": "1-2 (versus)",
+   "summary": "Nintendo's 1994 puzzle game: Toad stacks and clears monsters with bombs to free the Peaceful Woods from Wario.",
+   "why_it_matters": "The last officially licensed NES game in North America, and the only NES game with an ESRB rating.",
+   "gameplay_notes": "Clear each level by using bombs to destroy groups of enemies. Two-player versus mode.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wario's_Woods&oldid=1377330061",
+    "https://www.wikidata.org/wiki/Q2716205",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/926/warios-woods",
+    "https://www.pricecharting.com/game/nes/wario%27s-woods"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wayne-gretzky-hockey",
+   "title": "Wayne Gretzky Hockey",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-01",
+   "developer": "Bethesda Softworks",
+   "publisher": "THQ",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Hockey"
+   ],
+   "players": "Not documented",
+   "summary": "Bethesda Softworks' NES version, from THQ, of its 1988 hockey game fronted by Wayne Gretzky.",
+   "why_it_matters": null,
+   "gameplay_notes": "Play, play-and-coach, or coach-only modes. Overhead view, instant replay, player fatigue and line changes.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wayne_Gretzky_Hockey&oldid=1346122412",
+    "https://www.wikidata.org/wiki/Q16267515",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/755/wayne-gretzky-hockey",
+    "https://www.pricecharting.com/game/nes/wayne-gretzky-hockey"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Features are described for the computer original (including mouse controls); NES specifics are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-waynes-world",
+   "title": "Wayne's World",
+   "display_disambiguator": null,
+   "release_year": 1993,
+   "release_date_na": "1993-11",
+   "developer": "Radical Entertainment",
+   "publisher": "THQ",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer",
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Radical Entertainment's NES game from THQ, following the film: Wayne and Garth try to stop a producer taking over their public-access show.",
+   "why_it_matters": null,
+   "gameplay_notes": "Wayne kicks and Garth fires a laser gun; both can do a 'major-high flip jump'. Levels include Kramer's Music Store (killer instruments), the Gasworks, an alley, Ben's studio and his condo, each timed. Donuts and P power-ups restore 'worthiness'. Donut bonus stages.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wayne's_World_(video_game)&oldid=1359758125",
+    "https://www.wikidata.org/wiki/Q7975976",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/936/waynes-world",
+    "https://www.pricecharting.com/game/nes/wayne%27s-world"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wcw-world-championship-wrestling",
+   "title": "WCW: World Championship Wrestling",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-04",
+   "developer": "Nichibutsu",
+   "publisher": "FCI",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Wrestling"
+   ],
+   "players": "1-2",
+   "summary": "Nichibutsu's wrestling game with an FCI World Championship Wrestling licence: the only NWA-based video game, with singles and tag modes.",
+   "why_it_matters": null,
+   "gameplay_notes": "One-player singles: beat 11 opponents twice, then WCW Master (passwords save progress). Tag tournaments. Two-player singles and tag matches.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Super Star Pro Wrestling (JP)",
+    "WCW World Championship Wrestling",
+    "World Championship Wrestling"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=WCW_Wrestling&oldid=1369118504",
+    "https://www.wikidata.org/wiki/Q3564653",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/404/wcw-world-championship-wrestling",
+    "https://www.pricecharting.com/game/nes/wcw-world-championship-wrestling"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-werewolf-last-warrior",
+   "title": "Werewolf: The Last Warrior",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-11",
+   "developer": "Data East / Sakata SAS",
+   "publisher": "Data East",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Data East's 1990 action platformer: Ken, last of a tribe of changelings, transforms into the werewolf Warwolf to fight Dr. Faryan's mutant army on the colony world Red Earth.",
+   "why_it_matters": null,
+   "gameplay_notes": "Red W's turn Ken into a werewolf with longer claws and wall-climbing; blue W's turn him back into a man. Five anger bubbles trigger a temporary super-werewolf form with higher jumps and double damage.",
+   "difficulty": null,
+   "hltb_main_hours": 2.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (3 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Choujinrou Senki Warwolf (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Werewolf:_The_Last_Warrior&oldid=1362895416",
+    "https://www.wikidata.org/wiki/Q4053053",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/402/werewolf-the-last-warrior",
+    "https://www.pricecharting.com/game/nes/werewolf",
+    "https://howlongtobeat.com/game/11126"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune",
+   "title": "Wheel of Fortune",
+   "display_disambiguator": null,
+   "release_year": 1988,
+   "release_date_na": "1988-09",
+   "developer": "Rare",
+   "publisher": "GameTek",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Game show",
+    "Word"
+   ],
+   "players": "Not documented",
+   "summary": "GameTek's first NES Wheel of Fortune (1987–88), based on the syndicated game show: spin the wheel, buy vowels and solve the word puzzles.",
+   "why_it_matters": null,
+   "gameplay_notes": "Show-format puzzle solving; NES-specific details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wheel_of_Fortune_video_games&oldid=1373244206",
+    "https://www.wikidata.org/wiki/Q3567654",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/340/wheel-of-fortune",
+    "https://www.pricecharting.com/game/nes/wheel-of-fortune"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source credits the original NES Wheel to Sharedata; the census lists Rare as developer. Needs reconciliation and a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-family-edition",
+   "title": "Wheel of Fortune Family Edition",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-03",
+   "developer": "Rare",
+   "publisher": "GameTek",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Game show",
+    "Word"
+   ],
+   "players": "Not documented",
+   "summary": "Rare's NES-exclusive 'Family Edition' of Wheel of Fortune, published by GameTek.",
+   "why_it_matters": null,
+   "gameplay_notes": "Show-format puzzle solving; details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Wheel of Fortune: Family Edition"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wheel_of_Fortune_video_games&oldid=1373244206",
+    "https://www.wikidata.org/wiki/Q3567654",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/125/wheel-of-fortune-family-edition",
+    "https://www.pricecharting.com/game/nes/wheel-of-fortune-family-edition"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Only a brief mention in the franchise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-featuring-vanna-white",
+   "title": "Wheel of Fortune: Featuring Vanna White",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-01",
+   "developer": "Imagitec",
+   "publisher": "GameTek",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Game show",
+    "Word"
+   ],
+   "players": "Not documented",
+   "summary": "GameTek's 1992 NES Wheel of Fortune featuring Vanna White.",
+   "why_it_matters": null,
+   "gameplay_notes": "Show-format puzzle solving; details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Wheel of Fortune featuring Vanna White"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wheel_of_Fortune_video_games&oldid=1373244206",
+    "https://www.wikidata.org/wiki/Q3567654",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/36/wheel-of-fortune-featuring-vanna-white",
+    "https://www.pricecharting.com/game/nes/wheel-of-fortune-featuring-vanna-white"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source credits GameTek and IJE Inc.; the census lists Imagitec as developer. Needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-junior-edition",
+   "title": "Wheel of Fortune Junior Edition",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-10",
+   "developer": "Rare",
+   "publisher": "GameTek",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Game show",
+    "Word"
+   ],
+   "players": "Not documented",
+   "summary": "Rare's NES-exclusive 'Junior Edition' of Wheel of Fortune, published by GameTek.",
+   "why_it_matters": null,
+   "gameplay_notes": "Show-format puzzle solving; details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Wheel of Fortune: Jr.",
+    "Wheel of Fortune: Junior Edition"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wheel_of_Fortune_video_games&oldid=1373244206",
+    "https://www.wikidata.org/wiki/Q3567654",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/727/wheel-of-fortune-junior-edition",
+    "https://www.pricecharting.com/game/nes/wheel-of-fortune-junior-edition"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Only a brief mention in the franchise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-where-in-time-is-carmen-sandiego",
+   "title": "Where in Time Is Carmen Sandiego?",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-10",
+   "developer": "Distinctive Software",
+   "publisher": "Konami",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Educational",
+    "Adventure"
+   ],
+   "players": "1",
+   "summary": "Konami's NES version of Broderbund's history-detective game: as an ACME time agent, chase Carmen's V.I.L.E. henchmen through time with the Chronoskimmer.",
+   "why_it_matters": null,
+   "gameplay_notes": "Follow travel clues to the next place and era (400 AD to the 1950s) and gather clues to the suspect's identity for a warrant. Beat the clock to make the arrest. Rise through the ranks by catching 80 criminals. It originally came with a desk encyclopedia for research.",
+   "difficulty": null,
+   "hltb_main_hours": 7.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "ESTIMATED",
+   "hltb_note": "HLTB NES platform row (1 completions logged; Wikidata-linked) - low sample",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Where in Time is Carmen Sandiego?"
+   ],
+   "collecting_notes": "The complete package included the New American Desk Encyclopedia.",
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Where_in_Time_Is_Carmen_Sandiego?_(video_game)&oldid=1372824055",
+    "https://www.wikidata.org/wiki/Q16205201",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/51/where-in-time-is-carmen-sandiego",
+    "https://www.pricecharting.com/game/nes/where-in-time-is-carmen-sandiego",
+    "https://howlongtobeat.com/game/11138"
+   ],
+   "confidence": "HIGH",
+   "review_flags": [
+    "The encyclopedia pack-in is described for the series release generally; confirm for the NES box."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheres-waldo",
+   "title": "Where's Waldo?",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-07",
+   "developer": "Bethesda Softworks",
+   "publisher": "THQ",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle",
+    "Hidden object"
+   ],
+   "players": "1",
+   "summary": "Bethesda Softworks' 1991 Where's Waldo? for THQ: find Waldo across eight scenes to get him to the Moon.",
+   "why_it_matters": "Panned by critics, largely because the low-resolution graphics make Waldo hard to spot.",
+   "gameplay_notes": "Place a magnifying glass on Waldo within the time limit, and lose ten seconds for a wrong guess. Harder modes add scrolling scenes and colour-shifting Waldos. Special levels include a dark cave, a subway maze with Wizard Whitebeard, and a final picture-matching stage.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": 1.0,
+   "hltb_completionist_hours": 1.5,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (21 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Where's_Waldo?_(video_game)&oldid=1371315005",
+    "https://www.wikidata.org/wiki/Q7993125",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/924/wheres-waldo",
+    "https://www.pricecharting.com/game/nes/where%27s-waldo",
+    "https://howlongtobeat.com/game/11141"
+   ],
+   "confidence": "HIGH",
+   "review_flags": [
+    "NA date disagreement: Wikipedia says July 1991, the NOA list says September 1991."
+   ]
+  },
+  {
+   "identity_id": "nes-na-who-framed-roger-rabbit",
+   "title": "Who Framed Roger Rabbit",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-09",
+   "developer": "Rare",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action-adventure"
+   ],
+   "players": "1",
+   "summary": "Rare's 1989 action-adventure from LJN: detective Eddie Valiant, with Roger in tow, searches Los Angeles and Toontown for the four pieces of Marvin Acme's will and confronts Judge Doom.",
+   "why_it_matters": null,
+   "gameplay_notes": "Explore an overhead city, searching buildings and caves in side-scrolling interiors for items and clues. Summon Benny the Cab for travel. Punch weasels, or use bricks, exploding cigars and six-shooters. Captured by the Weasel patrol? Answer a riddle to escape.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Who Framed Roger Rabbit?"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Who_Framed_Roger_Rabbit_(1989_video_game)&oldid=1336464283",
+    "https://www.wikidata.org/wiki/Q7997235",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/298/who-framed-roger-rabbit",
+    "https://www.pricecharting.com/game/nes/who-framed-roger-rabbit"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-whomp-em",
+   "title": "Whomp 'Em",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-03",
+   "developer": "Jaleco",
+   "publisher": "Jaleco",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer",
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Jaleco's Mega Man-like platformer, Westernised from the Journey to the West-based Saiyūki World 2: clear elemental stages to gain new weapons.",
+   "why_it_matters": null,
+   "gameplay_notes": "After the first stage, play the other six in any order, each rewarding a new weapon.",
+   "difficulty": null,
+   "hltb_main_hours": 2.0,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": 2.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Saiyūki World 2: Tenjōkai no Majin (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": "The NA version replaces Sun Wukong with a Native American hero and moves the setting to the Old West.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Whomp_'Em&oldid=1348281699",
+    "https://www.wikidata.org/wiki/Q7997606",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/937/whomp-em",
+    "https://www.pricecharting.com/game/nes/whomp-%27em",
+    "https://howlongtobeat.com/game/11152"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-widget",
+   "title": "Widget",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-11",
+   "developer": "Graphic Research",
+   "publisher": "Atlus",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Atlus's 1992 platformer based on the cartoon Widget the World Watcher, starring the purple alien Widget.",
+   "why_it_matters": null,
+   "gameplay_notes": "Action platforming; details are not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Widget_(video_game)&oldid=1364123387",
+    "https://www.wikidata.org/wiki/Q7998722",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/710/widget",
+    "https://www.pricecharting.com/game/nes/widget"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wild-gunman",
+   "title": "Wild Gunman",
+   "display_disambiguator": null,
+   "release_year": 1985,
+   "release_date_na": "1985-10-18",
+   "developer": "Nintendo R&D1 / Intelligent Systems",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Light gun",
+    "Shooter"
+   ],
+   "players": "1",
+   "summary": "Nintendo's Zapper quick-draw game and NES launch title, based on Gunpei Yokoi's 1974 electro-mechanical arcade game: outdraw Old West gunmen when their eyes flash 'FIRE!!'.",
+   "why_it_matters": "Famously played by Marty McFly in Back to the Future Part II.",
+   "gameplay_notes": "Wait for the signal, then shoot; firing too early forfeits the duel.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "Requires the NES Zapper.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wild_Gunman&oldid=1364626458",
+    "https://www.wikidata.org/wiki/Q968105",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/306/wild-gunman",
+    "https://www.pricecharting.com/game/nes/wild-gunman"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-willow",
+   "title": "Willow",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-12",
+   "developer": "Capcom",
+   "publisher": "Capcom",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action RPG"
+   ],
+   "players": "1",
+   "summary": "Capcom's 1989 Zelda-like action RPG inspired by the film: Willow Ufgood, mostly alone, fights evil with swords, shields and magic.",
+   "why_it_matters": null,
+   "gameplay_notes": "Real-time combat with experience levels. Talk to villagers for advice, items, magic and weapons. There's no money; everything is found. Passwords.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": "A different game from Capcom's side-scrolling Willow arcade game.",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Willow_(NES_video_game)&oldid=1375108377",
+    "https://www.wikidata.org/wiki/Q16683360",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1004/willow",
+    "https://www.pricecharting.com/game/nes/willow"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-win-lose-or-draw",
+   "title": "Win, Lose, or Draw",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-03",
+   "developer": "Riedel Software Productions",
+   "publisher": "Hi Tech Expressions",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Game show",
+    "Party"
+   ],
+   "players": "Not documented",
+   "summary": "Hi Tech Expressions' 1989 NES version of the Pictionary-style TV game show Win, Lose or Draw.",
+   "why_it_matters": null,
+   "gameplay_notes": "Guess phrases from drawings, as on the show; NES specifics are not documented.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Win, Lose or Draw"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Win,_Lose_or_Draw&oldid=1368647332",
+    "https://www.wikidata.org/wiki/Q3064584",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/757/win-lose-or-draw",
+    "https://www.pricecharting.com/game/nes/win-lose-or-draw"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "Only a one-line mention of the NES version in the TV show article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-winter-games",
+   "title": "Winter Games",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-09",
+   "developer": "Atelier Double",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Winter sports"
+   ],
+   "players": "1",
+   "summary": "Atelier Double's NES version, published by Acclaim, of Epyx's 1985 winter sports game: players pick countries and compete in Winter Olympics-style events.",
+   "why_it_matters": null,
+   "gameplay_notes": "Turn-based multi-event competition; NES event list not documented.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Winter_Games&oldid=1377292560",
+    "https://www.wikidata.org/wiki/Q1790249",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1361/winter-games",
+    "https://nescartdb.com/profile/view/925/winter-games",
+    "https://www.pricecharting.com/game/nes/winter-games"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source describes the computer original (up to 8 players); NES events and player count are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wizardry-knight-of-diamonds-second-scenario",
+   "title": "Wizardry: Knight of Diamonds - The Second Scenario",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-04",
+   "developer": "Game Studio",
+   "publisher": "ASCII",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "RPG",
+    "Dungeon crawler"
+   ],
+   "players": "1",
+   "summary": "ASCII's NES version of Wizardry II (1982): a six-member party recovers the Knight of Diamonds armour across six dungeon levels to save besieged Llylgamyn.",
+   "why_it_matters": null,
+   "gameplay_notes": "First-person dungeon crawling tuned for high-level parties (13 and up). Every level holds a piece of the armour, and there are no elevators to skip ahead. You can save inside the dungeon.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "Balanced for experienced parties, with no training area."
+   },
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Wizardry II: Knight of Diamonds",
+    "Wizardry: Knight of Diamonds"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wizardry_II:_The_Knight_of_Diamonds&oldid=1342839600",
+    "https://www.wikidata.org/wiki/Q2717834",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1156/wizardry-knight-of-diamonds",
+    "https://www.pricecharting.com/game/nes/wizardry-knight-of-diamonds-second-scenario"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Mechanics describe the original; NES specifics (such as a pre-generated party) are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wizardry-proving-grounds-of-mad-overlord",
+   "title": "Wizardry: Proving Grounds of the Mad Overlord",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-07",
+   "developer": "Game Studio",
+   "publisher": "Nexoft",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "RPG",
+    "Dungeon crawler"
+   ],
+   "players": "1",
+   "summary": "The NES version, published by Nexoft, of the 1981 Wizardry: a party of up to six descends ten dungeon levels beneath Trebor's castle to defeat the wizard Werdna.",
+   "why_it_matters": "A foundational party-based computer RPG and one of the first D&D-style computer games.",
+   "gameplay_notes": "Five races, three alignments, and four base classes plus elite classes (Bishop, Samurai, Lord, Ninja). Seven tiers of spells. Mapping by hand is practically essential.",
+   "difficulty": null,
+   "hltb_main_hours": 24.5,
+   "hltb_extra_hours": 29.0,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (6 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wizardry:_Proving_Grounds_of_the_Mad_Overlord&oldid=1376063803",
+    "https://www.wikidata.org/wiki/Q1886140",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1100/wizardry-proving-grounds-of-the-mad-overlord",
+    "https://www.pricecharting.com/game/nes/wizardry-proving-grounds-of-the-mad-overlord",
+    "https://howlongtobeat.com/game/11239"
+   ],
+   "confidence": "MEDIUM",
+   "review_flags": [
+    "Mechanics describe the original; NES graphic and interface changes are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wizards-and-warriors",
+   "title": "Wizards & Warriors",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-12",
+   "developer": "Rare",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Platformer",
+    "Action"
+   ],
+   "players": "1",
+   "summary": "Rare's 1987 action platformer for Acclaim: the knight Kuros crosses the forests, caves and castle of Elrond to defeat the wizard Malkil and rescue the princess.",
+   "why_it_matters": "Acclaim's first title as a domestic publisher, and Rare's second NES game, with music by David Wise.",
+   "gameplay_notes": "Swing or hold out the Brightsword, and collect colour-matched keys, magic and treasure. Pay gems to guardians to pass. Health drains slowly over time, and meat restores it. Bosses show a black-magic meter. Unlimited continues (only your score resets).",
+   "difficulty": null,
+   "hltb_main_hours": 2.5,
+   "hltb_extra_hours": 3.0,
+   "hltb_completionist_hours": 5.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (24 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Densetsu no Kishi Elrond (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wizards_&_Warriors&oldid=1350593601",
+    "https://www.wikidata.org/wiki/Q1143274",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/27/wizards-warriors",
+    "https://www.pricecharting.com/game/nes/wizards-and-warriors",
+    "https://howlongtobeat.com/game/11241"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wizards-and-warriors-iii-kuros-visions-of-power",
+   "title": "Wizards & Warriors III: Kuros: Visions of Power",
+   "display_disambiguator": null,
+   "release_year": 1992,
+   "release_date_na": "1992-03",
+   "developer": "Zippo Games / Rare",
+   "publisher": "Acclaim Entertainment",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action-adventure",
+    "Metroidvania"
+   ],
+   "players": "1",
+   "summary": "Zippo Games' 1992 finale for Rare and Acclaim: stripped of his armour and memory, Kuros infiltrates Piedup in disguise to unseat Malkil.",
+   "why_it_matters": null,
+   "gameplay_notes": "Non-linear exploration of the town, underworld and palace. Return bronze, silver and gold statues to the Knight, Thief and Wizard guilds and pass their tests to unlock disguises and abilities. Buy keys, food and tips at inns. Three lives, with no password or continue.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "No passwords or continues across a long non-linear quest."
+   },
+   "hltb_main_hours": 3.0,
+   "hltb_extra_hours": 5.0,
+   "hltb_completionist_hours": 2.0,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (7 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Wizards & Warriors III"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wizards_&_Warriors_III:_Kuros:_Visions_of_Power&oldid=1363106059",
+    "https://www.wikidata.org/wiki/Q8028773",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1215/wizards-warriors-iii",
+    "https://www.pricecharting.com/game/nes/wizards-and-warriors-iii-kuros-visions-of-power",
+    "https://howlongtobeat.com/game/11243"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wolverine",
+   "title": "Wolverine",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-10",
+   "developer": "Software Creations",
+   "publisher": "LJN",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Software Creations' 1991 Wolverine game from LJN: stranded on an island by Magneto and Sabretooth, Wolverine fights through to face them both.",
+   "why_it_matters": null,
+   "gameplay_notes": "Punch and kick. Claws (toggled with Select) drain energy, and hamburgers and sodas refill it. Kill enough enemies to trigger Berserker mode. X-Men icons bring advice or help from Jubilee, Havok and Psylocke. There's no invulnerability after being hit, so contact damage keeps draining you.",
+   "difficulty": {
+    "level": "Hard",
+    "reason": "Continuous contact damage with no mercy invulnerability."
+   },
+   "hltb_main_hours": 2.0,
+   "hltb_extra_hours": 2.5,
+   "hltb_completionist_hours": null,
+   "hltb_status": "VERIFIED",
+   "hltb_note": "HLTB NES platform row (7 completions logged; Wikidata-linked)",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wolverine_(1991_video_game)&oldid=1316866887",
+    "https://www.wikidata.org/wiki/Q8030537",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/375/wolverine",
+    "https://www.pricecharting.com/game/nes/wolverine",
+    "https://howlongtobeat.com/game/11254"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-world-champ",
+   "title": "World Champ",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-04",
+   "developer": "Pixel",
+   "publisher": "Romstar",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Boxing"
+   ],
+   "players": "Not documented",
+   "summary": "Pixel's boxing game published by Romstar, released in NA in April 1991; Great Boxing - Rush Up in Japan (census record).",
+   "why_it_matters": null,
+   "gameplay_notes": "Not documented in the sources used.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Great Boxing - Rush Up (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/587/world-champ",
+    "https://www.pricecharting.com/game/nes/world-champ"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "No linked Wikipedia article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-world-class-track-meet",
+   "title": "World Class Track Meet",
+   "display_disambiguator": null,
+   "release_year": 1987,
+   "release_date_na": "1987-09",
+   "developer": "Human Entertainment",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports",
+    "Athletics",
+    "Fitness"
+   ],
+   "players": "1-2 (up to 6 alternating)",
+   "summary": "Human Entertainment's Power Pad athletics game, released by Bandai as Stadium Events (1987) and later by Nintendo as World Class Track Meet: 100 m dash, 110 m hurdles, long jump and triple jump.",
+   "why_it_matters": "The Power Pad's flagship title, also bundled on the Super Mario Bros./Duck Hunt/World Class Track Meet cartridge.",
+   "gameplay_notes": "Run by stepping on the mat, with the row you use setting your top speed. False starts count. Tournament mode against six CPU runners. 'Olympics' mode runs all four events against 1982 world records. Two players at once, up to six taking turns.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": "Also on the licensed 3-in-1 Super Mario Bros./Duck Hunt/World Class Track Meet cartridge (Power Set).",
+   "on_products": [
+    {
+     "product_id": "prod-3-in-1-super-mario-bros-duck-hunt-world-class-track-meet",
+     "title": "3-in-1 Super Mario Bros./Duck Hunt/World Class Track Meet",
+     "product_type": "LICENSED_COMPILATION"
+    }
+   ],
+   "alternate_titles": [
+    "Family Trainer 2: Running Stadium (JP)",
+    "Stadium Events"
+   ],
+   "collecting_notes": "One identity (D-03) with several products: Bandai's Stadium Events, Nintendo's World Class Track Meet and the 3-in-1 compilation. Stadium Events was pulled from retail after Nintendo acquired the mat; its print run is undocumented.",
+   "content_notes": "Requires the Power Pad (Family Fun Fitness mat for the Stadium Events release).",
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Stadium_Events&oldid=1372012343",
+    "https://www.wikidata.org/wiki/Q3569964",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/1394/stadium-events",
+    "https://nescartdb.com/profile/view/239/world-class-track-meet",
+    "https://www.pricecharting.com/game/nes/family-fun-fitness-bundle"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-world-games",
+   "title": "World Games",
+   "display_disambiguator": null,
+   "release_year": 1989,
+   "release_date_na": "1989-03",
+   "developer": "Software Creations",
+   "publisher": "Milton Bradley",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Sports"
+   ],
+   "players": "1-2",
+   "summary": "Software Creations' NES port, published by Milton Bradley for Rare, of Epyx's 1986 World Games: a globe-trotting follow-up to Summer and Winter Games.",
+   "why_it_matters": null,
+   "gameplay_notes": "International sports events; the NES event list is not documented in the source.",
+   "difficulty": null,
+   "hltb_main_hours": 0.5,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "ESTIMATED",
+   "hltb_note": "HLTB NES platform row (1 completions logged; Wikidata-linked) - low sample",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=World_Games_(video_game)&oldid=1377293445",
+    "https://www.wikidata.org/wiki/Q928439",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/396/world-games",
+    "https://www.pricecharting.com/game/nes/world-games",
+    "https://howlongtobeat.com/game/11274"
+   ],
+   "confidence": "LOW",
+   "review_flags": [
+    "The source gives no NES event list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wrath-of-black-manta",
+   "title": "Wrath of the Black Manta",
+   "display_disambiguator": null,
+   "release_year": 1990,
+   "release_date_na": "1990-04",
+   "developer": "A.I",
+   "publisher": "Taito",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Platformer"
+   ],
+   "players": "1",
+   "summary": "Taito's heavily reworked NES localisation of A.I's Ninja Cop Saizou: the ninja Black Manta rescues kidnapped children from El Toro's gang across five levels.",
+   "why_it_matters": null,
+   "gameplay_notes": "Throwing stars plus 'ninja arts' earned after each level, selected with Start. Rescuing hidden children is optional. Part of the last level is played in first person.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Ninja Cop Saizou (JP)"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wrath_of_the_Black_Manta&oldid=1350907126",
+    "https://www.wikidata.org/wiki/Q8037625",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/294/wrath-of-the-black-manta",
+    "https://www.pricecharting.com/game/nes/wrath-of-the-black-manta"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wrecking-crew",
+   "title": "Wrecking Crew",
+   "display_disambiguator": null,
+   "release_year": 1985,
+   "release_date_na": "1985-10-18",
+   "developer": "Nintendo R&D1",
+   "publisher": "Nintendo",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Puzzle",
+    "Action"
+   ],
+   "players": "1-2 (alternating)",
+   "summary": "Nintendo's 1985 NES launch title, designed by Yoshio Sakamoto: Mario (Luigi for player 2) demolishes walls, ladders and pillars with a hammer across 100 levels.",
+   "why_it_matters": null,
+   "gameplay_notes": "Mario can't jump, so demolition order matters. Bombs chain through connected objects, doors send enemies away, and foreman Spike tries to knock Mario down. Pick any starting level. There's a level editor, but the NES can't save designs (it needed the Famicom Data Recorder).",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wrecking_Crew_(video_game)&oldid=1359905464",
+    "https://www.wikidata.org/wiki/Q2532009",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/267/wrecking-crew",
+    "https://nescartdb.com/profile/view/2379/wrecking-crew",
+    "https://www.pricecharting.com/game/nes/wrecking-crew"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  },
+  {
+   "identity_id": "nes-na-wurm-journey-to-center-of-earth",
+   "title": "Wurm: Journey to the Center of the Earth",
+   "display_disambiguator": null,
+   "release_year": 1991,
+   "release_date_na": "1991-11",
+   "developer": "Cyclone System",
+   "publisher": "Asmik",
+   "license_class": "LICENSED",
+   "availability": "STANDALONE",
+   "genres": [
+    "Action",
+    "Shooter"
+   ],
+   "players": "1",
+   "summary": "Cyclone System's multi-genre game from Asmik: 18-year-old Moby leads a drilling-vehicle crew investigating mysterious 1999 earthquakes, and is caught up in an underground war between the Nonmalta and the Dinamur.",
+   "why_it_matters": null,
+   "gameplay_notes": "Side-scrolling vehicle travel, overhead shooting, on-foot ruin exploration (kick, jump, gun) and first-person boss fights, where you must raise a probability meter to 100% before you can finish the boss. Run out of fuel or energy and you lose. New crew members join along the way.",
+   "difficulty": null,
+   "hltb_main_hours": null,
+   "hltb_extra_hours": null,
+   "hltb_completionist_hours": null,
+   "hltb_status": "NO_DATA",
+   "hltb_note": "No NES HLTB entry could be matched (HLTB search is not accessible to automated tools; only Wikidata-linked or title-matched ids were used).",
+   "multicart_notes": null,
+   "on_products": [],
+   "alternate_titles": [
+    "Chitei Senkou Bazolder (JP)",
+    "WURM: Journey to the Center of the Earth"
+   ],
+   "collecting_notes": null,
+   "content_notes": null,
+   "sources": [
+    "https://en.wikipedia.org/w/index.php?title=Wurm:_Journey_to_the_Center_of_the_Earth&oldid=1372818796",
+    "https://www.wikidata.org/wiki/Q8039296",
+    "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222",
+    "https://nescartdb.com/profile/view/91/wurm-journey-to-the-center-of-the-earth",
+    "https://www.pricecharting.com/game/nes/wurm-journey-to-the-center-of-the-earth"
+   ],
+   "confidence": "HIGH",
+   "review_flags": []
+  }
+ ]
+}

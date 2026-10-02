@@ -1,0 +1,6 @@
+(()=>{
+function hiddenHost(dlg,kind){let host=dlg.querySelector(`[data-ct-legacy="${kind}"]`);if(!host){host=document.createElement('div');host.hidden=true;host.dataset.ctLegacy=kind;dlg.appendChild(host)}return host}
+function ensureRoulette(){const dlg=document.getElementById('rouletteDialog');if(!dlg)return;if(dlg.querySelector('#rouletteResult')&&dlg.querySelector('#rouletteInfo'))return;const h=hiddenHost(dlg,'roulette');if(!h.querySelector('#rouletteResult'))h.insertAdjacentHTML('beforeend','<div id="rouletteResult"></div><div id="rouletteInfo"></div><button id="rouletteSpin" type="button"></button>')}
+function ensureShelf(){const dlg=document.getElementById('myShelfDialog');if(!dlg)return;if(dlg.querySelector('#shelfSearch')&&dlg.querySelector('#shelfOwned')&&dlg.querySelector('#shelfList'))return;const h=hiddenHost(dlg,'shelf');if(!h.querySelector('#shelfSearch'))h.insertAdjacentHTML('beforeend','<span id="shelfOwned"></span><span id="shelfRemaining"></span><span id="shelfPct"></span><div id="shelfBar"></div><input id="shelfSearch"><section id="shelfList"></section>')}
+for(const [id,fn] of [['rouletteDialog',ensureRoulette],['myShelfDialog',ensureShelf]]){const dlg=document.getElementById(id);if(!dlg)continue;new MutationObserver(fn).observe(dlg,{childList:true});fn()}
+})();

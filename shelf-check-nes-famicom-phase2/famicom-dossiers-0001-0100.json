@@ -1,0 +1,1486 @@
+[
+  {
+    "identity_id": "FC-0001",
+    "gameplay_summary": "Single-screen platformer: climb girders and ladders as Mario, jump barrels and fireballs, and reach the top to rescue the Lady from Donkey Kong.",
+    "dossier": "One of the Famicom's three launch games and Nintendo's home port of its 1981 arcade hit. You guide Mario (still unnamed in this era) up a construction site while Donkey Kong hurls barrels; jumping hazards scores points and the hammer lets you smash them for a few seconds. The cartridge has three stages rather than the arcade's four: the conveyor-belt factory stage was cut for space, along with the climbing intermissions and the height markers. The three stages loop with rising speed, so it is a score-attack game rather than one you finish. The port was considered remarkably close to the arcade for 1983. The NES cartridge is the same Nintendo port.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Pure arcade action with English on-screen text; nothing needs to be read to play.",
+    "nes_counterpart_context": "Same game as the NES Donkey Kong (North America 1986); both cartridges are the same Nintendo port.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110825567",
+      "https://en.wikipedia.org/w/index.php?oldid=1376042992",
+      "https://famiwiki.net/wiki/Donkey_Kong_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0002",
+    "gameplay_summary": "Single-screen platformer: climb vines and chains as Donkey Kong Jr., dodge Mario's traps and drop fruit on enemies to reach the key and free Donkey Kong.",
+    "dossier": "A Famicom launch title porting the 1982 arcade sequel, with the roles reversed: Mario is the jailer and you play Junior trying to free his father. The core trick is vine climbing: hold two vines to climb fast, one vine to slide down quickly. Snapjaws, birds and sparks patrol each screen, and knocking fruit off its perch wipes out anything beneath it. There are four stages, the last one pushing keys up to unlock the cage, and the game then loops at a higher difficulty. Unlike the Famicom Donkey Kong, this port kept all four arcade stages, losing only some small animations. The NES version is the same cartridge.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; no Japanese is involved in normal play.",
+    "nes_counterpart_context": "Same game as the NES Donkey Kong Jr. (North America 1986); same Nintendo port in both regions.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110136096",
+      "https://en.wikipedia.org/w/index.php?oldid=1375564356",
+      "https://famiwiki.net/wiki/Donkey_Kong_Jr."
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0003",
+    "gameplay_summary": "Single-screen action game: move Popeye around a multi-level stage to catch the hearts, notes or letters Olive throws before they sink, while avoiding Brutus and the Sea Hag.",
+    "dossier": "The third Famicom launch game, a port of Nintendo's 1982 arcade game based on the comic strip. Popeye cannot jump; he walks and climbs stairs and ladders between levels of the screen, punching away bottles and other thrown objects. Each of the three stages (dock, town, ship) has you collect everything Olive drops; miss one and it sinks, costing a life. Brutus chases you constantly and can only be beaten after eating the one can of spinach per stage, which briefly lets Popeye knock him into the sea. Stage gimmicks include a punching bag that can drop a bucket on Brutus. Clearing all three stages loops back to a harder first stage.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; the objectives are visual and need no reading.",
+    "nes_counterpart_context": "Same game as the NES Popeye (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111153046",
+      "https://en.wikipedia.org/w/index.php?oldid=1341177294",
+      "https://famiwiki.net/wiki/Popeye"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0004",
+    "gameplay_summary": "Computer version of renju (tournament gomoku): take turns placing stones and be the first to make five in a row, against the computer or a second player.",
+    "dossier": "A straight adaptation of renju, the competitive form of gomoku in which the first player (black) is barred from certain double threats and overlines so the game stays balanced. You play black against the computer at one of three levels or face a friend. Beginner flashes the opponent's open threes and fours as a hint (though not every danger), Intermediate removes the hints, and Advanced adds a 90-second move clock. Despite the box and title screen pushing the friendlier word gomoku, the rules are renju throughout. The content is nearly identical to Nichibutsu's 1981 arcade version. It was sold only in Japan, and nothing comparable came out on NES.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Only the difficulty menu is in Japanese (beginner, intermediate, advanced, two-player). Knowing renju's restrictions on black matters far more than reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "Uses renju rules, so black (the player in one-player mode) loses to forbidden moves that plain gomoku would allow.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110324189",
+      "https://famiwiki.net/wiki/Gomoku_Narabe_Renju"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0005",
+    "gameplay_summary": "Two-player Japanese riichi mahjong against one computer opponent, played as a race to win three half-games (hanchan).",
+    "dossier": "Nintendo's first Famicom mahjong game and one of the system's biggest early sellers, at over two million copies in Japan. Hardware limits cut the table to two players: you against one computer opponent, always seated as the first dealer. A half-game is four hands, and the first side to take three half-games wins the match. Riichi rules are used, with some quirks of the era, such as no closed pinfu-tsumo combination and a two-han minimum after a long repeat run. Three difficulty levels range from a tutorial-like mode that stops illegal mistakes to one with tight time limits on calls. There is no save. The four-player follow-up is 4 Nin Uchi Mahjong.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Play runs on tile graphics, but calls, yaku and scoring prompts appear in Japanese. Comfortable for someone who already knows riichi mahjong, hard for anyone learning it.",
+    "nes_counterpart_context": "No North American release. Nintendo did sell the same game on NES in Hong Kong (1987); that cartridge is outside the North American NES set.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=108262197",
+      "https://en.wikipedia.org/w/index.php?oldid=1371719331",
+      "https://famiwiki.net/wiki/Mahjong_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0006",
+    "gameplay_summary": "Single-screen platformer: bump turtles, crabs and flies from below to flip them, then kick them away, alone or with a second player as Luigi.",
+    "dossier": "A port of the 1983 arcade game and the first proper Mario-and-Luigi game. Enemies pour out of the pipes, and you can't stomp them; you punch the floor beneath them to flip them over, then kick them off before they recover. Crabs take two hits and flies have to be caught when they land. The POW block stuns everything on screen, and coin-collecting bonus rounds appear every few phases. Two players share the screen at once, so it works co-operatively or as sabotage. The Famicom/NES cartridge shrinks some sprites and drops a few arcade details, notably the icicles. Two label variants exist, early pulse-line and later artwork labels.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Mario Bros. (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110261015",
+      "https://en.wikipedia.org/w/index.php?oldid=1376335209",
+      "https://famiwiki.net/wiki/Mario_Bros."
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0007",
+    "gameplay_summary": "English-spelling game built on the Popeye engine: walk Popeye to letters to spell the English word for a Japanese prompt, or race a second player to collect falling letters.",
+    "dossier": "Nintendo's first Famicom educational game, teaching English vocabulary to Japanese children with graphics reused from Famicom Popeye. In Word Puzzle A you get a word's meaning in katakana and must spell the English word by walking Popeye to the right letters. Every wrong letter costs points, and too many lets Brutus knock Swee'Pea's basket down. Word Puzzle B is the same with no Japanese hint, only the word length. Categories include animals, countries, food, sports and an oddly technical Science set. Word Catcher is a two-player race in which Popeye and Brutus grab drifting letters to finish a short word first. A printed word list came in the box. For an English speaker the spelling is trivial and the challenge is the Japanese.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — The main mode works by translating Japanese (katakana) prompts into English words, so it is pointless without reading them; Word Puzzle B can only be guessed from word lengths.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110351891",
+      "https://en.wikipedia.org/w/index.php?oldid=1305952342",
+      "https://famiwiki.net/wiki/Popeye_no_Eigo_Asobi"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0008",
+    "gameplay_summary": "Nine-inning baseball against the computer or a friend: choose pitch speed and curve, time your swings, and throw to bases with the D-pad.",
+    "dossier": "The Famicom's first baseball game, and the template many later Famicom baseball games followed, including mapping the four directions of the D-pad to the four bases. You pick one of six teams, which differ only in uniform colour, and play a full game of nine innings. Pitching lets you vary speed and steer the ball's path; batting is a timed swing; base-running and throws use the D-pad. Fielding is simple, with the computer doing much of the work. It is very bare by later standards, with no stats, seasons or player differences, but it was a huge seller in Japan. The NES release is the same game with American trappings.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Uses team initials and a standard scoreboard; no Japanese is needed to play.",
+    "nes_counterpart_context": "Same game as the NES Baseball (North America 1985).",
+    "japanese_version_notes": "The six teams' initials match Japanese Central League clubs; the NES version swapped them for MLB-style initials. The Famicom version also shows the count in Japanese strike-ball-out order and pitch speed in km/h, which the NES changed to ball-strike order and mph.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111077533",
+      "https://en.wikipedia.org/w/index.php?oldid=1377058353",
+      "https://famiwiki.net/wiki/Baseball_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0009",
+    "gameplay_summary": "Arithmetic game on the Donkey Kong Jr. engine: climb vines to collect numbers and operator signs that build an equation reaching Donkey Kong's target number.",
+    "dossier": "Nintendo's second Famicom educational game after Popeye's English Fun, reusing Donkey Kong Jr.'s graphics and climbing. Donkey Kong holds up a target number, and Junior climbs vines and chains to grab digits and +, -, × and ÷ signs whose result must hit it. Calculate A and B work this way, against a rival player in two-player play, while +-×÷ Exercise gives fixed sums to solve. Mario is absent. Junior can only grip one vine here, so climbing is always slow and sliding fast. It is a children's math drill with a platformer skin, not a Donkey Kong game to play for fun; it famously flopped in North America.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Built entirely around numbers and arithmetic symbols; the in-game title reads さんすうあそび but nothing needs to be read.",
+    "nes_counterpart_context": "Released in North America as Donkey Kong Jr. Math (1986); the title was changed but the game was not.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110661337",
+      "https://en.wikipedia.org/w/index.php?oldid=1372335537",
+      "https://famiwiki.net/wiki/Donkey_Kong_Jr._no_Sansuu_Asobi"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0010",
+    "gameplay_summary": "Tennis against the computer: time serves, normal shots and lobs in singles, or team up with a second player for doubles against two computer opponents.",
+    "dossier": "Nintendo's first tennis game for the Famicom, with Mario as the umpire. Serving is a timed toss-and-swing (rushing the net gives a stronger serve), and in rallies you choose between normal shots and lobs. There are five computer skill levels, told apart by the opponent's uniform colour, with the ball getting faster at each. One player plays singles. Two players play doubles together against the computer; there is no head-to-head mode. Winning at higher levels shows an English victory message with a cup and prize money. The ball's shadow was praised at the time because it makes depth easy to read.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Sports action with English text; no reading is required.",
+    "nes_counterpart_context": "Same game as the NES Tennis (North America 1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109886191",
+      "https://en.wikipedia.org/w/index.php?oldid=1360803050",
+      "https://famiwiki.net/wiki/Tennis_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0011",
+    "gameplay_summary": "Two-screen pinball table: keep the ball alive with the flippers on each screen, hit targets to light save features, and score as high as possible.",
+    "dossier": "A simple two-screen pinball game by Nintendo and HAL. The view flips between the upper and lower halves of the table as the ball moves, and each half has its own flippers. Matching the slot machine, flipping all five cards or hatching three chicks raises posts and stoppers that guard the drains, which helps beginners. A bonus hole sends you to a Breakout-like bonus screen, where Mario bounces the ball into blocks to drop Pauline, and you need to catch her. Game B speeds up the ball, and two players alternate turns. There is no background music. The cartridge also includes copy protection that breaks the flippers if the game is run from RAM.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Pinball with no text to read.",
+    "nes_counterpart_context": "Same game as the NES Pinball (North America 1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111211456",
+      "https://en.wikipedia.org/w/index.php?oldid=1352516257",
+      "https://famiwiki.net/wiki/Pinball_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0012",
+    "gameplay_summary": "Light-gun quick-draw game: wait for the outlaw's 'FIRE!!' signal, then shoot first; later modes pit you against two outlaws or a whole gang.",
+    "dossier": "A light-gun Western duel adapted from Gunpei Yokoi's 1974 electro-mechanical arcade game, with cartoon sprites in place of the filmed footage. In Game A you face one gunslinger and must wait for his eyes to flash and the 'FIRE!!' bubble. Shooting early loses the duel, and you need to beat his draw time. Game B adds a second outlaw. Game C is a shootout against a gang in a building. The game is short and reflex-based, best in quick bursts. On Famicom it was sold for the 光線銃 (Kōsenjū) light gun series and needs that gun, a revolver styled after the Colt Single Action Army. The game is known for its cameo in Back to the Future Part II.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Reflex shooting with a visual cue; there is no text to read.",
+    "nes_counterpart_context": "Same game as the NES Wild Gunman (North America 1985).",
+    "japanese_version_notes": "The Famicom game is played with the Kōsenjū light gun, which plugs into the Famicom's expansion port; an NES Zapper will not connect to a Famicom without an adapter.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109890255",
+      "https://en.wikipedia.org/w/index.php?oldid=1364626458",
+      "https://famiwiki.net/wiki/Wild_Gunman"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0013",
+    "gameplay_summary": "Light-gun shooting: hit ducks (one or two at a time) or clay pigeons with three shots per target, meeting a quota each round to advance.",
+    "dossier": "Nintendo's best-known light-gun game, first released on Famicom in 1984. Game A sends one duck at a time, Game B two, and Game C replaces the ducks with clay pigeons fired into the distance. You get three shots per target and ten targets per round, and you have to hit a rising minimum count to continue as the targets speed up. The hunting dog fetches your kills and laughs when you miss. It is simple and endless, built around high scores. It became the famous NES pack-in in North America. On Famicom it needs the Kōsenjū-series light gun.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Shooting game with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Duck Hunt (North America 1985).",
+    "japanese_version_notes": "Requires a Famicom light gun (the Kōsenjū series), which plugs into the Famicom expansion port; the NES Zapper is not directly compatible.",
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1376077894",
+      "https://famiwiki.net/wiki/Duck_Hunt"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0014",
+    "gameplay_summary": "Eighteen-hole golf: pick a club and aim, then time a three-stage swing meter for power and hook or slice, allowing for wind and hazards.",
+    "dossier": "Nintendo and HAL's golf game, programmed by Satoru Iwata, and the best-selling sports game on Famicom/NES. One 18-hole course is played as stroke play, or as two-player stroke or match play. Each shot is club choice, aim, and a timed swing where you set power and then the curve. Wind, rough, water, bunkers and out-of-bounds trees make it a real game of golf despite the bare presentation. There is no music, only sound effects. The moustached golfer looks like Mario; Nintendo later named him Ossan in Captain Rainbow. A hidden copy of this game lived in early Nintendo Switch firmware as a tribute to Iwata.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Uses numbers and English labels; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Golf (North America 1985).",
+    "japanese_version_notes": "The Famicom version measures distances in metres; overseas versions use yards.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109885296",
+      "https://en.wikipedia.org/w/index.php?oldid=1354788307",
+      "https://famiwiki.net/wiki/Golf_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0015",
+    "gameplay_summary": "Light-gun target range: three or five cardboard cutouts turn to face you, and you must shoot only the gangsters, quickly, without hitting civilians or police.",
+    "dossier": "The third Famicom light-gun game, built like a police training range. Game A lines up three cutouts against a wall; when they turn, you shoot the gangsters and spare the innocents, against a reaction timer. Game B moves the cutouts onto a city street, where they slide in from cover in groups of five. Game C is a trick-shot mode: you keep tin cans in the air by shooting them and try to bounce them onto ledges. A wrong target or a slow shot costs you a miss. It is short and score-based, and the mix of good and bad targets makes it more of a decision test than Duck Hunt. It needs the Famicom Kōsenjū light gun.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Visual target-recognition game; there is no text to read.",
+    "nes_counterpart_context": "Same game as the NES Hogan's Alley (North America 1985).",
+    "japanese_version_notes": "Requires a Famicom light gun (the Kōsenjū series), which plugs into the Famicom expansion port; the NES Zapper is not directly compatible.",
+    "source_urls": [
+      "https://en.wikipedia.org/w/index.php?oldid=1374724238",
+      "https://famiwiki.net/wiki/Hogan's_Alley"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0016",
+    "gameplay_summary": "Fixed-screen shooter: as exterminator Stanley, spray insecticide upward to drive Donkey Kong up his vines and stop bees from carrying off your flowers.",
+    "dossier": "The third Donkey Kong game swaps platforming for shooting. Mario is gone, replaced by Stanley the bugman, who first appeared in a Game & Watch title. Donkey Kong hangs from vines in a greenhouse, and you push him to the top with bug spray or wipe out every insect to clear a stage. Bees try to steal the five flowers at the bottom, and a bee that gets one away powers up. One Super Spray can hangs on the vines per life and falls when Donkey Kong is pushed past it, giving a much stronger shot. Compared with the arcade, the Famicom version squashes the tall screen, starts with flowers in bloom, and makes running out of time an instant miss.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Donkey Kong 3 (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109945487",
+      "https://en.wikipedia.org/w/index.php?oldid=1375564020",
+      "https://famiwiki.net/wiki/Donkey_Kong_3"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0017",
+    "gameplay_summary": "Puzzle-platformer: collect every gold pile on a stage of bricks, ladders and bars while dodging guards, digging holes to trap them, then climb out via the hidden ladder.",
+    "dossier": "Hudson's port of Broderbund's Lode Runner, released alongside Nuts & Milk as the first third-party Famicom games. You can't attack; instead you burn holes in the brick floor on either side, either to drop to a lower level or to trap a chasing guard until the brick regrows. Guards also pick up gold, which has to be shaken loose from them. Once all the gold is taken, an escape ladder appears. Larger sprites than the Apple II original mean each level scrolls sideways. Each stage mixes route-planning puzzle and twitch evasion. There's an adjustable game speed, hidden fruit bonuses, and a stage editor. The guard robot sprite was later reused for Bomberman.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action-puzzle play with no text needed.",
+    "nes_counterpart_context": "Released in North America as Lode Runner (1987), the same Hudson port published by Broderbund instead of Hudson.",
+    "japanese_version_notes": "The stage editor can save custom levels to cassette with the Family BASIC data recorder, which the NES cartridge cannot use.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111042315",
+      "https://en.wikipedia.org/w/index.php?oldid=1376774278",
+      "https://famiwiki.net/wiki/Lode_Runner"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0018",
+    "gameplay_summary": "Single-screen platformer: as the blob Milk, collect all the fruit on a screen, then reach your girlfriend Yogurt before time runs out, dodging the rival Nuts.",
+    "dossier": "Hudson's other day-one Famicom game, sold alongside Lode Runner, adapted from its own 1983 computer game; the Famicom version's content differs from the PC releases. Milk is the hero and Nuts is the enemy, despite the title order. Milk can't attack, only walk, climb ropes and jump, and his jump has an awkward arc, so this cute-looking pastel game is harder than it looks. Each screen asks you to grab every apple and banana, which opens Yogurt's house, then reach her without touching Nuts, blimps or the water. Every stage ending in 3 or 8 is a bonus run, out of fifty stages. There's an A/B difficulty choice and an editor for one custom stage.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action play with visual objectives; no text is needed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan. A Commodore 64 conversion of this version came out in the UK as Hot Pop! (1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109886299",
+      "https://en.wikipedia.org/w/index.php?oldid=1325047237",
+      "https://famiwiki.net/wiki/Nuts_&_Milk"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0019",
+    "gameplay_summary": "Fixed-screen space shooter: slide your ship along the bottom and pick off a swaying alien formation as aliens peel off in curving dive attacks.",
+    "dossier": "Namco's first Famicom game, a port of its 1979 arcade shooter. The aliens hover in formation and break off one or a few at a time in swooping attacks, firing as they dive. Flagships with escorts are worth big bonuses, and when only a few remain they all attack relentlessly. You get one shot on screen at a time, so timing and aim matter more than spraying. The port began as a test program Namco built while studying the Famicom hardware. It turned out good enough to sell, and it differs only slightly from the arcade in enemy movement. Late in the game, a hidden button-and-reset trick plays an unrelated melody.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109821723",
+      "https://en.wikipedia.org/w/index.php?oldid=1377547723",
+      "https://famiwiki.net/wiki/Galaxian"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0020",
+    "gameplay_summary": "Pac-Man-style maze game: as the dragon Tamagon, grab a cross to gain fire breath, eat the dots and roast monsters, while the Devil shifts the whole maze around you.",
+    "dossier": "A Shigeru Miyamoto maze game built on Pac-Man ideas, with one big twist. The Devil dances at the top of the screen and points, and his minions crank the maze in that direction, so the walls scroll and can crush you against the edge. Tamagon is helpless until he touches a cross, which lets him breathe fire and eat dots. Holy imagery is central to the design, which is why Nintendo of America never released it. Two players can play simultaneously, co-operating or getting in each other's way. It's an early, very busy Nintendo arcade-style game, more chaotic than Pac-Man. It was released during Nintendo's price rise, so two box versions exist with identical contents.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade maze action; nothing needs reading.",
+    "nes_counterpart_context": "No North American release, because Nintendo of America's rules on religious imagery blocked it. It was released on NES in Europe (1987); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": "This is the original version. The European release is essentially the same game; the UK version renames the Devil 'Demon'.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110359156",
+      "https://en.wikipedia.org/w/index.php?oldid=1352463438",
+      "https://famiwiki.net/wiki/Devil_World"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0021",
+    "gameplay_summary": "Maze chase: eat every dot while four ghosts hunt you, using power pellets to turn the tables and eat them for points.",
+    "dossier": "Namco's Famicom port of the 1980 arcade classic, released under the western name Pac-Man rather than the original Japanese arcade title Puck-Man. You clear each maze of dots while Blinky, Pinky, Inky and Clyde each chase you in their own pattern. The side tunnels slow the ghosts, and the four power pellets let you eat them for escalating points. Bonus fruit marks each level. The port is faithful for its time and even keeps the arcade's ghost-blindness quirk in certain spots. It is the version later used for Famicom Mini and Virtual Console releases.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade maze action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Pac-Man, released in North America by Tengen (licensed 1988, then unlicensed 1989) and by Namco (1993).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111230646",
+      "https://en.wikipedia.org/w/index.php?oldid=1377564124",
+      "https://famiwiki.net/wiki/Pac-Man"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0022",
+    "gameplay_summary": "Four-player Japanese riichi mahjong against three computer opponents, with a toggle to show the computer players' hands.",
+    "dossier": "The four-player follow-up to Nintendo's two-player Famicom Mahjong, developed by Hudson Soft from its PC game Jan Kyou and published by Nintendo. It sold about 1.45 million copies in Japan. You play a standard four-handed riichi game against three computer opponents, choosing discards with left and right and calls with up and down. Pressing Select toggles an open mode that reveals the other hands, a feature inherited from the PC version, where it was meant to prove the computer wasn't cheating. The win screen shows at most seven yaku, though all are scored. Outside Japan the game is best known for its title screen, where the kanji 人 is drawn in a way many find phallic.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Commands (pon, chi, kan, riichi, ron, tsumo) and yaku appear in Japanese. Fine for a riichi player who recognises the terms, tough for a newcomer.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109189706",
+      "https://en.wikipedia.org/w/index.php?oldid=1320160859",
+      "https://famiwiki.net/wiki/4_Nin_Uchi_Mahjong"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0023",
+    "gameplay_summary": "Behind-the-car racing in the style of Pole Position: weave through traffic and finish each course's laps within a time limit, shifting between low and high gear.",
+    "dossier": "The Famicom's first racing game, from HAL with Satoru Iwata leading a small team. It was the first Famicom game to use raster scrolling for its pseudo-3D road. You drive a Formula One car with a two-speed gearbox, avoiding rival cars and staying on the track as the road curves. Crashes and run-offs slow or stop you, and the clock is what ends your game. Each of three difficulty levels is a run of courses; finishing a course's laps adds time and moves you on, and the final course of each level is an endless run until time expires. It is simple and fast but repetitive. A different Game Boy F1 Race came out in 1990.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing with English on-screen text; no reading is needed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan. The Game Boy F1 Race released overseas is a separate game.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111158062",
+      "https://en.wikipedia.org/w/index.php?oldid=1363728674",
+      "https://famiwiki.net/wiki/F1_Race"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0024",
+    "gameplay_summary": "Vertical-scrolling shooter: fly the Solvalou, using the Zapper on aircraft and aiming the Blaster's bomb sight at ground targets across 16 looping areas.",
+    "dossier": "Namco's port of its 1983 arcade landmark; its arrival helped drive early Famicom sales. The hook is the two-weapon system: an air shot for flying enemies, and a bomb aimed with a reticle ahead of the ship for tanks, turrets and installations, which pushes you to read the ground as well as the sky. The 16 areas of forest, roads, rivers and Nazca-style lines loop endlessly, with Andor Genesis motherships as set-piece targets. Bombing invisible spots reveals hidden Sol towers and a Special Flag (an extra life). Much of the appeal is learning these secrets and the scoring.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Xevious, published in North America by Bandai (1988) rather than Namco.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111051592",
+      "https://en.wikipedia.org/w/index.php?oldid=1377659160",
+      "https://famiwiki.net/wiki/Xevious"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0025",
+    "gameplay_summary": "Side-view street fight: trade high and low, weak and strong punches with a rival, guarding the right height, to push him off the edge of the screen and into a manhole.",
+    "dossier": "Nintendo's first fighting game: a one-on-one street brawl on a city sidewalk. Each fighter blocks high or low, and you score by hitting the height your opponent isn't covering. Weak punches are fast but only nudge; strong punches knock down and shove the opponent back but leave you open. You can also dodge backward. Every punch drains stamina, and an exhausted fighter is reduced to feeble jabs. Push him off the screen edge three times and he drops down a manhole. Flower pots falling from windows add chaos, and these interruptions grow more frequent as the computer gets tougher. After 139 straight wins you earn the Champion title. It is very simple and was poorly regarded even at the time.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Fighting action; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Urban Champion (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109861119",
+      "https://en.wikipedia.org/w/index.php?oldid=1377642804",
+      "https://famiwiki.net/wiki/Urban_Champion"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0026",
+    "gameplay_summary": "Single-screen action: as police mouse Mappy, bounce on trampolines between the floors of a cat gang's mansion and recover stolen goods while slamming doors on the cats.",
+    "dossier": "Namco's port of its 1983 arcade game. The mansion is seen side-on: Mappy runs along each floor and uses the trampolines in the gaps to move between floors. A trampoline changes colour and breaks if you bounce on it too many times in a row. The Meowky cats and their boss Nyamco (Goro abroad) chase you. Doors are your weapon: open one in a cat's face to knock it back, and the flashing power doors release a wave that sweeps every cat it touches off the screen for big points. Recovering the stolen TVs, computers, paintings and safes clears a round, ideally in matching pairs for bonus points. Wait too long and a 'HURRY' warning speeds everything up. The bouncy music is a favourite of game composer Koichi Sugiyama.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109888849",
+      "https://en.wikipedia.org/w/index.php?oldid=1377664829",
+      "https://famiwiki.net/wiki/Mappy"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0027",
+    "gameplay_summary": "Maze game where your character never stops swimming: grab turning posts to swing around them, uncover the hidden gold ingots by passing between posts, and avoid the sea-urchin enemies.",
+    "dossier": "A strange early Nintendo game built on awkward controls on purpose. Gloopy (Bubbles in English) moves forward constantly, and you steer only by reaching out an arm to grab a post and swing around it, or by bouncing off walls. Passing between two posts may reveal a hidden gold ingot, and each stage's ingots form a picture such as a heart or mushroom. Some gaps hide rubber traps that bounce you back and seal that route. The Unira enemies can be stunned with a sound wave and then crushed against a wall; black holes are deadly unless you swing over them. From stage 22 onward, passing back over a revealed ingot flips it face-down, adding a puzzle layer. Two players can play simultaneously.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action-puzzle play with no text to read.",
+    "nes_counterpart_context": "Same game as the NES Clu Clu Land (North America 1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110906104",
+      "https://en.wikipedia.org/w/index.php?oldid=1375563163",
+      "https://famiwiki.net/wiki/Clu_Clu_Land"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0028",
+    "gameplay_summary": "Side-scrolling motocross: race against the clock or computer riders, using turbo without overheating, changing lanes, and angling the bike to land jumps cleanly.",
+    "dossier": "Shigeru Miyamoto's side-view motocross game, whose smooth-scrolling engine fed directly into Super Mario Bros. You race on four lanes: the A button is normal throttle, while B is a faster turbo that heats the engine until it overheats and stalls you. Cooling arrows on the track reset the temperature. Ramps and bumps are the real challenge, because you have to tilt the bike to match the slope or you crash on landing. Selection A is a solo time trial; Selection B adds computer riders you can knock over by cutting in front of them. Finish third or better in a preliminary race to enter the Excitebike race on each of five tracks. Design mode lets you build your own tracks from obstacle pieces.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Excitebike (North America 1985).",
+    "japanese_version_notes": "Design-mode tracks can be saved to cassette with the Family BASIC data recorder; the NES cartridge has no way to save them.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109861228",
+      "https://en.wikipedia.org/w/index.php?oldid=1370566182",
+      "https://famiwiki.net/wiki/Excitebike"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0029",
+    "gameplay_summary": "Joust-style action: flap to fly, pop enemy balloons by hitting them from above, and finish off fallen enemies before they re-inflate; plus an endless side-scrolling Balloon Trip mode.",
+    "dossier": "Nintendo and HAL's take on Joust. You float with two balloons, tapping or holding a button to flap with real momentum. Hit an enemy from above and its balloon pops; it parachutes down and starts pumping up a new one, unless you knock it out first. Losing one balloon makes you sluggish, and losing both, touching lightning, or the giant fish in the water costs a life. Bonus stages have you grab balloons floating up from pipes. Two players can co-operate or, more often, sabotage each other. The Famicom version added Balloon Trip, which is not in the arcade game: an endless scrolling run dodging sparks and popping balloons. Some players buy the cartridge just for that mode.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Balloon Fight (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110172942",
+      "https://en.wikipedia.org/w/index.php?oldid=1377611599",
+      "https://famiwiki.net/wiki/Balloon_Fight"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0030",
+    "gameplay_summary": "Vertical platformer: break through layers of ice with a mallet to climb a mountain, avoiding creatures that patch the holes, then race up a bonus stage to grab vegetables and the condor.",
+    "dossier": "Popo and Nana (the second player) climb each of 32 mountains by smashing the ice above their heads and jumping through. Each mountain is eight floors. Topi creatures push ice blocks back into the gaps you make, birds swoop, and polar bears shake the screen. Some blocks are unbreakable, some floors slide like conveyor belts, and moving clouds act as platforms. The bonus stage at the summit is a timed climb for vegetables, ending with a jump to catch the condor. The jumping physics are stiff, with no steering in mid-air, which defines the challenge. Two players can co-operate or compete, and the stage select makes it a good head-to-head game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platform action; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Ice Climber (1985). The NES cartridge is the same game with the Topi enemy redrawn.",
+    "japanese_version_notes": "On Famicom the Topi enemies are drawn as seals; the NES version replaced them with the creature design used in the arcade version.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110333856",
+      "https://en.wikipedia.org/w/index.php?oldid=1370138245",
+      "https://famiwiki.net/wiki/Ice_Climber"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0031",
+    "gameplay_summary": "Fixed-screen shooter over a pseudo-3D scrolling landscape: steer a ship with heavy inertia and switch between an unlimited slow double shot and a limited rapid single shot.",
+    "dossier": "Jaleco's first Famicom game, a port of its 1983 arcade shooter. Waves of birds, amoeba-like shapes and other strange formations swoop down, and the ground below scrolls toward you with a strong sense of depth. The defining mechanic is inertia: the ship drifts and has to be steered ahead of time, which makes dodging and lining up shots tricky. Two weapons trade off: the double shot is unlimited but only one volley can be on screen at a time, while the single shot fires rapidly but draws on a limited supply that you refill by playing well. The arcade's tall screen became a wide one on Famicom, so enemies are closer. Contemporary reviews found it hard to control and repetitive.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110996166",
+      "https://en.wikipedia.org/w/index.php?oldid=1354255391",
+      "https://famiwiki.net/wiki/Exerion"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0032",
+    "gameplay_summary": "Free-roaming helicopter shooter: fly out from your aircraft carrier, bomb the six enemy factories across a large map, and protect the carrier while the enemy grows stronger.",
+    "dossier": "Hudson's port of Will Wright's first game; Wright later said building its maps led him toward SimCity. The top-down map is about 100 screens wide, and you fly a helicopter with a machine gun for aircraft and a bomb load of up to nine for ground targets. Damage slows the helicopter until it goes down, but you can land on your carrier, or on certain enemy pads, to repair and rearm. The enemy economy really runs: oil platforms feed supply boats and tanks, and factories grow tougher and better defended over time. Lose the carrier and your reserve lives go with it. The Famicom version drops the C64 version's mini-map, so you navigate from memory.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action-strategy play with no text needed.",
+    "nes_counterpart_context": "Same game as the NES Raid on Bungeling Bay, which Broderbund published in North America (1987) instead of Hudson.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110218118",
+      "https://en.wikipedia.org/w/index.php?oldid=1352344800",
+      "https://famiwiki.net/wiki/Raid_on_Bungeling_Bay"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0033",
+    "gameplay_summary": "Fixed-screen space shooter: destroy insect-like alien formations as they swoop in, and let a Boss Galaga capture your ship so you can rescue it for double firepower.",
+    "dossier": "Namco's port of its 1981 sequel to Galaxian. Each stage starts with alien squads looping in to form ranks, then diving at you, and shooting them during the entry and dive pays more. The signature trick is the Boss Galaga's tractor beam: let it capture one of your ships, then shoot the boss to free it and fly two ships side by side, doubling your shots and your size as a target. Periodic Challenging Stages have the aliens fly patterns without attacking, as pure scoring runs. It is one of the standard early Famicom shooters, and a straightforward, well-regarded port.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Galaga: Demons of Death (1988); the same port under a longer title.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111230640",
+      "https://en.wikipedia.org/w/index.php?oldid=1377736006",
+      "https://famiwiki.net/wiki/Galaga"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0034",
+    "gameplay_summary": "Side-scrolling shooter with a transforming mech: walk and jump as a robot to recharge on the ground, then fly as a jet across the sea before the energy runs out.",
+    "dossier": "A port of Jaleco's 1984 arcade game, sold in North American arcades as Aeroboto. Your Ixpel switches between a ground robot that walks and jumps and a jet that flies freely but burns energy. Energy cores on the ground refill it. The rhythm is to charge up over land and then spend it crossing the ocean stages. Run dry over water and you crash; over land you can drop back into robot form. Besides the rapid pulse laser, holding fire charges a Big Bang shot, and some tanks and bosses can only be destroyed with it. This charge-shot idea came years before R-Type popularised it. It is a hard, unusual shooter with a strong anime-mecha flavour.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan. The arcade original (not the Famicom game) appeared in North American arcades as Aeroboto.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111205367",
+      "https://en.wikipedia.org/w/index.php?oldid=1358663330",
+      "https://famiwiki.net/wiki/Formation_Z"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0035",
+    "gameplay_summary": "Side-view soccer against the computer or a friend: control the player nearest the ball, pass with B and shoot with A, over halves of a chosen length.",
+    "dossier": "The Famicom's first soccer game, from Intelligent Systems. The pitch scrolls sideways and you control whichever of your players is closest to the ball, while the computer moves the rest. You choose from seven national teams (USA, Great Britain, France, West Germany, Brazil, Japan and Spain), which differ only in colours, plus one of five computer difficulty levels and halves of 15, 30 or 45 game minutes, which pass far faster than real time. Passing and shooting are one button each. Cheerleaders appear at half-time. Against the computer it gets dull quickly, but two-player matches were well liked in their day.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Sports action; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Soccer (North America 1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110078082",
+      "https://en.wikipedia.org/w/index.php?oldid=1353952246",
+      "https://famiwiki.net/wiki/Soccer_(8-bit_Nintendo)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0036",
+    "gameplay_summary": "Fixed-screen shooter: slide a laser cannon along the bottom and shoot rows of descending invaders before they land, using shields for cover and picking off the passing UFO.",
+    "dossier": "Taito's first Famicom release, a Tose-developed port of the 1978 arcade game that started the shooting genre. The invader formation marches side to side, dropping a row each time it reaches the edge and speeding up as you thin it out. You can have only one shot on screen at a time, so aiming matters, and the bunkers protect you while they last. A mystery UFO crossing the top of the screen is worth bonus points. If the invaders reach the bottom, the game is over no matter how many lives you have left. Two players take turns. It is a faithful home version of a game better appreciated as history than for depth.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111138415",
+      "https://en.wikipedia.org/w/index.php?oldid=1374653105",
+      "https://famiwiki.net/wiki/Space_Invaders_(Famicom)"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0037",
+    "gameplay_summary": "Expert-level Lode Runner: collect all the gold in 50 extremely hard stages by digging holes to trap guards and planning precise routes, then find the exit.",
+    "dossier": "A sequel to Lode Runner built entirely from difficult stages. The 50 stages were submitted to Lode Runner creator Doug Smith by players worldwide; about half came from Japan, including ten from ASCII magazine staff. The rules and controls are those of Lode Runner, but timing, brick-regrowth and guard behaviour have to be mastered. Maps are larger and scroll in all directions, and up to five guards appear. Some of the original game's bug tricks no longer work, and one was turned into a death trap. Some stages, especially stage 31, were considered nearly impossible without hints. There is no level editor. Start with the original game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action-puzzle play with no text needed; progress is password-based.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110519426",
+      "https://en.wikipedia.org/w/index.php?oldid=1349544966",
+      "https://famiwiki.net/wiki/Championship_Lode_Runner"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0038",
+    "gameplay_summary": "One-on-one kung fu fighting: as Lee, beat a series of five martial artists in turn, using punches and kicks combined with direction for different strikes.",
+    "dossier": "Konami's first Famicom game, alongside Antarctic Adventure, and one of the earliest one-on-one fighting games. The Famicom version follows Konami's MSX remake rather than the arcade original. The hero is Lee, and he faces five opponents from the villainous Chaohan clan: Wang with a staff, Tao who spits fire, Chen with a chain, Lang with throwing stars, and Mu with flying body attacks. Each has a pattern to learn. Seven moves come from combining the D-pad with punch and kick. A bonus stage of smashing flying objects follows the third fight, and beating all five loops the game at higher difficulty. It is simple next to later fighters, but historically important.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Fighting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": "The Famicom version is based on the MSX version, so it has five opponents rather than the arcade's eleven, and the hero is Lee rather than Oolong.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110982206",
+      "https://en.wikipedia.org/w/index.php?oldid=1377468419",
+      "https://famiwiki.net/wiki/Yie_Ar_Kung-Fu"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0039",
+    "gameplay_summary": "Into-the-screen running game: guide a penguin across Antarctica to each research station before time runs out, jumping crevasses and dodging seals while catching fish and flags.",
+    "dossier": "A Konami game from the MSX that later starred Penta the penguin. You run toward the horizon, dodging holes, crevasses and seals that pop up from the ice. Hitting obstacles costs time rather than lives, and only running out of time ends the game. Leaping fish and flags give points, and the Famicom version adds a propeller item that lets the penguin fly for a while. Each leg ends at a different nation's research station, where its flag is raised. The game was designed as a geography and flags lesson, starting and finishing near Japan's Showa Station. The music is an arrangement of the Skaters' Waltz. There is no continue.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action game with English on-screen text (the title screen reads Antarctic Adventure); nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111017148",
+      "https://en.wikipedia.org/w/index.php?oldid=1366342415",
+      "https://famiwiki.net/wiki/Kekkyoku_Nankyoku_Daibouken"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0040",
+    "gameplay_summary": "Vertical-scrolling action platformer: leap up and down a mountain fortress's ledges as a tiny ninja, stun enemies by jumping into them, and finish them with shuriken.",
+    "dossier": "A port of UPL's 1984 arcade game. Each stage is a tall mountain or castle four screens high, built from ledges, and you clear it by defeating its eight enemies. Jumping is everything: a long press reaches the ledge above, a short press is a hop, and jumping without a direction drops you to the ledge below. Your shuriken fire one at a time, so trading shots head-on is risky. The safer move is to jump into an enemy to stun it, then strike. The enemies react to your position, which gave the game a reputation for unpredictable duels. Collecting three orbs opens a bonus stage. The arcade game's English title was Ninja-Kid, but it is unrelated to the NES game Ninja Kid, which is a different Bandai title.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with mostly English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan. It is a different game from the NES Ninja Kid, despite the similar English name.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110090558",
+      "https://en.wikipedia.org/w/index.php?oldid=1375825049",
+      "https://famiwiki.net/wiki/Ninja-kun:_Majou_no_Bouken"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0041",
+    "gameplay_summary": "Single-screen action maze: guide Chack'n across floors and ceilings, throw timed bombs to blast Monsta enemies and the cages holding hearts, and reach the exit before it is sealed.",
+    "dossier": "A port of Taito's 1984 arcade game, now seen as the forerunner of Bubble Bobble; the Monsta and Mighta enemies come from here. Chack'n is an odd little creature who can walk on ceilings as well as floors, and he stretches his legs to step up walls. Bombs are thrown left or right with separate buttons and burst into a cloud of smoke after a moment. The smoke kills Monsta, frees caged hearts, and kills you too if you are in it. Free all the hearts and get out before Mighta, moving along the top of the screen, blocks the exit at upper right. It is a tricky arcade-style game, hard in the arcade but a strong seller at home.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111217519",
+      "https://en.wikipedia.org/w/index.php?oldid=1377853495",
+      "https://famiwiki.net/wiki/Chack'n_Pop"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0042",
+    "gameplay_summary": "Dig tunnels through the earth and defeat the Pooka and Fygar monsters by pumping them full of air until they pop, or by dropping rocks on them.",
+    "dossier": "Namco's port of its 1982 arcade hit. Instead of a fixed maze, you carve your own tunnels as Dig Dug walks through the dirt. The enemies start in their own pockets and follow your tunnels, sometimes turning into ghostly eyes that drift through solid earth toward you. Your harpoon pump inflates a monster in stages until it bursts. Deeper layers score more, and Fygars are worth extra if you pump them from the side. Dropping a rock on enemies is the big scoring play, especially on several at once. A vegetable appears after two rocks fall, and the last enemy in a round tries to flee. Planning tunnels to lure enemies under rocks is the skill.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109965309",
+      "https://en.wikipedia.org/w/index.php?oldid=1377735330",
+      "https://famiwiki.net/wiki/Dig_Dug"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0043",
+    "gameplay_summary": "Side-view push-block puzzle: move the blue stone onto the blue target tile by pushing stones sideways, using brown stones as bridges and fillers under gravity, while avoiding enemies.",
+    "dossier": "dB-SOFT's long-running Japanese computer puzzle series, ported from the 1983 Sharp X1 original; it is in the same family as Sokoban and the Eggerland games. Each stage has one blue stone and one blue target area. Stones can only be pushed from the side, never pulled or lifted, and anything left unsupported falls. Brown stones are your tools: drop them into holes, stack them as bridges, or smash them against walls. Pushing a stone out from under another sends the whole stack falling. Enemies roam the stages, and some puzzles require luring or using them. The Famicom version has 200 regular stages plus 40 bonus stages, one after every five. It is a thinking game first, with light action.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — The puzzles are entirely visual and physics-based; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111205491",
+      "https://en.wikipedia.org/w/index.php?oldid=1362894984",
+      "https://famiwiki.net/wiki/Flappy"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0044",
+    "gameplay_summary": "Puzzle-action: as Mario with a hammer, demolish every wall, pillar and ladder on each building floor in an order that does not strand you, while avoiding enemies.",
+    "dossier": "A Yoshio Sakamoto design with Mario as a demolition worker, more puzzle than action. Mario's hammer is too heavy to jump with, so the order you knock things down matters: destroy the wrong ladder and you can't reach the rest. Bombs destroy connected sections in one go, and doors can be slammed on enemies to send them away. Gotcha Wrenches and Eggplant Men walk the floors. The foreman, who chases Mario and tries to knock him off, is Blackie in Japan and Spike in North America. There are 100 phases, any of which you can choose from the title screen, and Design mode lets you build your own levels.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Puzzle-action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Wrecking Crew (1985), with minor localization changes.",
+    "japanese_version_notes": "The foreman is named Blackie (Spike in North America). Design-mode levels can be saved to cassette with the Family BASIC data recorder, which the NES cannot do.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111125996",
+      "https://en.wikipedia.org/w/index.php?oldid=1359905464",
+      "https://famiwiki.net/wiki/Wrecking_Crew"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0045",
+    "gameplay_summary": "Side-scrolling beat 'em up: as Thomas, punch and kick through waves of grabbers and knife throwers across five floors of a temple, beating a boss on each floor to rescue Sylvia.",
+    "dossier": "Nintendo's port of Irem's 1984 arcade game Spartan X (Kung-Fu Master abroad). The name comes from the Japanese release of the Jackie Chan film Wheels on Meals, though the game borrows its tower-climbing structure from Bruce Lee's Game of Death. Thomas fights along one corridor per floor, walking left on odd floors and right on even ones, using high, low and jumping punches and kicks. Grippers latch on and drain energy until shaken off. Knife throwers need ducking or jumping, and some floors drop pots, dragons and other hazards. Each floor ends with a boss. It is short, with five floors that then loop, but it is a landmark early beat 'em up.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Kung Fu (1985); the Famicom title Spartan X came from the Japanese film tie-in.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111099076",
+      "https://en.wikipedia.org/w/index.php?oldid=1377854181",
+      "https://famiwiki.net/wiki/Spartan_X"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0046",
+    "gameplay_summary": "Track-and-field events played by mashing a run button for speed and timing a jump/throw button for angle, beating each event's qualifying mark to advance.",
+    "dossier": "Konami's port of its 1983 arcade hit Hyper Olympic. The Famicom cartridge has four of the arcade's six events: 100 m dash, long jump, javelin and 110 m hurdles. Each one is built on frantic button-mashing for speed plus a timed press held for the right angle, and you must hit a qualifying mark to continue. The Famicom game came boxed with the Hyper Shot, a two-button run/jump pad made for mashing. A limited 1985 Tonosama edition (Hyper Olympic Gentei-ban), made for the TV comedy show Hachiji da yo! Zenin Shugo, replaces player one with Ken Shimura's Baka Tonosama and adds event select. It is a separate release in this census.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Button-timing sports with English event names; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Track & Field (1987), retooled with eight events instead of four.",
+    "japanese_version_notes": "The Famicom version has four events and shipped with the Hyper Shot controller. The NES Track & Field was retooled with eight events, drawn from both Hyper Olympic and Hyper Sports.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109416112",
+      "https://en.wikipedia.org/w/index.php?oldid=1377044185",
+      "https://famiwiki.net/wiki/Hyper_Olympic"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0047",
+    "gameplay_summary": "Vertical-scrolling shooter: fly the Final Star through 24 Greek-lettered areas of a floating fortress, using one shot that hits both air and ground targets, and destroy each area's core target.",
+    "dossier": "Hudson's port of Tehkan's 1984 arcade shooter. It became one of the defining Famicom shooters thanks to Hudson's caravan tournaments and Takahashi Meijin's rapid-fire fame. Unlike Xevious, it has a single shot for everything, so ground targets can soak up shots meant for aircraft and the reverse. A power-up part raises your speed and firepower, and hidden bonuses are scattered through the areas. Each area, named Alpha to Omega, ends at a target structure, and the game loops after Omega. The Japanese version has a known exploit: leaving enemies alive stops new ones from spawning.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "Not the same program as the NES Star Force (Tecmo, North America 1987): Tecmo built that version separately, closer to the arcade, with different graphics, music, controls and gameplay. It is linked only as a related title.",
+    "japanese_version_notes": "This is Hudson's port. en.wikipedia (citing composer Keiji Yamagishi) and ja.wikipedia say the NES Star Force was made separately at Tecmo, with different graphics, music, controls and gameplay, and with the enemy-spawning exploit fixed.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110631959",
+      "https://en.wikipedia.org/w/index.php?oldid=1371555708",
+      "https://famiwiki.net/wiki/Star_Force"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0048",
+    "gameplay_summary": "Spy action: work down a 30-story building by elevator and escalator, collecting secret documents from red doors while shooting or kicking enemy agents, then escape in the getaway car.",
+    "dossier": "A port of Taito's 1983 arcade game. You are agent Otto, entering the building from the roof and heading for the basement car. The red doors hold the documents, and you have to collect all of them before the exit counts. Enemy agents in black step out of blue doors and shoot high or low, so ducking and jumping matter. You can shoot them, jump-kick them, crush them with an elevator, or shoot out a ceiling light to drop it on them. Riding the elevators and timing your moves between shafts is the core skill. It is short, tense and pattern-based, a well-liked Taito game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Elevator Action (North America 1987).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111105613",
+      "https://en.wikipedia.org/w/index.php?oldid=1376047915",
+      "https://famiwiki.net/wiki/Elevator_Action"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0049",
+    "gameplay_summary": "Top-down battlefield shooter: drive the Genesis mothership up the field, capture enemy units with a tractor beam, and deploy them as your own army against the enemy forces.",
+    "dossier": "A port of Jaleco's 1985 arcade game, with an unusual capture-and-deploy hook. Your Genesis fires missiles at enemy tanks, helicopters and infantry, but its capture beam can also pull enemy units in to fight for you. You call them onto the field with both buttons, so a big part of the game is building and spending a small army. On Famicom you clear a stage by destroying four cannons at the top of the field and reaching the gate, and any enemy units still on the field switch to your side. There are six stages, with an enemy UFO that can steal your units. The music opens with Ride of the Valkyries.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111205353",
+      "https://en.wikipedia.org/w/index.php?oldid=1353774859",
+      "https://famiwiki.net/wiki/Field_Combat"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0050",
+    "gameplay_summary": "Top-down racing: drive a Corvette up a scrolling road, weaving through traffic and refuelling by touching special cars, to reach each course's finish before your fuel runs out.",
+    "dossier": "Konami's port of its 1984 arcade racer. The view looks down on a road that scrolls upward, and you choose between two speed buttons, a lower cruising speed and a faster top speed. Fuel is the clock: you start with a limited tank, a warning sounds when it runs low, and the only refill is touching the multicoloured fuel cars. Other cars change lanes unpredictably, and oil slicks or contact spin you out; steer against the spin or you crash and lose fuel. The Famicom version has four courses with varied scenery, including a bridge over water and seaside and mountain roads. There is no race position, only reaching the goal.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing with English text; nothing needs reading.",
+    "nes_counterpart_context": "No North American release. Konami released the same game on NES in Europe (1992); that PAL cartridge is outside the North American NES set.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109889403",
+      "https://en.wikipedia.org/w/index.php?oldid=1374158745",
+      "https://famiwiki.net/wiki/Road_Fighter"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0051",
+    "gameplay_summary": "Action shooter split between two worlds: shoot aliens directly in open Space World, or drop timed bombs on them in the walled Maze World, warping between the two.",
+    "dossier": "Namco's Famicom-original upgrade of its 1981 arcade game Warp & Warp. Every round has the same goal, wiping out a quota of aliens, but you can fight in either of two linked worlds. Space World is an open field where your gun fires straight at enemies. Maze World is a grid of blocks where you can't shoot and must plant time bombs, with fuse length set by how long you hold the button. It plays a lot like Bomberman, and your own blast kills you. The warp zone in the centre swaps worlds, and power-up targets in one world give you a weapon for the other. Two players can play at once, and shooting your partner briefly stuns them.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109823922",
+      "https://en.wikipedia.org/w/index.php?oldid=1375307740",
+      "https://famiwiki.net/wiki/Warpman"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0052",
+    "gameplay_summary": "Top-down motorcycle race across America: weave through traffic to climb the rankings and keep your fuel up, with into-the-screen sections near each city checkpoint.",
+    "dossier": "Irem's first Famicom game, a port of its 1983 arcade racer, known abroad as Traverse USA or MotoRace USA. You ride from Los Angeles through Las Vegas, Houston, St. Louis and Chicago to New York. Most of the race is viewed from above: passing cars moves you up from 90th place, while crashes, obstacles and running off the road cost fuel, which you top up by grabbing fuel cans. Legs alternate between highway and off-road courses with rocks and trees. Approaching each checkpoint, the view switches to a behind-the-bike 3D section full of fast oncoming cars. Running out of fuel ends the game. The cartridge is known for having a built-in LED lamp.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing with mostly English and numeric display; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": "The cartridge shell has a red LED that lights when the game is powered on.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109822853",
+      "https://en.wikipedia.org/w/index.php?oldid=1350396704",
+      "https://famiwiki.net/wiki/Zippy_Race"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0053",
+    "gameplay_summary": "Single-screen action puzzle: lure the chasing aliens into doorways and slam the doors shut on them, using ladders, stairs and slides to set up the traps.",
+    "dossier": "Enix's first Famicom game and the breakout work of Koichi Nakamura, who founded Chunsoft and later co-created Dragon Quest. You play Chun, a small egg-shaped creature in a baseball cap, chased by four aliens, each with its own pursuit habit; one copies your jumps. Doors only open from the handle side: you run past to open one, wait until an alien follows you inside, then shut it. Ladders are for you only, nets only for the aliens, and stairs for both, so routing matters. Later stages have more aliens than doors, which forces you to trap several at once. Leaving a door half open to time them is a scoring trick. The Famicom version is based on Door Door mkII and has 50 stages.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Visual action puzzle with no text needed.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110951012",
+      "https://en.wikipedia.org/w/index.php?oldid=1358298934",
+      "https://famiwiki.net/wiki/Door_Door"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0054",
+    "gameplay_summary": "Single-screen platformer: as an Arabian prince, cross ships, caves and flying carpets, kicking enemies and collecting the lettered urns, ideally spelling A-R-A-B-I-A-N in order.",
+    "dossier": "Sunsoft's first Famicom game, a home version of its 1983 arcade game Arabian. It is a single-screen platformer in the Donkey Kong mould, presented as chapters of a storybook as the prince works toward the kidnapped princess. Each of the four stages is cleared by collecting all the urns, which are marked with letters; taking them in the order A-R-A-B-I-A-N earns a large bonus. The prince attacks with a kick, despite carrying a sword on the box art. The fourth stage can also be cleared by reaching the princess, without the bonus. After stage four the game loops.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade platforming with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom version was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110964206",
+      "https://en.wikipedia.org/w/index.php?oldid=1376699196",
+      "https://famiwiki.net/wiki/Super_Arabian"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0055",
+    "gameplay_summary": "Robot-accessory puzzle: send commands on screen that make the Famicom Robot physically restack five coloured blocks to match a target arrangement.",
+    "dossier": "The first of two games for the Family Computer Robot (R.O.B. abroad), sold as the Block Set: five blocks, trays, robot hands and the cartridge. On screen, Professor Hector hops on a keypad to send signals that the robot reads from the TV, moving its arms to grab and stack the real blocks. Direct mode commands the robot step by step to match a layout in as few moves as possible. Memory mode programs a sequence to run later. Bingo modes turn the keypad into a grid where enemies flip keys back, including a two-player race. The game can't see the blocks, so you judge success yourself. It is slow and more of a novelty than a game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Menus and modes are in English; play is visual.",
+    "nes_counterpart_context": "Released in North America as Stack-Up (1985), using R.O.B.",
+    "japanese_version_notes": "Needs the Family Computer Robot, which is sold separately; the Block Set contains only the blocks, trays, hands and cartridge. The robot reads light signals from a CRT screen.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110731632",
+      "https://en.wikipedia.org/w/index.php?oldid=1374230410",
+      "https://famiwiki.net/wiki/Robot_Block"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0056",
+    "gameplay_summary": "Overhead war shooter: advance a lone soldier up the battlefield with pistol and grenades, commandeer tanks for the armoured zone, and lob a grenade into the enemy fort.",
+    "dossier": "Taito's 1982 arcade game, one of the first overhead run-and-gun shooters. You start on foot against infantry with unlimited bullets and grenades. Further up the field, abandoned blue tanks let you take on enemy armour; a light tank with a machine gun is nimble, and a heavy cannon tank is tough. If your tank is about to blow, bailing out can save you. The goal at the top is the enemy headquarters, which you destroy with a grenade. The arcade game aimed with a rotary dial; the Famicom pad can't, so you only fire in the direction you move, which makes it a much cruder game. It also can't be paused.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109822865",
+      "https://en.wikipedia.org/w/index.php?oldid=1372045572",
+      "https://famiwiki.net/wiki/Front_Line"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0057",
+    "gameplay_summary": "Maze action RPG: guide the knight Gilgamesh up 60 floors, finding each floor's key and exit door within a time limit, while uncovering hidden treasure chests that make him stronger.",
+    "dossier": "Namco's 1984 arcade game by Xevious designer Masanobu Endo, a key early action RPG. Each floor is a maze of slimes, knights, wizards, ghosts and dragons, and you have to find the key and reach the door before time runs out. Gil fights by drawing his sword and blocks spells with his shield. The real game is the treasure chests: each floor hides one behind a strange, unexplained condition, such as killing a certain enemy, walking to a spot, or pressing Start. Several of the items are required to beat Druaga and rescue Ki at the top. Arcade players famously shared the secrets through notebooks and magazines. Play it with a guide; finding the conditions alone is nearly impossible.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — In-game text is minimal and in English. The obscure treasure conditions need a guide whatever language you read; Japanese is not the obstacle.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111178781",
+      "https://en.wikipedia.org/w/index.php?oldid=1366158026",
+      "https://famiwiki.net/wiki/Druaga_no_Tou"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0058",
+    "gameplay_summary": "Physics action game: a little robot moves through the air only by the recoil of his gun, and must collect the energy packs in each stage while his limited ammunition doubles as his life.",
+    "dossier": "ASCII's first Famicom game, ported from its 1984 MSX game SASA. On the ground SASA walks, but to fly he fires his beam gun, and the recoil pushes him the opposite way. Every shot also spends the energy that serves as your life, so movement and attack draw on the same pool. The goal is to grab the capsules, some floating on balloons, while enemies drain you on contact. The physics change with the setting across 16 stages: gravity in the meadow and warehouse stages, buoyancy and currents underwater, and near-weightlessness in space, ending with a black hole stage. The Famicom version adds simultaneous two-player play, with NANA as the second robot. It is hard to control, and rewarding once mastered.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Physics action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110000499",
+      "https://en.wikipedia.org/w/index.php?oldid=1231533907",
+      "https://famiwiki.net/wiki/Astro_Robo_SASA"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0059",
+    "gameplay_summary": "Japanese chess (shogi) against the computer, with a choice of handicap setups and of moving first or second.",
+    "dossier": "The Famicom's first shogi game, endorsed by professional Kunio Naito (9-dan). It is a straight one-player game against the computer. You can set the handicap (removing pieces from one side) and choose first or second move, which gives about a dozen setups, but the computer's strength can't be changed, and there are no tsume-shogi problems or two-player mode. You move pieces with a cursor. The B button takes back a move, in a famous touch: the first press just has your character shout 'matta!' (wait!), and you have to keep pressing until he bows to the robot opponent nine times. Contemporary reviews called the computer slow to think and still weak.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — Shogi pieces are identified only by their kanji, and the menus are Japanese. Someone who already plays shogi with kanji pieces will be fine; anyone else should learn the pieces first.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=108110975",
+      "https://famiwiki.net/wiki/Hon_Shougi:_Naitou_Kudan_Shougi_Hiden"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0060",
+    "gameplay_summary": "Robot-accessory puzzle-platformer: guide Professor Hector through a lab to collect dynamite while the Famicom Robot lifts and lowers red and blue gates by pressing controller buttons with spinning tops.",
+    "dossier": "The second Family Computer Robot game, sold as the Gyro Set with two spinning tops, a top spinner and trays. Controller II sits in a tray, and the robot presses its A and B buttons by setting spun tops on them, which raises and lowers the red and blue pillars on screen. Meanwhile you walk Professor Hector around the lab with controller I, collecting all the dynamite before time runs out. Smick enemies can be distracted with turnips or crushed by the gates. Some moments need both buttons at once, which means juggling one top in the spinner while the robot holds the other. A Direct mode lets you practise commanding the robot. It is clumsy but memorable.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Menus are in English and play is visual.",
+    "nes_counterpart_context": "Released in North America as Gyromite (1985), the R.O.B. game that came with early NES sets.",
+    "japanese_version_notes": "Needs the Family Computer Robot, sold separately from the Gyro Set. The robot reads light signals from a CRT screen.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110731632",
+      "https://en.wikipedia.org/w/index.php?oldid=1374230410",
+      "https://famiwiki.net/wiki/Robot_Gyro"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0061",
+    "gameplay_summary": "Behind-the-ship 3D shooter: fly across the planets of the solar system, using one weapon for air targets and another for ground targets, and drive off the boss Phobos at the end of each stage.",
+    "dossier": "An early ASCII Famicom shooter in the into-the-screen style. Your fighter carries the Pulsar for aircraft and the Quasar for ground targets, and the six stages work outward from Earth through the solar system. Each ends with the boss Phobos, which flees to the next planet once you land five shots on its weak point. Miss the time limit and the stage restarts from the beginning. After stage six the game loops until you run out of lives. Two modes change only the camera: in A your ship moves inside a fixed frame, while in B it stays centred and the world moves around it. Reviews at the time were lukewarm. It is also known from the manga Famikon Wolf.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Shooting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110402255",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0062",
+    "gameplay_summary": "Top-down American football: take the snap and run, pitch or throw to gain yards and score, or pick a defender to chase down the ball carrier, against the clock.",
+    "dossier": "A Tose port of Irem's 1983 arcade football game, built for players who don't know the rules. There's no playbook: on offence you take the snap as the quarterback and run, pitch to a back, or throw long to one receiver, an option-style attack. On defence you control one of two players and the computer moves the rest. You can also punt or try a field goal. Shaking off tacklers by wiggling the controls was a celebrated feature. The game is broken into difficulty tiers from high school up to the Super Bowl, and winning moves you up. It is simple and quick by later standards.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Sports action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES 10-Yard Fight, published in North America by Nintendo (1985) rather than Irem.",
+    "japanese_version_notes": "Early Famicom cartridges have a red LED that lights at power-on; later runs dropped it.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109859487",
+      "https://en.wikipedia.org/w/index.php?oldid=1370301824",
+      "https://famiwiki.net/wiki/10-Yard_Fight"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0063",
+    "gameplay_summary": "Top-down tank combat: destroy a quota of 20 enemy tanks per stage while protecting your base, shooting through brick walls and using steel, water, trees and ice for cover.",
+    "dossier": "Namco's Famicom remake of its 1980 arcade game Tank Battalion. It became a staple and, via pirate multicarts, one of the most widely played Famicom games worldwide. Enemy tanks pour in from the top toward your eagle base; if it is hit, the game is over, even by your own shot. Brick walls can be shot away, steel blocks only with a power-up, water blocks movement, trees hide tanks, and ice makes you slide. Four enemy tank types and pickups such as a shovel that armours the base, a grenade, a timer and star upgrades add tactics. There are 35 stages plus a harder second loop. Two players can co-operate, and Construction mode lets you build maps, though not save them.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; the official release was only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110078060",
+      "https://en.wikipedia.org/w/index.php?oldid=1365772232",
+      "https://famiwiki.net/wiki/Battle_City"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0064",
+    "gameplay_summary": "Side-scrolling platformer: run and jump through eight worlds of stages, stomping enemies and using mushrooms, fire flowers and stars, to reach Bowser's castles and rescue the princess.",
+    "dossier": "The game that defined the Famicom and the platform genre. Mario (and Luigi, alternating in two-player) runs right through 32 stages over eight worlds, with plains, underground, water, sky and castle stages. Momentum is the core: holding B to run changes how far you jump, and mastering that is the skill. The Super Mushroom makes Mario big and able to break bricks, the Fire Flower adds fireballs, and the Star gives brief invincibility. Hidden blocks, vines to coin heavens and warp zones reward exploration. Each world ends at a castle with a Bowser fight, and finishing the game opens a harder second quest. The Famicom cartridge is the same game as the NES version.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Pure platforming with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Super Mario Bros. (North America 1985).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111000887",
+      "https://en.wikipedia.org/w/index.php?oldid=1376004001",
+      "https://famiwiki.net/wiki/Super_Mario_Bros."
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0065",
+    "gameplay_summary": "Fixed-screen shooter: as Mama Pig riding a rope elevator, shoot the balloons carrying wolves down a cliff (and later up it) before they reach the ground or the top.",
+    "dossier": "A port of Konami's 1982 arcade game, published on Famicom by Hudson. It is a storybook spin on Space Invaders: wolves have taken Mama Pig's piglets, and you ride a basket up and down the right side of the screen. In the first round wolves float down on balloons; any that land climb the ladders behind you and try to bite you as you pass. In the second they rise on balloons toward a boulder at the top, and too many reaching it drops the rock on you. A tough purple boss wolf appears at the end. A thrown slab of meat can drop several wolves at once. Bonus rounds include shooting fruit. Hidden characters were talked about at release.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109894477",
+      "https://en.wikipedia.org/w/index.php?oldid=1371684267",
+      "https://famiwiki.net/wiki/Pooyan"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0066",
+    "gameplay_summary": "Olympic-style events played by mashing buttons for speed and timing presses for angle or aim, beating a qualifying mark in each event to advance.",
+    "dossier": "Konami's follow-up to Famicom Hyper Olympic, drawn from its 1984 arcade sequel (Hyper Olympic '84, Hyper Sports abroad). Like the first Famicom game it has only a selection of events: three from Hyper Sports plus the high jump, which Famicom Hyper Olympic had dropped. Judging by the NES Track & Field event list, the three are skeet shooting, archery and triple jump, which are far more about timing and aim than mashing. Each event has a qualifying mark to pass before the next, and later rounds get harder. It supports the Hyper Shot two-button controller sold with Hyper Olympic. Konami later combined these events with Hyper Olympic's for the NES Track & Field.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Button-timing sports; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart as a standalone game. Its events were later folded, alongside Hyper Olympic's, into the NES Track & Field, which is a different cartridge.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109823093",
+      "https://en.wikipedia.org/w/index.php?oldid=1376270964",
+      "https://en.wikipedia.org/w/index.php?oldid=1377044185"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0067",
+    "gameplay_summary": "Side-scrolling action: drive a little car over stacked elevated highways to paint every section of road, jumping between levels and stunning pursuing police cars with oil cans.",
+    "dossier": "A port of Jaleco's 1985 arcade game, whose heroine Clarice is driving around the world in her Honda City looking for the perfect boyfriend. Each stage is a set of elevated roads at different heights, and you clear it by driving over every stretch to repaint it, much like painting the floor in a maze game. Your car jumps to switch levels. Police cars chase you and can be spun out with oil cans you pick up and throw, then rammed for points, while a cat sitting in the road ends your run if you hit it. The stages tour places like New York, London and Japan. Clarice herself is part of the Famicom version's appeal.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as City Connection (1988), with the heroine Clarice removed.",
+    "japanese_version_notes": "Clarice is the protagonist here; the NES version replaces her with an unnamed male driver.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109821883",
+      "https://en.wikipedia.org/w/index.php?oldid=1376027722",
+      "https://famiwiki.net/wiki/City_Connection"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0068",
+    "gameplay_summary": "Overhead maze-driving game: steer a car that never stops through a 16-room maze, collecting money bags while dodging enemy cars, switching between a room view and a full radar map.",
+    "dossier": "Sunsoft's enhanced Famicom version of its 1981 arcade game Route-16, similar in spirit to Namco's Rally-X. The stage is a grid of 16 small mazes. You drive inside one room at a time, and leaving it shows a radar map with your car, the enemies and the treasure, but not the inner walls, which you only learn by entering. Your car can't stop, enemy cars hunt you, and you need to grab every money bag. Flags turn the tables for a few seconds so you can ram enemies for points. The Famicom version adds better graphics, numbered rooms on the radar, three difficulty levels, and a story about recovering money stolen by the syndicate Kanharu.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110655438",
+      "https://en.wikipedia.org/w/index.php?oldid=1370271713",
+      "https://famiwiki.net/wiki/Route-16_Turbo"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0069",
+    "gameplay_summary": "Multi-style action-adventure: fight along a speeding train, then explore a 100-screen island from above to collect three keys in caves, and finally scale the villain's pyramid to rescue the princess.",
+    "dossier": "Hudson's 'Realtime Action Adventure', which began as a port of the computer game Stop the Express and was expanded with three new scenes. Challenger, an Indiana Jones-style archaeologist who throws knives, chases the villain Don Waldorado across four scenes. Scene 1 is side-scrolling on and inside a train, which you can't stop: the villain escapes by design. Scene 2 is a big top-down island map, unusually large for 1985, where you shoot enemies and hunt for cave entrances. Scene 3 caves are single screens where you ride fountains to grab a key item. Scene 4 is the pyramid, which needs all three keys. The difficulty climbs through many loops.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action-based throughout; nothing needs reading to progress.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111020008",
+      "https://en.wikipedia.org/w/index.php?oldid=1358610903"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0070",
+    "gameplay_summary": "Tag-team wrestling between Kinnikuman characters: punch, drop-kick, rope-bounce and suplex your rivals, and catch the energy ball thrown in by the trainer to unleash a special move.",
+    "dossier": "Bandai's first Famicom game and a million-seller built on the Kinnikuman manga and anime boom. You pick a pair of wrestler-superheroes and fight tag matches, against the computer or a friend. A jumps, B punches, and moves come from position: shove an opponent into the ropes for a clothesline, get behind him for a backdrop, or jump off the ropes for a flying body attack. The trainer on the apron throws an energy ball now and then, and grabbing it powers a character's special move. Tag out before your wrestler is worn down. It is very simple, but it set the template for many licensed fighting games.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Fighting action; character names are the only Japanese, and nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Tag Team Match: M.U.S.C.L.E. (1986), tied to Mattel's M.U.S.C.L.E. toy line instead of the Kinnikuman licence.",
+    "japanese_version_notes": "The Japanese version is a Kinnikuman licensed game with the characters' original names and anime-based colours; the NES version was rebranded around the M.U.S.C.L.E. figures, with some content changed. A gold cartridge with a winner-designed character was a contest prize and was not sold at retail.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111225952",
+      "https://en.wikipedia.org/w/index.php?oldid=1304281438",
+      "https://famiwiki.net/wiki/Kinnikuman:_Muscle_Tag_Match"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0071",
+    "gameplay_summary": "Behind-the-plane 3D shooter: fly a Zero fighter through waves of enemy planes from day to night, using machine guns and torpedoes, then bomb the enemy fortress at dawn.",
+    "dossier": "Taito's port of its 1985 arcade game, developed by Home Data. You pilot a World War II Zero fighter seen from behind, with unlimited machine-gun fire and torpedoes. Enemy fighters (Hellcats on Famicom) swarm from the horizon, and B-24 bombers need all four engines shot out before they escape. Each stage moves through day, evening and night and into dawn, when the enemy fortress appears; destroying it clears the stage and leads to a bonus round. An occasional falling satellite is worth big points. It was an unusual pseudo-3D shooter for 1985, though reviewers found the sense of distance off.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110078410",
+      "https://en.wikipedia.org/w/index.php?oldid=1321772190",
+      "https://famiwiki.net/wiki/Sky_Destroyer"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0072",
+    "gameplay_summary": "Side-scrolling action platformer across four-tier stages: defeat the eight yokai monsters in each stage with shuriken and stunning bumps, breaking ceiling blocks for items, to rescue Princess Sakura.",
+    "dossier": "Jaleco's first big home hit, a spin-off of Ninja-kun starring his little brother JaJaMaru, who must save Princess Sakura from the catfish lord Namazu Dayu. Each stage scrolls sideways across four floors, and you defeat all eight yokai (introduced before the stage) to advance. You can't drop through floors; instead you headbutt coloured ceiling blocks from below to open holes and reveal coins, power-ups, invisibility potions, a mine cart, or a bomb that kills you. Enemies' spirits rise when defeated and can be grabbed for points. Collect three power-ups and you summon Gama Pakkun, a giant frog you ride while invincible. It sold about a million copies and launched a long series.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action game; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111160982",
+      "https://en.wikipedia.org/w/index.php?oldid=1360199642",
+      "https://famiwiki.net/wiki/Ninja_JaJaMaru-kun"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0073",
+    "gameplay_summary": "Behind-the-bike combat racing in a post-apocalyptic future: race through sectors, shooting or ramming enemy Quadrunners off the road while managing gears and dodging obstacles.",
+    "dossier": "HAL's follow-up to F1 Race, with the same behind-the-vehicle view plus a machine gun. Set in 2112, it sends your armoured rider across a ruined world, with enemy vehicles trying to force you off the road. You can shoot them, bump them into roadside obstacles, or avoid them while shifting through gears. Crashes are a signature moment: the bike explodes and reassembles itself, as if played in reverse. Modes include Fighting Course, an Endurance mode with distance targets, and Solo Course without enemies. A Design mode lets you build tracks. It was Nintendo's last Famicom cartridge before it moved to the Disk System for a while.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Racing action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Mach Rider (North America 1986).",
+    "japanese_version_notes": "The Famicom version can save custom tracks to the Family BASIC data recorder; that feature was missing from the North American and European releases.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110374801",
+      "https://en.wikipedia.org/w/index.php?oldid=1364262900",
+      "https://famiwiki.net/wiki/Mach_Rider"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0074",
+    "gameplay_summary": "Overhead maze-chase: as mother cat Milky, find your lost kitten Michael in a town full of dogs and traffic and bring him home, trapping pursuers in manholes and grabbing fish for invincibility.",
+    "dossier": "A Pony Canyon action game in the maze-chase style. The town is a grid of streets and pavements with cars, traffic cones and roaming dogs. Milky keeps running in the direction you last pushed, and can only stop by facing into a wall or rapidly alternating directions, so control takes getting used to. A jumps; B opens and closes manholes ahead of you from any distance in a straight line, which is the only way to drop pursuers without a power-up. Grabbing a fish makes you faster and lets you knock dogs out for a while, but it also summons the knife-wielding fishmonger, who can't be stopped. Find Michael and lead him home to clear the round.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade-style action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110393842",
+      "https://famiwiki.net/wiki/Onyanko_Town"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0075",
+    "gameplay_summary": "Side-scrolling platformer: guide Pac-Man through town and countryside to return a lost fairy home, jumping hazards and ghosts and using power pellets to eat them.",
+    "dossier": "Namco's 1984 arcade game, based on the American Pac-Man cartoon. It is the first side-scrolling Pac-Man and an early influence on the genre. Each trip runs Pac-Man left to right, past fire hydrants, falling logs, pools and ghost cars, to deliver a lost fairy to Fairyland, then sends him back home to his family. The controls are the hook: you tap the direction buttons repeatedly to speed up, and a faster run gives a higher jump. Power pellets work as in Pac-Man and let him eat the ghosts. Dawdle past the time limit and a fast ghost chases you down. The game is full of hidden bonuses. The Famicom version shrinks the sprites and world scale and simplifies the title screen.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade platforming with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111161614",
+      "https://en.wikipedia.org/w/index.php?oldid=1376544334",
+      "https://famiwiki.net/wiki/Pac-Land"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0076",
+    "gameplay_summary": "Pachinko simulation: fire balls into a pin-studded board, aiming for winning pockets and the machine's payout features to build up your ball count.",
+    "dossier": "The Famicom's first pachinko game, from Toshiba EMI. Pachinko is Japan's vertical pinball-meets-slot-machine parlour game. You control the launch strength while balls rattle down through the nails, and landing in the right pockets wins more balls. Losing balls drains your stock. Four modes either assign you a machine or let you pick one, and both the hanemono (wing-type) and digipachi (digital-slot) machine styles of the time are represented. The box made a joke of the adult subject with the slogan 'Under 18s very welcome!!'. It's a curiosity unless you enjoy pachinko itself.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Pachinko is visual, and the game uses English labels; knowing how pachinko machines pay out matters more than reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=104443347#%E3%83%91%E3%83%81%E3%83%B3%E3%82%B3%E3%82%B2%E3%83%BC%E3%83%A0",
+      "https://en.wikipedia.org/w/index.php?oldid=1356146274",
+      "https://famiwiki.net/wiki/Pachicom"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0077",
+    "gameplay_summary": "Single-screen action: as chef Peter Pepper, walk across giant burger ingredients to drop them level by level onto the plates, while hot dogs, eggs and pickles chase you.",
+    "dossier": "Data East's 1982 arcade game, first released in Japan as Hamburger. This Famicom version was published by Namco. Each screen is a maze of platforms and ladders with buns, patties, lettuce and cheese laid out on it. Walking the full length of an ingredient knocks it down a level, where it can knock the next layer down too, and a burger is done when every layer reaches the plate. Mr. Hot Dog, Mr. Egg and Mr. Pickle chase you constantly. You can stun them with a limited supply of pepper, or drop ingredients on them, or with them riding on top, for big points. Finish every burger to clear the stage. It is a hard, fast arcade game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES BurgerTime, published in North America by Data East (1987) rather than Namco.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111161087",
+      "https://en.wikipedia.org/w/index.php?oldid=1377570394",
+      "https://famiwiki.net/wiki/BurgerTime"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0078",
+    "gameplay_summary": "Overhead action shooter: as a farmer leading a one-man peasant revolt, throw sickles at swarming ninjas while collecting the stage's gold koban coins.",
+    "dossier": "Sunsoft's comic take on a peasant uprising, ported from its 1985 arcade game. The joke is in the setup: the revolt is just farmer Gonbe, plus Tago if a second player joins, and the lord's forces are oddly made up of ninjas. You roam a scrolling map throwing sickles that auto-target the nearest enemy, gathering coins to clear the stage. Ghosts can possess you and stop you attacking until you touch a jizo statue, and a palace maid's hug slows you down. The Famicom version adds items: a daikon radish for speed, a leaf for invincible clones, scrolls for extra lives. It drops the arcade's coin map, so finding the coins means searching. Essayist Jun Miura is said to have coined the word kusoge (crap game) for it. It still sold well.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — The vertical Japanese messages are flavour text in samurai-drama style; the action needs no reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110982272",
+      "https://en.wikipedia.org/w/index.php?oldid=1373822774"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0079",
+    "gameplay_summary": "Detective adventure: as a police inspector in Kobe, direct your assistant Yasu to question suspects, search locations and examine evidence to solve a locked-room murder.",
+    "dossier": "Yuji Horii's 1983 murder mystery, made just before he created Dragon Quest. This Famicom version, built with Chunsoft's Koichi Nakamura, was the system's first adventure game. A loan-shark boss is found dead in a locked room, and you work the case around real locations in and around Kobe, sending your partner Yasu to ask questions, go places and check things. The computer versions used typed commands; the Famicom version swaps these for a command menu, and adds a first-person maze section late in the game. The cast all have something to hide, and the ending's twist is one of the most famous in Japanese game history. Try not to have it spoiled before playing.",
+    "language_barrier": "HIGH",
+    "language_barrier_reason": "HIGH — The whole game is reading dialogue and working out what to ask and where to go; nothing progresses without understanding the Japanese text.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110972824",
+      "https://en.wikipedia.org/w/index.php?oldid=1375023267",
+      "https://famiwiki.net/wiki/Portopia_Renzoku_Satsujin_Jiken"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0080",
+    "gameplay_summary": "Billiards puzzle game: aim and shoot the cue ball to sink every numbered ball into the pockets across 60 oddly shaped tables.",
+    "dossier": "Compile's space-themed take on pool, crossed with mini-golf. Each table is a different shape, including standard six-pocket tables, triangles, octagons, letters, designs, obstacles and extra pockets. You clear a table by pocketing every ball. You lose a life if you pot the cue ball or go three shots in a row without sinking something; clearing a table earns a life back, two if you sank a ball on every shot. A multiplier rises with every successful shot and resets on a miss. Table friction is adjustable, which changes the game a lot. All 60 stages are selectable from the start.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Billiards with English text; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Lunar Pool (1987); the same game renamed.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110385599",
+      "https://en.wikipedia.org/w/index.php?oldid=1347002664"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0081",
+    "gameplay_summary": "Side-scrolling karate action: walk into the warlord Akuma's fortress and defeat his guards one by one with high, middle and low punches and kicks, to rescue Princess Mariko.",
+    "dossier": "Soft Pro's port of Jordan Mechner's 1984 Apple II game, whose fluid rotoscoped animation was striking at the time. You advance screen by screen, switching between a running stance and a fighting stance; you can only shuffle in the fighting stance, but running into a guard unprepared is fatal. Punches and kicks at three heights give six attacks, and health on both sides slowly recovers when no one is hitting. The Famicom version adds a twist around bowing: start a fight without bowing and the enemy becomes extremely tough, and if the enemy bows first you must bow back in time. It also cuts the speech and some cutscenes and changes Akuma's look. Walk backward at the very start and you fall off the cliff.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Fighting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110971745",
+      "https://en.wikipedia.org/w/index.php?oldid=1376202964",
+      "https://famiwiki.net/wiki/Karateka"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0082",
+    "gameplay_summary": "First-person space combat with strategy: warp around a sector map to intercept enemy fleets before they destroy your bases and planets, then fight them in cockpit-view 3D dogfights.",
+    "dossier": "Namco's first Famicom-original game, based on Atari's Star Raiders. The map shows enemy fleets moving on a game-time clock, and every so often they advance and attack. If left alone they destroy your bases, which repair and refuel you, and the planets. You pick a destination, warp there, and fight in a cockpit view with radar. Fuel and shields come from one energy supply, there are no extra lives, and running dry ends the game. Training and Command modes are pure defence. Adventure mode also has you gather clues from planets to find a hidden dark planet, and losing those planets can make it unwinnable. It was ambitious and confusing, and sold poorly.",
+    "language_barrier": "MEDIUM",
+    "language_barrier_reason": "MEDIUM — The combat and map are visual, with English labels, but much of how the systems and Adventure mode work was explained only in the Japanese manual, and the game itself explains little.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110747126",
+      "https://en.wikipedia.org/w/index.php?oldid=1375104199",
+      "https://famiwiki.net/wiki/Star_Luster"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0083",
+    "gameplay_summary": "Cave-exploration platformer: descend a huge cavern by ropes, ladders and lifts toward the treasure at the bottom, managing your air supply and avoiding bats, ghosts and lethal falls.",
+    "dossier": "Irem's Famicom port of Tim Martin's 1983 computer game, and in Japan a legend for its fragile hero. The spelunker dies from falls barely taller than himself, from stepping off a lift wrong, or from bat droppings. That makes it a game of precise positioning more than reflexes. Air steadily runs out and has to be refilled at canisters. The cave ghost can be blown away with your air gun, but that freezes you and costs air. Dynamite clears rocks, flares scare bats, and keys open doors on the way down. Once you know where the dangers are it is quite fair, and it has a devoted following in Japan.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Platform action with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Spelunker, published in North America by Broderbund (1987) rather than Irem.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111051482",
+      "https://en.wikipedia.org/w/index.php?oldid=1373709449"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0084",
+    "gameplay_summary": "Side-scrolling shooter with a combining mech: fly through 25 areas destroying radars and targets, dock with supply ships to repair damage, and link up with a second craft to transform into a robot.",
+    "dossier": "A dB-SOFT shooter that follows its computer game Volguard. You don't have lives; a damage counter climbs as you're hit and you're destroyed when it passes 99. Every shot also spends energy, so wasteful firing hurts you. Destroying a set number of radar installations in an area summons an energy transport to dock with for repairs. In certain areas a second unit appears; touch it and it follows you, and the two can combine into a robot form that slowly repairs. Each area ends with the huge computer Zuigam Bold looming in the background. After 25 areas the game loops from area 12. Its music is often cited as the first game music written with official lyrics.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Shooting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110324687",
+      "https://ja.wikipedia.org/w/index.php?oldid=111001969"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0085",
+    "gameplay_summary": "Side-scrolling shooter based on the Macross anime: fly a transforming VF-1 Valkyrie through Zentradi forces into the enemy mothership and destroy its core against a 30-second clock.",
+    "dossier": "A licensed shooter developed by Namco and sold by Bandai, one of the two companies' earliest collaborations, years before they merged. You fly Hikaru's VF-1 Valkyrie and switch between its three forms (fighter, GERWALK and Battroid), which trade speed against firepower. Waves of battle pods, power armour and ships come at you until you reach the Zentradi mothership. Inside you have about 30 seconds to blast through to the reactor and shoot the core, and then the single stage starts again, harder, indefinitely. The background music uses Lynn Minmay's song 'Xiao Bai Long'. It is basic, and mostly of interest to Macross fans.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Shooting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110079132#%E8%B6%85%E6%99%82%E7%A9%BA%E8%A6%81%E5%A1%9E%E3%83%9E%E3%82%AF%E3%83%AD%E3%82%B9_%28%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%29",
+      "https://en.wikipedia.org/w/index.php?oldid=1330629498",
+      "https://famiwiki.net/wiki/Choujikuu_Yousai_Macross"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0086",
+    "gameplay_summary": "Vertical-scrolling WWII shooter: fly a P-38 across the Pacific through 32 stages of enemy aircraft, using a limited loop-the-loop to dodge danger.",
+    "dossier": "Capcom's first Famicom game, a Micronics port of its 1984 arcade hit. You fly a P-38 Lightning, and the only enemies are aircraft. Small fighters die in one hit, while larger planes and bosses take a beating. The signature move is the loop: a limited number of evasive rolls per stage that make you briefly untouchable, with unused loops paid out as a bonus. Stages are grouped by Pacific battle, from Midway to Okinawa, and the clear bonus depends on your shoot-down percentage. The port is functional rather than impressive.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES 1942 (North America 1986).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109831405",
+      "https://en.wikipedia.org/w/index.php?oldid=1375858743"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0087",
+    "gameplay_summary": "Overhead military action: infiltrate an enemy camp with WWI trenches and barbed wire, using a machine gun, TNT, ladders and wire cutters to rescue a prisoner before a 24-hour game clock runs out.",
+    "dossier": "Kemco's first Famicom release, a port of the 1984 Commodore 64 game Doughboy. The name is slang for a WWI American soldier. Your soldier crosses five stages of trenches, minefields, water and tanks to reach a prison camp and get the captive out. The clock is strict: 24 game hours, about five real minutes, with time taken away after each round. Running out of time ends the game regardless of lives left. Tools matter as much as the gun: dynamite, ladders and cutters open routes through obstacles. A second player can steer a guided missile, either to help or to hunt the soldier. It scored the lowest reader rating of any Famicom cartridge in Famicom Magazine's poll.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action game; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=107856327",
+      "https://en.wikipedia.org/w/index.php?oldid=1339729019"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0088",
+    "gameplay_summary": "Vertical-scrolling shooter: fly through looping underground, core and space areas collecting 100 scattered parts, then find and destroy the space-control device Dragg.",
+    "dossier": "dB-SOFT advertised this as a 'Scroll RPG', which became a long-running joke, because it is a plain vertical shooter. The 'RPG' element is a long collection quest: each of the 30 areas, which cycle through underground, core and space settings, holds one part, and you need 100 of them before Dragg will appear in the final space area. Dragg blends into the background and is easy to scroll past without noticing, which sends you back around the loop. Airborne enemies get tougher every loop, there is no continue, and losing your power-ups can snowball into a game over. Illustrator Jun Miura has called it the worst game he ever bought.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Shooting action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110324686",
+      "https://famiwiki.net/wiki/Zunou_Senkan_Galg"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0089",
+    "gameplay_summary": "Side-scrolling army march: lead King Suren and his growing band of knights and soldiers across the battlefield, freeing captive allies and winning random-strength skirmishes, to defeat the enemy king.",
+    "dossier": "A 1983 contest-winning computer game by Koji Sumii, often credited as a forerunner of real-time strategy and strategy RPGs. Its marching song even had lyrics in the manual. You march your army across a scrolling battlefield toward the castle of the tyrant Ogre. You can move everyone at once, only the king, only knights, or only soldiers, so units snag on trees and rocks as you go. Fights happen when units touch, decided by hidden strength values and luck, and units gain strength by winning. Lose the king and it's over. On Famicom the king starts alone and must free allies trapped as rocks and trees one by one, and many players wrote it off as pure luck before finding its puzzle-like routes.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Movement and combat are visual and real-time; the few Japanese messages are not needed to play.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111229653",
+      "https://en.wikipedia.org/w/index.php?oldid=1373850934",
+      "https://famiwiki.net/wiki/Bokosuka_Wars"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0090",
+    "gameplay_summary": "Side-scrolling flying action: as the ghost Q-Taro, eat food to stay airborne, fire back at the dogs before their barks hit you, and deliver the items you pick up to the friend waiting at each stage's end.",
+    "dossier": "Bandai's game of the Obake no Q-Taro anime, about a friendly ghost who is terrified of dogs. Q-Taro floats through 12 forward-scrolling stages that never let you backtrack. Flight is fuelled by food such as dango and rice balls, and when the meter runs out he walks. Dogs bark sound-wave projectiles that kill on contact, so you have to fire your own blast first. Each stage hides a gift to collect and hand to a character at the end. It is notoriously harsh for a children's licensed game, with unforgiving item and enemy placement. A gold cartridge was given to top contest finishers and was never sold. The North American release swapped in an original cherub character.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action game; nothing needs reading.",
+    "nes_counterpart_context": "Released in North America as Chubby Cherub (1986), with the Q-Taro licence replaced by an original angel character.",
+    "japanese_version_notes": "This is the Obake no Q-Taro licensed original. Chubby Cherub redraws the hero as a cherub and swaps some symbols (the bark shots become 'BW' letters and hearts), but keeps the Japanese foods.",
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110383697",
+      "https://en.wikipedia.org/w/index.php?oldid=1370952785",
+      "https://famiwiki.net/wiki/Obake_no_Q-Tarou:_WanWan_Panic"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0091",
+    "gameplay_summary": "Side-view action shooter: pilot a robot that transforms into a jet through a maze-like asteroid base, using an auto-targeting laser and an energy-draining shield.",
+    "dossier": "Square's first Famicom game, a licensed port of Game Arts' 1985 PC-8801 hit, which was famous for smooth animation and fast scrolling in every direction. Your Thexder robot walks and jumps, locking its laser onto enemies within a wide arc in front of it, even through walls. Pressing down turns it into a jet that flies fast but only fires forward. Energy is your life, your shield and your ammunition all at once. Contact with enemies drains it, and clearing areas or destroying certain targets restores it. There's only one life. The goal is to work through the asteroid base and destroy the magnetic-field generator holding a starship captive. The computer versions were big hits in Japan and the West.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action shooting; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111086481",
+      "https://en.wikipedia.org/w/index.php?oldid=1320511047"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0092",
+    "gameplay_summary": "Overhead maze action: plant bombs to blast through soft blocks and destroy every enemy, uncover power-ups, and find the exit hidden under a block in each of 50 stages.",
+    "dossier": "The game that established Bomberman, a Hudson remake of its 1983 computer game Bakudan Otoko. Each stage is a grid of indestructible pillars and breakable blocks. Your bombs explode in a cross after a short fuse, and your own blast kills you. Hidden under the blocks are the exit and one power-up per stage: more bombs, longer blasts, a remote detonator, walking through walls or bombs, fire immunity, and others. Kill every enemy, then reach the exit; bombing the exit spawns extra enemies. A password system keeps progress. The story says Bomberman is a robot escaping to the surface to become human, and that he became the hero of Lode Runner.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action game with English text and letter passwords; nothing needs reading.",
+    "nes_counterpart_context": "Same game as the NES Bomberman (North America 1989).",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111152861",
+      "https://en.wikipedia.org/w/index.php?oldid=1376773168",
+      "https://famiwiki.net/wiki/Bomber_Man"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0093",
+    "gameplay_summary": "Mirror-maze action puzzle: steer two penguins at once, moving in mirror image, through a split-screen maze so both reach the caged heart at the top simultaneously.",
+    "dossier": "Hudson's Famicom version of its 1983 computer puzzle game; the computer originals starred a boy and a girl rather than penguins. Gurin and Malon start at the bottom of each half of the screen. Press right and one goes right while the other goes left, and the two mazes are laid out differently, so the puzzle is finding moves that work for both. Spider webs trap you; spiders and webs can be cleared with a spray, but roaming fireballs can't. When both penguins touch the heart together they kiss and the stage clears. A timer adds pressure, and later stages without the invincibility whale item get much harder. The music borrows Satie's Je te veux and Beethoven's Ode to Joy.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Visual action puzzle; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=107851625",
+      "https://en.wikipedia.org/w/index.php?oldid=1265685403",
+      "https://famiwiki.net/wiki/Binary_Land"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0094",
+    "gameplay_summary": "Vertical-scrolling shooter: fight insect-themed enemy swarms and skull fortresses, adjust your shot's range, and use limited 'crash' stocks to wipe enemy bullets off the screen.",
+    "dossier": "Capcom's 1985 arcade shooter (Savage Bees in North America), published on Famicom by Tokuma Shoten. Capcom's yearly limit on Famicom releases pushed it to another publisher. The enemies are insects and skulls over hive-like metal backgrounds. Shots travel only a limited distance, which you can adjust and extend with power-ups. The Crash button spends a star stock to clear enemy bullets from the screen, an early version of the bomb found in later shooters. Turning enemies into big fruit for points is the main scoring hook. Two players can play at once. The Famicom version is heavily cut down, with severe flicker and sprites vanishing, and reviews singled out how hard it is on the eyes.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110078274",
+      "https://en.wikipedia.org/w/index.php?oldid=1365088242"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0095",
+    "gameplay_summary": "Ball-routing puzzle: move two linked arrow cursors around a 4x4 grid of rooms and swap their contents, steering cascades of balls down into the highest-scoring trays.",
+    "dossier": "Irem's 1985 arcade puzzle game, which began as a magazine type-in program. Tokuma Shoten published the Famicom version, developed by HAL. Balls tumble in from the top of a board split into 16 rooms, and holes open and close in the walls at random. You steer a red arrow; a green arrow follows it a few seconds behind, and pressing the button swaps the contents of the two rooms they point at. The trays at the bottom are worth nothing, 10, 30, or 50 points at the far side, and one loses balls outright, so you're constantly shuffling balls toward the best tray. Rare red balls score big but block others, and a crab roams the board grabbing balls. It takes practice before it makes sense.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Abstract puzzle with numbers; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110078602",
+      "https://en.wikipedia.org/w/index.php?oldid=1348539100",
+      "https://famiwiki.net/wiki/Lot_Lot"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0096",
+    "gameplay_summary": "Table 'dodgeball': throw balls across a table at an animal opponent to stun them, and have fewer balls on your side when time runs out, or get all ten across, to win the set.",
+    "dossier": "A port of UPL's 1985 arcade game about a penguin in a 'Dojiball' tournament against the village animals. Ten balls sit on a table between you and your opponent. Throw them across, and hit your rival with one to stun them while you unload more; mash the button to recover faster when you're stunned. You win a set by having fewer balls on your side at time-up, or by getting all ten across. Ties go to a sudden-death round with an extra ball that bursts on whoever holds it too long. Matches are best of three sets, and later rounds add an obstacle moving across the table. Each animal has its own throwing style. On Famicom, extra players take part from round two after a first round against the computer.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111054714",
+      "https://en.wikipedia.org/w/index.php?oldid=1354429379",
+      "https://famiwiki.net/wiki/Penguin-kun_Wars"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0097",
+    "gameplay_summary": "Cute vertical-scrolling shooter: shoot air enemies and bomb ground targets, juggle the bells that pop out of clouds to change their colour, and collect them for different power-ups.",
+    "dossier": "Konami's colourful 1985 arcade shooter, an early 'cute 'em up', ported to Famicom. Player one flies TwinBee and player two WinBee, simultaneously. As in Xevious, shots hit aircraft and bombs hit the ground. The signature system is the bells: shoot a cloud to release one, then keep shooting to bounce it and cycle its colour. Yellow scores points, and other colours give speed, a twin cannon or shadow options. Getting hit knocks off your ship's arms, and on Famicom both go at once, which disables your bombs until an ambulance arrives to fix them, once only. The Famicom version also changes the ground enemies and items. The NES game Stinger is the sequel Moero TwinBee, a different game.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade shooting with English text; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan. The NES Stinger is a different TwinBee game.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=111074790",
+      "https://en.wikipedia.org/w/index.php?oldid=1375109914",
+      "https://famiwiki.net/wiki/TwinBee"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0098",
+    "gameplay_summary": "Auto-scrolling action shooter: as the monkey hero of Journey to the West, run along six lanes of platforms, hopping between them and firing your staff at waves of enemies and food items.",
+    "dossier": "A port of Capcom's 1984 arcade game, loosely based on Journey to the West. SonSon the monkey, with Tonton the pig as player two in the arcade, travels toward the Buddha's statue to rescue Sanzo and his companions. The screen scrolls by itself across six horizontal lanes. You move up or down a lane at a time, speed up or slow down against the scroll, and shoot sideways. There are no power-ups, so the game is about lane positioning, dodging and collecting food for points. Everything on screen can be shot. It has cute characters and hidden bonus characters, and it moves rather stiffly on Famicom.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Arcade action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109110111",
+      "https://en.wikipedia.org/w/index.php?oldid=1365088479",
+      "https://famiwiki.net/wiki/SonSon"
+    ],
+    "confidence": "HIGH"
+  },
+  {
+    "identity_id": "FC-0099",
+    "gameplay_summary": "Side-scrolling action platformer based on the 1985 film: as Mikey, explore the Fratellis' hideout and caverns, finding keys to free your captured friends while searching for One-Eyed Willy's treasure.",
+    "dossier": "Konami's Famicom game of the Spielberg-produced film, a different game from Konami's MSX version. You play Mikey, working through hideouts and caves full of Fratelli gang members, skeletons and traps. The main loop is exploration: find keys and items hidden around each area, use them to free your kidnapped friends, and move on toward the pirate One-Eyed Willy's treasure. The music arranges Cyndi Lauper's 'The Goonies R Good Enough'. It was never sold at retail in North America, though an arcade conversion, VS. The Goonies, appeared there. Its sequel, The Goonies II, did get an NES release.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Action platforming; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; released only in Japan. The NES The Goonies II is the sequel, a different game.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=110322284",
+      "https://en.wikipedia.org/w/index.php?oldid=1360129650",
+      "https://famiwiki.net/wiki/The_Goonies"
+    ],
+    "confidence": "MEDIUM"
+  },
+  {
+    "identity_id": "FC-0100",
+    "gameplay_summary": "Timing-based circus acts: as the clown Charlie, jump a lion through rings of fire, cross a tightrope past monkeys, and swing between trapezes, with only left/right movement and a jump.",
+    "dossier": "A Soft Pro port of Konami's 1984 arcade game. Charlie can only move and jump, so each act comes down to timing your jumps exactly. Acts include riding a lion through flaming hoops and fire pots, a tightrope walk with monkeys coming the other way, balancing on rolling balls, riding a horse over obstacles, and the flying trapeze. Collecting money bags earns bonuses, and running out of time costs a life; fail too often and you're fired. Like the MSX version, the Famicom version drops the arcade's trampoline acts. It's short and fairly hard, and best in short sessions.",
+    "language_barrier": "LOW",
+    "language_barrier_reason": "LOW — Timing-based action; nothing needs reading.",
+    "nes_counterpart_context": "No NES counterpart; this Famicom port was released only in Japan.",
+    "japanese_version_notes": null,
+    "source_urls": [
+      "https://ja.wikipedia.org/w/index.php?oldid=109831276",
+      "https://en.wikipedia.org/w/index.php?oldid=1358565559",
+      "https://famiwiki.net/wiki/Circus_Charlie"
+    ],
+    "confidence": "MEDIUM"
+  }
+]

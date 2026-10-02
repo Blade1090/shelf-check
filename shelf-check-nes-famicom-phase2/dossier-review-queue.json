@@ -1,0 +1,2784 @@
+{
+ "description": "Dossiers needing human review: every LOW-confidence entry plus any entry carrying a review flag (source disagreement, thin source, unverified detail).",
+ "count": 293,
+ "by_confidence": {
+  "LOW": 126,
+  "MEDIUM": 116,
+  "HIGH": 51
+ },
+ "items": [
+  {
+   "identity_id": "nes-na-alfredo-and-fettucinnis-action-52",
+   "title": "Alfredo and the Fettucinni's",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-arkistas-ring",
+   "title": "Arkista's Ring",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Source article covers plot only; gameplay details need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-athletic-world",
+   "title": "Athletic World",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No dedicated article; the source is the Power Pad article. Event list and mechanics not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-atmos-quake-action-52",
+   "title": "Atmos-Quake",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bases-loaded-4",
+   "title": "Bases Loaded 4",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Source article has little gameplay content."
+   ]
+  },
+  {
+   "identity_id": "nes-na-beeps-and-blips-action-52",
+   "title": "Beeps and Blips",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-beetlejuice",
+   "title": "Beetlejuice",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a one-line description in the source (list article); gameplay needs another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bible-buffet",
+   "title": "Bible Buffet",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No dedicated article; only a one-line description in the publisher article. Player count unverified."
+   ]
+  },
+  {
+   "identity_id": "nes-na-big-nose-freaks-out",
+   "title": "Big Nose Freaks Out",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No dedicated article (mapped to the Big Nose the Caveman article, a different game). Gameplay details need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-billy-bob-action-52",
+   "title": "Billy-Bob",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bits-and-pieces-action-52",
+   "title": "Bits and Pieces",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-blackjack",
+   "title": "Blackjack",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a one-line description in the publisher article; gameplay and modes need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-boss-action-52",
+   "title": "Boss",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-break-time-national-pool-tour",
+   "title": "Break Time: The National Pool Tour",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Source article is a stub; modes and mechanics need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-breakthru",
+   "title": "BreakThru",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; the Wikipedia pages titled BreakThru!/Breakthru are unrelated. Needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bubblegum-rosie-action-52",
+   "title": "Bubblegum Rosie",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-caesars-palace",
+   "title": "Caesars Palace",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-casino-kid-2",
+   "title": "Casino Kid 2",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No dedicated article (mapped to the Casino Kid article). Sequel specifics need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-castle-of-deceit",
+   "title": "Castle of Deceit",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Source article has an empty Gameplay section."
+   ]
+  },
+  {
+   "identity_id": "nes-na-challenge-of-dragon",
+   "title": "Challenge of the Dragon",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a list entry in the Color Dreams article; gameplay needs another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-championship-bowling",
+   "title": "Championship Bowling",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-chill-out-action-52",
+   "title": "Chill-Out",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-city-of-doom-action-52",
+   "title": "City of Doom",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-classic-concentration",
+   "title": "Classic Concentration",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The linked article covers the TV show, not the NES game; NES-specific rules and player count need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cowboy-kid",
+   "title": "Cowboy Kid",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; genre and gameplay need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-crazy-shuffle-action-52",
+   "title": "Crazy Shuffle",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-critical-bypass-action-52",
+   "title": "Critical Bypass",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cry-baby-action-52",
+   "title": "Cry Baby",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-crystal-mines",
+   "title": "Crystal Mines",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the publisher article is linked; gameplay and genre need a dedicated source. Relationship to Exodus is OPEN (R-U05a)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-dam-busters-action-52",
+   "title": "Dam Busters",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-days-of-thunder",
+   "title": "Days of Thunder",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article describes Argonaut's PC game and links source code for an unreleased Argonaut NES version; the released Beam Software NES game needs its own source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-dedant-action-52",
+   "title": "Dedant",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-dragon-power",
+   "title": "Dragon Power",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Dragon Ball game list is linked; gameplay and genre need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-f16-renegade-quattro-arcade",
+   "title": "F16 Renegade",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives only a one-line description."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fire-breathers-action-52",
+   "title": "Fire Breathers",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fish-fall-sunday-funday",
+   "title": "Fish Fall",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only described in one sentence in the Menace Beach article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fisher-price-firehouse-rescue",
+   "title": "Fisher-Price: Firehouse Rescue",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Fisher-Price company article is linked; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fisher-price-i-can-remember",
+   "title": "Fisher-Price: I Can Remember",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Fisher-Price company article is linked; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fisher-price-perfect-fit",
+   "title": "Fisher-Price: Perfect Fit",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Fisher-Price company article is linked; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fuzz-power-action-52",
+   "title": "Fuzz Power",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-g-force-fighters-action-52",
+   "title": "G-Force Fighters",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-galaxy-5000-racing-in-51st-century",
+   "title": "Galaxy 5000: Racing in the 51st Century",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a one-line stub; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-go-dizzy-go-quattro-arcade",
+   "title": "Go! Dizzy Go!",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives only a one-line description."
+   ]
+  },
+  {
+   "identity_id": "nes-na-godzilla-2-war-of-monsters",
+   "title": "Godzilla 2: War of the Monsters",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a short legacy mention in the Monster of Monsters article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-hambos-adventures-action-52",
+   "title": "Hambo's Adventures",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-haunted-hills-of-wentworth-action-52",
+   "title": "Haunted Hills of Wentworth",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-illuminator-action-52",
+   "title": "Illuminator",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-infiltrator",
+   "title": "Infiltrator",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is short; NES gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-james-bond-jr",
+   "title": "James Bond Jr.",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the TV series article is linked; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jeopardy",
+   "title": "Jeopardy!",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the franchise article is linked; players and NES details need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jeopardy-25th-anniversary-edition",
+   "title": "Jeopardy! 25th Anniversary Edition",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the franchise article is linked; players and NES details need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jeopardy-junior-edition",
+   "title": "Jeopardy! Junior Edition",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the franchise article is linked; players and NES details need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jigsaw-action-52",
+   "title": "Jigsaw",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-john-elways-quarterback",
+   "title": "John Elway's Quarterback",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a stub; NES gameplay and player count need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jupiter-scope-action-52",
+   "title": "Jupiter Scope",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-king-of-kings-early-years",
+   "title": "King of Kings: The Early Years",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the general NES games list is linked; everything beyond the title and publisher needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-laser-league-action-52",
+   "title": "Laser League",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-little-league-baseball-championship-series",
+   "title": "Little League Baseball: Championship Series",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a one-line stub; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-lollipops-action-52",
+   "title": "Lollipops",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-manchester-beat-action-52",
+   "title": "Manchester Beat",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mash-man-action-52",
+   "title": "Mash-Man",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-megalonia-action-52",
+   "title": "Megalonia",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-meong-action-52",
+   "title": "Meong",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-micro-mike-action-52",
+   "title": "Micro-Mike",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-monster-in-my-pocket",
+   "title": "Monster in My Pocket",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the franchise article is linked; the video game isn't described there."
+   ]
+  },
+  {
+   "identity_id": "nes-na-moon-ranger",
+   "title": "Moon Ranger",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a stub."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mystery-quest",
+   "title": "Mystery Quest",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ninja-assault-action-52",
+   "title": "Ninja Assault",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-non-human-action-52",
+   "title": "Non-Human",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-oooze-action-52",
+   "title": "Oooze",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-operation-full-moon-action-52",
+   "title": "Operation Full-Moon",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-peek-boo-poker",
+   "title": "Peek-A-Boo Poker",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a stub."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pesterminator-western-exterminator",
+   "title": "Pesterminator: The Western Exterminator",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pro-sport-hockey",
+   "title": "Pro Sport Hockey",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a stub."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pro-tennis-quattro-sports",
+   "title": "Pro Tennis",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only named in the Quattro article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-r-b-i-baseball-2",
+   "title": "R.B.I. Baseball 2",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the series article is linked; its specifics need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-r-b-i-baseball-3",
+   "title": "R.B.I. Baseball 3",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the series article is linked; its specifics need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rad-racket-deluxe-tennis-ii",
+   "title": "Rad Racket: Deluxe Tennis II",
+   "confidence": "LOW",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a one-line entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-robbie-and-robots-action-52",
+   "title": "Robbie and the Robots",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rocket-jockey-action-52",
+   "title": "Rocket Jockey",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-secret-scout-in-temple-of-demise",
+   "title": "Secret Scout in the Temple of Demise",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Wisdom Tree company article is linked, and it doesn't describe this game."
+   ]
+  },
+  {
+   "identity_id": "nes-na-sharks-action-52",
+   "title": "Sharks",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-shingen-ruler",
+   "title": "Shingen the Ruler",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; genre is inferred from the title and needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-shooting-gallery-action-52",
+   "title": "Shooting Gallery",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-shooting-range",
+   "title": "Shooting Range",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a one-line stub; gameplay and whether it uses the Zapper need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-short-order-eggsplode",
+   "title": "Short Order / Eggsplode!",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article. Possible peripheral (Power Pad) requirement to confirm; gameplay and players need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-silver-sword-action-52",
+   "title": "Silver Sword",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-slashers-action-52",
+   "title": "Slashers",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-soccer-simulator-quattro-sports",
+   "title": "Soccer Simulator",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only named in the Quattro article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-solitaire",
+   "title": "Solitaire",
+   "confidence": "LOW",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only listed in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-sombreros-action-52",
+   "title": "Sombrero's",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-space-dreams-action-52",
+   "title": "Space Dreams",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-spread-fire-action-52",
+   "title": "Spread-Fire",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-stakk-m-maxi-15",
+   "title": "Stakk M",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only named in the Maxi 15 listing; the genre is a guess from the title and gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-star-evil-action-52",
+   "title": "Star-Evil",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-storm-over-desert-action-52",
+   "title": "Storm Over the Desert",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-streemerz-action-52",
+   "title": "Streemerz",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-street-cop",
+   "title": "Street Cop",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Power Pad article is linked, and it doesn't describe this game. The Power Pad requirement is inferred from the Family Trainer series (see Dance Aerobics); confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-stunt-buggies-quattro-arcade",
+   "title": "Stunt Buggies",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives only a one-line description."
+   ]
+  },
+  {
+   "identity_id": "nes-na-stunt-kids",
+   "title": "Stunt Kids",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only listed in the Camerica article; the genre is a guess from the title and needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-super-jeopardy",
+   "title": "Super Jeopardy!",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The franchise article names the NES adaptation 'Talking Super Jeopardy!', which doesn't match the census title; needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-super-spy-hunter",
+   "title": "Super Spy Hunter",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a legacy mention in the Spy Hunter article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-super-team-games",
+   "title": "Super Team Games",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Power Pad article is linked, and it doesn't describe this game. The Power Pad requirement is inferred from the Family Trainer series; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tecmo-baseball",
+   "title": "Tecmo Baseball",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The article is a stub."
+   ]
+  },
+  {
+   "identity_id": "nes-na-adventures-of-rad-gravity",
+   "title": "The Adventures of Rad Gravity",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Source article has an empty Gameplay section; gameplay details need another source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-evil-empire-action-52",
+   "title": "The Evil Empire",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-french-baker-action-52",
+   "title": "The French Baker",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pradikus-conflict",
+   "title": "The P'radikus Conflict",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only the Wisdom Tree company article is linked, and it doesn't describe this game."
+   ]
+  },
+  {
+   "identity_id": "nes-na-they-came-from-outer-space-action-52",
+   "title": "They Came From Outer Space",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thrusters-action-52",
+   "title": "Thrusters",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thunder-and-lightning",
+   "title": "Thunder & Lightning",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; the genre is a guess from the Japanese title and gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-thunderbirds",
+   "title": "Thunderbirds",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a one-line mention in the Thunderbirds merchandise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-time-warp-tickers-action-52",
+   "title": "Time Warp Tickers",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-toxic-crusaders",
+   "title": "Toxic Crusaders",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives no NES gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultimate-league-soccer",
+   "title": "Ultimate League Soccer",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a short entry in the AVE publisher article; a Japanese version added adult content, but the NA AVE release is not described as such."
+   ]
+  },
+  {
+   "identity_id": "nes-na-underground-action-52",
+   "title": "Underground",
+   "confidence": "LOW",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "LOW confidence",
+    "flag: No reliable per-game description found; gameplay not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wayne-gretzky-hockey",
+   "title": "Wayne Gretzky Hockey",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Features are described for the computer original (including mouse controls); NES specifics are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune",
+   "title": "Wheel of Fortune",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source credits the original NES Wheel to Sharedata; the census lists Rare as developer. Needs reconciliation and a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-family-edition",
+   "title": "Wheel of Fortune Family Edition",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a brief mention in the franchise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-junior-edition",
+   "title": "Wheel of Fortune Junior Edition",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a brief mention in the franchise article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheel-of-fortune-featuring-vanna-white",
+   "title": "Wheel of Fortune: Featuring Vanna White",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source credits GameTek and IJE Inc.; the census lists Imagitec as developer. Needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-widget",
+   "title": "Widget",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-win-lose-or-draw",
+   "title": "Win, Lose, or Draw",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: Only a one-line mention of the NES version in the TV show article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-winter-games",
+   "title": "Winter Games",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source describes the computer original (up to 8 players); NES events and player count are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-world-champ",
+   "title": "World Champ",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: No linked Wikipedia article; gameplay needs a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-world-games",
+   "title": "World Games",
+   "confidence": "LOW",
+   "availability": "STANDALONE",
+   "reasons": [
+    "LOW confidence",
+    "flag: The source gives no NES event list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-advanced-dungeons-and-dragons-hillsfar",
+   "title": "Advanced Dungeons & Dragons: Hillsfar",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Source mostly describes the computer versions; NES-specific differences are not documented in it."
+   ]
+  },
+  {
+   "identity_id": "nes-na-advanced-dungeons-and-dragons-pool-of-radiance",
+   "title": "Advanced Dungeons & Dragons: Pool of Radiance",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The NES port was produced by Marionette/SRS (census); source text on NES-specific changes was truncated - verify details."
+   ]
+  },
+  {
+   "identity_id": "nes-na-after-burner",
+   "title": "After Burner",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source article describes the arcade game; NES-specific structure and differences are not documented in it."
+   ]
+  },
+  {
+   "identity_id": "nes-na-alien-3",
+   "title": "Alien 3",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Versions differ by platform; the source does not detail the NES level count."
+   ]
+  },
+  {
+   "identity_id": "nes-na-alien-syndrome",
+   "title": "Alien Syndrome",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source describes the arcade version, which has two-player co-op; NES player count not confirmed by the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-archon",
+   "title": "Archon",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists single-player only; NES player count not confirmed in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-back-to-future-part-ii-and-iii",
+   "title": "Back to the Future Part II & III",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Source article has an empty Gameplay section; mechanics summarised from the plot description."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bad-dudes",
+   "title": "Bad Dudes",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1989-08 vs NOA list 1990-07",
+    "flag: Player count: the arcade supports 2-player; the source does not state the NES player count. NA year disputed between sources."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bad-street-brawler",
+   "title": "Bad Street Brawler",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Confirm controller support alongside the Power Glove (the source says it was designed for the Glove)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bandai-golf-challenge-pebble-beach",
+   "title": "Bandai Golf: Challenge Pebble Beach",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count taken from Wikidata modes; not detailed in the article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bards-tale-tales-of-unknown",
+   "title": "Bard's Tale: Tales of the Unknown",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source describes the computer original; NES interface differences (e.g. spell entry) are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-baseball-stars-2",
+   "title": "Baseball Stars 2",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source mainly describes the Neo Geo original."
+   ]
+  },
+  {
+   "identity_id": "nes-na-best-of-best-championship-karate",
+   "title": "Best of the Best: Championship Karate",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source covers the game generally; NES-specific details are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bonks-adventure",
+   "title": "Bonk's Adventure",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source describes mainly the TurboGrafx-16 original; the NES port was developed separately by A.I, and NES-specific differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bram-stokers-dracula",
+   "title": "Bram Stoker's Dracula",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source mostly details the 16-bit versions; NES level structure is not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bubble-bobble-part-2",
+   "title": "Bubble Bobble Part 2",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count not stated in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cabal",
+   "title": "Cabal",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The arcade game has two players; the NES player count is not confirmed (Wikidata lists single-player)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-california-games",
+   "title": "California Games",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source says events vary by platform; the NES event list and player count need confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-capcoms-gold-medal-challenge-92",
+   "title": "Capcom's Gold Medal Challenge '92",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source's event list did not survive extraction; confirm the events."
+   ]
+  },
+  {
+   "identity_id": "nes-na-captain-america-and-avengers",
+   "title": "Captain America and The Avengers",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NES gameplay details are limited in the source (the article focuses on the arcade game)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-caveman-games",
+   "title": "Caveman Games",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count not confirmed in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cjs-elephant-antics-quattro-arcade",
+   "title": "CJ's Elephant Antics",
+   "confidence": "MEDIUM",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "flag: The source gives only a one-line description; gameplay details need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cyberball",
+   "title": "Cyberball",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade original; NES player count and differences need confirmation. Not on the NOA list, but present in NesCartDB with a licensed USA catalog number."
+   ]
+  },
+  {
+   "identity_id": "nes-na-deathbots",
+   "title": "Deathbots",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article; gameplay details need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-defender-ii",
+   "title": "Defender II",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; NES-specific differences are not documented. NA date disagreement: Wikipedia says October 1988, the NOA list says July 1988."
+   ]
+  },
+  {
+   "identity_id": "nes-na-destination-earthstar",
+   "title": "Destination Earthstar",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-double-strike-aerial-attack-force",
+   "title": "Double Strike: Aerial Attack Force",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article; gameplay and player count need a dedicated source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-dudes-with-attitude",
+   "title": "Dudes with Attitude",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-f-15-city-war",
+   "title": "F-15 City War",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-f-15-strike-eagle",
+   "title": "F-15 Strike Eagle",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay is described for the original computer game; NES-specific differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-family-feud",
+   "title": "Family Feud",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives 1990; the census NA date is May 1991."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ferrari-grand-prix-challenge",
+   "title": "Ferrari Grand Prix Challenge",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The linked article mainly covers the Mega Drive version; the NES section is short."
+   ]
+  },
+  {
+   "identity_id": "nes-na-flight-of-intruder",
+   "title": "Flight of the Intruder",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the computer original; how much of it survives in the NES conversion is not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-galactic-crusader",
+   "title": "Galactic Crusader",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Census note: US version of Joy Van's 'Incantation'."
+   ]
+  },
+  {
+   "identity_id": "nes-na-gauntlet",
+   "title": "Gauntlet",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade; NES-specific differences are not detailed in the source. It is absent from the NOA list but has a licensed USA catalog number in NesCartDB."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ghostbusters",
+   "title": "Ghostbusters",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the original computer design; NES-specific differences beyond the ending are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-goal-two",
+   "title": "Goal! Two",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The article mainly describes the SNES original; the NES port's feature set may differ."
+   ]
+  },
+  {
+   "identity_id": "nes-na-golgo-13-top-secret-episode",
+   "title": "Golgo 13: Top Secret Episode",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-gremlins-2-new-batch",
+   "title": "Gremlins 2: The New Batch",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-hollywood-squares",
+   "title": "Hollywood Squares",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count not stated in the source; typical head-to-head assumed."
+   ]
+  },
+  {
+   "identity_id": "nes-na-hudson-hawk",
+   "title": "Hudson Hawk",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the Ocean computer versions; NES-specific differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-hydlide",
+   "title": "Hydlide",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little mechanical detail on the NES version."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ikari-warriors-ii-victory-road",
+   "title": "Ikari Warriors II: Victory Road",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The article describes the arcade game; NES-specific differences and player count need confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ikari-warriors-iii-rescue",
+   "title": "Ikari Warriors III: The Rescue",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The story summary is truncated in the source; NES co-op support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-indiana-jones-and-last-crusade-ubi-soft",
+   "title": "Indiana Jones and the Last Crusade",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The article describes the multi-platform Action Game; NES-specific level differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-indiana-jones-and-temple-of-doom",
+   "title": "Indiana Jones and the Temple of Doom",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES gameplay detail beyond the waves and the Mola Ram finale."
+   ]
+  },
+  {
+   "identity_id": "nes-na-joe-and-mac",
+   "title": "Joe & Mac",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is general; the NES port does not get the arcade's route choices or multiple exits (those are listed only for other versions)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-kings-quest-v",
+   "title": "King's Quest V",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the PC original; NES-specific differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-kiwi-kraze",
+   "title": "Kiwi Kraze",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; NES-specific differences are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-krazy-kreatures",
+   "title": "Krazy Kreatures",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-kung-fu-heroes",
+   "title": "Kung-Fu Heroes",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count assumed from two selectable heroes; not stated in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-last-action-hero",
+   "title": "Last Action Hero",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source names Bits Studios as developer of most versions; the census credits Teeny Weeny Games for the NES game."
+   ]
+  },
+  {
+   "identity_id": "nes-na-lemmings",
+   "title": "Lemmings",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the Amiga original; NES level count and differences are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-little-ninja-brothers",
+   "title": "Little Ninja Brothers",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1991-02 vs NOA list 1990-12",
+    "flag: Gameplay not detailed in the source; player count assumed from the two brothers. NA date disagreement: Wikipedia says February 1991, the NOA list says December 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mechanized-attack",
+   "title": "Mechanized Attack",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-metal-fighter",
+   "title": "Metal Fighter",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Census note: US version of Joy Van's 'Joyvan Kid'."
+   ]
+  },
+  {
+   "identity_id": "nes-na-monopoly",
+   "title": "Monopoly",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Maximum player count and CPU options not stated in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ms-pac-man",
+   "title": "Ms. Pac-Man",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; the Namco NES port's specific features are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ms-pac-man-tengen",
+   "title": "Ms. Pac-Man",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; Tengen-specific features are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-nigel-mansells-world-championship-racing",
+   "title": "Nigel Mansell's World Championship Racing",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The article describes the multi-platform game; NES-specific differences are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-north-and-south",
+   "title": "North & South",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the original computer game; NES-specific differences and two-player support are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-operation-secret-storm",
+   "title": "Operation Secret Storm",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source says 1992; the census year is 1991."
+   ]
+  },
+  {
+   "identity_id": "nes-na-orb-3d",
+   "title": "Orb-3D",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source describes the computer versions; whether the NES version came with 3D glasses is not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pac-mania",
+   "title": "Pac-Mania",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade; NES differences are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pipe-dream",
+   "title": "Pipe Dream",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the Amiga original; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-platoon",
+   "title": "Platoon",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Stage descriptions come from the computer versions; NES differences are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-power-blade-2",
+   "title": "Power Blade 2",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-puzzle",
+   "title": "Puzzle",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pyramid",
+   "title": "Pyramid",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-q-bert",
+   "title": "Q*bert",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; the NES port's differences and player count are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-qix",
+   "title": "Qix",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Rules describe the arcade game; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rad-racer-ii",
+   "title": "Rad Racer II",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Only covered in the Rad Racer article's legacy section."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rampart",
+   "title": "Rampart",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count is inferred from the multi-player mode; the NES version's two-player support is not confirmed."
+   ]
+  },
+  {
+   "identity_id": "nes-na-remote-control",
+   "title": "Remote Control",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count not stated for the NES version."
+   ]
+  },
+  {
+   "identity_id": "nes-na-road-runner",
+   "title": "Road Runner",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata two-player tag and assumes alternating play."
+   ]
+  },
+  {
+   "identity_id": "nes-na-roadblasters",
+   "title": "RoadBlasters",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Rules describe the arcade game; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-robocop",
+   "title": "RoboCop",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES-specific detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-robocop-2",
+   "title": "RoboCop 2",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES-specific detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-robocop-3",
+   "title": "RoboCop 3",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES-specific detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rocket-ranger",
+   "title": "Rocket Ranger",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the original computer versions; NES-specific changes (including whether the code wheel is used) are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rollergames",
+   "title": "RollerGames",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count for the NES version is not stated (Wikidata lists multiplayer)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-romance-of-three-kingdoms",
+   "title": "Romance of the Three Kingdoms",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-silent-service",
+   "title": "Silent Service",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the computer original; NES simplifications are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-skull-and-crossbones",
+   "title": "Skull & Crossbones",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is mostly arcade-based; NES co-op support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-snoopys-silly-sports-spectacular",
+   "title": "Snoopy's Silly Sports Spectacular",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives no event list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-spy-hunter",
+   "title": "Spy Hunter",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Rules describe the arcade game; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-stanley-search-for-dr-livingston",
+   "title": "Stanley: The Search for Dr. Livingston",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-super-sprint",
+   "title": "Super Sprint",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Rules describe the arcade; the NES player count is not confirmed (the arcade supports three)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-teenage-mutant-ninja-turtles-tournament-fighters",
+   "title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little detail on the roster and modes."
+   ]
+  },
+  {
+   "identity_id": "nes-na-addams-family",
+   "title": "The Addams Family",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Source article describes the multi-platform release, mainly the SNES/Amiga versions; NES-specific differences are not documented in it."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cheetahmen-action-52",
+   "title": "The Cheetahmen",
+   "confidence": "MEDIUM",
+   "availability": "MULTICART_ONLY",
+   "reasons": [
+    "flag: Gameplay of the Action 52 Cheetahmen game not documented in the sources used."
+   ]
+  },
+  {
+   "identity_id": "nes-na-chessmaster",
+   "title": "The Chessmaster",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source is the series article; NES-specific features are not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jungle-book",
+   "title": "The Jungle Book",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The article is based on the Genesis version and notes that level design differs by platform."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ren-and-stimpy-show-buckeroo",
+   "title": "The Ren & Stimpy Show: Buckeroo$!",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Only a short entry in the TV series article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-rocketeer",
+   "title": "The Rocketeer",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-terminator",
+   "title": "The Terminator",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Only a short entry in the Terminator games list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-untouchables",
+   "title": "The Untouchables",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES-specific detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tiles-of-fate",
+   "title": "Tiles of Fate",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-times-of-lore",
+   "title": "Times of Lore",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Details describe the computer versions; NES specifics are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tom-and-jerry",
+   "title": "Tom & Jerry",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Only a short entry in the Tom and Jerry games list."
+   ]
+  },
+  {
+   "identity_id": "nes-na-toobin",
+   "title": "Toobin'",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is arcade-based; NES co-op support not confirmed."
+   ]
+  },
+  {
+   "identity_id": "nes-na-total-recall",
+   "title": "Total Recall",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-touchdown-fever",
+   "title": "Touchdown Fever",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is arcade-based."
+   ]
+  },
+  {
+   "identity_id": "nes-na-track-and-field-ii",
+   "title": "Track & Field II",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives no event list. NA date disagreement: Wikipedia says February 1989, the NOA list says June 1989."
+   ]
+  },
+  {
+   "identity_id": "nes-na-twin-cobra",
+   "title": "Twin Cobra",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is arcade-based; NES co-op support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-twin-eagle",
+   "title": "Twin Eagle",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little NES detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultima-exodus",
+   "title": "Ultima: Exodus",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Class and race details describe the original Ultima III; the Famicom/NES remake's changes are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ultima-warriors-of-destiny",
+   "title": "Ultima: Warriors of Destiny",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Mechanics are described from the PC original; the NES port is noted as heavily cut."
+   ]
+  },
+  {
+   "identity_id": "nes-na-uncharted-waters",
+   "title": "Uncharted Waters",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives little gameplay detail."
+   ]
+  },
+  {
+   "identity_id": "nes-na-venice-beach-volleyball",
+   "title": "Venice Beach Volleyball",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE_AND_MULTICART",
+   "reasons": [
+    "flag: Only a short entry in the AVE publisher article."
+   ]
+  },
+  {
+   "identity_id": "nes-na-vindicators",
+   "title": "Vindicators",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text is arcade-based; NES two-player support needs confirmation."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wizardry-knight-of-diamonds-second-scenario",
+   "title": "Wizardry: Knight of Diamonds - The Second Scenario",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Mechanics describe the original; NES specifics (such as a pre-generated party) are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wizardry-proving-grounds-of-mad-overlord",
+   "title": "Wizardry: Proving Grounds of the Mad Overlord",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Mechanics describe the original; NES graphic and interface changes are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wwf-wrestlemania-steel-cage-challenge",
+   "title": "WWF WrestleMania: Steel Cage Challenge",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Source says Acclaim published; census lists LJN (Acclaim licensee). NES player count not stated."
+   ]
+  },
+  {
+   "identity_id": "nes-na-xenophobe",
+   "title": "Xenophobe",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Article describes the arcade original; NES player count and differences not documented."
+   ]
+  },
+  {
+   "identity_id": "nes-na-zen-intergalactic-ninja",
+   "title": "Zen: Intergalactic Ninja",
+   "confidence": "MEDIUM",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay section is thinly sourced; verify stage structure."
+   ]
+  },
+  {
+   "identity_id": "nes-na-bandit-kings-of-ancient-china",
+   "title": "Bandit Kings of Ancient China",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Maximum player count not stated in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-circus-caper",
+   "title": "Circus Caper",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source gives 1989 as the release year (probably Japan); the census NA date is July 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-clash-at-demonhead",
+   "title": "Clash at Demonhead",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1989-12 vs NOA list 1990-01",
+    "flag: NA date disagreement: Wikipedia says December 1989, the NOA list says January 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-clu-clu-land",
+   "title": "Clu Clu Land",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists multiplayer; the article does not describe the two-player mode."
+   ]
+  },
+  {
+   "identity_id": "nes-na-cobra-command",
+   "title": "Cobra Command",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists multiplayer, but the article describes no two-player mode for the NES version."
+   ]
+  },
+  {
+   "identity_id": "nes-na-donkey-kong-jr-math",
+   "title": "Donkey Kong Jr. Math",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1986-06 vs NOA list 1985-10",
+    "flag: NA date disagreement: Wikipedia says June 1986, the NOA list says October 1985."
+   ]
+  },
+  {
+   "identity_id": "nes-na-excitebike",
+   "title": "Excitebike",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists multiplayer; the article describes no NES multiplayer mode."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fantasy-zone",
+   "title": "Fantasy Zone",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the arcade game; differences in the Tengen NES version are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-flying-dragon-secret-scroll",
+   "title": "Flying Dragon: The Secret Scroll",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag; the article does not describe the two-player mode."
+   ]
+  },
+  {
+   "identity_id": "nes-na-friday-13th",
+   "title": "Friday the 13th",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists multiplayer; the article describes only single-player."
+   ]
+  },
+  {
+   "identity_id": "nes-na-fun-house",
+   "title": "Fun House",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-gradius",
+   "title": "Gradius",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-gun-smoke",
+   "title": "Gun.Smoke",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The three-button arcade controls must map differently on the NES pad; not described in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ikari-warriors",
+   "title": "Ikari Warriors",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The NES version can't replicate the rotary joystick; its control scheme is not described in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-jordan-vs-bird-one-on-one",
+   "title": "Jordan vs. Bird: One on One",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The source does not state whether two humans can play head-to-head on the NES."
+   ]
+  },
+  {
+   "identity_id": "nes-na-karate-champ",
+   "title": "Karate Champ",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: How the NES maps the dual-joystick moves is not described."
+   ]
+  },
+  {
+   "identity_id": "nes-na-kid-niki-radical-ninja",
+   "title": "Kid Niki: Radical Ninja",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-kings-of-beach",
+   "title": "Kings of the Beach",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Maximum NES player count not stated; Wikidata lists co-op and shared-screen multiplayer."
+   ]
+  },
+  {
+   "identity_id": "nes-na-m-u-l-e",
+   "title": "M.U.L.E.",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The NES input method for four players is not described (the source notes that most ports lacked four joystick ports)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mach-rider",
+   "title": "Mach Rider",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1986-08 vs NOA list 1985-10",
+    "flag: NA date disagreement: Wikipedia says August 1986, the NOA list says October 1985."
+   ]
+  },
+  {
+   "identity_id": "nes-na-marble-madness",
+   "title": "Marble Madness",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The arcade used a trackball; the NES D-pad control feel is not described."
+   ]
+  },
+  {
+   "identity_id": "nes-na-metroid",
+   "title": "Metroid",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1987-08 vs NOA list 1986-08",
+    "flag: NA date disagreement: Wikipedia says August 1987, the NOA list says August 1986."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mighty-bomb-jack",
+   "title": "Mighty Bomb Jack",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-mission-cobra",
+   "title": "Mission Cobra",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Census note: US version of Joy Van's 'Sidewinder'."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pac-man",
+   "title": "Pac-Man",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1988-10 vs NOA list 1993-11",
+    "flag: NA date disagreement: Wikipedia says October 1988, the NOA list says November 1993 (the Namco reissue)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pin-bot",
+   "title": "Pin Bot",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-pinball",
+   "title": "Pinball",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-popeye",
+   "title": "Popeye",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag and assumes alternating play; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-prince-of-persia",
+   "title": "Prince of Persia",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Gameplay text describes the Apple II original; NES level count and differences are not itemised."
+   ]
+  },
+  {
+   "identity_id": "nes-na-r-b-i-baseball",
+   "title": "R.B.I. Baseball",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Absent from the NOA list but has a licensed USA catalog number in NesCartDB."
+   ]
+  },
+  {
+   "identity_id": "nes-na-raid-on-bungeling-bay",
+   "title": "Raid on Bungeling Bay",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Will Wright was unsure whether a US release ever happened; the census lists a September 1987 NA release."
+   ]
+  },
+  {
+   "identity_id": "nes-na-section-z",
+   "title": "Section Z",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Wikidata lists multiplayer; NES two-player support is not described."
+   ]
+  },
+  {
+   "identity_id": "nes-na-side-pocket",
+   "title": "Side Pocket",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA date disagreement: Wikipedia says November 1987, the NOA list says June 1987."
+   ]
+  },
+  {
+   "identity_id": "nes-na-silent-assault",
+   "title": "Silent Assault",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Census note: US version of Joy Van's 'Raid'."
+   ]
+  },
+  {
+   "identity_id": "nes-na-skate-or-die",
+   "title": "Skate or Die!",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The eight-player count is for the original version; confirm the NES maximum."
+   ]
+  },
+  {
+   "identity_id": "nes-na-ski-or-die",
+   "title": "Ski or Die",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The six-player count is from the general description; confirm the NES maximum."
+   ]
+  },
+  {
+   "identity_id": "nes-na-smash-tv",
+   "title": "Smash TV",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The arcade used twin joysticks; the NES control method isn't described in the source."
+   ]
+  },
+  {
+   "identity_id": "nes-na-soccer",
+   "title": "Soccer",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1985-10-18 vs NOA list 1987-03",
+    "flag: NA date disagreement: Wikipedia says October 1985 (launch), the NOA list says March 1987."
+   ]
+  },
+  {
+   "identity_id": "nes-na-star-force",
+   "title": "Star Force",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count follows the Wikidata multiplayer tag; confirm whether play alternates."
+   ]
+  },
+  {
+   "identity_id": "nes-na-stinger",
+   "title": "Stinger",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The Famicom original supports a third player through the expansion port; the NES maximum is not confirmed."
+   ]
+  },
+  {
+   "identity_id": "nes-na-super-mario-bros",
+   "title": "Super Mario Bros.",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The exact NA release date is debated (October 1985 launch vs. late 1985–early 1986)."
+   ]
+  },
+  {
+   "identity_id": "nes-na-battle-of-olympus",
+   "title": "The Battle of Olympus",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1990-01 vs NOA list 1989-12"
+   ]
+  },
+  {
+   "identity_id": "nes-na-flintstones-surprise-at-dinosaur-peak",
+   "title": "The Flintstones: The Surprise at Dinosaur Peak",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Release year disagreement: the article says 1993, the census NA date is August 1994."
+   ]
+  },
+  {
+   "identity_id": "nes-na-magic-of-scheherazade",
+   "title": "The Magic of Scheherazade",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1990-01 vs NOA list 1989-12",
+    "flag: NA date disagreement: Wikipedia says January 1990, the NOA list says December 1989."
+   ]
+  },
+  {
+   "identity_id": "nes-na-miracle-piano-teaching-system",
+   "title": "The Miracle Piano Teaching System",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Absent from the NOA list; present in NesCartDB with a licensed USA catalog number."
+   ]
+  },
+  {
+   "identity_id": "nes-na-punisher",
+   "title": "The Punisher",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA release year disputed: Wikipedia 1991-01 vs NOA list 1990-11",
+    "flag: NA date disagreement: Wikipedia says January 1991, the NOA list says November 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-tombs-and-treasure",
+   "title": "Tombs & Treasure",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The pack-in guide description is truncated in the source; confirm."
+   ]
+  },
+  {
+   "identity_id": "nes-na-vegas-dream",
+   "title": "Vegas Dream",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Player count not stated in the source (Wikidata lists multiplayer). NA date disagreement: Wikipedia says April 1990, the NOA list says March 1990."
+   ]
+  },
+  {
+   "identity_id": "nes-na-where-in-time-is-carmen-sandiego",
+   "title": "Where in Time Is Carmen Sandiego?",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: The encyclopedia pack-in is described for the series release generally; confirm for the NES box."
+   ]
+  },
+  {
+   "identity_id": "nes-na-wheres-waldo",
+   "title": "Where's Waldo?",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: NA date disagreement: Wikipedia says July 1991, the NOA list says September 1991."
+   ]
+  },
+  {
+   "identity_id": "nes-na-zombie-nation",
+   "title": "Zombie Nation",
+   "confidence": "HIGH",
+   "availability": "STANDALONE",
+   "reasons": [
+    "flag: Census year 1991-01 vs NOA list 1991-09; NA release month unconfirmed."
+   ]
+  }
+ ]
+}

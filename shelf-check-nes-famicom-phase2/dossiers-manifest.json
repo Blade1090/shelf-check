@@ -1,0 +1,163 @@
+{
+ "schema_version": 1,
+ "dataset": "ShelfCheck NES dossiers (North American CORE identities)",
+ "census_status": "PROVISIONAL - NOT APPROVED",
+ "identity_count": 816,
+ "files": [
+  {
+   "file": "dossiers-001-100.json",
+   "range": [
+    1,
+    100
+   ],
+   "entries": 100,
+   "sha256": "caf0553914c8730ede3b0606fd46f42a56135b871561211fd8f371ff39841b00",
+   "first_id": "nes-na-10-yard-fight",
+   "last_id": "nes-na-blaster-master"
+  },
+  {
+   "file": "dossiers-101-200.json",
+   "range": [
+    101,
+    200
+   ],
+   "entries": 100,
+   "sha256": "8f0f1b14154c0a43be6a558c860d9c8460f984af2deb2a6ed356db0e6bf3b6e9",
+   "first_id": "nes-na-blue-marlin",
+   "last_id": "nes-na-destination-earthstar"
+  },
+  {
+   "file": "dossiers-201-300.json",
+   "range": [
+    201,
+    300
+   ],
+   "entries": 100,
+   "sha256": "37e4db83de0e253f5b5e6227675b429b0aa4ee33c9eb7d50a46eed1b0211ddca",
+   "first_id": "nes-na-destiny-of-emperor",
+   "last_id": "nes-na-gotcha-sport"
+  },
+  {
+   "file": "dossiers-301-400.json",
+   "range": [
+    301,
+    400
+   ],
+   "entries": 100,
+   "sha256": "caed2e2289caf87c60f096ff87e626c1f6a6fa64b92837a2f88c26874737bac6",
+   "first_id": "nes-na-gradius",
+   "last_id": "nes-na-legend-of-zelda"
+  },
+  {
+   "file": "dossiers-401-500.json",
+   "range": [
+    401,
+    500
+   ],
+   "entries": 100,
+   "sha256": "bddbcb105d175c9a62b974f80c7ecddc9f066c4d40b2167f64ddbef9b86746ae",
+   "first_id": "nes-na-legendary-wings",
+   "last_id": "nes-na-nobunagas-ambition-ii"
+  },
+  {
+   "file": "dossiers-501-600.json",
+   "range": [
+    501,
+    600
+   ],
+   "entries": 100,
+   "sha256": "fdc6acff9711e20620e2e53f4afadae3e86698bb5d7355db80def507fcefa70f",
+   "first_id": "nes-na-non-human-action-52",
+   "last_id": "nes-na-sesame-street-countdown"
+  },
+  {
+   "file": "dossiers-601-700.json",
+   "range": [
+    601,
+    700
+   ],
+   "entries": 100,
+   "sha256": "7fdbfa3aa2d89fb6811de1591e3f4b8cfadaebd056203bb8c4bbbe9806195615",
+   "first_id": "nes-na-shadow-of-ninja",
+   "last_id": "nes-na-tecmo-super-bowl"
+  },
+  {
+   "file": "dossiers-701-800.json",
+   "range": [
+    701,
+    800
+   ],
+   "entries": 100,
+   "sha256": "ada7de6fbba18d896fa322e22549aeeefd0846275e33365875d5d5f50f5c8ef9",
+   "first_id": "nes-na-tecmo-world-wrestling",
+   "last_id": "nes-na-wurm-journey-to-center-of-earth"
+  },
+  {
+   "file": "dossiers-801-816.json",
+   "range": [
+    801,
+    816
+   ],
+   "entries": 16,
+   "sha256": "fc3043194651c42aa6f658ca396c488407ac52ce8fccd765b859f2324ad14c55",
+   "first_id": "nes-na-wwf-king-of-ring",
+   "last_id": "nes-na-zombie-nation"
+  }
+ ],
+ "validation": {
+  "entries": 816,
+  "unique_ids": 816,
+  "census_core": 816,
+  "missing_from_dossiers": [],
+  "not_in_census": [],
+  "duplicates": [],
+  "titles_match": true,
+  "passed": true
+ },
+ "fields": [
+  "identity_id",
+  "title",
+  "display_disambiguator",
+  "release_year",
+  "release_date_na",
+  "developer",
+  "publisher",
+  "license_class",
+  "availability",
+  "genres",
+  "players",
+  "summary",
+  "why_it_matters",
+  "gameplay_notes",
+  "difficulty",
+  "hltb_main_hours",
+  "hltb_extra_hours",
+  "hltb_completionist_hours",
+  "hltb_status",
+  "hltb_note",
+  "multicart_notes",
+  "on_products",
+  "alternate_titles",
+  "collecting_notes",
+  "content_notes",
+  "sources",
+  "confidence",
+  "review_flags"
+ ],
+ "confidence": {
+  "HIGH": 527,
+  "LOW": 126,
+  "MEDIUM": 163
+ },
+ "hltb_status": {
+  "ESTIMATED": 50,
+  "NO_DATA": 560,
+  "VERIFIED": 206
+ },
+ "hltb_rule": "Times only from an HLTB NES platform row or NES-only entry (hours rounded to 0.5). VERIFIED = 3+ logged NES completions; ESTIMATED = HLTB NES data with fewer than 3 completions (low sample); NO_DATA = no defensible NES match. No SNES/GB/arcade/Famicom/remake/compilation times are used.",
+ "notes": [
+  "Contains no owner-specific data.",
+  "Collecting notes make no value or rarity claims.",
+  "review_flags lists open questions; see dossier-review-queue.json."
+ ]
+}

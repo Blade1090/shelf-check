@@ -1,0 +1,2461 @@
+[
+ {
+  "identity_or_item_id": "nes-trk-nintendo-campus-challenge-1991",
+  "canonical_title": "Nintendo Campus Challenge 1991",
+  "core_status": "SPECIAL",
+  "track_class": "COMPETITION_CART",
+  "publisher": "Nintendo",
+  "date": "1991",
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "Official Nintendo competition cartridge; not a retail release."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Championship games, line 11109)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-nintendo-world-championships-1990",
+  "canonical_title": "Nintendo World Championships 1990",
+  "core_status": "SPECIAL",
+  "track_class": "COMPETITION_CART",
+  "publisher": "Nintendo",
+  "date": "1990-03",
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "Official Nintendo competition cartridge; not a retail release."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Championship games, line 11114)",
+   "https://nescartdb.com/profile/view/4627/nintendo-world-championships-1990"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-cheetahmen-ii",
+  "canonical_title": "Cheetahmen II",
+  "core_status": "SPECIAL",
+  "track_class": "UNRELEASED_ODDITY",
+  "publisher": "Active Enterprises",
+  "date": null,
+  "decisions": [
+   "D-06"
+  ],
+  "notes": [
+   "Never officially released; about 1,500 copies found in a Florida warehouse in 1996 and sold on the secondary market on reused Action 52 carts (Wikipedia; that sentence is tagged citation-needed)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=The_Cheetahmen&oldid=1357693796"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-racermate-challenge-ii",
+  "canonical_title": "RacerMate Challenge II",
+  "core_status": "SPECIAL",
+  "track_class": "FITNESS_EQUIPMENT_CART",
+  "publisher": "RacerMate",
+  "date": null,
+  "decisions": [
+   "D-11"
+  ],
+  "notes": [
+   "Cartridge for RacerMate's CompuTrainer bike-trainer system (Wikipedia Fitness game article); needs the trainer hardware. Release date not established."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=Fitness_game&oldid=1368878971",
+   "https://nescartdb.com/profile/view/2696/racermate-challenge-ii"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-challenge-of-dragon-sachen",
+  "canonical_title": "Challenge of the Dragon (Sachen)",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "DISPUTED_RELEASE_EXCLUDED",
+  "publisher": "Sachen",
+  "date": null,
+  "decisions": [
+   "D-10"
+  ],
+  "notes": [
+   "Excluded by D-10 unless new cartridge-level evidence appears. See R-U02."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=Thin_Chen_Enterprise&oldid=1359573298",
+   "https://bootleggames.fandom.com/wiki/Chinese_Kungfu (page blocked by Cloudflare; only a web-search snippet was seen - attributed, not verified)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-adventures-of-dr-franken",
+  "canonical_title": "Adventures of Dr. Franken, The",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Elite",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-D7-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4611/the-adventures-of-dr-franken"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-bashi-bazook-morphoid-masher",
+  "canonical_title": "Bashi Bazook: Morphoid Masher",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Jaleco",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-14-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4612/bashi-bazook-morphoid-masher"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-california-raisins-grape-escape",
+  "canonical_title": "California Raisins, The: The Grape Escape",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Capcom",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-X7-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4616/the-california-raisins-the-grape-escape"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-crackout",
+  "canonical_title": "CrackOut",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Palcom",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-37-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4618/crackout"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-final-fantasy-ii",
+  "canonical_title": "Final Fantasy II",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Square",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-FY-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4672/final-fantasy-ii"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-game-genie",
+  "canonical_title": "Game Genie",
+  "core_status": "SPECIAL",
+  "track_class": "NOT_A_GAME",
+  "publisher": "Galoob",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "Accessory / system cartridge, not a playable game identity."
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/597/game-genie"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-hit-ice",
+  "canonical_title": "Hit the Ice",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Taito",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-93-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4613/hit-the-ice"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-noahs-ark",
+  "canonical_title": "Noah's Ark",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Konami",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog NES-NH-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4628/noahs-ark"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-ntf2-system-cartridge",
+  "canonical_title": "NTF2 System Cartridge",
+  "core_status": "SPECIAL",
+  "track_class": "NOT_A_GAME",
+  "publisher": "Nintendo",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "Accessory / system cartridge, not a playable game identity."
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4648/ntf2-system-cartridge"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-secret-ties",
+  "canonical_title": "Secret Ties",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Vic Tokai",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-S4-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4634/secret-ties"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-squashed",
+  "canonical_title": "Squashed",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Jaleco",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog NES-JS-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4636/squashed"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-superman",
+  "canonical_title": "Superman",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Sunsoft",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-8M-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4673/superman"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-taros-quest",
+  "canonical_title": "Taro's Quest",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Jaleco",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-5Q-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4639/taros-quest"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-thomas-tank-engine-and-friends",
+  "canonical_title": "Thomas The Tank Engine & Friends",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "THQ",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-65-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4640/thomas-the-tank-engine-friends"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-titan-warriors",
+  "canonical_title": "Titan Warriors",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Capcom",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog NES-WA-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/2708/titan-warriors"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-escape-from-atlantis",
+  "canonical_title": "Escape From Atlantis, The",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Color Dreams",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-EA-81013 (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4621/the-escape-from-atlantis"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-exploding-fist",
+  "canonical_title": "Exploding Fist",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Tradewest",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-EF-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4649/exploding-fist"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-u-force-power-games",
+  "canonical_title": "U-Force Power Games",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Brøderbund",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog UNR-UX-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4641/u-force-power-games"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-virus",
+  "canonical_title": "Virus",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Nintendo",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog NES-VU-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4687/virus"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-virus",
+  "canonical_title": "Virus",
+  "core_status": "SPECIAL",
+  "track_class": "PROTOTYPE_UNRELEASED",
+  "publisher": "Nintendo",
+  "date": null,
+  "decisions": [
+   "D-05"
+  ],
+  "notes": [
+   "NesCartDB catalog NES-VU-USA (marked Prototype)"
+  ],
+  "evidence": [
+   "https://nescartdb.com/profile/view/4688/virus"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-2-in-1-cosmocop-cyber-monster",
+  "canonical_title": "2-in-1 Cosmocop / Cyber Monster",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1993",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11673)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-2-in-1-tough-cop-super-tough-cop",
+  "canonical_title": "2-in-1 Tough Cop / Super Tough Cop",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1993",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11677)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-2-turn-pair",
+  "canonical_title": "2 Turn Pair",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11681)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-3d-block",
+  "canonical_title": "3D Block",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1989/1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11685)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-auto-upturn",
+  "canonical_title": "Auto Upturn",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11705)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-bb-car",
+  "canonical_title": "BB Car",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11713)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-bingo-75",
+  "canonical_title": "Bingo 75",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11737)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-block-force",
+  "canonical_title": "Block Force",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11745)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-brush-roller",
+  "canonical_title": "Brush Roller",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11749)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-chess-academy",
+  "canonical_title": "Chess Academy",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11769)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-china-chess",
+  "canonical_title": "China Chess",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "Unknown",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11777)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-chinese-checkers",
+  "canonical_title": "Chinese Checkers",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11781)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-chinese-kung-fu",
+  "canonical_title": "Chinese Kung Fu",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11785)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-dancing-block",
+  "canonical_title": "Dancing Block",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11793)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-decathlon",
+  "canonical_title": "Decathlon",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "C&E",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11805)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-dragon-ball-z-5",
+  "canonical_title": "Dragon Ball Z 5",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "SuperTone Electronics",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11817)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-duck-maze",
+  "canonical_title": "Duck Maze",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "HES",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11821)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-elfland",
+  "canonical_title": "Elfland",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Tip Top",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11829)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-f18-race",
+  "canonical_title": "F18 Race",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11841)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-feng-shen-bang",
+  "canonical_title": "Feng Shen Bang",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "C&E",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11853)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-final-combat",
+  "canonical_title": "Final Combat",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11857)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-frog-adventure",
+  "canonical_title": "Frog Adventure",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11865)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-frog-river",
+  "canonical_title": "Frog River",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11869)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-gaiapolis",
+  "canonical_title": "Gaiapolis",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11873)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-gluk-thunder-warrior",
+  "canonical_title": "Gluk the Thunder Warrior",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Gluk",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11885)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-great-wall",
+  "canonical_title": "The Great Wall",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11889)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-happy-pairs",
+  "canonical_title": "Happy Pairs",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11893)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-hell-fighter",
+  "canonical_title": "Hell Fighter",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11897)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-hidden-chinese-chess",
+  "canonical_title": "Hidden Chinese Chess",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Joy Van",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11901)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-honey-peach",
+  "canonical_title": "Honey Peach",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11905)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-huge-insect",
+  "canonical_title": "Huge Insect",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1993",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11913)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-incantation",
+  "canonical_title": "Incantation",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Joy Van",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11921)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-jing-ke-xin-zhuan",
+  "canonical_title": "Jing Ke Xin Zhuan",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "SuperTone Electronics",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11929)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-jovial-race",
+  "canonical_title": "Jovial Race",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Joy Van",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11937)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-jurassic-boy",
+  "canonical_title": "Jurassic Boy",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11941)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-kart-fighter",
+  "canonical_title": "Kart Fighter",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Ge De Industry Co.",
+  "date": "1993",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11945)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-little-red-hood",
+  "canonical_title": "Little Red Hood",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "HES",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11969)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-locksmith",
+  "canonical_title": "Locksmith",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11973)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-lucky-777",
+  "canonical_title": "Lucky 777",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11977)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magic-block",
+  "canonical_title": "Magic Block",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Mega Soft",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11981)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magic-cube",
+  "canonical_title": "Magic Cube",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11985)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magic-jewelry",
+  "canonical_title": "Magic Jewelry",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11989)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magic-jewelry-ii",
+  "canonical_title": "Magic Jewelry II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11993)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magical-mathematics",
+  "canonical_title": "Magical Mathematics",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 11997)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-magical-tower",
+  "canonical_title": "Magical Tower",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Tin Chen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12001)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mahjong-academy",
+  "canonical_title": "Mahjong Academy",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12005)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mahjong-trap",
+  "canonical_title": "Mahjong Trap",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12009)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mahjong-trap-plus",
+  "canonical_title": "Mahjong Trap Plus",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12013)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mahjong-world",
+  "canonical_title": "The Mahjong World",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12017)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mei-shao-nu-meng-gongchang",
+  "canonical_title": "Mēi Shāo Nú Mèng Gōngchāng",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Tin Chen",
+  "date": "Unknown",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12029)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-memory-pair",
+  "canonical_title": "Memory Pair",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12033)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-middle-school-english-ii",
+  "canonical_title": "Middle School English II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12053)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-millionaire",
+  "canonical_title": "Millionaire",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12061)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-minesweeper",
+  "canonical_title": "Minesweeper",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12065)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-minesweeper-2",
+  "canonical_title": "Minesweeper 2",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12069)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-minesweeper-3",
+  "canonical_title": "Minesweeper 3",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12073)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-olympic-iq",
+  "canonical_title": "Olympic IQ",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12093)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-penguin-and-seal",
+  "canonical_title": "The Penguin and Seal",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12113)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-piano",
+  "canonical_title": "Piano",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "Unknown",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12121)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-pipe-v",
+  "canonical_title": "Pipe V",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12125)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-poker-ii",
+  "canonical_title": "Poker II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12129)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-poker-iii",
+  "canonical_title": "Poker III",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12133)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-poker-mahjong",
+  "canonical_title": "Poker Mahjong",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12137)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-pole-chudes",
+  "canonical_title": "Pole Chudes",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "A. Chudov",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12141)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-popo-team",
+  "canonical_title": "Popo Team",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12145)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-punch-sprite",
+  "canonical_title": "Punch Sprite",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12153)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-pyramid-ii",
+  "canonical_title": "Pyramid II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12165)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-q-boy",
+  "canonical_title": "Q Boy",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1994",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12169)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-rockball",
+  "canonical_title": "Rockball",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1993",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12213)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-rocman-x",
+  "canonical_title": "Rocman X",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12217)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-sidewinder",
+  "canonical_title": "Sidewinder",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Joy Van",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12237)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-silver-eagle",
+  "canonical_title": "Silver Eagle",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1994",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12245)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-somari",
+  "canonical_title": "Somari",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Ge De Industry Co.",
+  "date": "1994",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12257)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-strategist",
+  "canonical_title": "Strategist",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12265)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-street-heroes",
+  "canonical_title": "Street Heroes",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12269)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-sunday-funday",
+  "canonical_title": "Sunday Funday",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Wisdom Tree",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12277)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-super-mario-world",
+  "canonical_title": "Super Mario World",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "J.Y. Company",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12281)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-super-pang",
+  "canonical_title": "Super Pang",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12285)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-super-pang-ii",
+  "canonical_title": "Super Pang II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12289)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-taiwan-mahjong",
+  "canonical_title": "Taiwan Mahjong",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12301)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-taiwan-mahjong-ii",
+  "canonical_title": "Taiwan Mahjong II",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12305)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-tasac",
+  "canonical_title": "Tasac",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12309)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-time-diver-avenger",
+  "canonical_title": "Time Diver Avenger",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Nitra Corporation",
+  "date": "1994",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12321)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-twin-eagle",
+  "canonical_title": "Twin Eagle",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Joy Van",
+  "date": "1989",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07).",
+   "Title collision with Romstar's licensed Twin Eagle - different game."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12333)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-ugadayka",
+  "canonical_title": "Ugadayka",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "A. Chudov",
+  "date": "1995",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12337)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-wild-ball",
+  "canonical_title": "Wild Ball",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Hwang Shinwei",
+  "date": "1991",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12361)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-world-of-card-games",
+  "canonical_title": "The World of Card Games",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1990",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12365)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-worm-visitor",
+  "canonical_title": "Worm Visitor",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "UNLICENSED_NON_NA",
+  "publisher": "Sachen",
+  "date": "1992",
+  "decisions": [],
+  "notes": [
+   "Wikipedia unlicensed (lifespan) table, no region column; no NA retail evidence in NesCartDB or PriceCharting (R-U07)."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: NES's lifespan, line 12369)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-almost-hero",
+  "canonical_title": "Almost Hero",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Mega Cat Studios",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13232)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-angry-video-game-nerd-8-bit",
+  "canonical_title": "Angry Video Game Nerd 8-Bit",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Retroware",
+  "date": "2025",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13236)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-battle-kid-fortress-of-peril",
+  "canonical_title": "Battle Kid: Fortress of Peril",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Sivak Games",
+  "date": "2010",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13240)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-battle-kid-kikenna-wana",
+  "canonical_title": "Battle Kid: Kikenna Wana",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Columbus Circle",
+  "date": "2018",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13244)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-battle-kid-2-mountain-of-torment",
+  "canonical_title": "Battle Kid 2: Mountain of Torment",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Sivak Games",
+  "date": "2012",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13248)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-beat-em-and-eat-em",
+  "canonical_title": "Beat 'Em & Eat 'Em",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "FG Soft",
+  "date": "2014",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13252)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-blazing-rangers",
+  "canonical_title": "Blazing Rangers",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "First Press Games",
+  "date": "2021",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13256)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-d-pad-hero",
+  "canonical_title": "D-Pad Hero",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "dpadhero.com",
+  "date": "2009",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13260)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-d-pad-hero-2",
+  "canonical_title": "D-Pad Hero 2",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "dpadhero.com",
+  "date": "2010",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13264)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-data-east-all-star-collection",
+  "canonical_title": "Data East All-Star Collection",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Retro-Bit",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13268)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-dreamworld-pogie",
+  "canonical_title": "Dreamworld Pogie",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Codemasters",
+  "date": "2016",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13272)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-expedition",
+  "canonical_title": "Expedition",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Mega Cat Studios",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13276)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-feng-yin-dao",
+  "canonical_title": "Feng Yin Dao",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Shenzhen Nanjing Technology",
+  "date": "2005",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13280)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-final-fantasy-vii",
+  "canonical_title": "Final Fantasy VII",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Shenzhen Nanjing Technology",
+  "date": "2005",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13284)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-free-fall",
+  "canonical_title": "Free Fall",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Piko Interactive",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13288)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-galf",
+  "canonical_title": "Galf",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Limited Run Games",
+  "date": "2018",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13292)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-garbage-pail-kids-mad-mike-and-quest-for-stale-gum",
+  "canonical_title": "Garbage Pail Kids: Mad Mike and the Quest for Stale Gum",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "iam8bit",
+  "date": "2022",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13296)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-holy-diver",
+  "canonical_title": "Holy Diver",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Irem",
+  "date": "2018",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13300)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-jay-and-silent-bob-mall-brawl",
+  "canonical_title": "Jay and Silent Bob: Mall Brawl",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Limited Run Games",
+  "date": "2020",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13304)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-lei-dian-huang-bi-ka-qiu-chuan-shuo",
+  "canonical_title": "Lei Dian Huang Bi Ka Qiu Chuan Shuo",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Shenzhen Nanjing Technology",
+  "date": "2004",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13308)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-log-jammers",
+  "canonical_title": "Log Jammers",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Mega Cat Studios",
+  "date": "2018",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13312)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mega-man-2-anniversary-edition",
+  "canonical_title": "Mega Man 2 Anniversary Edition",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "iAM8bit",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13316)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-micro-mages",
+  "canonical_title": "Micro Mages",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Morphcat Games",
+  "date": "2019",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13320)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mystery-world-dizzy",
+  "canonical_title": "Mystery World Dizzy",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Codemasters",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13324)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-neo-heiankyo-alien",
+  "canonical_title": "NEO Heiankyo Alien",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Columbus Circle",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13328)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-pokemon-leafgreen",
+  "canonical_title": "Pokémon LeafGreen",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Henggedianzi",
+  "date": "2009",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13332)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-quest-forge-by-order-of-kings",
+  "canonical_title": "Quest Forge: By Order of Kings",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Piko Interactive",
+  "date": "2015",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13336)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-racermate-challenge-ii",
+  "canonical_title": "RacerMate Challenge II",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "RacerMate",
+  "date": "1996",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13340)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-rugrats-adventures-in-gameland",
+  "canonical_title": "Rugrats: Adventures in Gameland",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "TheMIX Games / Limited Run Games",
+  "date": "2024",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13344)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-shen-qi-de-mao-zi",
+  "canonical_title": "Shen Qi De Mao Zi",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Shenzhen Nanjing Technology",
+  "date": "2005",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13348)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-snakky",
+  "canonical_title": "Snakky",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Piko Interactive",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13352)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-super-russian-roulette",
+  "canonical_title": "Super Russian Roulette",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Batlab Electronics",
+  "date": "2017",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13356)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-super-tilt-bro",
+  "canonical_title": "Super Tilt Bro.",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Sylvain Gadrat",
+  "date": "2024",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13360)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-titanic",
+  "canonical_title": "Titanic",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Shenzhen Nanjing Technology",
+  "date": "2005",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13364)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-undercover-shot",
+  "canonical_title": "Undercover Shot",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Pirate Princess Games",
+  "date": "2025",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13368)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-wisdom-tree-nes-collection",
+  "canonical_title": "Wisdom Tree NES Collection",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Wisdom Tree",
+  "date": "2016",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13372)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-wonderland-dizzy",
+  "canonical_title": "Wonderland Dizzy",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Codemasters",
+  "date": "2015",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13376)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-zelda-triforce-of-gods",
+  "canonical_title": "Zelda: Triforce of the Gods",
+  "core_status": "TRACKED",
+  "track_class": "HOMEBREW_OR_AFTERMARKET",
+  "publisher": "Fuzhou Waixing Computer Science & Technology Co., LTD",
+  "date": "2004",
+  "decisions": [
+   "D-02"
+  ],
+  "notes": [
+   "From Wikipedia's partial after-lifespan table."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222 (Unlicensed games: After lifespan, line 13380)"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-noahs-ark",
+  "canonical_title": "Noah's Ark",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "PAL_ONLY_LICENSED",
+  "publisher": null,
+  "date": null,
+  "decisions": [],
+  "notes": [
+   "PAL-only (Wikipedia); NesCartDB USA profile is a PROTOTYPE.",
+   "See R-O02."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-devil-world",
+  "canonical_title": "Devil World",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "PAL_ONLY_LICENSED",
+  "publisher": null,
+  "date": null,
+  "decisions": [],
+  "notes": [
+   "PAL/JP only (Wikipedia).",
+   "See R-O02."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-tecmo-world-cup-soccer",
+  "canonical_title": "Tecmo World Cup Soccer",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "PAL_ONLY_LICENSED",
+  "publisher": null,
+  "date": null,
+  "decisions": [],
+  "notes": [
+   "PAL-only (Wikipedia). The NOA list uses this name for Tecmo Cup Soccer Game (Sept 1992).",
+   "See R-O02."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222"
+  ]
+ },
+ {
+  "identity_or_item_id": "nes-trk-mr-gimmick",
+  "canonical_title": "Mr. Gimmick",
+  "core_status": "EXCLUDED_NON_NA",
+  "track_class": "PAL_ONLY_LICENSED",
+  "publisher": null,
+  "date": null,
+  "decisions": [],
+  "notes": [
+   "PAL-only (Wikipedia).",
+   "See R-O02."
+  ],
+  "evidence": [
+   "https://en.wikipedia.org/w/index.php?title=List_of_Nintendo_Entertainment_System_games&oldid=1377129222"
+  ]
+ }
+]
