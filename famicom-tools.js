@@ -59,6 +59,7 @@ new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes)if(n.nod
 new MutationObserver(()=>{updateCount();if(active())enhanceCards(document)}).observe(document.body,{attributes:true,attributeFilter:['data-active-set']});
 window.addEventListener('shelfcheck:famicom-imported',()=>enhanceCards(document));
 window.addEventListener('shelfcheck:famicom-ownership-changed',()=>enhanceCards(document));
+window.addEventListener('shelfcheck:famicom-wishlist-changed',()=>{updateCount();enhanceCards(document)});
 updateCount();
 
 // ---------- ROULETTE ----------
