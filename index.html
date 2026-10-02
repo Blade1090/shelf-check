@@ -15,4 +15,21 @@
 <dialog id="buyDialog" class="feature-dialog"><div class="feature-head"><div><div class="eyebrow">COLLECTOR CHECK</div><h2>Should I Buy This?</h2></div><button class="feature-close" type="button" onclick="buyDialog.close()">×</button></div><p class="buy-intro">Search the game in front of you. Shelf Check will tell you whether it fills a missing identity or is already on Matty's shelf.</p><input id="buySearch" class="feature-search" type="search" placeholder="Search a game…" autocomplete="off"><div id="buyMatches" class="buy-matches"><div class="buy-hint">Search a game to check it against Matty's shelf.</div></div><section id="buyResult" class="buy-result"></section></dialog>
 <dialog id="dossierDialog" class="dossier-dialog"><div class="dossier-head"><div><div class="eyebrow">NES DOSSIER</div><h2 id="dossierTitle">Game Details</h2></div><button class="dossier-close" type="button" onclick="dossierDialog.close()">×</button></div><div id="dossierBody" class="dossier-body"></div></dialog>
 <dialog id="coverDialog" class="cover-dialog"><button class="cover-close" type="button" onclick="coverDialog.close()">×</button><img id="coverDialogImg" alt=""><strong id="coverDialogTitle"></strong></dialog>
-<script type="module" src="app.js?v=14"></script><script type="module" src="wishlist-buy.js?v=1"></script><script type="module" src="pricing.js?v=2"></script><script src="dossier-wishlist-bridge.js?v=1"></script><script type="module" src="dossier.js?v=7"></script><script type="module" src="famicom-dossier.js?v=1"></script><script type="module" src="collection-tools-v2.js?v=1"></script><script src="collection-legacy-shim.js?v=1"></script><script src="quickmark-hotfix.js?v=1"></script><script type="module" src="wishlist-parity.js?v=1"></script><script src="backup-restore.js?v=3"></script><script>const m=document.getElementById('menuBtn'),p=document.getElementById('maintMenu');m.addEventListener('click',()=>{const open=p.hidden;p.hidden=!open;m.setAttribute('aria-expanded',String(open));});document.addEventListener('click',e=>{if(!p.hidden&&!p.contains(e.target)&&e.target!==m){p.hidden=true;m.setAttribute('aria-expanded','false');}});if('serviceWorker' in navigator){navigator.serviceWorker.getRegistration().then(r=>r?.update()).catch(()=>{});let swReload=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!swReload){swReload=true;location.reload();}});}</script></body></html>
+<script>
+(function(){
+  function showBootError(msg){
+    let box=document.getElementById('bootError');
+    if(!box){
+      box=document.createElement('pre');
+      box.id='bootError';
+      box.style.cssText='white-space:pre-wrap;margin:16px auto;padding:12px;max-width:900px;background:#3b1014;color:#ffd9dd;border:1px solid #ff4d5e;border-radius:10px;font:13px/1.4 monospace;position:relative;z-index:9999';
+      document.body.prepend(box);
+    }
+    box.textContent='Shelf Check startup error:\n'+msg;
+  }
+  window.addEventListener('error',e=>showBootError(e.message||String(e.error||'Unknown error')));
+  window.addEventListener('unhandledrejection',e=>showBootError(e.reason?.stack||e.reason?.message||String(e.reason||'Unhandled promise rejection')));
+  if('serviceWorker' in navigator) navigator.serviceWorker.getRegistrations().then(rs=>Promise.all(rs.map(r=>r.unregister()))).catch(()=>{});
+  if('caches' in window) caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('shelfcheck-nes-')).map(k=>caches.delete(k)))).catch(()=>{});
+})();
+</script><script type="module" src="app.js?v=15"></script><script type="module" src="wishlist-buy.js?v=1"></script><script type="module" src="pricing.js?v=2"></script><script src="dossier-wishlist-bridge.js?v=1"></script><script type="module" src="dossier.js?v=7"></script><script type="module" src="famicom-dossier.js?v=1"></script><script type="module" src="collection-tools-v2.js?v=1"></script><script src="collection-legacy-shim.js?v=1"></script><script src="quickmark-hotfix.js?v=1"></script><script type="module" src="wishlist-parity.js?v=1"></script><script src="backup-restore.js?v=3"></script><script>const m=document.getElementById('menuBtn'),p=document.getElementById('maintMenu');m.addEventListener('click',()=>{const open=p.hidden;p.hidden=!open;m.setAttribute('aria-expanded',String(open));});document.addEventListener('click',e=>{if(!p.hidden&&!p.contains(e.target)&&e.target!==m){p.hidden=true;m.setAttribute('aria-expanded','false');}});</script></body></html>
