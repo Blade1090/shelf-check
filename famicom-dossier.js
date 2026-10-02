@@ -1,5 +1,6 @@
 const FC_STORAGE='shelfcheck-famicom-matty-v1';
 const NES_STORAGE='shelfcheck-nes-matty-v1';
+const FC_WISHLIST='shelfcheck-famicom-matty-wishlist-v1';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const [fcCensus,fcArt,manifest,fcPriceData]=await Promise.all([
   fetch('./famicom-census.json').then(r=>r.json()),
@@ -14,6 +15,12 @@ const fcPriceById=new Map((fcPriceData.rows||[]).map(([id,p])=>[id,Number(p)]));
 const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
 let fcScroll=0;
 function readOwned(key){try{return new Set(JSON.parse(localStorage.getItem(key)||'{}').owned||[])}catch{return new Set()}}
+function readWishlist(){try{return new Set(JSON.parse(localStorage.getItem(FC_WISHLIST)||'[]'))}catch{return new Set()}}
+function wishlistButton(id,owned){
+  if(owned)return '';
+  const on=readWishlist().has(id);
+  return `<button class="fc-dossier-wishlist ${on?'active':''}" type="button" data-fc-dossier-wish="${esc(id)}">${on?'♥ ON WISHLIST':'♡ ADD TO WISHLIST'}</button>`;
+}
 function title(x){return x?.japanese_title||x?.romanized_title||x?.english_reference_title||x?.identity_id||'Famicom'}
 function langClass(v){return ['LOW','MEDIUM','HIGH'].includes(v)?v.toLowerCase():'unknown'}
 function relationLabel(type){return String(type||'').replaceAll('_',' ').toLowerCase().replace(/\b\w/g,m=>m.toUpperCase())}
@@ -51,7 +58,7 @@ function render(id){
         <div class="dossier-cover-wrap">${art?`<img src="${esc(art)}" alt="${esc(title(x))} Famicom box art">`:'<div class="dossier-cover-missing">FC</div>'}</div>
         <div class="dossier-identity">
           <div class="dossier-title-row"><div><h3 class="fc-jp-title">${esc(title(x))}</h3>${eng&&eng!==title(x)?`<div class="fc-eng-title">${esc(eng)}</div>`:''}<div class="dossier-meta">${esc(meta||'Japanese Famicom cartridge')}</div></div><span class="dossier-badge ${owned?'owned':''}">${owned?'OWNED':'NEEDED'}</span></div>
-          <div class="dossier-actions">${markButton(id,owned)}${cartHero(id)}</div>
+          <div class="dossier-actions">${markButton(id,owned)}${wishlistButton(id,owned)}${cartHero(id)}</div>
         </div>
       </section>
       ${counterpart}
@@ -71,6 +78,7 @@ function render(id){
 }
 window.openFamicomDossier=render;
 document.addEventListener('click',e=>{
+  const wishBtn=e.target.closest('[data-fc-dossier-wish]');if(wishBtn){e.preventDefault();e.stopPropagation();const id=wishBtn.dataset.fcDossierWish,w=readWishlist();w.has(id)?w.delete(id):w.add(id);localStorage.setItem(FC_WISHLIST,JSON.stringify([...w]));window.dispatchEvent(new CustomEvent('shelfcheck:famicom-wishlist-changed',{detail:{id,on:w.has(id)}}));render(id);return;}
   const own=e.target.closest('[data-fc-own]');if(own){e.preventDefault();e.stopPropagation();const id=own.dataset.fcOwn,owned=readOwned(FC_STORAGE);if(owned.has(id))owned.delete(id);else owned.add(id);let prev={};try{prev=JSON.parse(localStorage.getItem(FC_STORAGE)||'{}')}catch{}localStorage.setItem(FC_STORAGE,JSON.stringify({...prev,owned:[...owned]}));document.getElementById('dossierDialog')?.close();window.dispatchEvent(new Event('shelfcheck:famicom-ownership-changed'));setTimeout(()=>render(id),0);return;}
   if(e.target.closest('button,input,select,a'))return;
   const card=e.target.closest('.famicom-game[data-identity-id]');if(card)render(card.dataset.identityId);
