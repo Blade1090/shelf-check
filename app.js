@@ -12,7 +12,7 @@ const CORE_FETCHES=[
 ];
 const loaded=await Promise.all(CORE_FETCHES);
 const [census,tracked,pcu,pcAlias,priceData,first100,...coverChunks]=loaded;
-let famicomCensus={identities:[]},famicomArtwork={},famicomLoaded=false,famicomLoadPromise=null;
+let famicomCensus={identities:[]},famicomArtwork={},famicomPriceData={rows:[]},famicomLoaded=false,famicomLoadPromise=null;
 const covers={...first100};
 for(const rows of coverChunks){for(const [id,src,val,label] of rows){const u=src===0?LIBRETRO_BASE+val:src===1?LAUNCHBOX_BASE+val:val;covers[id]={u,l:label||null};}}
 const DATA={census,tracked,pcu,pcAlias,covers};
@@ -25,16 +25,19 @@ try{const f=JSON.parse(localStorage.getItem(FAMICOM_STORAGE)||'null');if(f)famic
 let famicomIds=[];
 let famicomById=new Map();
 let famicomSearch=new Map();
+let famicomPriceById=new Map();
 async function ensureFamicomLoaded(){
   if(famicomLoaded)return;
   if(!famicomLoadPromise)famicomLoadPromise=Promise.all([
     fetch('./famicom-census.json').then(r=>{if(!r.ok)throw new Error('Famicom census failed: '+r.status);return r.json();}),
-    fetch('./famicom-artwork.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
-  ]).then(([census,art])=>{
-    famicomCensus=census;famicomArtwork=art||{};
+    fetch('./famicom-artwork.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
+    fetch('./prices-famicom.json').then(r=>r.ok?r.json():({rows:[]})).catch(()=>({rows:[]}))
+  ]).then(([census,art,prices])=>{
+    famicomCensus=census;famicomArtwork=art||{};famicomPriceData=prices||{rows:[]};
     famicomIds=famicomCensus.identities||[];
     famicomById=new Map(famicomIds.map(x=>[x.identity_id,x]));
     famicomSearch=new Map(famicomIds.map(x=>[x.identity_id,[x.japanese_title,x.romanized_title,x.english_reference_title,...(x.aliases||[]),x.product_code].filter(Boolean).join('\n').toLowerCase()]));
+    famicomPriceById=new Map((famicomPriceData.rows||[]).map(([id,p])=>[id,Number(p)]));
     famicomLoaded=true;
   });
   await famicomLoadPromise;
@@ -43,6 +46,9 @@ function saveFamicom(){localStorage.setItem(FAMICOM_STORAGE,JSON.stringify({owne
 function fTitle(x){return x.japanese_title||x.romanized_title||x.english_reference_title||x.identity_id;}
 function fSecondary(x){return x.english_reference_title||x.romanized_title||'';}
 function fAz(a,b){return (a.romanized_title||a.english_reference_title||a.japanese_title||'').localeCompare((b.romanized_title||b.english_reference_title||b.japanese_title||''),undefined,{numeric:true,sensitivity:'base'});}
+function fMoney(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);}
+function fPriceSort(a,b,dir){const ap=famicomPriceById.get(a.identity_id),bp=famicomPriceById.get(b.identity_id),ah=Number.isFinite(ap),bh=Number.isFinite(bp);if(ah&&!bh)return -1;if(!ah&&bh)return 1;if(!ah&&!bh)return fAz(a,b);return ((ap-bp)*dir)||fAz(a,b);}
+function fSortList(list){if(state.sort==='TITLE_DESC')return list.sort((a,b)=>-fAz(a,b));if(state.sort==='OWNED_FIRST')return list.sort((a,b)=>(Number(famicomOwned.has(b.identity_id))-Number(famicomOwned.has(a.identity_id)))||fAz(a,b));if(state.sort==='NEEDED_FIRST')return list.sort((a,b)=>(Number(famicomOwned.has(a.identity_id))-Number(famicomOwned.has(b.identity_id)))||fAz(a,b));if(state.sort==='PRICE_LOW')return list.sort((a,b)=>fPriceSort(a,b,1));if(state.sort==='PRICE_HIGH')return list.sort((a,b)=>fPriceSort(a,b,-1));return list.sort(fAz);}
 function fCardHTML(x){
   const o=famicomOwned.has(x.identity_id),art=famicomArtwork[x.identity_id]?.box,name=fTitle(x),secondary=fSecondary(x);
   const img=art?`<button class="cover-button" type="button" data-cover="${escapeHTML(art)}" data-title="${escapeHTML(name)}" aria-label="Enlarge ${escapeHTML(name)} cover"><img class="cover" src="${escapeHTML(art)}" alt="${escapeHTML(name)} Famicom box art" loading="lazy" decoding="async"></button>`:`<div class="cover cover-missing"><span>FC</span></div>`;
@@ -50,7 +56,8 @@ function fCardHTML(x){
   const nesOwned=x.nes_identity_id?state.owned.has(x.nes_identity_id):false;
   const cross=x.nes_identity_id?`<span class="famicom-cross ${nesOwned?'owned':''}"><b>NES ${nesOwned?'OWNED':'NOT OWNED'}</b>${x.nes_title?` · ${escapeHTML(x.nes_title)}`:''}</span>`:'';
   const lang=x.language_barrier?`<span class="famicom-language ${String(x.language_barrier).toLowerCase()}">LANGUAGE ${escapeHTML(x.language_barrier)}</span>`:'';
-  return `<article class="game famicom-game ${o?'owned':''}" data-identity-id="${escapeHTML(x.identity_id)}">${img}<div class="game-copy"><strong class="famicom-title-jp">${escapeHTML(name)}</strong>${secondary&&secondary!==name?`<span class="famicom-title-en">${escapeHTML(secondary)}</span>`:''}<small class="famicom-meta">${escapeHTML(meta||'FAMICOM')}</small><div class="famicom-card-flags">${lang}${cross}</div><span class="famicom-hint">Tap card for dossier</span></div><button class="status famicom-toggle" type="button" data-famicom-toggle="${escapeHTML(x.identity_id)}" aria-label="Mark ${escapeHTML(name)} ${o?'needed':'owned'}">${o?'OWNED':'NEEDED'}</button></article>`;
+  const price=famicomPriceById.get(x.identity_id),priceLine=Number.isFinite(price)?`<span class="famicom-price"><small>LOOSE</small> ${fMoney(price)}</span>`:'';
+  return `<article class="game famicom-game ${o?'owned':''}" data-identity-id="${escapeHTML(x.identity_id)}">${img}<div class="game-copy"><strong class="famicom-title-jp">${escapeHTML(name)}</strong>${secondary&&secondary!==name?`<span class="famicom-title-en">${escapeHTML(secondary)}</span>`:''}<small class="famicom-meta">${escapeHTML(meta||'FAMICOM')}</small><div class="famicom-card-flags">${lang}${cross}</div>${priceLine}<span class="famicom-hint">Tap card for dossier</span></div><button class="status famicom-toggle" type="button" data-famicom-toggle="${escapeHTML(x.identity_id)}" aria-label="Mark ${escapeHTML(name)} ${o?'needed':'owned'}">${o?'OWNED':'NEEDED'}</button></article>`;
 }
 
 const el=id=>document.getElementById(id);
@@ -119,7 +126,7 @@ function lockPage(){modalScrollY=window.scrollY||0;document.body.classList.add('
 function unlockPage(){document.body.classList.remove('shelf-open');document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo(0,modalScrollY);}
 el('file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;const result=importGameEye(await f.text(),DATA);state.owned=new Set(result.owned_core_identities.map(x=>x.identity_id));state.imported=true;state.summary=result.summary;Object.values(rouletteSeen).forEach(s=>s.clear());save();render({ownershipChanged:true,reorder:true});});
 el('search').addEventListener('input',e=>{state.q=e.target.value;if(activeSet==='NES')scheduleMainView();else scheduleFamicomView();});
-if(el('sort'))el('sort').addEventListener('change',e=>{state.sort=e.target.value;save();reorderMainCards();applyMainView();});
+if(el('sort'))el('sort').addEventListener('change',e=>{state.sort=e.target.value;save();if(activeSet==='NES'){reorderMainCards();applyMainView();}else{reorderFamicomCards();applyFamicomView();}});
 for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{state.filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));if(activeSet==='NES')scheduleMainView();else scheduleFamicomView();});
 el('myShelfBtn')?.addEventListener('click',()=>{el('shelfSearch').value='';renderMyShelf();lockPage();el('myShelfDialog').showModal();});
 el('myShelfDialog')?.addEventListener('close',unlockPage);
@@ -138,9 +145,15 @@ function updateFamicomSummary(){
 function mountFamicomCards(){
   if(famicomCardsMounted)return;
   const host=el('famicomGameList');
-  host.innerHTML=famicomIds.slice().sort(fAz).map(fCardHTML).join('');
+  host.innerHTML=fSortList(famicomIds.slice()).map(fCardHTML).join('');
   for(const node of host.querySelectorAll('.famicom-game[data-identity-id]'))famicomCardNodes.set(node.dataset.identityId,node);
   famicomCardsMounted=true;
+}
+function reorderFamicomCards(){
+  if(!famicomCardsMounted)return;
+  const frag=document.createDocumentFragment();
+  for(const x of fSortList(famicomIds.slice())){const node=famicomCardNodes.get(x.identity_id);if(node)frag.appendChild(node);}
+  el('famicomGameList').appendChild(frag);
 }
 function updateFamicomCardOwnership(id){
   const node=famicomCardNodes.get(id);if(!node)return;
