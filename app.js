@@ -12,7 +12,7 @@ const CORE_FETCHES=[
 ];
 const loaded=await Promise.all(CORE_FETCHES);
 const [census,tracked,pcu,pcAlias,priceData,first100,...coverChunks]=loaded;
-const [famicomCensus,famicomArtwork]=await Promise.all([fetch('./famicom-census.json').then(r=>r.json()),fetch('./famicom-artwork.json').then(r=>r.json()).catch(()=>({}))]);
+let famicomCensus={identities:[]},famicomArtwork={},famicomLoaded=false,famicomLoadPromise=null;
 const covers={...first100};
 for(const rows of coverChunks){for(const [id,src,val,label] of rows){const u=src===0?LIBRETRO_BASE+val:src===1?LAUNCHBOX_BASE+val:val;covers[id]={u,l:label||null};}}
 const DATA={census,tracked,pcu,pcAlias,covers};
@@ -22,9 +22,23 @@ const SET_STORAGE='shelfcheck-active-set-v1';
 let activeSet=localStorage.getItem(SET_STORAGE)==='FAMICOM'?'FAMICOM':'NES';
 let famicomOwned=new Set();
 try{const f=JSON.parse(localStorage.getItem(FAMICOM_STORAGE)||'null');if(f)famicomOwned=new Set(f.owned||[]);}catch{}
-const famicomIds=famicomCensus.identities||[];
-const famicomById=new Map(famicomIds.map(x=>[x.identity_id,x]));
-const famicomSearch=new Map(famicomIds.map(x=>[x.identity_id,[x.japanese_title,x.romanized_title,x.english_reference_title,...(x.aliases||[]),x.product_code].filter(Boolean).join('\n').toLowerCase()]));
+let famicomIds=[];
+let famicomById=new Map();
+let famicomSearch=new Map();
+async function ensureFamicomLoaded(){
+  if(famicomLoaded)return;
+  if(!famicomLoadPromise)famicomLoadPromise=Promise.all([
+    fetch('./famicom-census.json').then(r=>{if(!r.ok)throw new Error('Famicom census failed: '+r.status);return r.json();}),
+    fetch('./famicom-artwork.json').then(r=>r.ok?r.json():{}).catch(()=>({}))
+  ]).then(([census,art])=>{
+    famicomCensus=census;famicomArtwork=art||{};
+    famicomIds=famicomCensus.identities||[];
+    famicomById=new Map(famicomIds.map(x=>[x.identity_id,x]));
+    famicomSearch=new Map(famicomIds.map(x=>[x.identity_id,[x.japanese_title,x.romanized_title,x.english_reference_title,...(x.aliases||[]),x.product_code].filter(Boolean).join('\n').toLowerCase()]));
+    famicomLoaded=true;
+  });
+  await famicomLoadPromise;
+}
 function saveFamicom(){localStorage.setItem(FAMICOM_STORAGE,JSON.stringify({owned:[...famicomOwned]}));}
 function fTitle(x){return x.japanese_title||x.romanized_title||x.english_reference_title||x.identity_id;}
 function fSecondary(x){return x.english_reference_title||x.romanized_title||'';}
@@ -113,7 +127,13 @@ el('rouletteSpin')?.addEventListener('click',spinRoulette);
 for(const b of document.querySelectorAll('[data-roulette-mode]'))b.addEventListener('click',()=>setRouletteMode(b.dataset.rouletteMode));
 el('reset').addEventListener('click',()=>{if(confirm('Clear the local NES ownership import on this device?')){localStorage.removeItem(STORAGE);state={owned:new Set(),imported:false,summary:null,filter:'ALL',q:'',sort:'TITLE_ASC'};Object.values(rouletteSeen).forEach(s=>s.clear());el('search').value='';if(el('sort'))el('sort').value='TITLE_ASC';document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='ALL'));if(el('details'))el('details').textContent='Import Matty\'s GameEye file to test ownership matching.';render({ownershipChanged:true,reorder:true});}});
 document.addEventListener('click',e=>{const b=e.target.closest('.cover-button');if(!b)return;const d=el('coverDialog');el('coverDialogImg').src=b.dataset.cover;el('coverDialogImg').alt=`${b.dataset.title} NES box art`;el('coverDialogTitle').textContent=b.dataset.title;d.showModal();});
-function renderFamicom(){
+async function renderFamicom(){
+  if(!famicomLoaded){
+    el('gameList').innerHTML='<div class="shelf-empty">Loading Famicom shelf…</div>';
+    el('ownedCount').textContent=famicomOwned.size;el('totalCount').textContent='1040';el('pct').textContent='';
+    try{await ensureFamicomLoaded();}catch(err){el('gameList').innerHTML='<div class="shelf-empty">Famicom data failed to load. Refresh and try again.</div>';throw err;}
+    if(activeSet!=='FAMICOM')return;
+  }
   const q=(el('search').value||'').trim().toLowerCase(),filter=state.filter;
   let rows=famicomIds.filter(x=>{const owned=famicomOwned.has(x.identity_id);return (filter==='ALL'||(filter==='OWNED'&&owned)||(filter==='NEEDED'&&!owned))&&(!q||(famicomSearch.get(x.identity_id)||'').includes(q));});
   rows=rows.sort(fAz);
