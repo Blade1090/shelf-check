@@ -572,3 +572,50 @@ body[data-active-set="FAMICOM"] .collection-summary::after{
   body[data-active-set="FAMICOM"] .console-copy strong{font-size:1.05rem}
   .console-copy small{font-size:.51rem!important;letter-spacing:.09em!important}
 }
+
+
+/* Real console wordmarks — replace the intentionally fake text treatment. */
+.console-logo-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  min-width:0;
+}
+.console-logo{
+  display:block;
+  width:auto;
+  max-width:100%;
+  object-fit:contain;
+}
+body[data-active-set="NES"] .console-identity{
+  grid-template-columns:minmax(120px,190px) 1fr auto!important;
+}
+body[data-active-set="NES"] .console-logo{
+  width:150px;
+  max-height:55px;
+}
+body[data-active-set="NES"] .console-copy small{
+  font-size:.58rem!important;
+  color:#505256!important;
+}
+body[data-active-set="FAMICOM"] .console-identity{
+  grid-template-columns:minmax(190px,280px) 1fr auto!important;
+}
+body[data-active-set="FAMICOM"] .console-logo{
+  width:260px;
+  max-height:58px;
+}
+body[data-active-set="FAMICOM"] .console-copy small{
+  color:#792238!important;
+}
+@media(max-width:600px){
+  body[data-active-set="NES"] .console-identity{
+    grid-template-columns:minmax(105px,145px) 1fr 42px!important;
+  }
+  body[data-active-set="NES"] .console-logo{width:130px;max-height:48px}
+  body[data-active-set="FAMICOM"] .console-identity{
+    grid-template-columns:minmax(150px,205px) 1fr 38px!important;
+  }
+  body[data-active-set="FAMICOM"] .console-logo{width:190px;max-height:48px}
+  .console-copy small{font-size:.48rem!important}
+}
