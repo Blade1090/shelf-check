@@ -64,9 +64,11 @@ function rhOpen(id,mode){
   const openIt=()=>{
     const set=rhSet();
     if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
-    setTimeout(()=>rhInstallAgain(mode),0);
-    setTimeout(()=>rhInstallAgain(mode),120);
-    setTimeout(()=>rhInstallAgain(mode),350);
+    const settle=()=>{rhInstallAgain(mode);window.ShelfCheckDossierScroll?.resetDetailTop?.();};
+    setTimeout(settle,0);
+    setTimeout(settle,120);
+    setTimeout(settle,350);
+    setTimeout(()=>window.ShelfCheckDossierScroll?.resetDetailTop?.(),700);
   };
   // iOS Safari can preserve the native <dialog> scroll position when its contents are
   // replaced in-place. For "another random" transitions, fully recycle the modal so
