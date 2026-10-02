@@ -60,25 +60,14 @@ function rhDraw(mode){
 }
 function rhOpen(id,mode){
   if(!id)return;
-  const dlg=document.getElementById('dossierDialog');
-  const openIt=()=>{
-    const set=rhSet();
-    if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
-    const settle=()=>{rhInstallAgain(mode);window.ShelfCheckDossierScroll?.resetDetailTop?.();};
-    setTimeout(settle,0);
-    setTimeout(settle,120);
-    setTimeout(settle,350);
-    setTimeout(()=>window.ShelfCheckDossierScroll?.resetDetailTop?.(),700);
-  };
-  // iOS Safari can preserve the native <dialog> scroll position when its contents are
-  // replaced in-place. For "another random" transitions, fully recycle the modal so
-  // WebKit is forced to create a fresh top-of-dialog scroll state.
-  if(dlg?.open){
-    dlg.close();
-    requestAnimationFrame(()=>requestAnimationFrame(openIt));
-  }else{
-    openIt();
-  }
+  try{document.activeElement?.blur?.()}catch{}
+  const set=rhSet();
+  if(set===RH_FC)window.openFamicomDossier?.(id);else window.openNESDossier?.(id);
+  const settle=()=>{rhInstallAgain(mode);window.ShelfCheckDossierScroll?.resetDetailTop?.();};
+  setTimeout(settle,0);
+  setTimeout(settle,120);
+  setTimeout(settle,350);
+  setTimeout(settle,800);
 }
 function rhRandom(mode){
   const id=rhDraw(mode);
@@ -93,10 +82,11 @@ function rhInstallAgain(mode){
     b=document.createElement('button');
     b.type='button';
     b.className='rh-another';
+    b.tabIndex=-1;
     body.prepend(b);
   }
   b.textContent=mode==='NEEDED'?'🎲 ANOTHER RANDOM GAME':'🎲 PICK ANOTHER GAME';
-  b.onclick=()=>rhRandom(mode);
+  b.onclick=e=>{e.currentTarget.blur();rhRandom(mode)};
   const head=dlg.querySelector('.dossier-head');
   const offset=Math.ceil(head?.getBoundingClientRect().height||0)+8;
   b.style.top=offset+'px';
