@@ -46,10 +46,12 @@ function cartHero(id){
 }
 function markButton(id,owned){return `<button class="fc-own-toggle ${owned?'owned':''}" type="button" data-fc-own="${esc(id)}">${owned?'✓ OWNED · MARK NEEDED':'+ MARK FAMICOM OWNED'}</button>`}
 function render(id){
-  if(window.ShelfCheckDossierScroll?.current?.()!==id)window.ShelfCheckDossierScroll?.resetDetailTop?.();
+  const changing=window.ShelfCheckDossierScroll?.current?.()!==id;
+  if(changing)window.ShelfCheckDossierScroll?.resetDetailTop?.();
   const x=byId.get(id);if(!x)return;
+  const body=changing?(window.ShelfCheckDossierScroll?.freshBody?.()||document.getElementById('dossierBody')):document.getElementById('dossierBody');
   const d=dossiers.get(id)||{},owned=readOwned(FC_STORAGE).has(id),nesOwned=x.nes_identity_id?readOwned(NES_STORAGE).has(x.nes_identity_id):false;
-  const dlg=document.getElementById('dossierDialog'),body=document.getElementById('dossierBody'),head=document.getElementById('dossierTitle');if(!dlg||!body||!head)return;
+  const dlg=document.getElementById('dossierDialog'),head=document.getElementById('dossierTitle');if(!dlg||!body||!head)return;
   const art=fcArt[id]?.box||null,eng=x.english_reference_title||x.romanized_title||'',meta=[x.release_date,x.publisher,x.developer,x.product_code].filter(Boolean).join(' · '),loose=fcPriceById.get(id);
   const counterpart=x.nes_identity_id?`<section class="fc-counterpart ${nesOwned?'owned':''}"><div><small>NES SHELF</small><b>${nesOwned?'OWNED':'NOT OWNED'}</b></div><div><strong>${esc(x.nes_title||x.nes_identity_id)}</strong><span>${esc(relationLabel(x.relationship_type))}${x.relationship_confidence?` · ${esc(x.relationship_confidence)} confidence`:''}</span></div></section>`:`<section class="fc-counterpart japan-only"><div><small>NES COUNTERPART</small><b>NONE</b></div><div><strong>Japan-only identity</strong><span>No NES counterpart is linked for collection purposes.</span></div></section>`;
   head.textContent=title(x);
