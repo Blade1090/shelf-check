@@ -619,3 +619,47 @@ body[data-active-set="FAMICOM"] .console-copy small{
   body[data-active-set="FAMICOM"] .console-logo{width:190px;max-height:48px}
   .console-copy small{font-size:.48rem!important}
 }
+
+
+/* Random is a primary browse tool: keep it above the cards and sticky during long scrolling. */
+#huntTools:not([hidden]){
+  position:sticky;
+  top:calc(68px + env(safe-area-inset-top));
+  z-index:8;
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  transition:box-shadow .16s ease,border-color .16s ease;
+}
+#huntTools.is-stuck{
+  box-shadow:0 10px 28px rgba(0,0,0,.72)!important;
+  border-color:#9b2d3f!important;
+}
+.fc-dossier-wishlist{
+  background:#222a36;
+  color:#ffd768;
+  border:1px solid #5d4e25;
+  font-weight:950;
+}
+.fc-dossier-wishlist.active{
+  background:#513b0b;
+  color:#ffe58a;
+  border-color:#9b7916;
+}
+body[data-active-set="FAMICOM"] .fc-dossier-wishlist{
+  background:#181c24;
+  color:#f4d784;
+  border-color:#6d5630;
+}
+body[data-active-set="FAMICOM"] .fc-dossier-wishlist.active{
+  background:#6f1d31;
+  color:#fff1cf;
+  border-color:#e2bd79;
+}
+@media(max-width:600px){
+  #huntTools:not([hidden]){top:calc(62px + env(safe-area-inset-top));margin-top:8px}
+  #huntTools.is-stuck{padding:9px 10px}
+  #huntTools.is-stuck .rh-random-row>div{display:none}
+  #huntTools.is-stuck .rh-random-row button{width:100%;padding:11px}
+  #huntTools.is-stuck .rh-bands{margin-top:7px}
+  #huntTools.is-stuck .rh-bands button{padding:7px 9px}
+}
