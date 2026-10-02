@@ -1,14 +1,17 @@
 const FC_STORAGE='shelfcheck-famicom-matty-v1';
 const NES_STORAGE='shelfcheck-nes-matty-v1';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const [fcCensus,fcArt,manifest]=await Promise.all([
+const [fcCensus,fcArt,manifest,fcPriceData]=await Promise.all([
   fetch('./famicom-census.json').then(r=>r.json()),
   fetch('./famicom-artwork.json').then(r=>r.json()).catch(()=>({})),
-  fetch('./famicom-dossiers-manifest.json').then(r=>r.json())
+  fetch('./famicom-dossiers-manifest.json').then(r=>r.json()),
+  fetch('./prices-famicom.json').then(r=>r.ok?r.json():({rows:[]})).catch(()=>({rows:[]}))
 ]);
 const chunks=await Promise.all((manifest.chunks||[]).map(c=>fetch(`./${c.file}`).then(r=>r.json())));
 const byId=new Map((fcCensus.identities||[]).map(x=>[x.identity_id,x]));
 const dossiers=new Map(chunks.flat().map(x=>[x.identity_id,x]));
+const fcPriceById=new Map((fcPriceData.rows||[]).map(([id,p])=>[id,Number(p)]));
+const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
 let fcScroll=0;
 function readOwned(key){try{return new Set(JSON.parse(localStorage.getItem(key)||'{}').owned||[])}catch{return new Set()}}
 function title(x){return x?.japanese_title||x?.romanized_title||x?.english_reference_title||x?.identity_id||'Famicom'}
@@ -19,7 +22,7 @@ function render(id){
   const x=byId.get(id);if(!x)return;
   const d=dossiers.get(id)||{},owned=readOwned(FC_STORAGE).has(id),nesOwned=x.nes_identity_id?readOwned(NES_STORAGE).has(x.nes_identity_id):false;
   const dlg=document.getElementById('dossierDialog'),body=document.getElementById('dossierBody'),head=document.getElementById('dossierTitle');if(!dlg||!body||!head)return;
-  const art=fcArt[id]?.box||null,eng=x.english_reference_title||x.romanized_title||'',meta=[x.release_date,x.publisher,x.developer,x.product_code].filter(Boolean).join(' · ');
+  const art=fcArt[id]?.box||null,eng=x.english_reference_title||x.romanized_title||'',meta=[x.release_date,x.publisher,x.developer,x.product_code].filter(Boolean).join(' · '),loose=fcPriceById.get(id);
   const counterpart=x.nes_identity_id?`<section class="fc-counterpart ${nesOwned?'owned':''}"><div><small>NES SHELF</small><b>${nesOwned?'OWNED':'NOT OWNED'}</b></div><div><strong>${esc(x.nes_title||x.nes_identity_id)}</strong><span>${esc(relationLabel(x.relationship_type))}${x.relationship_confidence?` · ${esc(x.relationship_confidence)} confidence`:''}</span></div></section>`:`<section class="fc-counterpart japan-only"><div><small>NES COUNTERPART</small><b>NONE</b></div><div><strong>Japan-only identity</strong><span>No NES counterpart is linked for collection purposes.</span></div></section>`;
   head.textContent=title(x);
   body.innerHTML=`
@@ -35,6 +38,7 @@ function render(id){
     </section>
     <section class="dossier-research-head"><div><small>MATTY'S SET · FAMICOM</small><h3>FAMICOM DOSSIER</h3></div><span class="dossier-confidence ${String(d.confidence||x.confidence||'').toLowerCase()}">${esc(d.confidence||x.confidence||'')} RESEARCH</span></section>
     <section class="dossier-grid">
+      ${Number.isFinite(loose)?`<div class="dossier-block fc-price-block"><h4>HUNT PRICE · LOOSE</h4><div class="fc-price-big">${money(loose)}</div><p>PriceCharting loose snapshot · ${esc(fcPriceData.snapshot||'2026-09-25')}</p></div>`:''}
       <div class="dossier-block fc-language-block"><h4>LANGUAGE BARRIER</h4><div class="fc-language-big ${langClass(d.language_barrier||x.language_barrier)}">${esc(d.language_barrier||x.language_barrier||'UNKNOWN')}</div><p>${esc(d.language_barrier_reason||'No language-barrier note is available yet.')}</p></div>
       <div class="dossier-block"><h4>GAME INFO</h4><div class="dossier-kv"><div><small>RELEASE</small><b>${esc(x.release_date||'—')}</b></div><div><small>PUBLISHER</small><b>${esc(x.publisher||'—')}</b></div><div><small>DEVELOPER</small><b>${esc(x.developer||'—')}</b></div><div><small>PRODUCT CODE</small><b>${esc(x.product_code||'—')}</b></div><div><small>GENRE</small><b>${esc([x.primary_genre,...(x.secondary_genres||[])].filter(Boolean).join(' / ')||'—')}</b></div><div><small>ENGLISH TITLE</small><b>${esc(x.english_title_type?x.english_title_type.replaceAll('_',' '):'—')}</b></div></div></div>
       <div class="dossier-block wide"><h4>WHAT IS IT?</h4><p>${esc(d.dossier||d.gameplay_summary||'Research note pending.')}</p></div>
