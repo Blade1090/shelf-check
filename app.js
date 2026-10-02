@@ -66,6 +66,9 @@ const rouletteSeen={OWNED:new Set(),NEEDED:new Set(),ALL:new Set()};
 const mainCardNodes=new Map();
 let mainCardsMounted=false;
 let mainFilterFrame=0;
+const famicomCardNodes=new Map();
+let famicomCardsMounted=false;
+let famicomFilterFrame=0;
 try{const saved=JSON.parse(localStorage.getItem(STORAGE)||'null');if(saved){state.owned=new Set(saved.owned||[]);state.imported=!!saved.imported;state.summary=saved.summary||null;state.sort=saved.sort||'TITLE_ASC';}}catch{}
 function save(){localStorage.setItem(STORAGE,JSON.stringify({owned:[...state.owned],imported:state.imported,summary:state.summary,sort:state.sort}));}
 function coverInfo(id){const row=DATA.covers[id];if(!row)return null;if(Array.isArray(row))return {u:row[0].startsWith('http')?row[0]:LIBRETRO_BASE+row[0],l:row[1]||null};return row;}
@@ -115,9 +118,9 @@ function spinRoulette(){const pool=roulettePool();const result=el('rouletteResul
 function lockPage(){modalScrollY=window.scrollY||0;document.body.classList.add('shelf-open');document.body.style.position='fixed';document.body.style.top=`-${modalScrollY}px`;document.body.style.width='100%';}
 function unlockPage(){document.body.classList.remove('shelf-open');document.body.style.position='';document.body.style.top='';document.body.style.width='';window.scrollTo(0,modalScrollY);}
 el('file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;const result=importGameEye(await f.text(),DATA);state.owned=new Set(result.owned_core_identities.map(x=>x.identity_id));state.imported=true;state.summary=result.summary;Object.values(rouletteSeen).forEach(s=>s.clear());save();render({ownershipChanged:true,reorder:true});});
-el('search').addEventListener('input',e=>{state.q=e.target.value;scheduleMainView();});
+el('search').addEventListener('input',e=>{state.q=e.target.value;if(activeSet==='NES')scheduleMainView();else scheduleFamicomView();});
 if(el('sort'))el('sort').addEventListener('change',e=>{state.sort=e.target.value;save();reorderMainCards();applyMainView();});
-for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{state.filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));scheduleMainView();});
+for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{state.filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));if(activeSet==='NES')scheduleMainView();else scheduleFamicomView();});
 el('myShelfBtn')?.addEventListener('click',()=>{el('shelfSearch').value='';renderMyShelf();lockPage();el('myShelfDialog').showModal();});
 el('myShelfDialog')?.addEventListener('close',unlockPage);
 el('shelfSearch')?.addEventListener('input',renderMyShelf);
@@ -127,19 +130,45 @@ el('rouletteSpin')?.addEventListener('click',spinRoulette);
 for(const b of document.querySelectorAll('[data-roulette-mode]'))b.addEventListener('click',()=>setRouletteMode(b.dataset.rouletteMode));
 el('reset').addEventListener('click',()=>{if(confirm('Clear the local NES ownership import on this device?')){localStorage.removeItem(STORAGE);state={owned:new Set(),imported:false,summary:null,filter:'ALL',q:'',sort:'TITLE_ASC'};Object.values(rouletteSeen).forEach(s=>s.clear());el('search').value='';if(el('sort'))el('sort').value='TITLE_ASC';document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x.dataset.filter==='ALL'));if(el('details'))el('details').textContent='Import Matty\'s GameEye file to test ownership matching.';render({ownershipChanged:true,reorder:true});}});
 document.addEventListener('click',e=>{const b=e.target.closest('.cover-button');if(!b)return;const d=el('coverDialog');el('coverDialogImg').src=b.dataset.cover;el('coverDialogImg').alt=`${b.dataset.title} NES box art`;el('coverDialogTitle').textContent=b.dataset.title;d.showModal();});
+function updateFamicomSummary(){
+  const owned=famicomOwned.size,total=famicomIds.length||1040,pct=total?(owned/total*100).toFixed(1):'0.0';
+  el('ownedCount').textContent=owned;el('totalCount').textContent=total;el('pct').textContent=pct+'%';el('barFill').style.width=pct+'%';
+  if(el('headerProgress'))el('headerProgress').textContent=`${owned} / ${total}`;
+}
+function mountFamicomCards(){
+  if(famicomCardsMounted)return;
+  const host=el('famicomGameList');
+  host.innerHTML=famicomIds.slice().sort(fAz).map(fCardHTML).join('');
+  for(const node of host.querySelectorAll('.famicom-game[data-identity-id]'))famicomCardNodes.set(node.dataset.identityId,node);
+  famicomCardsMounted=true;
+}
+function updateFamicomCardOwnership(id){
+  const node=famicomCardNodes.get(id);if(!node)return;
+  const owned=famicomOwned.has(id);node.classList.toggle('owned',owned);
+  const badge=node.querySelector('.famicom-toggle');if(badge){badge.textContent=owned?'OWNED':'NEEDED';badge.setAttribute('aria-label',`Mark ${id} ${owned?'needed':'owned'}`);}
+}
+function refreshFamicomOwnership(){for(const id of famicomCardNodes.keys())updateFamicomCardOwnership(id);}
+function applyFamicomView(){
+  famicomFilterFrame=0;if(!famicomCardsMounted)return;
+  const q=state.q.trim().toLowerCase(),ownedOnly=state.filter==='OWNED',neededOnly=state.filter==='NEEDED';
+  for(const x of famicomIds){
+    const node=famicomCardNodes.get(x.identity_id);if(!node)continue;
+    const owned=famicomOwned.has(x.identity_id);
+    const statusMatch=!ownedOnly&&!neededOnly||(ownedOnly&&owned)||(neededOnly&&!owned);
+    const searchMatch=!q||(famicomSearch.get(x.identity_id)||'').includes(q);
+    node.hidden=!(statusMatch&&searchMatch);
+  }
+}
+function scheduleFamicomView(){if(famicomFilterFrame)cancelAnimationFrame(famicomFilterFrame);famicomFilterFrame=requestAnimationFrame(applyFamicomView);}
 async function renderFamicom(){
+  const host=el('famicomGameList');
   if(!famicomLoaded){
-    el('gameList').innerHTML='<div class="shelf-empty">Loading Famicom shelf…</div>';
-    el('ownedCount').textContent=famicomOwned.size;el('totalCount').textContent='1040';el('pct').textContent='';
-    try{await ensureFamicomLoaded();}catch(err){el('gameList').innerHTML='<div class="shelf-empty">Famicom data failed to load. Refresh and try again.</div>';throw err;}
+    host.innerHTML='<div class="shelf-empty">Loading Famicom shelf…</div>';
+    updateFamicomSummary();
+    try{await ensureFamicomLoaded();}catch(err){host.innerHTML='<div class="shelf-empty">Famicom data failed to load. Refresh and try again.</div>';throw err;}
     if(activeSet!=='FAMICOM')return;
   }
-  const q=(el('search').value||'').trim().toLowerCase(),filter=state.filter;
-  let rows=famicomIds.filter(x=>{const owned=famicomOwned.has(x.identity_id);return (filter==='ALL'||(filter==='OWNED'&&owned)||(filter==='NEEDED'&&!owned))&&(!q||(famicomSearch.get(x.identity_id)||'').includes(q));});
-  rows=rows.sort(fAz);
-  const owned=famicomOwned.size,total=famicomIds.length,pct=(owned/total*100).toFixed(1);
-  el('ownedCount').textContent=owned;el('totalCount').textContent=total;el('pct').textContent=pct+'%';el('barFill').style.width=pct+'%';if(el('headerProgress'))el('headerProgress').textContent=`${owned} / ${total}`;
-  el('gameList').innerHTML=rows.map(fCardHTML).join('');
+  mountFamicomCards();updateFamicomSummary();applyFamicomView();
 }
 function paintSet(){
   document.body.dataset.activeSet=activeSet;
@@ -148,13 +177,12 @@ function paintSet(){
   el('heroEyebrow').textContent=activeSet==='NES'?'PHYSICAL NES COLLECTION COMPANION':'PHYSICAL FAMICOM COLLECTION COMPANION';
   el('summaryLabel').textContent=activeSet==='NES'?'NORTH AMERICAN CORE SET':'JAPANESE FAMICOM CARTRIDGE SET';
   el('search').placeholder=activeSet==='NES'?'Search ShelfCheck…':'Search Japanese, romanized or English title…';
-  if(activeSet==='NES'){mainCardsMounted=false;mainCardNodes.clear();el('gameList').innerHTML='';render();}else renderFamicom();
+  el('gameList').hidden=activeSet!=='NES';
+  el('famicomGameList').hidden=activeSet!=='FAMICOM';
+  if(activeSet==='NES'){render();}else{renderFamicom();}
 }
 document.querySelectorAll('[data-set]').forEach(b=>b.addEventListener('click',()=>{if(activeSet===b.dataset.set)return;activeSet=b.dataset.set;localStorage.setItem(SET_STORAGE,activeSet);state.q='';el('search').value='';paintSet();}));
-el('gameList').addEventListener('click',e=>{if(activeSet!=='FAMICOM')return;const b=e.target.closest('[data-famicom-toggle]');if(!b)return;e.preventDefault();e.stopPropagation();const id=b.dataset.famicomToggle;if(famicomOwned.has(id))famicomOwned.delete(id);else famicomOwned.add(id);saveFamicom();renderFamicom();});
-window.addEventListener('shelfcheck:famicom-ownership-changed',()=>{try{const f=JSON.parse(localStorage.getItem(FAMICOM_STORAGE)||'null');famicomOwned=new Set(f?.owned||[]);}catch{famicomOwned=new Set();}if(activeSet==='FAMICOM')renderFamicom();});
-// Override the NES-only search/filter listeners by repainting Famicom after their state update.
-el('search').addEventListener('input',()=>{if(activeSet==='FAMICOM')requestAnimationFrame(renderFamicom);});
-for(const b of document.querySelectorAll('[data-filter]'))b.addEventListener('click',()=>{if(activeSet==='FAMICOM')requestAnimationFrame(renderFamicom);});
+el('famicomGameList').addEventListener('click',e=>{if(activeSet!=='FAMICOM')return;const b=e.target.closest('[data-famicom-toggle]');if(!b)return;e.preventDefault();e.stopPropagation();const id=b.dataset.famicomToggle;if(famicomOwned.has(id))famicomOwned.delete(id);else famicomOwned.add(id);saveFamicom();updateFamicomCardOwnership(id);updateFamicomSummary();applyFamicomView();});
+window.addEventListener('shelfcheck:famicom-ownership-changed',()=>{try{const f=JSON.parse(localStorage.getItem(FAMICOM_STORAGE)||'null');famicomOwned=new Set(f?.owned||[]);}catch{famicomOwned=new Set();}if(famicomCardsMounted)refreshFamicomOwnership();if(activeSet==='FAMICOM'){updateFamicomSummary();applyFamicomView();}});
 paintSet();
 // Test deployment: service worker intentionally disabled while NES/Famicom integration is being validated.
